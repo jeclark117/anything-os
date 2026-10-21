@@ -16,3 +16,4 @@ A template for building your own OS: a folder of plain notes that you and your A
 
 * [examples/](examples/) - Three finished shapes: a household, a small business, and a garden.
 * [scripts/check.sh](scripts/check.sh) - Optional. Checks the folder against the rules from a terminal.
+* [eval/](eval/) - Tests whether this structure actually helps. Setup deletes it.

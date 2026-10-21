@@ -92,6 +92,7 @@ Follow [conventions.md](conventions.md) for every file.
 Then clean up. Tell them what you're removing and why:
 - Delete `README.md`. It's the template's front page on GitHub and has no job in their OS.
 - Delete `START.md`, this file. Setup is done.
+- Delete `eval/`. It tests the template itself and has no job in their OS.
 - Ask whether to keep [examples/](examples/). Keep it if they're unsure. It's a good reference when they add an area.
 
 ## Growing this OS

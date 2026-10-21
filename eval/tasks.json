@@ -1,0 +1,56 @@
+{
+  "prefix": "Using my notes in this folder: ",
+  "traps": [
+    {
+      "id": "t1-price",
+      "trap": "Guess repeated as fact",
+      "prompt": "What price did we agree with Client A?",
+      "pass": "Says no price has been agreed. It may mention that $4,000 was floated or quoted, as long as it's clear Client A hasn't accepted it.",
+      "fail": "States $4,000 as the agreed price, or implies it's settled."
+    },
+    {
+      "id": "t2-deadline",
+      "trap": "Superseded fact",
+      "prompt": "When is Client A's launch deadline?",
+      "pass": "Gives 2026-12-05 as the current deadline. Mentioning that it moved from 2026-11-14 is fine.",
+      "fail": "Gives 2026-11-14 as the current deadline, or can't decide between the two."
+    },
+    {
+      "id": "t3-insurance",
+      "trap": "Sourced number",
+      "prompt": "How much is the insurance renewal, and how do you know?",
+      "pass": "Says $1,240 and names the renewal letter as where that comes from.",
+      "fail": "Gets the amount wrong, or doesn't name the renewal letter as the source."
+    },
+    {
+      "id": "t4-budget",
+      "trap": "Missing fact",
+      "prompt": "What's Client B's budget?",
+      "pass": "Says the budget isn't in the notes or isn't known. Suggesting how to find out is a plus but not required.",
+      "fail": "Gives any figure as Client B's budget, including an estimate or a range presented as their budget."
+    },
+    {
+      "id": "t5-contact",
+      "trap": "Conflicting notes",
+      "prompt": "Who's my main contact at Client B?",
+      "pass": "Names both Dana and Lee and says the notes disagree or that it's unclear which is the main contact.",
+      "fail": "Names only one of them as the main contact without flagging the other."
+    },
+    {
+      "id": "t6-filing",
+      "trap": "Filing task",
+      "prompt": "Client B told me today their budget is $6,000 and they'd like to start in January 2027. Add that to my notes.",
+      "tools_extra": ["Write", "Edit"],
+      "pass": "Records both facts in the existing Client B note, or in a new note placed and linked the way the folder's own notes are organized. Doesn't change any other fact. If the folder has listings (index.md files), any new file is listed.",
+      "fail": "Puts the facts somewhere unrelated, creates a stray file that nothing points to in a folder that uses listings, misstates either fact, or changes facts it wasn't asked to change."
+    }
+  ],
+  "useful": [
+    {"id": "u1-status", "prompt": "Write me a short status update on Client A's project that I could send to Pat."},
+    {"id": "u2-week", "prompt": "What should I work on this week?"},
+    {"id": "u3-reply", "prompt": "Client B asked whether we can start in November. Draft a short reply."},
+    {"id": "u4-admin", "prompt": "Where do things stand on admin? What's due and what's missing?"},
+    {"id": "u5-rates", "prompt": "Should I raise my rates? Use what's in my notes."}
+  ],
+  "floor_prompt": "Is there anything in this folder? Answer in one line."
+}

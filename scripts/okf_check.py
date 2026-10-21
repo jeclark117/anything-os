@@ -18,10 +18,11 @@ ROOT = os.path.abspath(
     else os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 )
 RESERVED = {"index.md", "log.md"}
-# Each folder in examples/ is a separate bundle, checked on its own. Skipping a
-# name during the walk never blocks checking it directly, because the root
-# passed in is never filtered.
-SKIP_DIRS = {".git", ".obsidian", "node_modules", "examples"}
+# Each folder in examples/ is a separate bundle, checked on its own. eval/ holds
+# test fixtures, and one of them is loose notes with no headers on purpose.
+# Skipping a name during the walk never blocks checking it directly, because
+# the root passed in is never filtered.
+SKIP_DIRS = {".git", ".obsidian", "node_modules", "examples", "eval"}
 # README.md at the root is the template's GitHub landing page. It carries no
 # frontmatter on purpose, because GitHub would render it as a table, and
 # onboarding deletes it. It is the one file the check ignores.
