@@ -1,9 +1,9 @@
 ---
 type: Research
 title: Eval findings
-description: What the eval has shown so far. On Sonnet 5.5 the OS made no accuracy difference, at 15 or 60 notes or after 10 edits. It did keep the files themselves current, at about twice the cost per edit.
+description: What the eval has shown so far. Short notes, no difference. Long notes, the OS read less and cost less, but missed a conflict a loose search caught. After 10 edits, only the OS kept its files current.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-10-20T19:34:21-07:00 }
+generated: { by: claude-code/opus-5, at: 2026-10-20T21:28:17-07:00 }
 ---
 
 # Eval findings
@@ -67,12 +67,43 @@ The capacity note shows the same pattern. The rules version still says the studi
 
 **Grading note:** Haiku graded these 27 answers. It failed one that should have passed: the loose version's to-do answer listed sending the $4,200 quote as open, which is correct, and Haiku read it as the $4,000 quote. Sonnet regraded it as a pass, and the overruled grade is kept in the result file. Every other Haiku grade was spot-checked against its answer and holds.
 
+## Long notes
+
+The 60-note set again, with every note padded to about 1,300 words of fact-free working-note text, so the three versions carry the same roughly 78,000 words. Each note's facts sit at the top, middle, or bottom of its padding, a third each. Sonnet 5.5, 2026-10-20. One run per trap, then 3 runs each for the two traps that split.
+
+**This is the first set where the versions differ.**
+
+| Trap | Loose | Loose plus rules | OS |
+|---|---|---|---|
+| t2, the deadline that moved twice | 2 of 3 | 3 of 3 | 3 of 3 |
+| t5, two notes naming different main contacts | 3 of 3 | 3 of 3 | **1 of 3** |
+| The other five traps | all pass | all pass | all pass |
+
+**The loose version missed a buried update.** In its failing run, it said "your Oct 15 notes don't mention a further change." They do, in the middle of about 1,300 words. That's the failure the OS is supposed to prevent, and the OS didn't make it.
+
+**The OS missed a conflict, twice, and that's a failure it caused.** Both failing runs opened one Client B note, found "Main contact: Dana," and stopped. One said outright that it hadn't opened the other Client B notes. Search in the loose versions surfaced both "main contact" lines at once. The OS's listings pointed the agent at the obvious note, and it trusted that note too much. A real OS would usually have settled the conflict when it was written, so this fixture is harsher on the OS than real use. But contradictions do end up in separate files, and when they do, this is how the OS fails.
+
+**Context finally favors the OS.** Medians per run, across these trap runs:
+
+| Version | Peak context above floor | Files opened | Cost per run |
+|---|---|---|---|
+| Loose | 9,923 | 3 | $0.157 |
+| Loose plus rules | 14,862 | 5 | $0.202 |
+| OS | 6,346 | 1 | $0.128 |
+
+At about 1,300 words a note, the OS opened one file where the loose versions opened 3 to 5. Its peak context came in about a third below the loose version, and its cost about a fifth below. That's in line with the breakeven estimated from the short-note pilots, about 1,100 words a note, which is roughly the median note length in the vault this template came from.
+
+**The rules version read the most and cost the most.** It opened a median of 5 files. A guess is that "don't invent" makes it check more before answering, at a cost.
+
+**Grading:** Haiku graded these runs. It failed the loose version's filing run for replacing "wants to start soon" with the January 2027 start, which is the update that was asked for. Sonnet regraded it as a pass. Every other grade was checked against its answer and holds.
+
 ## What this means for the template
 
 - **Don't claim the structure makes answers more accurate.** At these sizes, on this model, it doesn't.
 - **The README's "why bother" section needs rewriting.** It says an agent treats a repeated guess as fact. In this test, it didn't, even in loose notes, as long as the note said the client would think about it.
 - **What's left untested is where any real benefit would be:**
   - **Upkeep over time.** Tested in a first pass. See "After 10 edits" above.
+  - **Long notes.** Tested in a pilot. See "Long notes" above.
   - **Weaker models.** Sonnet 5.5 may be strong enough not to need the help. A smaller model might.
   - **Usefulness.** The blind side-by-side picks haven't run.
 
