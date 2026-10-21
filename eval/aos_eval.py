@@ -32,14 +32,31 @@ import tempfile
 from datetime import datetime
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-FIXTURES = os.path.join(HERE, "fixtures")
+# Two sets: s15 is the first, small fixture, s60 the larger one. Each has its
+# own fixtures, tasks, and raw results, so neither overwrites the other.
+SETS = {
+    "s15": ("fixtures", "tasks.json", "raw"),
+    "s60": ("fixtures-60", "tasks-60.json", "raw-60"),
+}
 RESULTS = os.path.join(HERE, "results")
-RAW = os.path.join(RESULTS, "raw")
-TASKS = json.load(open(os.path.join(HERE, "tasks.json")))
+
+
+def use_set(name):
+    global FIXTURES, RAW, TASKS, SET
+    fx, tk, rw = SETS[name]
+    SET = name
+    FIXTURES = os.path.join(HERE, fx)
+    RAW = os.path.join(RESULTS, rw)
+    TASKS = json.load(open(os.path.join(HERE, tk)))
+
+
+use_set("s15")
 CHECKER = os.path.join(os.path.dirname(HERE), "scripts", "okf_check.py")
 
 MODELS = {"sonnet": "claude-sonnet-5-5", "opus": "claude-opus-5-5"}
 ARMS = {"a": "a-loose", "b": "b-rules", "c": "c-os", "empty": "empty"}
+# The floor is the same for every set: an empty folder.
+EMPTY = os.path.join(HERE, "fixtures", "empty")
 GRADER_MODEL = "claude-sonnet-5-5"
 READ_TOOLS = ["Read", "Glob", "Grep"]
 # Above this many runs, `run` refuses without --yes, so a typo can't spend money.
@@ -165,7 +182,7 @@ def run_one(kind, model, arm, task, n, version):
     path = out_path(model, arm, task["id"], n)
     if os.path.exists(path):
         return path, "skipped"
-    fixture = os.path.join(FIXTURES, ARMS[arm])
+    fixture = EMPTY if arm == "empty" else os.path.join(FIXTURES, ARMS[arm])
     work = tempfile.mkdtemp(prefix="aos-eval-")
     notes = os.path.join(work, "notes")
     shutil.copytree(fixture, notes)
@@ -220,12 +237,22 @@ def cmd_run(a):
 
 # ---------------------------------------------------------------- grading
 
+def neutral_name(m):
+    """Turn any note path into the same neutral form, so `admin/insurance.md`
+    and `insurance.md` both read as "the insurance note"."""
+    base = os.path.basename(m.group(1)).rsplit(".", 1)[0]
+    return "the " + re.sub(r"[-_ ]+", " ", base).strip().lower() + " note"
+
+
 BLIND = [
     (re.compile(r"\[([^\]]+)\]\([^)]*\)"), r"\1"),
-    (re.compile(r"`?\b[\w./ -]*\.md\b`?"), "[a note]"),
+    # Backticked names may contain spaces. Bare names can't, or the match
+    # would swallow the words in front of them.
+    (re.compile(r"`([^`\n]+\.md)`"), neutral_name),
+    (re.compile(r"\b([\w./-]+\.md)\b"), neutral_name),
     (re.compile(r"\bfront ?matter\b", re.I), "header"),
     (re.compile(r"\bstatus:\s*\w+", re.I), ""),
-    (re.compile(r"\b(this|your|the) OS\b"), r"\1 notes"),
+    (re.compile(r"\b(this|your|the) OS\b"), "the notes"),
 ]
 
 
@@ -274,6 +301,14 @@ def grade_one(path, task):
     return path, g
 
 
+def records_in(raw_name):
+    for root, _, files in os.walk(os.path.join(RESULTS, raw_name)):
+        for fn in files:
+            if fn.endswith(".json"):
+                p = os.path.join(root, fn)
+                yield p, json.load(open(p))
+
+
 def all_records():
     for root, _, files in os.walk(RAW):
         for fn in files:
@@ -315,11 +350,11 @@ def cmd_pairs(a):
             out += [f"### Answer {label}", "", blind(pair[idx]["answer"]).strip(), ""]
         out += ["**Pick (1 or 2):** ", "", "**Why:** ", "", "---", ""]
     os.makedirs(RESULTS, exist_ok=True)
-    with open(os.path.join(RESULTS, "pairs.md"), "w") as fh:
+    with open(os.path.join(RESULTS, f"pairs-{SET}.md"), "w") as fh:
         fh.write("\n".join(out))
-    with open(os.path.join(RESULTS, "pairs-key.json"), "w") as fh:
+    with open(os.path.join(RESULTS, f"pairs-{SET}-key.json"), "w") as fh:
         json.dump(key, fh, indent=1)
-    print(f"Wrote results/pairs.md with {len(key)} pairs. The key is in results/pairs-key.json.")
+    print(f"Wrote results/pairs-{SET}.md with {len(key)} pairs. The key is in results/pairs-{SET}-key.json.")
 
 
 # ---------------------------------------------------------------- report
@@ -331,11 +366,12 @@ def med(xs):
 
 def cmd_report(_):
     recs = [r for _, r in all_records()]
+    floor_recs = [r for _, r in records_in(SETS["s15"][2])] if SET != "s15" else recs
     floors = {}
     for model in MODELS:
-        fs = [r["first_context"] for r in recs if r.get("kind") == "floor" and r["model"] == model]
+        fs = [r["first_context"] for r in floor_recs if r.get("kind") == "floor" and r["model"] == model]
         floors[model] = med(fs)
-    lines = ["# Results", "", f"Generated {now()}. Counts are raw, like 4 of 5, because the runs are too few for percentages to mean much.", ""]
+    lines = [f"# Results, {SET}", "", f"Generated {now()}. Counts are raw, like 4 of 5, because the runs are too few for percentages to mean much.", ""]
     lines += ["## Floor", "", "Context Claude Code uses before reading any note, from runs in an empty folder. "
               "Context figures below are reported above this floor.", ""]
     for m, f in floors.items():
@@ -380,7 +416,7 @@ def cmd_report(_):
             tot = sum(r["total_input"] for r in rs)
             lines.append(f"- {ARMS[arm]}: " + (f"{round(tot / passed)}" if passed else "no passing answers"))
         lines.append("")
-    picks_path, key_path = os.path.join(RESULTS, "pairs.md"), os.path.join(RESULTS, "pairs-key.json")
+    picks_path, key_path = os.path.join(RESULTS, f"pairs-{SET}.md"), os.path.join(RESULTS, f"pairs-{SET}-key.json")
     if os.path.exists(picks_path) and os.path.exists(key_path):
         key = json.load(open(key_path))
         text = open(picks_path).read()
@@ -397,7 +433,7 @@ def cmd_report(_):
         lines += ["", f"{ARMS['c']} picked {wins['c']} times, {ARMS['a']} {wins['a']} times.", ""]
     total = sum(r.get("cost_usd") or 0 for r in recs) + sum((r.get("grade") or {}).get("cost_usd") or 0 for r in recs)
     lines += ["## Spend", "", f"${total:.2f} across {len(recs)} runs and their grading.", ""]
-    with open(os.path.join(RESULTS, "report.md"), "w") as fh:
+    with open(os.path.join(RESULTS, f"report-{SET}.md"), "w") as fh:
         fh.write("\n".join(lines))
     print("\n".join(lines))
 
@@ -420,7 +456,9 @@ def main():
     pr = sub.add_parser("pairs")
     pr.add_argument("--model", choices=list(MODELS), default="sonnet")
     sub.add_parser("report")
+    ap.add_argument("--set", choices=list(SETS), default="s15", help="which fixture set (default s15)")
     a = ap.parse_args()
+    use_set(a.set)
     {"plan": cmd_plan, "run": cmd_run, "grade": cmd_grade, "pairs": cmd_pairs, "report": cmd_report}[a.cmd](a)
 
 

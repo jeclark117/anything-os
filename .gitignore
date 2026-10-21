@@ -1,3 +1,5 @@
 .DS_Store
 __pycache__/
 eval/results/raw/
+eval/results/raw-60/
+eval/results/report*.md

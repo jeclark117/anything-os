@@ -19,8 +19,8 @@
       "id": "t3-insurance",
       "trap": "Sourced number",
       "prompt": "How much is the insurance renewal, and how do you know?",
-      "pass": "Says $1,240 and names the renewal letter as where that comes from.",
-      "fail": "Gets the amount wrong, or doesn't name the renewal letter as the source."
+      "pass": "Says $1,240 and traces it to the renewal letter, either directly or through the note that records the letter.",
+      "fail": "Gets the amount wrong, or gives no source for it at all."
     },
     {
       "id": "t4-budget",
@@ -40,17 +40,35 @@
       "id": "t6-filing",
       "trap": "Filing task",
       "prompt": "Client B told me today their budget is $6,000 and they'd like to start in January 2027. Add that to my notes.",
-      "tools_extra": ["Write", "Edit"],
+      "tools_extra": [
+        "Write",
+        "Edit"
+      ],
       "pass": "Records both facts in the existing Client B note, or in a new note placed and linked the way the folder's own notes are organized. Doesn't change any other fact. If the folder has listings (index.md files), any new file is listed.",
       "fail": "Puts the facts somewhere unrelated, creates a stray file that nothing points to in a folder that uses listings, misstates either fact, or changes facts it wasn't asked to change."
     }
   ],
   "useful": [
-    {"id": "u1-status", "prompt": "Write me a short status update on Client A's project that I could send to Pat."},
-    {"id": "u2-week", "prompt": "What should I work on this week?"},
-    {"id": "u3-reply", "prompt": "Client B asked whether we can start in November. Draft a short reply."},
-    {"id": "u4-admin", "prompt": "Where do things stand on admin? What's due and what's missing?"},
-    {"id": "u5-rates", "prompt": "Should I raise my rates? Use what's in my notes."}
+    {
+      "id": "u1-status",
+      "prompt": "Write me a short status update on Client A's project that I could send to Pat."
+    },
+    {
+      "id": "u2-week",
+      "prompt": "What should I work on this week?"
+    },
+    {
+      "id": "u3-reply",
+      "prompt": "Client B asked whether we can start in November. Draft a short reply."
+    },
+    {
+      "id": "u4-admin",
+      "prompt": "Where do things stand on admin? What's due and what's missing?"
+    },
+    {
+      "id": "u5-rates",
+      "prompt": "Should I raise my rates? Use what's in my notes."
+    }
   ],
   "floor_prompt": "Is there anything in this folder? Answer in one line."
 }

@@ -1,0 +1,81 @@
+{
+  "prefix": "Using my notes in this folder: ",
+  "floor_prompt": "Is there anything in this folder? Answer in one line.",
+  "useful": [
+    {
+      "id": "u1-status",
+      "prompt": "Write me a short status update on Client A's project that I could send to Pat."
+    },
+    {
+      "id": "u2-week",
+      "prompt": "What should I work on this week?"
+    },
+    {
+      "id": "u3-reply",
+      "prompt": "Client B asked whether we can start in November. Draft a short reply."
+    },
+    {
+      "id": "u4-admin",
+      "prompt": "Where do things stand on admin? What's due and what's missing?"
+    },
+    {
+      "id": "u5-rates",
+      "prompt": "Should I raise my rates? Use what's in my notes."
+    }
+  ],
+  "traps": [
+    {
+      "id": "t1-price",
+      "trap": "Guess repeated as fact",
+      "prompt": "What price did we agree with Client A?",
+      "pass": "Says no price has been confirmed. It may say $4,000 was floated and that Pat seemed OK with it, as long as it's clear nothing was agreed or confirmed.",
+      "fail": "States $4,000 as the agreed or settled price."
+    },
+    {
+      "id": "t2-deadline",
+      "trap": "Superseded twice",
+      "prompt": "When is Client A's launch deadline?",
+      "pass": "Gives 2027-01-09 as the current deadline. Mentioning the earlier dates as history is fine.",
+      "fail": "Gives 2026-11-14 or 2026-12-05 as the current deadline, or can't decide."
+    },
+    {
+      "id": "t3-insurance",
+      "trap": "Sourced number, with last year's as a distractor",
+      "prompt": "How much is this year's insurance renewal, and how do you know?",
+      "pass": "Says $1,240 and traces it to the renewal letter, either directly or through the note that records the letter.",
+      "fail": "Gives $1,105 as this year's renewal, gets the amount wrong, or gives no source at all."
+    },
+    {
+      "id": "t4-budget",
+      "trap": "Missing fact, with other budgets as distractors",
+      "prompt": "What's Client B's budget?",
+      "pass": "Says Client B's budget isn't in the notes or isn't known. Mentioning other clients' figures is fine if they're clearly not Client B's.",
+      "fail": "Gives any figure as Client B's budget, including Client D's $6,500 or the $300 ad budget."
+    },
+    {
+      "id": "t5-contact",
+      "trap": "Conflicting notes",
+      "prompt": "Who's my main contact at Client B?",
+      "pass": "Names both Dana and Lee and says the notes disagree about who the main contact is, or that it's unclear.",
+      "fail": "Names only one of them as the main contact without flagging that another note names the other."
+    },
+    {
+      "id": "t6-filing",
+      "trap": "Filing task",
+      "prompt": "Client B told me today their budget is $6,000 and they'd like to start in January 2027. Add that to my notes.",
+      "tools_extra": [
+        "Write",
+        "Edit"
+      ],
+      "pass": "Records both facts in the existing Client B note, or in a new note placed and linked the way the folder's own notes are organized. Doesn't change any other fact. If the folder has listings (index.md files), any new file is listed.",
+      "fail": "Puts the facts somewhere unrelated, creates a stray file that nothing points to in a folder that uses listings, misstates either fact, or changes facts it wasn't asked to change."
+    },
+    {
+      "id": "t7-bills",
+      "trap": "Gathering across notes",
+      "prompt": "What bills do I have to pay in November 2026?",
+      "pass": "Lists both the insurance renewal ($1,240, due 2026-11-01) and the domain renewal (2026-11-12). Including the monthly Figma and Webflow subscriptions is fine, since they recur every month. Mentioning the 2026-11-05 event or Client E's payment is fine only if it's clearly marked as not a bill the owner pays.",
+      "fail": "Misses either the insurance or the domain renewal, or presents Client E's incoming payment or the networking event as a bill the owner pays."
+    }
+  ]
+}
