@@ -6,16 +6,20 @@ A folder of plain notes that your AI agent keeps up for you. You answer 8 questi
 
 Your agent starts every conversation knowing nothing. Whatever you told it last week is gone unless it's written down somewhere it can find.
 
-A folder of notes fixes that, until the agent starts treating a guess as a fact. A note doesn't say whether "we're going with the blue one" was decided or just mentioned once. Repeat it three times and it reads as settled.
+A folder of notes fixes that, and a good model reads a messy one surprisingly well. In testing, Sonnet answered every question right from loose notes, even after 10 rounds of changes.
 
-So this template is mostly rules, plus just enough structure to follow them:
+What a loose folder doesn't do is stay true. After those 10 changes, both loose to-do lists still said to renew insurance that was already paid. The model worked around it every time. You won't, when you open the file yourself.
+
+The fix is an agent that corrects the old line instead of adding a new one. This template gets there with a few rules and just enough structure:
 
 - Don't invent facts or numbers. A gap says it's a gap and what would fill it.
 - A guess stays marked as a guess until you decide it.
 - Only you can mark something as confirmed.
 - Every number says where it came from.
 
-Keeping the notes tidy is the part people give up on. It's also the part an agent does well, as long as the rules say exactly what tidy means.
+The upkeep isn't free. In the same test, each change cost about twice as much to record. What you get for it is files you can trust when you open them.
+
+That's one test, on made-up notes. It's all in [eval](eval/) if you want to check the work.
 
 ## Getting started
 
