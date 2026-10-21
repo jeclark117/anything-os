@@ -3,7 +3,7 @@ type: Standard
 title: Conventions
 description: The rules every file in this OS follows. Written for the agent. The person never needs to read it.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-10-20T17:11:49-07:00 }
+generated: { by: claude-code/opus-5, at: 2026-10-20T22:19:01-07:00 }
 ---
 
 # Conventions
@@ -160,13 +160,16 @@ Every time:
 3. If you changed the description, update the listing that quotes it.
 4. If a fact came from somewhere, add the source.
 5. If something changed in the structure of the OS, add a line to `log.md`.
+6. Before recording a fact, search the folder for other notes that state the same thing. If one disagrees, fix it if a newer, dated note makes clear which is right. Otherwise mark the conflict in both notes and tell the person.
 
 ---
 
 ## 8. "Check my OS"
 
-When the person asks you to check the OS, read through every file and fix what breaks these rules. Look for:
+When the person asks you to check the OS, read through every file and fix what breaks these rules. This is the health check from Karpathy's [LLM Wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) pattern, which this format comes from. Look for:
 
+- Two notes that contradict each other, like different names for the same role or different dates for the same deadline. Flag them rather than picking one, unless a newer, dated note clearly settles it.
+- A claim that a newer note has superseded, still stated as current somewhere else.
 - A note without a header block, or without a `type`.
 - A `status` other than `draft`, `stable`, or `deprecated`.
 - A `generated.by` that doesn't match one of the three forms in §2.

@@ -3,7 +3,7 @@ type: Research
 title: Eval findings
 description: What the eval has shown so far. Short notes, no difference. Long notes, the OS read less and cost less, but missed a conflict a loose search caught. After 10 edits, every version answered correctly and the OS kept the most current files, at twice the edit cost.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-10-20T21:56:11-07:00 }
+generated: { by: claude-code/opus-5, at: 2026-10-20T22:19:15-07:00 }
 ---
 
 # Eval findings
@@ -122,6 +122,18 @@ All three recorded the insurance payment in the insurance note. None removed it 
 | OS | $2.56 | 56,189 |
 
 That's the trade the OS makes, now with long notes behind it. It pays at write time to keep files true, and gets some of it back at read time, because the agent doesn't have to dig through stale versions to answer.
+
+## Fixing the conflict weakness
+
+The OS's one real weakness, from the long-note pilot, was trusting the first note its listing pointed to. The fix follows Karpathy's LLM-wiki pattern, which this format comes from: note contradictions when writing, and run a periodic health check that looks for "contradictions between pages" and "stale claims that newer sources have superseded." Tested on the long-note OS version, Sonnet 5.5, 2026-10-20.
+
+**Both versions of "Check my OS" found the conflict.** One run each, reading all 40 notes, at about $2.40 a pass:
+- **The template's check as it was** flagged Dana against Lee in its reply and left the notes as they were. It also caught a stale claim: the Q4 goal to finish Client A, after its launch moved into 2027.
+- **With Karpathy's two items added,** it flagged the conflict and also marked it in all four notes that name a contact.
+
+**The marked notes fixed the read-time failure.** On the folder after the second check, the main-contact trap passed 3 of 3, up from 1 of 3. Every run still opened just 1 note, at about $0.12. The marker in that note was enough.
+
+**The template now has both items.** `conventions.md` §7 adds a step: before recording a fact, search for other notes that state it, and fix or flag any that disagree. §8's health check now lists contradictions between notes and superseded claims first. A lint pass on long notes isn't cheap, about $2.40 here, so it belongs on a schedule or on request, not on every edit.
 
 ## What this means for the template
 

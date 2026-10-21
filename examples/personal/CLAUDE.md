@@ -37,6 +37,6 @@ Ask for what you need in plain words. Three that cover most of it:
 
 - **"Make a note about ..."** I'll write it in the right area and list it.
 - **"Add an area for ..."** I'll make a new folder. A topic usually earns its own folder once it has three notes.
-- **"Check my OS."** I'll read through everything and fix anything that breaks the rules: missing listings, broken links, guesses that got written down as facts.
+- **"Check my OS."** I'll read through everything and fix anything that breaks the rules: notes that contradict each other, missing listings, broken links, guesses that got written down as facts.
 
 Anything else works too. These notes are plain files, so you can open, edit, or move them yourself whenever you want. If you switch to a different AI tool, ask it to read this file first. It may need a copy under a different name.
