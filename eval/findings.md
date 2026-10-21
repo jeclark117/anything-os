@@ -1,9 +1,9 @@
 ---
 type: Research
 title: Eval findings
-description: What the eval has shown so far. Short notes, no difference. Long notes, the OS read less and cost less, but missed a conflict a loose search caught. After 10 edits, only the OS kept its files current.
+description: What the eval has shown so far. Short notes, no difference. Long notes, the OS read less and cost less, but missed a conflict a loose search caught. After 10 edits, every version answered correctly and the OS kept the most current files, at twice the edit cost.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-10-20T21:28:17-07:00 }
+generated: { by: claude-code/opus-5, at: 2026-10-20T21:56:11-07:00 }
 ---
 
 # Eval findings
@@ -96,6 +96,32 @@ At about 1,300 words a note, the OS opened one file where the loose versions ope
 **The rules version read the most and cost the most.** It opened a median of 5 files. A guess is that "don't invent" makes it check more before answering, at a cost.
 
 **Grading:** Haiku graded these runs. It failed the loose version's filing run for replacing "wants to start soon" with the January 2027 start, which is the update that was asked for. Sonnet regraded it as a pass. Every other grade was checked against its answer and holds.
+
+## Long notes, after 10 edits
+
+The same 10 edits and 9 questions, on the long-note set. One history per version, Sonnet 5.5, 2026-10-20.
+
+**Answers: all three versions passed every question,** except one rules-version answer that failed because of a flaw in the test, not the notes. On edit 8, the rules version refused to record "renewed the domain today" because the update was dated 2026-11-06 and the real date was 2026-10-20. It asked which date was meant instead of guessing. Every other edit, in both edit runs, changed files. So the domain stayed unpaid in that folder, and its bills answer correctly reported what the folder said. The edits are future-dated so the questions can be asked "as of" a later day. A rerun should state the date in a way that doesn't read as a contradiction.
+
+**Files: the OS kept the most current, and none was perfect.** The to-do list after all 10 edits:
+
+| Version | Client A quote | Insurance | Client A launch |
+|---|---|---|---|
+| Loose | **$4,000, stale** | **Still says renew it** | 2027-01-23, current |
+| Loose plus rules | **$4,000, stale** | **Still says renew it** | **12/5, stale** |
+| OS | $4,200, current | **Still says renew it** | 2027-01-23, current |
+
+All three recorded the insurance payment in the insurance note. None removed it from the to-do list. The capacity note was current in the loose and OS versions, and still said December 5 in the rules version. The OS made 59 changes to existing files across the 10 edits, against 14 and 10.
+
+**Cost: editing the OS costs about twice as much, and reading it afterward costs less.**
+
+| Version | 10 edits | Median input per question afterward |
+|---|---|---|
+| Loose | $1.17 | 75,607 |
+| Loose plus rules | $1.28 | 97,575 |
+| OS | $2.56 | 56,189 |
+
+That's the trade the OS makes, now with long notes behind it. It pays at write time to keep files true, and gets some of it back at read time, because the agent doesn't have to dig through stale versions to answer.
 
 ## What this means for the template
 
