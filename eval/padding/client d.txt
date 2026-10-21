@@ -1,0 +1,83 @@
+working notes, general
+
+**approach**
+
+start with the room, not the file. sit in the space if possible and watch where people's eyes land, where they hesitate, where they squint. a menu gets read in dim light with a drink in hand and a conversation going on. signage gets read from across the street by a distracted person who is probably walking. neither gets studied. design for the glance, then reward the people who look longer.
+
+figure out what the place actually is before touching type. not what the owner says in pitch mode, but what regulars say when they describe it to a friend. the gap between those descriptions is usually where the real brief lives.
+
+the menu and the signage should feel like the same voice at different volumes. signage is the call across the room, the menu is the conversation at the table. same personality, different distance.
+
+**process, loosely**
+
+- gather the real artifacts first: current menus (especially the stained, scribbled-on ones), photos of the storefront in bad weather and good, any old signage that got left in a back room
+- ask the staff what annoys them. servers know which items get misread, which section gets skipped, which column confuses people
+- sketch on paper before the screen opens. thumbnails, ugly on purpose. screen work makes everything look finished far too early
+- build the type system before the layout. try a combination at the smallest size it will ever appear and the largest, and see if it holds together at the extremes
+- print rough mockups at actual size and carry them around. tape them to a wall, stand across the room, spill water on them
+- show work in context, not as flat rectangles. a menu in a hand on a real table sells itself better than a floating artboard
+- keep a log of why choices were made, in plain words. useful later when someone asks "why is it like this" and the answer has been forgotten
+
+**menu: things to keep in mind**
+
+- hierarchy over decoration. diners scan for category, then dish, then description, then cost. let the layout follow that path instead of fighting it
+- the content keeps changing. items come and go, names get longer, specials get added in pen. build in slack. a layout that only works when the content is perfect will look broken the moment reality arrives
+- paper and finish matter more than they seem to. can it be wiped down, does it survive grease, does it curl, does it feel cheap or cared for in the hand
+- ask the printer about limits early, because discovering them late is expensive in every sense
+- dietary and allergen marks need to be consistent and obvious. small symbols that don't need a legend are better than a key at the bottom nobody reads
+- legibility for tired and older eyes in low light. contrast, size, line spacing, and not setting small text in a thin weight
+- currency symbols and dotted leader lines are often just noise. worth testing a version without them
+- the digital version, if there is one, should share the same hierarchy rather than being a shrunken copy of the print
+- descriptions deserve the owner's voice, edited lightly. a menu written like a legal document tastes worse
+
+**signage: things to keep in mind**
+
+- judge it from the farthest realistic distance. blur the image and see what survives. if the name disappears, the design isn't finished
+- weather, glare off glass, fading from light, grime. imagine it dirty and slightly neglected, because that is its normal state
+- artificial light changes color. check how it looks lit and unlit, and whether the character changes between the two
+- local rules around signs vary and tend to surface late. permits, size limits, and what can hang over a sidewalk are worth finding out about early
+- talk to whoever fabricates it before the design hardens. they will have opinions about minimum stroke thickness, fine detail, and what falls apart at scale
+- mounting and structure: what it hangs from, what the wall is made of, who is allowed to drill into it
+- think in terms of touchpoints rather than a sign. the window, the door, the awning, the sidewalk board, the takeaway bag, the receipt. the system should make each of those easy to extend even if they aren't all being redesigned now
+
+**working with the owner**
+
+- the owner knows food and people. the designer knows layout and legibility. keep conversation in the owner's language: how it should feel, who it's for, what a guest should say on the way out
+- show fewer directions with clearer reasoning rather than a wall of options. a wall of options invites choosing by mood
+- ask for real content early. final wording, final item names. placeholder text hides problems until they are painful
+- feedback usually arrives as feelings: too busy, too cold, too fancy. translate before acting. ask what they are reacting to
+- watch for scope creeping in dressed as small favors. a small favor repeated enough becomes a separate project
+- people get attached to whatever they saw earliest. present rough work as rough, and avoid showing anything that isn't ready to be loved
+- be honest when a request works against legibility. it lands better with a quick demonstration than with an argument
+
+**open-ended ideas**
+
+- the menu as an object: a fold, a texture, a tactile detail that people remember and mention to others
+- a zone designed for handwriting, or a stamp or stencil, so the specials look intentional when staff improvise. the system should survive being used by tired people at a busy hour
+- type that borrows from the building itself: old lettering on the facade, tile patterns, door hardware, the proportions of the windows
+- a palette pulled from the food: char, herb, sauce, crust. test whether the colors make the food look better or worse under real lighting
+- small illustrated marks for sections instead of text headers. risk: cute. reward: faster scanning. test it
+- a short note on the back of the menu in the owner's own voice, like house rules or a thank-you. low cost, high warmth
+- signage that reveals a second layer up close, a detail only visible when you're at the door. a reward for slowing down (maybe too precious, worth sketching anyway)
+- a plain-language guide for the staff on how to use the system without breaking it. what to change freely, what to leave alone
+- reference material from outside restaurants altogether: packaging, labels, transit wayfinding, old hand-painted shopfronts, hardware store shelving. restaurants copying restaurants gets samey fast
+- a version of the identity that works in complete darkness, with only a lit window and a name
+
+**questions worth asking repeatedly**
+
+- what does a guest need to know at a glance?
+- what happens when the paper is stained, the sign is dirty, and the lights are low?
+- is this memorable, or just tidy?
+- who maintains this when the designer isn't around?
+- what would get cut if it had to be simpler? cut that, then see if anything was missed
+- does it still feel like the place if the logo is covered up?
+
+**general reminders**
+
+restraint is underrated. leave space. not every surface needs a treatment, and not every item deserves a flourish. the best menus tend to feel like a calm person talking, and the best signs feel like they were always there.
+
+check the work against the room, not against the screen. the room is the real client.
+
+keep a loose folder for stray observations: a good bit of lettering on a delivery truck, a receipt layout that was surprisingly clear, a sign that failed in an interesting way. most of the useful ideas come from there, not from the brief.
+
+and sleep on type choices when possible. a combination that feels right in the heat of the moment can feel wrong after a break, and the reverse happens too.

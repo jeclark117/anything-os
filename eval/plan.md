@@ -78,9 +78,21 @@ These rules were written before any results:
 
 **Second round, only if B or C wins:** the same traps with about 60 notes instead of 15. That's where C should pull ahead of B if the structure matters. If it doesn't, that's the finding.
 
+## Round two: realistic length, and upkeep
+
+The first two pilots used notes of about 12 words each. Real notes in the vault this template came from run a median of 1,420 and 3,398 words in its two main folders. At 12 words, opening extra files costs almost nothing, so the first pilots couldn't show whether listings save context. Round two fixes that and adds the upkeep test.
+
+**Long notes (set `s60long`).** The same 60 notes, each padded with about 1,200 words of working-note text that adds no facts. [pad_notes.py](pad_notes.py) generates the padding and rejects any of it containing a digit, a currency sign, or a name the notes don't already use. In the OS version, each note carries the same padding as the loose notes it was built from, so both versions hold the same text.
+
+**Edits.** [edits.json](edits.json) holds 10 updates, applied in order to one persistent copy of each version, each in its own fresh session with write access. Examples: Pat confirmed a price, the launch moved again, Dana left Client B, the insurance got paid, the rate is going up. Then 9 questions get asked, each in a fresh read-only session, whose answers depend on the latest state. Several target facts that the loose notes repeat in more than one place, like the launch date in the to-do list and the capacity note. Those are where a folder goes stale.
+
+The report also counts how many mentions of superseded values are left in each folder afterward. That count includes legitimate history, like "moved from 2026-12-05," so it's a rough signal, not a grade.
+
+The evolving folders live in the system temp directory during a run, outside any vault. Claude Code reads instruction files from parent directories, and a folder inside the vault would pick up the vault's own.
+
 ## What it can't show
 
-- **Whether it holds up over months.** The real claim is that an OS stays accurate with long use while loose notes rot. That needs a separate maintenance test, or real use.
+- **Whether it holds up over months.** Ten edits in an afternoon is a stand-in for months of real use, not the same thing.
 - **More than one business.** One made-up studio, written by one author. Different notes might behave differently.
 - **Whether Joseph is a fair judge of usefulness.** He knows the OS format well and may be able to tell which answer is which. If he finds he always can, the picks count for less.
 

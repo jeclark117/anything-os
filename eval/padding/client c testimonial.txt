@@ -1,0 +1,76 @@
+general working notes
+
+**approach**
+
+- start from what the person actually needs, not just what they asked for. a brief is usually a guess at the solution, and the real problem sits a layer underneath. it helps to ask what happens if the thing never gets made, and then watch how they answer
+- keep early work rough on purpose. if it looks finished, people react to the finish instead of the direction
+- show fewer directions with stronger reasoning rather than a wall of variations. too many choices make feedback vague and polite
+- write down why a choice was made while it's still fresh. future me will not remember why that spacing felt right
+- when stuck, change the medium. pencil, cut paper, a printout taped to the wall, anything that makes the work physical again
+- make the boring parts good. the forms, the error messages, the empty states, the file that gets sent around. people spend more time there than on the showpiece
+
+**process**
+
+projects seem to move through a loose rhythm: listening, wandering, narrowing, refining, handing over. the edges blur and that's fine, but it helps to know which mode I'm actually in. wandering with a refining mindset kills ideas too early. refining with a wandering mindset never ends.
+
+*listening.* let people keep talking past the point where they've said the useful thing. the useful thing usually shows up right after the polite summary. pay attention to the words they repeat, and to what they avoid saying.
+
+*wandering.* collect references without judging them. a pile of things that feel adjacent: old signage, packaging, type specimens, odd interfaces, the way a shop window is lit. look for the feeling underneath, not the surface that can be copied.
+
+*narrowing.* name what's being left out. every direction that gets dropped deserves a sentence about why, otherwise it creeps back in at the worst moment and wastes everyone's energy.
+
+*refining.* zoom out regularly. squint at it, flip it upside down, look at it tiny on a phone and enormous on a big screen. most flaws show up when the scale changes. step away, then look again with fresh eyes.
+
+*handing over.* package the work so someone else could look after it without me. files named sensibly, a short guide to the rules and the exceptions, notes on what's flexible and what absolutely isn't.
+
+**things to keep in mind**
+
+- people are often more attached to their own words than to any visual. handle copy gently and explain edits instead of just making them
+- consistency beats cleverness. a system that's slightly plain but holds together is more useful than something dazzling that falls apart at the edges
+- accessibility isn't a layer that gets added at the end. contrast, reading size, motion, keyboard use, how things sound when read aloud. build it in from the start and it costs almost nothing extra
+- tell people early when something is more complicated than it looked. surprises damage trust far more than bad news does
+- keep the edges of the scope visible. small requests accumulate quietly and then suddenly the project is a different shape
+- feedback is information about a reaction, not a set of instructions. "make it pop" means something is missing, and the job is to work out what
+- good taste is mostly restraint. when in doubt, remove something and see if anyone misses it
+- a design that only works in the presentation mockup isn't finished. test it with real text, real images, awkward lengths, and slow connections
+- trends are fine as seasoning, but they date quickly. ask whether it would still feel right long after the excitement fades
+
+**working alone**
+
+- there's nobody to bounce ideas off, so build substitutes. talk the problem out loud, write the pitch as if for a skeptic, imagine a stranger glancing at the work for a moment and ask what they'd take away
+- admin is part of the job, not a distraction from it. keep it tidy so it stays boring
+- protect the long stretches of deep focus and batch the messages. replying instantly teaches people to expect it
+- be honest about what falls outside the skill set, and keep a mental list of trusted people to point others toward when a project needs something I can't give
+- personal projects matter. they keep taste alive and they often feed back into paid work in unexpected ways
+- notice when tiredness is making the work worse. a bad idea at the end of a long day is still a bad idea, it just feels clever
+- keep the workspace a bit messy while exploring and clean it fully when refining. the state of the desk seems to follow the state of the thinking
+
+**open-ended ideas**
+
+- a running swipe file organized by feeling rather than category: calm, tense, playful, severe, tender, absurd. browsing by mood might surface better pairings than browsing by medium
+- a habit of looking back at finished projects after a quiet interval, asking what held up and what felt forced
+- a short questionnaire for new enquiries that surfaces constraints early: who the audience really is, what's been tried before, what they're afraid of
+- a small library of reusable patterns that aren't templates, more like well-worn habits: how to space a list, how to set a quote, how to handle a caption
+- write case studies as stories about problems instead of galleries of outcomes. what was confusing at the start, what changed the thinking, what was ugly along the way
+- try designing under deliberate limits: a restricted palette, no imagery, only one typeface family, only type and space. see what survives
+- ask what a brand would sound like, smell like, feel like to walk into. then translate whatever comes back
+- keep a list of questions to ask in every kickoff conversation, and prune it when a question stops producing useful answers
+- try explaining a design to a child, or to someone who has never worked with design at all, and see which parts collapse
+- sketch with the wrong hand, or with a tool that's too big for the job. rough constraints often loosen things up
+
+**questions that keep coming back**
+
+- how much explanation can a design carry before it feels over-explained?
+- when does a system become a cage, and who notices first?
+- what's the difference between simple and merely empty?
+- is it better to be slightly memorable or completely clear? when does each win?
+- how do you leave room for a project to surprise you without losing control of it?
+- what does a good ending to a project feel like from the other side of the table?
+
+**small reminders**
+
+- clear thinking shows in the work even when nobody can say why
+- a pause before sending is cheap
+- the best feedback often comes from the person who didn't expect to be asked
+- leave a little space around everything, including the schedule of the day itself
+- if the idea only makes sense with a long explanation, keep looking

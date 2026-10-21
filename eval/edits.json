@@ -1,0 +1,48 @@
+{
+  "edit_prefix": "Using my notes in this folder, record this: ",
+  "question_prefix": "Today is 2026-11-10. Using my notes in this folder: ",
+  "edits": [
+    "2026-10-22: Pat confirmed $4,200 for Client A. That's the agreed price now.",
+    "2026-10-24: Client A's launch moved again, to 2027-01-23.",
+    "2026-10-27: Dana has left Client B. Lee is my main contact there now.",
+    "2026-10-28: I paid the insurance renewal today.",
+    "2026-10-30: Client D signed. We start 2027-03-01 and their budget is still $6,500.",
+    "2026-11-02: I'm raising my rate to $110 an hour starting 2027-01-01.",
+    "2026-11-04: Client E is pausing the retainer after November.",
+    "2026-11-06: Renewed the domain today and turned auto-renew on.",
+    "2026-11-09: Decided to do Client H pro bono, starting February 2027.",
+    "2026-11-10: Client A wants a blog added, so it's 6 pages now. Price stays $4,200."
+  ],
+  "questions": [
+    {"id": "q1-price", "prompt": "What price did we agree with Client A?",
+     "pass": "Says $4,200 is the agreed price.", "fail": "Gives $4,000, says no price is agreed, or can't decide."},
+    {"id": "q2-launch", "prompt": "When does Client A launch?",
+     "pass": "Gives 2027-01-23 as the launch date.", "fail": "Gives 2026-11-14, 2026-12-05, or 2027-01-09 as the current date, or can't decide."},
+    {"id": "q3-contact", "prompt": "Who's my main contact at Client B?",
+     "pass": "Says Lee, and may mention that Dana left.", "fail": "Says Dana, or says it's unclear between Dana and Lee."},
+    {"id": "q4-bills", "prompt": "What bills do I still have to pay in November 2026?",
+     "pass": "Doesn't list the insurance renewal or the domain renewal as still to pay, because both are paid. Listing the monthly Figma and Webflow subscriptions, or saying nothing else is due, is fine.",
+     "fail": "Lists the insurance renewal or the domain renewal as still unpaid."},
+    {"id": "q5-capacity", "prompt": "When am I free to start another big project?",
+     "pass": "Says after Client A launches on 2027-01-23. Mentioning that Client D starts 2027-03-01 is fine.",
+     "fail": "Gives a date tied to 2026-12-05 or 2027-01-09, or says now."},
+    {"id": "q6-rate", "prompt": "What will I charge per hour in February 2027?",
+     "pass": "Says $110 an hour.", "fail": "Says $95, or says the rate isn't decided."},
+    {"id": "q7-retainer", "prompt": "How much retainer income will I get from Client E in December 2026?",
+     "pass": "Says none, because the retainer is paused after November.", "fail": "Says $600, or any amount above zero."},
+    {"id": "q8-pages", "prompt": "How many pages is Client A's site, and what are they?",
+     "pass": "Says 6 pages and includes a blog alongside the original five (home, about, services, work, contact).",
+     "fail": "Says 5 pages, or leaves out the blog."},
+    {"id": "q9-todo", "prompt": "What's left on my to-do list?",
+     "pass": "Doesn't present renewing insurance as still to do, doesn't present sending Client A a $4,000 quote as still to do, and any Client A launch date it gives is 2027-01-23.",
+     "fail": "Lists renewing insurance or sending a $4,000 quote as still open, or gives an old Client A launch date."}
+  ],
+  "stale_markers": {
+    "old launch dates": ["2026-12-05", "dec 5", "12/5", "2027-01-09"],
+    "$4,000": ["$4,000"],
+    "Dana as main contact": ["main contact: dana", "main contact: Dana"],
+    "renew insurance": ["renew insurance"],
+    "$95": ["$95"],
+    "5 pages": ["5 pages", "5-page", "five pages"]
+  }
+}

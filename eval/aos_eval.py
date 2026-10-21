@@ -37,7 +37,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 SETS = {
     "s15": ("fixtures", "tasks.json", "raw"),
     "s60": ("fixtures-60", "tasks-60.json", "raw-60"),
+    "s60long": ("fixtures-60-long", "tasks-60.json", "raw-60long"),
 }
+EDITS = json.load(open(os.path.join(HERE, "edits.json")))
 RESULTS = os.path.join(HERE, "results")
 
 
@@ -235,6 +237,90 @@ def cmd_run(a):
             print(f"[{i}/{len(todo)}] {a.model} {arm} {tid} #{n}: {status}  ${c:.3f}  (round ${cost:.2f})")
 
 
+# ---------------------------------------------------------------- edits
+
+def edit_dir(model, arm, h):
+    return os.path.join(RAW, "edits", model, arm, f"h{h}")
+
+
+def run_session(prompt, model, tools, cwd):
+    cmd = isolated_cmd(prompt, MODELS[model], tools, "stream-json")
+    p = subprocess.run(cmd, cwd=cwd, capture_output=True, text=True, timeout=900, stdin=subprocess.DEVNULL)
+    rec = parse_stream(p.stdout.splitlines())
+    rec.update({"exit_code": p.returncode, "stderr_tail": p.stderr[-2000:]})
+    return rec, p.stdout
+
+
+def stale_counts(folder):
+    text = ""
+    for root, _, files in os.walk(folder):
+        for fn in files:
+            if fn.endswith(".md"):
+                text += open(os.path.join(root, fn), errors="ignore").read().lower() + "\n"
+    return {k: sum(text.count(m.lower()) for m in ms) for k, ms in EDITS["stale_markers"].items()}
+
+
+def run_history(model, arm, h, version):
+    """Apply every edit in order to one persistent copy of the folder, then ask
+    every question against the result. The folder lives in the temp directory,
+    outside any vault, and is snapshotted into results after each step."""
+    out = edit_dir(model, arm, h)
+    state_path = os.path.join(out, "state.json")
+    os.makedirs(out, exist_ok=True)
+    state = json.load(open(state_path)) if os.path.exists(state_path) else {"done_edits": 0}
+    work = os.path.join(tempfile.gettempdir(), "aos-eval-edits", SET, model, arm, f"h{h}")
+    snap = os.path.join(out, "folder")
+    if state["done_edits"] == 0:
+        shutil.rmtree(work, ignore_errors=True)
+        shutil.copytree(os.path.join(FIXTURES, ARMS[arm]), work)
+    elif not os.path.exists(work):
+        shutil.copytree(snap, work)
+    tools = READ_TOOLS + ["Write", "Edit"]
+    for i in range(state["done_edits"], len(EDITS["edits"])):
+        rec, raw = run_session(EDITS["edit_prefix"] + EDITS["edits"][i], model, tools, work)
+        rec.update({"kind": "edit", "set": SET, "model": model, "arm": arm, "history": h, "step": i + 1,
+                    "prompt": EDITS["edits"][i], "claude_version": version, "at": now()})
+        json.dump(rec, open(os.path.join(out, f"edit-{i + 1:02}.json"), "w"), indent=1)
+        open(os.path.join(out, f"edit-{i + 1:02}.jsonl"), "w").write(raw)
+        shutil.rmtree(snap, ignore_errors=True)
+        shutil.copytree(work, snap)
+        state["done_edits"] = i + 1
+        json.dump(state, open(state_path, "w"))
+        print(f"  {model} {arm} h{h} edit {i + 1}: ${rec.get('cost_usd') or 0:.3f}")
+    state["stale"] = stale_counts(work)
+    json.dump(state, open(state_path, "w"), indent=1)
+    for q in EDITS["questions"]:
+        qpath = os.path.join(out, f"{q['id']}.json")
+        if os.path.exists(qpath):
+            continue
+        ask = tempfile.mkdtemp(prefix="aos-eval-q-")
+        try:
+            folder = os.path.join(ask, "notes")
+            shutil.copytree(work, folder)
+            rec, raw = run_session(EDITS["question_prefix"] + q["prompt"], model, READ_TOOLS, folder)
+        finally:
+            shutil.rmtree(ask, ignore_errors=True)
+        rec.update({"kind": "edit-q", "set": SET, "model": model, "arm": arm, "history": h, "task": q["id"],
+                    "prompt": q["prompt"], "claude_version": version, "at": now()})
+        json.dump(rec, open(qpath, "w"), indent=1)
+        print(f"  {model} {arm} h{h} {q['id']}: ${rec.get('cost_usd') or 0:.3f}")
+    return arm, h
+
+
+def cmd_edits(a):
+    arms = a.arms.split(",") if a.arms else ["a", "b", "c"]
+    jobs = [(arm, h) for arm in arms for h in range(1, a.histories + 1)]
+    n = len(jobs) * (len(EDITS["edits"]) + len(EDITS["questions"]))
+    print(f"{len(jobs)} histories, up to {n} sessions. Finished steps are skipped.")
+    if not a.yes:
+        sys.exit("Add --yes to run.")
+    version = claude_version()
+    # Histories run in parallel. Steps inside one history can't, because each edit builds on the last.
+    with cf.ThreadPoolExecutor(max_workers=a.jobs) as ex:
+        for arm, h in ex.map(lambda j: run_history(a.model, j[0], j[1], version), jobs):
+            print(f"done: {arm} h{h}")
+
+
 # ---------------------------------------------------------------- grading
 
 def neutral_name(m):
@@ -310,17 +396,19 @@ def records_in(raw_name):
 
 
 def all_records():
-    for root, _, files in os.walk(RAW):
+    for root, dirs, files in os.walk(RAW):
+        dirs[:] = [d for d in dirs if d != "folder"]
         for fn in files:
-            if fn.endswith(".json"):
+            if fn.endswith(".json") and fn != "state.json":
                 p = os.path.join(root, fn)
                 yield p, json.load(open(p))
 
 
 def cmd_grade(a):
     tasks = {t["id"]: t for t in TASKS["traps"]}
+    tasks.update({q["id"]: q for q in EDITS["questions"]})
     todo = [(p, tasks[r["task"]]) for p, r in all_records()
-            if r.get("kind") == "traps" and (a.regrade or not r.get("grade") or r["grade"].get("pass") is None)]
+            if r.get("kind") in ("traps", "edit-q") and (a.regrade or not r.get("grade") or r["grade"].get("pass") is None)]
     print(f"{len(todo)} runs to grade.")
     with cf.ThreadPoolExecutor(max_workers=a.jobs) as ex:
         for i, (p, g) in enumerate(ex.map(lambda x: grade_one(*x), todo), 1):
@@ -431,6 +519,37 @@ def cmd_report(_):
                 wins[arm] += 1
                 lines.append(f"| {tid} | {ARMS[arm]} | {why.group(1).strip() if why else ''} |")
         lines += ["", f"{ARMS['c']} picked {wins['c']} times, {ARMS['a']} {wins['a']} times.", ""]
+    eq = [r for r in recs if r.get("kind") == "edit-q"]
+    for model in MODELS:
+        mq = [r for r in eq if r["model"] == model]
+        if not mq:
+            continue
+        lines += [f"## After 10 edits, {model}", "", "Each cell is passing histories out of histories run.", "",
+                  "| Question | " + " | ".join(ARMS[x] for x in "abc") + " |", "|---|" + "---|" * 3]
+        for q in EDITS["questions"]:
+            row = [q["id"]]
+            for arm in "abc":
+                rs = [r for r in mq if r["arm"] == arm and r["task"] == q["id"]]
+                passed = sum(1 for r in rs if (r.get("grade") or {}).get("pass") is True)
+                row.append(f"{passed} of {len(rs)}" if rs else "-")
+            lines.append("| " + " | ".join(row) + " |")
+        lines += ["", "| Version | Cost of the 10 edits | Median total input per edit | Median total input per question |", "|---|---|---|---|"]
+        for arm in "abc":
+            ed = [r for r in recs if r.get("kind") == "edit" and r["model"] == model and r["arm"] == arm]
+            qs = [r for r in mq if r["arm"] == arm]
+            if ed:
+                hs = max(1, len({r["history"] for r in ed}))
+                lines.append(f"| {ARMS[arm]} | ${sum(r.get('cost_usd') or 0 for r in ed) / hs:.2f} per history | "
+                             f"{med([r['total_input'] for r in ed])} | {med([r['total_input'] for r in qs])} |")
+        lines += ["", "Mentions of superseded values left in the folder after the edits. "
+                  "This counts legitimate history too, like \"moved from 2026-12-05,\" so read it as a rough signal.", ""]
+        for root, _, files in os.walk(os.path.join(RAW, "edits", model)):
+            if "state.json" in files:
+                st_ = json.load(open(os.path.join(root, "state.json")))
+                if "stale" in st_:
+                    lines.append(f"- {os.path.relpath(root, os.path.join(RAW, 'edits', model))}: " +
+                                 ", ".join(f"{k} {v}" for k, v in st_["stale"].items()))
+        lines.append("")
     total = sum(r.get("cost_usd") or 0 for r in recs) + sum((r.get("grade") or {}).get("cost_usd") or 0 for r in recs)
     lines += ["## Spend", "", f"${total:.2f} across {len(recs)} runs and their grading.", ""]
     with open(os.path.join(RESULTS, f"report-{SET}.md"), "w") as fh:
@@ -450,6 +569,12 @@ def main():
     r.add_argument("--only", help="comma list of task ids")
     r.add_argument("--jobs", type=int, default=4)
     r.add_argument("--yes", action="store_true")
+    e = sub.add_parser("edits")
+    e.add_argument("--model", choices=list(MODELS), default="sonnet")
+    e.add_argument("--arms", help="comma list of a,b,c")
+    e.add_argument("--histories", type=int, default=1)
+    e.add_argument("--jobs", type=int, default=3)
+    e.add_argument("--yes", action="store_true")
     g = sub.add_parser("grade")
     g.add_argument("--jobs", type=int, default=4)
     g.add_argument("--regrade", action="store_true")
@@ -459,7 +584,7 @@ def main():
     ap.add_argument("--set", choices=list(SETS), default="s15", help="which fixture set (default s15)")
     a = ap.parse_args()
     use_set(a.set)
-    {"plan": cmd_plan, "run": cmd_run, "grade": cmd_grade, "pairs": cmd_pairs, "report": cmd_report}[a.cmd](a)
+    {"plan": cmd_plan, "run": cmd_run, "edits": cmd_edits, "grade": cmd_grade, "pairs": cmd_pairs, "report": cmd_report}[a.cmd](a)
 
 
 if __name__ == "__main__":

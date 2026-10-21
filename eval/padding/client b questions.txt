@@ -1,0 +1,68 @@
+general working notes
+
+stuff that keeps coming back whenever a project starts taking shape. nothing here is a rule, more a pile of nudges for when I'm staring at a blank canvas and feeling slightly lost.
+
+**approach**
+
+- begin with the problem underneath the request. people tend to describe a solution they've already pictured, and the real need is usually tucked behind it. asking what they hoped would change is often more useful than asking what they want made.
+- look hard at what already exists before adding anything. old materials, past work, the way the client talks in their own messages. the existing voice is a free reference and it's easy to walk right past it.
+- work loose and ugly early. rough shapes, bad type, wrong colors. the point is to find out what's wrong quickly, not to impress anybody.
+- keep a running list of things that feel off, even when I can't say why yet. the vague discomfort usually turns into a real insight later on.
+- resist polishing a direction that hasn't earned it. a beautiful version of the wrong idea is the most expensive kind of mistake.
+
+**process, roughly**
+
+the process is less a straight line than a loop. gather, sketch, react, adjust, then back to gathering because the sketches exposed a gap. I used to treat looping back as a failure. now it feels like the actual work. the trick is making each pass cheaper than the previous one, so mistakes get smaller and faster instead of bigger and slower.
+
+I try to keep the thinking visible. a messy board of references, unfinished phrases, screenshots, and scribbles tells me more than a tidy folder ever does.
+
+when I get stuck, the fix is rarely more staring. it's usually changing the medium: pen instead of screen, words instead of shapes, a walk instead of any of it. a different input shakes loose a different answer.
+
+it also helps to explain the work out loud to an imaginary skeptic. if the explanation gets mushy, the design is probably mushy too.
+
+**things to keep in mind**
+
+- a studio this size lives and dies on clarity. there's no backup to catch a vague brief, so vagueness has to be caught early and out loud.
+- write things down in plain language right after a conversation, while the memory is fresh. the details that seem obvious in the moment are the ones that blur fastest.
+- separate taste from function. "I don't like it" and "it doesn't work" are very different pieces of feedback, and it helps to gently sort out which is which.
+- be wary of design by committee. feedback from every direction tends to sand a project down into something safe and forgettable.
+- protect the unglamorous parts: file organization, naming, handoff documents. future me will be grateful, and so will whoever inherits the files.
+- notice energy. some kinds of work go better when I'm fresh, others when I'm winding down, and matching task to state saves a lot of frustration.
+- leave room for the weird idea. it rarely survives intact, but it often bends the safe idea into something better.
+- stay honest about what I don't know. admitting a gap early is cheaper than faking confidence and unwinding it later.
+
+**working with people**
+
+clients rarely want to be taught design. they want to feel understood and to see their own business reflected back in a sharper form. so it helps to speak in their terms, show work in context rather than floating on a white page, and explain choices by tying them to goals they've already named.
+
+showing work in context is underrated. a logo on a mockup of a real shopfront, a layout inside a believable screen, a poster on an actual wall. it lets people react like customers instead of critics.
+
+feedback often arrives in disguise. "make it pop" might mean the hierarchy is muddy. "it feels cold" might be about color, or the copy, or the photography. the useful move is to ask what they were picturing and what feeling they expected, then translate.
+
+silence from a client isn't enthusiasm. sometimes it's confusion wearing a polite face. checking in with a specific, easy question tends to work better than a general "thoughts?"
+
+boundaries are part of the craft too. being clear about what a piece of work includes, and what it doesn't, protects a relationship more than generosity does. generous vagueness breeds resentment quietly.
+
+**open-ended ideas**
+
+- a small library of go-to prompts for discovery conversations, organized by what they tend to uncover: values, fears, audience, rivals, taste.
+- a habit of collecting "almost" work, the directions that got set aside, and revisiting them later. some of them were just early for the project they belonged to.
+- try presenting rough thinking in a more conversational format, like a short recorded walkthrough, so the reasoning travels along with the visuals.
+- build a private archive of problems solved in odd ways. not for copying, just for pattern recognition.
+- explore whether a standard checklist for handoff would save effort or just add ceremony.
+- experiment with constraints as a starting point: a limited palette, a lone typeface, no imagery, only type. see what the limits force.
+- write a plain-language explainer about how the studio works, something that answers the usual newcomer confusion before it starts.
+- keep a "what I'd tell a stranger" paragraph for each project, as a test of whether the idea can be said simply.
+- look at how other crafts handle critique, like woodworking, cooking, or music, and borrow whatever fits.
+
+**small reminders**
+
+- good enough and finished are not the same as perfect and endless.
+- rest the eyes. fresh judgment is a real tool and it wears down.
+- save versions generously, and name files as if a stranger will have to find them.
+- say thank you when feedback is useful, even when it stings.
+- not every project needs to be a portfolio piece. some are just solid work done well, and that counts.
+- curiosity beats technique more often than it should. the people who surprise me are usually just more interested in the subject.
+- when something feels rushed, name it plainly instead of quietly absorbing the pressure.
+
+mostly this is a reminder that the work is about attention. attention to the person, to the material, to the small friction that says something is wrong. tools and trends shift constantly, but attention holds up. if these notes do anything, they should nudge me back toward noticing and away from autopilot.
