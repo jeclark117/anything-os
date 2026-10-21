@@ -60,6 +60,9 @@ ARMS = {"a": "a-loose", "b": "b-rules", "c": "c-os", "empty": "empty"}
 # The floor is the same for every set: an empty folder.
 EMPTY = os.path.join(HERE, "fixtures", "empty")
 GRADER_MODEL = "claude-sonnet-5-5"
+# Grading is a pass/fail check against a written rubric, so a cheaper model can
+# do it. Pick with `grade --grader haiku`. The grader is recorded on every grade.
+GRADERS = {"sonnet": "claude-sonnet-5-5", "haiku": "claude-haiku-4-5-20251001"}
 READ_TOOLS = ["Read", "Glob", "Grep"]
 # Above this many runs, `run` refuses without --yes, so a typo can't spend money.
 CONFIRM_ABOVE = 3
@@ -366,19 +369,19 @@ def grade_prompt(task, rec):
     )
 
 
-def grade_one(path, task):
+def grade_one(path, task, grader=GRADER_MODEL):
     rec = json.load(open(path))
     work = tempfile.mkdtemp(prefix="aos-grade-")
     try:
-        cmd = isolated_cmd(grade_prompt(task, rec), GRADER_MODEL, [], "json")
+        cmd = isolated_cmd(grade_prompt(task, rec), grader, [], "json")
         p = subprocess.run(cmd, cwd=work, capture_output=True, text=True, timeout=300, stdin=subprocess.DEVNULL)
         out = json.loads(p.stdout)
         m = re.search(r"\{.*\}", out.get("result", ""), re.S)
         g = json.loads(m.group(0)) if m else {"pass": None, "reason": "unparseable grader reply"}
-        g.update({"grader": GRADER_MODEL, "blinded": not task.get("tools_extra"),
+        g.update({"grader": grader, "blinded": not task.get("tools_extra"),
                   "cost_usd": out.get("total_cost_usd"), "at": now()})
     except Exception as e:  # keep going, record the failure
-        g = {"pass": None, "reason": f"grader error: {e}", "grader": GRADER_MODEL, "at": now()}
+        g = {"pass": None, "reason": f"grader error: {e}", "grader": grader, "at": now()}
     finally:
         shutil.rmtree(work, ignore_errors=True)
     rec["grade"] = g
@@ -411,7 +414,7 @@ def cmd_grade(a):
             if r.get("kind") in ("traps", "edit-q") and (a.regrade or not r.get("grade") or r["grade"].get("pass") is None)]
     print(f"{len(todo)} runs to grade.")
     with cf.ThreadPoolExecutor(max_workers=a.jobs) as ex:
-        for i, (p, g) in enumerate(ex.map(lambda x: grade_one(*x), todo), 1):
+        for i, (p, g) in enumerate(ex.map(lambda x: grade_one(*x, grader=GRADERS[a.grader]), todo), 1):
             print(f"[{i}/{len(todo)}] {os.path.relpath(p, RAW)}: {'PASS' if g.get('pass') else 'FAIL' if g.get('pass') is False else '??'}  {g.get('reason','')}")
 
 
@@ -578,6 +581,7 @@ def main():
     g = sub.add_parser("grade")
     g.add_argument("--jobs", type=int, default=4)
     g.add_argument("--regrade", action="store_true")
+    g.add_argument("--grader", choices=list(GRADERS), default="sonnet")
     pr = sub.add_parser("pairs")
     pr.add_argument("--model", choices=list(MODELS), default="sonnet")
     sub.add_parser("report")

@@ -1,9 +1,9 @@
 ---
 type: Research
 title: Eval findings
-description: What the eval has shown so far. On Sonnet 5.5, the OS structure made no accuracy difference at 15 or 60 notes, and used more tokens.
+description: What the eval has shown so far. On Sonnet 5.5 the OS made no accuracy difference, at 15 or 60 notes or after 10 edits. It did keep the files themselves current, at about twice the cost per edit.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-10-20T18:51:07-07:00 }
+generated: { by: claude-code/opus-5, at: 2026-10-20T19:34:21-07:00 }
 ---
 
 # Eval findings
@@ -39,15 +39,43 @@ From the s60 pilot, medians per run across the 7 traps:
 
 **The OS opens fewer files on simple lookups and spends more getting there.** For the deadline and insurance questions it opened 1 file, against 3 to 4 for the loose version, because the listings pointed straight at the right note. But following listings costs extra model calls, and every call re-reads the context. So total input was higher, by about 16,000 tokens per run at the median. At 60 notes, searching the loose folder is cheap enough that the listings don't pay for themselves.
 
+## After 10 edits
+
+One history per version, on the 60-note set, Sonnet 5.5, 2026-10-20. Ten updates were applied in order, each in its own session, then 9 questions were asked in fresh sessions.
+
+**Every version answered all 9 questions correctly.** That includes the questions aimed at facts the loose notes repeat in more than one place.
+
+**The files themselves came out very differently.** Here's the to-do list after all 10 edits:
+
+| Version | Client A quote | Insurance | Client A launch |
+|---|---|---|---|
+| Loose | $4,200, current | Still says renew it, though it's paid | 2027-01-23, current |
+| Loose plus rules | **$4,000, stale** | **Still says renew it** | **12/5, two moves out of date** |
+| OS | $4,200, current | Removed | 2027-01-23, current |
+
+The capacity note shows the same pattern. The rules version still says the studio is booked until December 5. The other two are current.
+
+**So Sonnet got the answers right by reconstructing them at read time.** It read the dated notes, worked out which was newest, and ignored the stale lines. The OS did that work at write time instead. Across the 10 edits, it made 49 changes to existing files, against 11 for the loose version and 8 for the loose plus rules version.
+
+**That upkeep roughly doubled the cost of editing.** The 10 edits cost $1.43 in the OS against $0.61 for loose notes, at list price. Answering questions afterward cost about the same in all three.
+
+**What this means:**
+- **The OS doesn't make a strong model answer better.** It makes the files true. That matters to anyone who reads one file without reconstructing the history: a person opening the to-do list, a weaker model, or a quick lookup.
+- **Reconstructing at read time gets more expensive as notes get longer.** At 12 words a note, it's nearly free. At the lengths in the vault this came from, it may not be. That's the next test, and the long-note set exists for it.
+- **The rules on their own kept files the worst.** One run can't say why. One guess: "don't invent anything" pushes the agent toward adding new lines instead of correcting old ones. It's worth watching in more runs, because it cuts against shipping the rules without the structure.
+- **One history per version.** Treat all of this as the shape of the result, not a measurement.
+
+**Grading note:** Haiku graded these 27 answers. It failed one that should have passed: the loose version's to-do answer listed sending the $4,200 quote as open, which is correct, and Haiku read it as the $4,000 quote. Sonnet regraded it as a pass, and the overruled grade is kept in the result file. Every other Haiku grade was spot-checked against its answer and holds.
+
 ## What this means for the template
 
 - **Don't claim the structure makes answers more accurate.** At these sizes, on this model, it doesn't.
 - **The README's "why bother" section needs rewriting.** It says an agent treats a repeated guess as fact. In this test, it didn't, even in loose notes, as long as the note said the client would think about it.
 - **What's left untested is where any real benefit would be:**
-  - **Upkeep over time.** Every fixture here was written cleanly and all at once. The OS's claim is that it keeps notes current as they change. Loose notes in real life go stale, and nothing here measured that.
+  - **Upkeep over time.** Tested in a first pass. See "After 10 edits" above.
   - **Weaker models.** Sonnet 5.5 may be strong enough not to need the help. A smaller model might.
   - **Usefulness.** The blind side-by-side picks haven't run.
 
 ## Spend
 
-About $6 at list price across both pilots and their grading, counted against Joseph's plan usage rather than billed.
+About $6 at list price across the trap pilots and their grading, plus about $9 for the edit simulation, the padding, and their grading, counted against Joseph's plan usage rather than billed.
