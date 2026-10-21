@@ -1,0 +1,34 @@
+{
+ "1": {
+  "arm": "b",
+  "task": "a10-clienta-invoice"
+ },
+ "2": {
+  "arm": "b",
+  "task": "a9-clienth"
+ },
+ "3": {
+  "arm": "c",
+  "task": "a10-clienta-invoice"
+ },
+ "4": {
+  "arm": "c",
+  "task": "a11-recurring"
+ },
+ "5": {
+  "arm": "c",
+  "task": "a3-week"
+ },
+ "6": {
+  "arm": "c",
+  "task": "a2-clientb-start"
+ },
+ "7": {
+  "arm": "a",
+  "task": "a5-2027-plan"
+ },
+ "8": {
+  "arm": "a",
+  "task": "a9-clienth"
+ }
+}

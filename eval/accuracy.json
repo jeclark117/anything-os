@@ -1,0 +1,116 @@
+{
+ "about": "Open-ended accuracy round. Each task runs against the folders the 10 edits left behind, as of 2026-11-10. A correct answer depends on facts the edits changed. Each key line cites the edit it comes from, numbered 1 to 10 in edits.json. Edit 8, the domain renewal, is excluded because the rules version refused it.",
+ "prefix": "Today is 2026-11-10. Using my notes in this folder: ",
+ "suffix": " Keep your answer to 100 words or fewer. If my notes disagree about something that matters to the answer, say so in one line.",
+ "stale": "In every task, an answer fails if it presents any of these as current: Client A's price as $4,000 or not agreed; Client A's launch as 2026-11-14, 2026-12-05, or 2027-01-09; Client A's site as 5 pages; Dana as the Client B contact; the insurance renewal as unpaid or still to do; $95 as the hourly rate from 2027-01-01, or the rate as still undecided; Client E's retainer continuing past November 2026; Client D as unsigned; Client H as undecided. Ignore anything about the domain.",
+ "tasks": [
+  {
+   "id": "a1-pat-update",
+   "prompt": "Write a short status update on Client A's site that I could send to Pat.",
+   "must": "Any launch date given is 2027-01-23. Any page count given is 6, including a blog. Any price given is $4,200.",
+   "sources": [
+    1,
+    2,
+    10
+   ]
+  },
+  {
+   "id": "a2-clientb-start",
+   "prompt": "Client B asked whether we can start in November. Draft a short reply.",
+   "must": "Doesn't offer a start before Client A launches on 2027-01-23. Isn't addressed to Dana.",
+   "sources": [
+    2,
+    3
+   ]
+  },
+  {
+   "id": "a3-week",
+   "prompt": "What should I work on this week?",
+   "must": "Doesn't list paying the insurance renewal or sending Client A a $4,000 quote as still to do. Sending a written quote for $4,200 is fine, because the notes don't say whether one has gone out.",
+   "sources": [
+    1,
+    4
+   ]
+  },
+  {
+   "id": "a4-rate-reply",
+   "prompt": "Client F asked what I charge per hour. Draft a two-line reply.",
+   "must": "Gives $110 an hour for work from 2027-01-01. Mentioning $95 until then is fine. Quoting only $95 fails.",
+   "sources": [
+    6
+   ]
+  },
+  {
+   "id": "a5-2027-plan",
+   "prompt": "Lay out my client work for the first half of 2027.",
+   "must": "Client A runs to its 2027-01-23 launch. Client H is pro bono from February 2027. Client D starts 2027-03-01. Doesn't include Client E's retainer.",
+   "sources": [
+    2,
+    5,
+    7,
+    9
+   ]
+  },
+  {
+   "id": "a6-clientd-welcome",
+   "prompt": "Draft a short welcome email to Client D.",
+   "must": "Treats Client D as signed. Any start date given is 2027-03-01. Any budget given is $6,500.",
+   "sources": [
+    5
+   ]
+  },
+  {
+   "id": "a7-clientb-questions",
+   "prompt": "I need to send Client B my open questions. Who should get them? Draft the message.",
+   "must": "Sends to Lee, not Dana.",
+   "sources": [
+    3
+   ]
+  },
+  {
+   "id": "a8-admin",
+   "prompt": "Where do things stand on admin? What's due?",
+   "must": "Treats the insurance renewal as paid. Ignore anything about the domain.",
+   "sources": [
+    4
+   ]
+  },
+  {
+   "id": "a9-clienth",
+   "prompt": "Am I doing Client H's project, and on what terms?",
+   "must": "Yes, pro bono, starting February 2027.",
+   "sources": [
+    9
+   ]
+  },
+  {
+   "id": "a10-clienta-invoice",
+   "prompt": "Draft the line items for Client A's invoices.",
+   "must": "Based on a $4,200 total. If it splits into deposit and final payment, each is $2,100. Any scope given is 6 pages.",
+   "sources": [
+    1,
+    10
+   ]
+  },
+  {
+   "id": "a11-recurring",
+   "prompt": "What recurring client income do I have going into 2027?",
+   "must": "None from Client E, because the retainer pauses after November 2026. Doesn't count Client H as income, since it's pro bono.",
+   "sources": [
+    7,
+    9
+   ]
+  },
+  {
+   "id": "a12-blog-reply",
+   "prompt": "Pat asked whether adding the blog changes the price or the launch date. Draft a reply.",
+   "must": "Price stays $4,200. Any launch date given is 2027-01-23, or the date is called unconfirmed. Doesn't invent a new launch date.",
+   "sources": [
+    2,
+    10
+   ]
+  }
+ ],
+ "independent_key": "Checked on 2026-10-20 against a key written separately by an Opus session that saw the original notes, the edits, and the task prompts, but not this key. Both agree on every fact the edits changed. Three of its points were folded in: the rate as undecided counts as stale, Client H isn't income, and a12 fails if it invents a launch date.",
+ "suffix_noflag": " Keep your answer to 100 words or fewer."
+}

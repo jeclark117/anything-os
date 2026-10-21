@@ -12,6 +12,9 @@ whether each answer passed, how much context it used, and what it cost.
   python3 eval/aos_eval.py grade                      grade every ungraded trap run
   python3 eval/aos_eval.py pairs                      build the blind side-by-side file
   python3 eval/aos_eval.py report                     write results/report.md
+  python3 eval/aos_eval.py --set s60long accuracy run --yes   open-ended tasks on the edited folders
+  python3 eval/aos_eval.py --set s60long accuracy grade       two graders, against accuracy.json
+  python3 eval/aos_eval.py --set s60long accuracy review      Joseph's sheet: splits plus a sample
 
 Every run happens in a fresh temporary copy of a fixture, outside any vault,
 with a fixed tool list, no MCP servers, no user settings, and no saved session.
@@ -56,7 +59,9 @@ use_set("s15")
 CHECKER = os.path.join(os.path.dirname(HERE), "scripts", "okf_check.py")
 
 MODELS = {"sonnet": "claude-sonnet-5-5", "opus": "claude-opus-5-5"}
-ARMS = {"a": "a-loose", "b": "b-rules", "c": "c-os", "empty": "empty"}
+ARMS = {"a": "a-loose", "b": "b-rules", "c": "c-os", "d": "d-os-conventions", "empty": "empty"}
+# d exists only in the long-note set: the OS plus the template's conventions.md,
+# added 2026-10-21 to test the write-time conflict rule.
 # The floor is the same for every set: an empty folder.
 EMPTY = os.path.join(HERE, "fixtures", "empty")
 GRADER_MODEL = "claude-sonnet-5-5"
@@ -448,6 +453,166 @@ def cmd_pairs(a):
     print(f"Wrote results/pairs-{SET}.md with {len(key)} pairs. The key is in results/pairs-{SET}-key.json.")
 
 
+# ---------------------------------------------------------------- accuracy
+
+# Open-ended tasks, asked against the folders the 10 edits left behind and
+# graded against a key written before the run. Usefulness is measured as
+# accuracy, because a reader judging answers blind can't spot a confident
+# wrong one. Tasks and key are in accuracy.json.
+ACC = json.load(open(os.path.join(HERE, "accuracy.json")))
+ACC_GRADERS = ("sonnet", "opus")
+
+
+# The "noflag" variant drops the line asking the answer to flag conflicting
+# notes, to test whether that one instruction is doing the OS's job.
+VARIANT = ""
+
+
+def acc_path(model, arm, task_id):
+    return os.path.join(RAW, "accuracy" + (f"-{VARIANT}" if VARIANT else ""), model, arm, f"{task_id}.json")
+
+
+def acc_run_one(model, arm, task, version):
+    path = acc_path(model, arm, task["id"])
+    if os.path.exists(path):
+        return path, "skipped"
+    folder = os.path.join(edit_dir(model, arm, 1), "folder")
+    if not os.path.isdir(folder):
+        sys.exit(f"No edited folder at {folder}. Run `edits` first.")
+    work = tempfile.mkdtemp(prefix="aos-eval-acc-")
+    try:
+        notes = os.path.join(work, "notes")
+        shutil.copytree(folder, notes)
+        prompt = ACC["prefix"] + task["prompt"] + ACC["suffix_" + VARIANT if VARIANT else "suffix"]
+        rec, raw = run_session(prompt, model, READ_TOOLS, notes)
+    finally:
+        shutil.rmtree(work, ignore_errors=True)
+    rec.update({"kind": "accuracy", "set": SET, "model": model, "arm": arm, "task": task["id"], "variant": VARIANT or "flag",
+                "prompt": prompt, "words": len(rec["answer"].split()), "claude_version": version, "at": now()})
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    json.dump(rec, open(path, "w"), indent=1)
+    open(path[:-5] + ".jsonl", "w").write(raw)
+    return path, "ok" if not rec["is_error"] else "error"
+
+
+def acc_grade_prompt(task, rec):
+    edits = "\n".join(f"- {EDITS['edits'][i - 1]}" for i in task["sources"])
+    return (
+        "You are grading one answer from an AI assistant for factual accuracy against a fixed key. "
+        "Ignore style, tone, length, and formatting. An answer that reads well but states one wrong fact fails.\n\n"
+        f"It is 2026-11-10. The user asked: \"{task['prompt']}\"\n\n"
+        f"These updates, recorded in the user's notes, settle the facts:\n{edits}\n\n"
+        f"A correct answer: {task['must']}\n\n{ACC['stale']}\n\n"
+        "Facts the key doesn't cover don't count against the answer, unless they contradict the updates above.\n\n"
+        f"The assistant's answer:\n\n<answer>\n{blind(rec['answer'])}\n</answer>\n\n"
+        'Reply with only a JSON object and nothing else: {"pass": true or false, "reason": "one sentence naming any wrong fact"}'
+    )
+
+
+def acc_grade_one(path, task, grader):
+    rec = json.load(open(path))
+    work = tempfile.mkdtemp(prefix="aos-grade-")
+    try:
+        p = subprocess.run(isolated_cmd(acc_grade_prompt(task, rec), MODELS[grader], [], "json"),
+                           cwd=work, capture_output=True, text=True, timeout=300, stdin=subprocess.DEVNULL)
+        out = json.loads(p.stdout)
+        m = re.search(r"\{.*\}", out.get("result", ""), re.S)
+        g = json.loads(m.group(0)) if m else {"pass": None, "reason": "unparseable grader reply"}
+        g.update({"grader": MODELS[grader], "cost_usd": out.get("total_cost_usd"), "at": now()})
+    except Exception as e:  # keep going, record the failure
+        g = {"pass": None, "reason": f"grader error: {e}", "grader": MODELS[grader], "at": now()}
+    finally:
+        shutil.rmtree(work, ignore_errors=True)
+    rec = json.load(open(path))
+    rec.setdefault("grades", {})[grader] = g
+    json.dump(rec, open(path, "w"), indent=1)
+    return path, grader, g
+
+
+def acc_records(model):
+    for arm in "abc":
+        for t in ACC["tasks"]:
+            p = acc_path(model, arm, t["id"])
+            if os.path.exists(p):
+                yield arm, t, json.load(open(p))
+
+
+def cmd_accuracy(a):
+    global VARIANT
+    VARIANT = a.variant
+    tasks = {t["id"]: t for t in ACC["tasks"]}
+    if a.step == "run":
+        todo = [(arm, t) for arm in a.arms.split(",") for t in ACC["tasks"]
+                if not os.path.exists(acc_path(a.model, arm, t["id"]))]
+        print(f"{len(todo)} runs not done yet.")
+        if len(todo) > CONFIRM_ABOVE and not a.yes:
+            sys.exit(f"More than {CONFIRM_ABOVE} runs. Add --yes to spend the money.")
+        version, cost = claude_version(), 0.0
+        with cf.ThreadPoolExecutor(max_workers=a.jobs) as ex:
+            for i, (path, status) in enumerate(ex.map(lambda j: acc_run_one(a.model, j[0], j[1], version), todo), 1):
+                rec = json.load(open(path))
+                cost += rec.get("cost_usd") or 0
+                print(f"[{i}/{len(todo)}] {rec['arm']} {rec['task']}: {status}  {rec['words']} words  (round ${cost:.2f})")
+    elif a.step == "grade":
+        todo = [(acc_path(a.model, arm, t["id"]), t, g) for arm, t, r in acc_records(a.model)
+                for g in ACC_GRADERS if (r.get("grades") or {}).get(g, {}).get("pass") is None]
+        print(f"{len(todo)} grades to do.")
+        with cf.ThreadPoolExecutor(max_workers=a.jobs) as ex:
+            for path, g_name, g in ex.map(lambda x: acc_grade_one(*x), todo):
+                print(f"{os.path.relpath(path, RAW)} {g_name}: {'PASS' if g.get('pass') else 'FAIL' if g.get('pass') is False else '??'}  {g.get('reason', '')}")
+    elif a.step == "review":
+        # Joseph's sheet: every answer where the two graders disagree, plus a
+        # random sample of the rest. Versions are hidden behind item numbers,
+        # and the key sits in a separate file.
+        recs = list(acc_records(a.model))
+        split = [x for x in recs if len({(x[2].get("grades") or {}).get(g, {}).get("pass") for g in ACC_GRADERS}) > 1]
+        rest = [x for x in recs if x not in split]
+        rng = random.SystemRandom()
+        items = split + rng.sample(rest, min(len(rest), max(6, len(recs) // 5)))
+        rng.shuffle(items)
+        out = ["# Accuracy review", "",
+               "For each answer, check it against the updates and the key, and write right or wrong. "
+               "Items marked **graders split** are the ones that need you. The rest are a random sample, "
+               "to check the graders. Don't open the key file until you're done.", ""]
+        key = {}
+        for n, (arm, t, r) in enumerate(items, 1):
+            key[str(n)] = {"arm": arm, "task": t["id"]}
+            gs = r.get("grades") or {}
+            flag = " (graders split)" if (arm, t, r) in split else ""
+            out += [f"## Item {n}{flag}", "", f"> {t['prompt']}", "",
+                    "**Updates:** " + " ".join(EDITS["edits"][i - 1] for i in t["sources"]), "",
+                    f"**Key:** {t['must']}", "", "**Answer:**", "", blind(r["answer"]).strip(), ""]
+            for g in ACC_GRADERS:
+                gr = gs.get(g, {})
+                out.append(f"- {g}: {'pass' if gr.get('pass') else 'fail' if gr.get('pass') is False else '?'}. {gr.get('reason', '')}")
+            out += ["", "**Right or wrong:** ", "", "**Note:** ", "", "---", ""]
+        open(os.path.join(RESULTS, f"accuracy-review-{SET}{VARIANT}.md"), "w").write("\n".join(out))
+        json.dump(key, open(os.path.join(RESULTS, f"accuracy-review-{SET}{VARIANT}-key.json"), "w"), indent=1)
+        print(f"Wrote results/accuracy-review-{SET}{VARIANT}.md: {len(split)} split, {len(items) - len(split)} sampled.")
+    elif a.step == "report":
+        lines = [f"# Accuracy, {SET}, {a.model}, {VARIANT or 'flag'}", "",
+                 "Pass means both graders passed it. Split means they disagreed.", "",
+                 "| Task | " + " | ".join(ARMS[x] for x in "abc") + " |", "|---|---|---|---|"]
+        cell, tot = {}, {x: [0, 0, 0] for x in "abc"}
+        for arm, t, r in acc_records(a.model):
+            ps = {(r.get("grades") or {}).get(g, {}).get("pass") for g in ACC_GRADERS}
+            v = "pass" if ps == {True} else "fail" if ps == {False} else "split"
+            cell[(t["id"], arm)] = v
+            tot[arm][["pass", "fail", "split"].index(v)] += 1
+        for t in ACC["tasks"]:
+            lines.append(f"| {t['id']} | " + " | ".join(cell.get((t["id"], x), "-") for x in "abc") + " |")
+        lines += ["", "| Version | Pass | Fail | Split | Median words | Median total input | Cost |", "|---|---|---|---|---|---|---|"]
+        for x in "abc":
+            rs = [r for arm, _, r in acc_records(a.model) if arm == x]
+            if rs:
+                lines.append(f"| {ARMS[x]} | {tot[x][0]} | {tot[x][1]} | {tot[x][2]} | {med([r['words'] for r in rs])} | "
+                             f"{med([r['total_input'] for r in rs])} | ${sum(r.get('cost_usd') or 0 for r in rs):.2f} |")
+        grading = sum((g.get("cost_usd") or 0) for _, _, r in acc_records(a.model) for g in (r.get("grades") or {}).values())
+        lines += ["", f"Grading cost ${grading:.2f}.", ""]
+        open(os.path.join(RESULTS, f"report-accuracy-{SET}{VARIANT}.md"), "w").write("\n".join(lines))
+        print("\n".join(lines))
+
+
 # ---------------------------------------------------------------- report
 
 def med(xs):
@@ -527,17 +692,18 @@ def cmd_report(_):
         mq = [r for r in eq if r["model"] == model]
         if not mq:
             continue
+        arms_here = [x for x in "abcd" if any(r["arm"] == x for r in mq)]
         lines += [f"## After 10 edits, {model}", "", "Each cell is passing histories out of histories run.", "",
-                  "| Question | " + " | ".join(ARMS[x] for x in "abc") + " |", "|---|" + "---|" * 3]
+                  "| Question | " + " | ".join(ARMS[x] for x in arms_here) + " |", "|---|" + "---|" * len(arms_here)]
         for q in EDITS["questions"]:
             row = [q["id"]]
-            for arm in "abc":
+            for arm in arms_here:
                 rs = [r for r in mq if r["arm"] == arm and r["task"] == q["id"]]
                 passed = sum(1 for r in rs if (r.get("grade") or {}).get("pass") is True)
                 row.append(f"{passed} of {len(rs)}" if rs else "-")
             lines.append("| " + " | ".join(row) + " |")
         lines += ["", "| Version | Cost of the 10 edits | Median total input per edit | Median total input per question |", "|---|---|---|---|"]
-        for arm in "abc":
+        for arm in arms_here:
             ed = [r for r in recs if r.get("kind") == "edit" and r["model"] == model and r["arm"] == arm]
             qs = [r for r in mq if r["arm"] == arm]
             if ed:
@@ -585,10 +751,17 @@ def main():
     pr = sub.add_parser("pairs")
     pr.add_argument("--model", choices=list(MODELS), default="sonnet")
     sub.add_parser("report")
+    ac = sub.add_parser("accuracy")
+    ac.add_argument("step", choices=["run", "grade", "review", "report"])
+    ac.add_argument("--model", choices=list(MODELS), default="sonnet")
+    ac.add_argument("--arms", default="a,b,c")
+    ac.add_argument("--jobs", type=int, default=4)
+    ac.add_argument("--yes", action="store_true")
+    ac.add_argument("--variant", choices=["", "noflag"], default="")
     ap.add_argument("--set", choices=list(SETS), default="s15", help="which fixture set (default s15)")
     a = ap.parse_args()
     use_set(a.set)
-    {"plan": cmd_plan, "run": cmd_run, "edits": cmd_edits, "grade": cmd_grade, "pairs": cmd_pairs, "report": cmd_report}[a.cmd](a)
+    {"plan": cmd_plan, "run": cmd_run, "edits": cmd_edits, "grade": cmd_grade, "pairs": cmd_pairs, "report": cmd_report, "accuracy": cmd_accuracy}[a.cmd](a)
 
 
 if __name__ == "__main__":

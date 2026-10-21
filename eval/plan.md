@@ -3,7 +3,7 @@ type: Reference
 title: Eval plan
 description: How the anything-os eval works, what each trap tests, how results get read, and what it can't show.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-10-20T18:30:08-07:00 }
+generated: { by: claude-code/opus-5, at: 2026-10-20T22:52:40-07:00 }
 ---
 
 # Eval plan
@@ -63,7 +63,9 @@ Each run is a fresh, headless Claude Code session in a temporary copy of the fol
 
 **Tokens per passing answer** combines the two. A cheap wrong answer doesn't count as a saving.
 
-**Usefulness.** Five open-ended tasks: a status update for a client, what to work on this week, a reply to a client, where admin stands, and whether to raise rates. Each is answered from A and C. Joseph sees the answer pairs labeled only 1 and 2, in random order, and picks the one he'd rather receive, with one line on why. The key stays in a separate file until he's done.
+**Usefulness, measured as accuracy.** Five open-ended tasks: a status update for a client, what to work on this week, a reply to a client, where admin stands, and whether to raise rates. Each is answered from A and C. For each task, the facts a correct answer depends on are written down before the run, and a blinded grader counts the wrong or stale facts in each answer. An answer that reads well and states one wrong fact is a failed answer.
+
+This replaced blind preference picks on 2026-10-20. In the first pick round, Joseph preferred the loose answers 4 to 1, including three that stated a stale date as current. He had no way to check the facts, so the picks measured how persuasive an answer was, not whether it was right. See [findings.md](findings.md).
 
 ## How to read it
 
@@ -94,7 +96,7 @@ The evolving folders live in the system temp directory during a run, outside any
 
 - **Whether it holds up over months.** Ten edits in an afternoon is a stand-in for months of real use, not the same thing.
 - **More than one business.** One made-up studio, written by one author. Different notes might behave differently.
-- **Whether Joseph is a fair judge of usefulness.** He knows the OS format well and may be able to tell which answer is which. If he finds he always can, the picks count for less.
+- **Whether an answer reads well.** Accuracy is the measure. A reader judging answers blind can't tell a confident wrong answer from a right one, so preference isn't measured.
 
 ## Cost
 

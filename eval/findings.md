@@ -1,14 +1,18 @@
 ---
 type: Research
 title: Eval findings
-description: What the eval has shown so far. Short notes, no difference. Long notes, the OS read less and cost less, but missed a conflict a loose search caught. After 10 edits, every version answered correctly and the OS kept the most current files, at twice the edit cost.
+description: What the eval has shown so far. The traps showed no accuracy difference. On open-ended tasks with long notes, 3 of 5 loose answers repeated a stale fact and no OS answer did, and a blind human judge couldn't tell which answers were wrong. The OS keeps files current at about twice the edit cost.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-10-20T22:19:15-07:00 }
+generated: { by: claude-code/opus-5, at: 2026-10-21T09:00:53-07:00 }
 ---
 
 # Eval findings
 
-**So far, the structure hasn't earned its place on accuracy.** On Sonnet 5.5, loose notes, loose notes plus rules, and the full OS all passed every trap, at both 15 and 60 notes. The OS used more tokens to get there. These are pilot results, one run per trap per version, so they show the shape and can't settle small differences.
+**On open-ended tasks, the OS answers were accurate and the loose answers weren't.** With long notes, 3 of 5 loose answers repeated a stale fact as current. None of the OS answers did. A person reading those answers blind couldn't tell which ones were wrong, and picked the wrong ones. That makes accuracy the measure of usefulness, and it's the first measure where the OS pulled ahead.
+
+**On the targeted traps, there was no difference.** On Sonnet 5.5, loose notes, loose notes plus rules, and the full OS all passed every trap, at both 15 and 60 notes. The OS used more tokens to get there.
+
+These are pilot results, mostly one run per task per version, so they show the shape and can't settle small differences.
 
 ## Runs so far
 
@@ -135,16 +139,89 @@ The OS's one real weakness, from the long-note pilot, was trusting the first not
 
 **The template now has both items.** `conventions.md` §7 adds a step: before recording a fact, search for other notes that state it, and fix or flag any that disagree. §8's health check now lists contradictions between notes and superseded claims first. A lint pass on long notes isn't cheap, about $2.40 here, so it belongs on a schedule or on request, not on every edit.
 
+## Open-ended tasks, and the blind picks
+
+Five open-ended tasks on the long-note set: a status update for Pat, what to work on this week, a reply to Client B, where admin stands, and whether to raise rates. Each was answered once from the loose version and once from the OS. Sonnet 5.5, 2026-10-20, $4.33.
+
+**Accuracy is the result.** Checked by hand against the notes, after the picks:
+
+| Task | Loose answer | OS answer |
+|---|---|---|
+| u1, status update for Pat | Correct | Correct |
+| u2, this week | **Wrong.** Says Client A's later launch means "you probably have room" for Client B. It means the opposite. | Correct |
+| u3, reply to Client B | **Wrong.** Offers Client B a December 7 start, from the stale capacity note. Client A runs to 2027-01-09. | Correct |
+| u4, admin | **Wrong.** Lists Client A's launch as 2026-12-05, which is stale. | Correct |
+| u5, rates | Correct | Correct |
+
+**Every wrong answer traces to one stale fact.** In the loose notes, the capacity note and the to-do still say Client A launches December 5, and a later note moved it to 2027-01-09. The same model, reading the same notes, caught that conflict in u2's date and in u5, and missed it in u3 and u4. In the OS, the capacity note was updated when the launch moved, so there was nothing stale to repeat.
+
+**Reconstructing at read time works most of the time, and fails silently.** The traps measured whether a model can work out the current state from messy notes, and Sonnet usually can. These tasks show what "usually" costs. Nothing in a wrong answer marks it as wrong. The u3 reply was specific, well reasoned, and offered a start date the business couldn't meet.
+
+**The blind picks showed that a person can't catch it either.** Joseph saw each pair labeled 1 and 2, and picked the one he'd rather receive. He picked the loose answer 4 times out of 5, including all three wrong ones. His reasons were about form: "more structured and thorough," "more clear and structured," "focuses on the important parts." On u3 he noticed the two answers gave different dates, had no way to tell which was right, and chose the one that looked more precise.
+
+His own read afterward: he had no way to verify anything, so he picked on feel, and he doesn't think he was capable of choosing the useful one. That's the finding. Whoever reads an answer usually has the same problem: they don't have the notes in their head and can't check. So the reader can't be the safeguard, and as u2 to u5 showed, neither can the model. The safeguard has to be that the files don't hold the wrong fact. That's what the OS pays for at write time.
+
+**So the picks don't measure usefulness, and the plan has dropped them.** A blind preference measures which answer is more persuasive, and a confident wrong answer is persuasive. Usefulness is now measured as accuracy. See the plan.
+
+**Limits on this result:**
+- **The accuracy check wasn't planned or blind.** No rubric was written for these tasks before the run, and the check was done after unblinding. It needs redoing blind, against facts written down beforehand, before the README leans on it.
+- **One run per task, one stale fact.** All three errors come from the same date. More runs, and more facts that change, would show whether this holds.
+- **The OS version had help.** Its capacity note was written already updated, the same way t1 and t2 favor the OS by design. The "after 10 edits" runs are the fairer test of whether the OS keeps notes current on its own, and there it mostly did.
+
+**Smaller problems with the pick round,** recorded so they don't recur:
+- **Order wasn't balanced.** The shuffle put the OS answer first in all five pairs, which happens by chance 1 time in 16.
+- **The isolation leaked a name.** One loose answer signed off "Joseph," which appears nowhere in the notes. It likely came from the Claude account. It was one of the reasons given for picking that answer.
+- **The blinding itself held.** Joseph guessed which answer was the OS three times and was right once.
+
+## Accuracy round, in progress
+
+**Not folded into the rest of this file yet. Read this before acting on the "Open-ended tasks" section above.**
+
+12 open-ended tasks, run on 2026-10-20 against the folders the 10 edits left behind, so each version had to keep its own notes current. Answers were capped at 100 words. The key is in [accuracy.json](accuracy.json). It was checked against a second key written independently, and the two agreed on every fact the edits changed. Sonnet and Opus graded each answer separately. Joseph reviewed the one split and a random sample of 7.
+
+| Version | Correct |
+|---|---|
+| Loose | 12 of 12 |
+| Loose plus rules | 12 of 12 |
+| OS | 11 of 12, plus 1 too close to call |
+
+**The one disputed answer is a flaw in the key, not a wrong answer.** The OS told Joseph to send Pat a $4,200 quote, when Pat had already agreed to $4,200. Opus failed it and Sonnet passed it. Joseph called Opus "pretty nitpicky" and the result inconclusive. A price agreed verbally may still need a written quote, and the notes don't say whether one went out. The key didn't settle that, so neither grade counts. Joseph agreed with both graders on all 7 sampled answers.
+
+**So all three versions were accurate.** This doesn't back up the "confidently wrong" result above. All three folders still had stale lines, and every version caught them and used the newer fact. There are two likely reasons, and this round can't separate them:
+- **The edits went in as short, dated lines.** Last round's stale fact was buried in a 1,300-word note.
+- **The prompt asked every answer to flag conflicting notes in one line.** That's a rule, and it probably pushed the loose versions to look for conflicts. Joseph agrees it likely did.
+
+**The OS read about 25% fewer tokens,** a median of 75,001 against 104,680 for loose. Its cost per run was about the same, because its answers ran longer. Spend was $15.66, including grading and the independent key.
+
+**The conflict line wasn't doing the work.** On 2026-10-21, the loose version was rerun with the line removed, asking only for 100 words or fewer. It still passed 12 of 12, with both graders agreeing on every answer. It flagged stale notes without being asked in 4 of the 12, and used the newer fact in all of them. Its median input dropped to 71,126 tokens, about the same as the OS. Cost $2.20 for the runs and $1.02 for grading. The key for the week task was also clarified before this run: sending a written $4,200 quote is fine, because the notes don't say whether one went out.
+
+**So the remaining explanation is the first one: the edits were easy to find.** Each went in as a short, dated line, and Sonnet reconciled them against the stale lines without help. The one result where loose notes went confidently wrong came from a stale fact buried in a long note, and the OS had its note updated for it in advance.
+
+**Next session:** rewrite this file once. The headline and "What this means for the template" lean on the "confidently wrong" result, and it hasn't reproduced. The honest summary is that on Sonnet 5.5, at 60 notes, every version stayed accurate after 10 edits. The OS kept its files more current, at about twice the edit cost. The open question is whether a buried update, or a weaker model, changes that. Testing it means writing edits into the middle of long notes, the way real ones land, rather than as short lines.
+
+**Retest of the write-time rule, 2026-10-21.** The eval's OS version had never included `conventions.md`, so the new rule needed its own run. Version D is the long-note OS plus the template's current `conventions.md`, listed in its root `index.md`. One 10-edit history, Sonnet 5.5, compared with the earlier OS run (version C) on the same edits:
+
+| | OS, version C | OS plus conventions, version D |
+|---|---|---|
+| Questions passed after 10 edits | 9 of 9 | 9 of 9 |
+| "Renew insurance" left on the to-do list after it was paid | **Yes** | **No, removed** |
+| Cost of the 10 edits | $2.56 | $3.03 |
+| Median input per question afterward | 56,189 | 57,205 |
+
+**The rule did what it predicted.** Recording the insurance payment led the agent to the to-do list, and it removed the item. Every version before this one, loose or OS, had left it there.
+
+**It costs about 18% more per edit than the OS without it,** and about 2.6 times the loose notes' $1.17. Reading afterward costs the same.
+
 ## What this means for the template
 
-- **Don't claim the structure makes answers more accurate.** At these sizes, on this model, it doesn't.
-- **The README's "why bother" section needs rewriting.** It says an agent treats a repeated guess as fact. In this test, it didn't, even in loose notes, as long as the note said the client would think about it.
+- **Lead with being confidently wrong, not with targeted accuracy.** On the traps, the structure didn't make answers more accurate. On open-ended tasks, loose notes produced confident wrong answers that a reader couldn't spot. That's the case for the OS, once the blind accuracy round confirms it.
+- **The README's "why bother" section needs rewriting.** It says an agent treats a repeated guess as fact. In this test, it didn't, even in loose notes, as long as the note said the client would think about it. The new argument is the one above: a stale note produces an answer that's wrong and looks right, and the person reading it can't tell.
 - **What's left untested is where any real benefit would be:**
   - **Upkeep over time.** Tested in a first pass. See "After 10 edits" above.
   - **Long notes.** Tested in a pilot. See "Long notes" above.
   - **Weaker models.** Sonnet 5.5 may be strong enough not to need the help. A smaller model might.
-  - **Usefulness.** The blind side-by-side picks haven't run.
+  - **Usefulness, measured as accuracy.** One unplanned check so far. See "Open-ended tasks, and the blind picks" above. A blind, rubric-graded round is next.
 
 ## Spend
 
-About $6 at list price across the trap pilots and their grading, plus about $9 for the edit simulation, the padding, and their grading, counted against Joseph's plan usage rather than billed.
+About $6 at list price across the trap pilots and their grading, plus about $9 for the edit simulation, the padding, and their grading, plus $4.33 for the open-ended tasks, counted against Joseph's plan usage rather than billed.
