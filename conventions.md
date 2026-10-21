@@ -62,7 +62,7 @@ generated: { by: claude-code/opus-5, at: 2026-10-20T14:22:05-07:00 }
 - An agent is its tool and model with a slash between them, like `claude-code/opus-5` or `codex/gpt-5`. Use whatever your tool and model actually are. If you don't know your model, use your tool's name and `unknown`, like `cowork/unknown`.
 - An automated process is `process:` plus a name, like `process:weekly-cleanup`.
 
-**When it was written.** `generated.at` is the real current time with a time zone, like `2026-10-20T14:22:05-07:00`. Never use midnight as a stand-in for "sometime that day." If you can't read the clock, ask the person for the time rather than guessing.
+**When it was written.** `generated.at` is the real current time with a time zone, like `2026-10-20T14:22:05-07:00`. It's how you can tell an old note from a fresh one. Never use midnight or any other made-up time as a stand-in for "sometime that day." If you can't read the clock, leave the `generated` line out of that edit rather than guessing. It's optional, and an invented time is worse than none.
 
 ---
 
