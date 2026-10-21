@@ -1,0 +1,86 @@
+working notes
+
+general approach
+
+the work goes best when i treat a project like a conversation instead of a delivery. most of the job is listening, then handing back what i heard in a shape that makes the client say "yes, that's what we meant." skip the listening and the visuals end up pretty but wrong.
+
+things i keep circling back to:
+- name the problem in plain words before opening any design tool. if i can't say what a page is for in a sentence a stranger would follow, the layout won't rescue it.
+- keep early rounds rough on purpose. polished mockups invite polite feedback. rough ones invite candid feedback.
+- write down assumptions. most late trouble traces back to an assumption nobody said out loud.
+- leave room for the project to surprise me. the best ideas rarely arrive on the schedule i planned for them.
+- say less on the page. when in doubt, cut the extra line, the extra color, the extra flourish.
+
+process, loosely
+
+discovery is questions, lots of them. what does the audience already believe, what do they need to believe, what's in the way. i like collecting examples the client loves and examples they can't stand, because the reasons behind the reactions say more than the examples do. mood boards are a conversation starter, not a spec.
+
+structure comes before surface. sketch the skeleton: what lives where, what leads to what, what a confused visitor sees on arrival. paper and whiteboards are good here because nothing on paper looks finished, so nobody gets precious about it. wireframes follow, gray and ugly, focused on hierarchy and flow.
+
+then type and color. type does more heavy lifting than people expect, so it gets real care before any palette does. a restrained palette with a confident accent usually beats a clever scheme. test everything in grayscale too. if the hierarchy collapses without color, the color was covering for a weak layout.
+
+after that, real material goes in. placeholder text lies. as soon as actual words and actual images land, a surprising share of the layout assumptions break, and that's healthy. better to find out in the design file than in the build.
+
+working with clients
+
+- clients are experts in their own business and nervous about design. respect the expertise and soothe the nerves.
+- show the reasoning along with the work. a screen with no story attached gets judged on taste. a screen with a story gets judged on whether it solves the problem.
+- feedback usually arrives as a feeling ("it feels cold"). translate it into something testable before reacting: spacing, contrast, voice, image direction.
+- ask for feedback in a form that's easy to answer. open requests for "thoughts" produce vague replies. specific prompts produce useful ones.
+- watch for committee drift, where a project gets sanded down until nothing offends and nothing lands. the remedy is usually going back to the original problem statement and asking what it actually needs.
+- be clear about what belongs in the current conversation and what is a new conversation. kind, but clear.
+
+the craft side
+
+- spacing is most of the design. generous, consistent spacing makes mediocre components look intentional.
+- build a small system early: type scale, spacing rhythm, some reusable components. it saves me from redrawing the same button over and over.
+- accessibility belongs in the work from the start, not as a cleanup pass. contrast, focus states, readable sizes, sensible reading order. it makes everything better for everybody.
+- motion should explain, not decorate. if an animation doesn't help a person understand what just happened, it's probably noise.
+- images carry mood faster than words. photography and illustration direction are part of the design, not an afterthought.
+- empty states, error messages, loading moments. the unglamorous corners are where a product shows whether anybody cared.
+
+building and handing off
+
+when the build is part of the job, keep the design file and the live result talking to each other. drift between them is where small disappointments pile up. name layers and components so a stranger could pick the file up cold. leave notes inside the file about purpose, not just measurements.
+
+handoff is a deliverable too. a short guide covering how to edit material, what not to break, and where to ask for help does more for a client's confidence than a pile of source files. screen recordings of "here's how you change this" are underrated.
+
+when a project stalls
+
+- go back to the problem statement and read it slowly. half the time the stall is a sign that it drifted.
+- change the medium. if i've been stuck on screen, sketch. if i've been sketching, build something ugly and real.
+- show it to a person who knows nothing about it and watch where their eyes go before they say anything.
+- lower the stakes. make a deliberately bad version, then see what's wrong with it.
+- walk away and come back with a fresh read. the fix is often embarrassingly obvious.
+
+the solo studio part
+
+- the hardest part is having nobody to say "that's not working" at the right moment. build in outside eyes: a trusted peer, a cold read after stepping away, even reading the work out loud.
+- separate making from judging. draft in a loose mood, edit in a stricter mood, and try not to do both at once.
+- protect long stretches of quiet for deep work, and be honest about how much of that quiet the admin side keeps eating.
+- keep a swipe file of things that made me stop scrolling, with a line about why. the why is the useful part.
+- rest is part of the process. the best layout fixes often arrive on a walk, not at the desk.
+- turn down work that's a poor fit more gracefully than feels natural. a mismatch is rough on everybody.
+
+open-ended ideas
+
+- a reusable discovery questionnaire that feels more like an interview than a form.
+- a small library of annotated before-and-after examples to show clients what "refined" actually means.
+- a plain-language glossary for clients so words like "responsive" and "hierarchy" stop causing quiet confusion.
+- experiments with writing the copy and the design together instead of passing text over a wall.
+- a post-project reflection template: what worked, what dragged, what i'd do differently, what the client actually used.
+- portfolio case studies that tell the story of the thinking, not just show the finished screens.
+- informal testing of layouts with real people who aren't designers, because they notice what i've gone blind to.
+- looking at how other small studios explain their process, and noticing which explanations make me trust them.
+- a visual diary of small interface details i admire, sorted by the feeling they create rather than by type.
+- a way to show clients the cost of complexity, so "can we add this too" becomes a real conversation instead of a reflex.
+
+questions to keep asking
+
+- what is this actually for?
+- who gets left out by this layout?
+- what would this look like if it were simpler?
+- what am i adding because it's fun for me rather than useful for them?
+- where is the project quietly telling me what it wants to be?
+
+keep these as a loose list on a card near the desk. not a rule set, just a way of getting unstuck when a project goes foggy.

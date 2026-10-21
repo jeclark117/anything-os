@@ -1,0 +1,93 @@
+taxes 2025
+
+working notes, general
+
+**approach**
+
+start with the problem, not the layout. it's tempting to open the canvas straight away because making marks feels like progress, but the thinking before the marks is where most of the leverage lives. what is the thing for, who meets it, what are they doing when they meet it, and what should they feel or do afterward? a poster read at a bus stop is a different animal from a poster read across a desk.
+
+work out loud on paper before the screen. rough boxes, arrows, ugly lettering. paper is forgiving and nobody expects it to be good, which is exactly why ideas come out more honestly there.
+
+keep the brief honest. clients often describe a solution when what they really mean is a problem. "we need a new logo" can mean "people don't understand what we do." it's worth gently digging for the underlying want, because the surface request is rarely the whole story.
+
+prefer fewer, stronger ideas over a pile of weak ones. a wall of variations can be a way of avoiding a point of view. a design that stands for something is easier to defend, easier to refine, and easier to remember.
+
+**process**
+
+- gather references widely, then throw most of them away. the point is to find the feeling, not to copy a look
+- build a small kit early: a restrained palette, a type pairing, a spacing rhythm. constraints make later choices faster and the whole thing more coherent
+- stay low fidelity for as long as possible. grayscale, rough shapes, honest placeholders, then swap in real content the moment it exists. real content breaks tidy layouts, and it's better to find that out early
+- show rough work in context rather than in a void. a mark floating on white tells you little; the same mark on a door, a screen, a receipt, a tote bag tells you plenty
+- step away and come back with fresh eyes. things that looked clever in the moment often look fussy after a walk
+- run the squint test, the distance test, the tiny-size test. if the idea survives all of those it's probably sturdy
+- read the copy aloud. awkward phrasing shows up in the mouth before it shows up in the eye
+- check the work on the cheapest screen and the worst print conditions available, not just the best monitor in the room
+
+**working with feedback**
+
+feedback is information about a reaction, not an instruction about a fix. when a client says "make it pop," the useful move is to ask what isn't landing. often the real issue is hierarchy or contrast or clarity, and the fix looks nothing like what was literally requested.
+
+filed 2026-04-10 through the accountant
+
+separate taste from function. some comments are personal preference, and some point at genuine usability trouble. sorting them before reacting saves a lot of needless reworking.
+
+explain the reasoning in plain language tied to the goals of the brief. "this works because it makes the main action obvious" lands better than "i like it." and if the reasoning can't be put in plain words, that's a signal to look harder at the choice.
+
+stay curious when a reaction stings. the strongest objections sometimes carry the most useful insight, and defensiveness is a poor design tool.
+
+**things to keep in mind**
+
+- running a studio solo means wearing every hat: designer, bookkeeper, salesperson, janitor of the file system. each hat deserves some protected attention or it gets quietly neglected until it becomes a problem
+- name files as though a stranger will need to find them. future me is basically a stranger
+- keep source files tidy: layers named, styles shared, assets linked instead of scattered across folders
+- back things up in places that don't share a fate. a backup next to the original is a comfort, not a safeguard
+- keep a running log of why choices were made on a project, brief and plain. memory is unreliable, and questions about "why did we do it that way" tend to arrive long after the reasons have faded
+- accessibility is a baseline, not a bonus: contrast, legible sizes, not leaning on color alone to carry meaning
+- be wary of trends. borrowed trends age quickly, and what feels fresh to a designer often reads as noise to everybody else
+- rest matters. tired eyes make muddy choices, and muddy choices are expensive to untangle
+- scope drifts quietly. notice the moment a small favor turns into real work, and talk about it plainly and early rather than letting resentment build on either side
+- not every project deserves the same energy, but every project deserves honesty about how much energy it's getting
+
+**admin habits worth considering**
+
+paperwork is far easier when it's captured as it happens instead of reconstructed from memory afterward. a quick note on what a purchase was for, a receipt dropped in the right place, an invoice recorded while the details are fresh. a folder structure that mirrors how things are actually used beats an elaborate system that never gets maintained.
+
+a short, regular tidy tends to beat an occasional heroic cleanup. the heroic cleanup is miserable and usually incomplete.
+
+it also helps to keep business records separate from creative files, so that neither has to wade through the other when something is needed in a hurry.
+
+**open-ended ideas**
+
+- a personal library of small experiments with no client attached: type specimens, texture studies, color studies, odd grids. a place to play without consequences, which often feeds the paid work in unexpected ways
+- an archive of rejected directions. sometimes a idea that was wrong for a project turns out to be right for another, and it's a shame to lose it
+- documenting process in public in an honest, unpolished way, showing wrong turns along with the final result
+- exploring print more deeply: paper stock, folds, finishes, tactile surprises that a screen can't offer
+- using constraints as exercises: a lone typeface and a lone accent color, or only shapes built from circles, or no imagery at all
+- collaborating with makers outside the studio, like printers, illustrators, writers, developers, and seeing what the friction produces
+- reusable templates for proposals, handoff documents, and case studies, so the repetitive parts stop eating creative time
+- looking at how other fields solve clarity problems: wayfinding, architecture, cooking, instruction manuals, maps
+- thinking about motion and sound, and how a piece feels as it unfolds in time rather than as a still frame
+- presenting work as a story with a beginning, a turning point, and an outcome, rather than as a gallery of finished frames
+- a ritual for closing out a project so it feels finished: a tidy handoff, a short retrospective, a note of thanks
+- asking what the studio wants to be known for, and whether the current work points in that direction or somewhere adjacent
+
+**small reminders**
+
+- whitespace is a material, not leftover space
+- hierarchy first, decoration later
+- if everything is emphasized, nothing is
+- consistency builds trust, and small inconsistencies quietly erode it
+- name the feeling before choosing the typeface
+- good and shipped usually beats perfect and hidden
+- a design that needs a long explanation is probably still unfinished
+- curiosity is a renewable resource, but only if it gets fed
+- the client's audience is the real audience; the client is a very important guide to them, not a substitute for them
+- ask better questions before producing better answers
+
+**loose thoughts**
+
+there's a recurring tension between craft and speed. craft rewards patience and attention to tiny details nobody consciously notices. speed rewards momentum and keeps projects from stalling. the trick may be knowing which details are load-bearing and which are decoration, and spending care accordingly.
+
+another tension: being a generalist versus having a signature. a signature makes the studio recognizable and easier to hire for the right reasons. generalism keeps the work fresh and the studio flexible. maybe the answer is a consistent attitude rather than a consistent look.
+
+and a quieter one: working solo is freeing and isolating in equal measure. it might be worth finding ways to get outside perspective regularly, whether from peers, mentors, or just a trusted friend willing to say "i don't get it." fresh eyes are cheap compared with the cost of shipping a blind spot.

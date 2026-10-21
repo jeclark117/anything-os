@@ -1,0 +1,96 @@
+equipment
+
+working notes
+
+**how i come at things**
+
+i try to start from the problem rather than the look. most of the early effort goes into working out what a piece of work is supposed to do for the people who end up meeting it, and the visual side mostly falls out of that if the groundwork is solid. when i skip straight to styling i end up redoing it anyway once the real question shows up.
+
+- ask what the work is for before asking what it should look like
+- find out who will actually be looking at it, and in what situation
+- put the idea into plain words before drawing anything
+- keep early rounds rough on purpose so nobody (me included) gets attached to polish too soon
+- notice what the brief leaves out. the gaps are usually where the interesting choices hide
+
+working solo means wearing every hat. that's a strength and a trap. the strength is that nothing gets lost in a handoff, so the thinking stays coherent from brief through delivery. the trap is that there's no built-in pushback, so i have to invent ways of disagreeing with myself. a habit that helps: write down the strongest objection a skeptical stranger would raise, then see whether the work answers it.
+
+**process, loosely**
+
+not a rigid pipeline, more a rhythm that loops back on itself.
+
+- soaking it in. read whatever the client sends, then read around it. how does their audience talk, what do they grumble about, what do they praise without being asked
+- gathering references without copying. collect widely, then ask what each reference is doing rather than what it looks like
+- sketching badly and fast. paper still wins for speed. ugly thumbnails are cheap and show what the structure wants to be
+- narrowing to directions that are genuinely different from each other, not variations of the same idea in new colors
+- testing in context. a mark or a layout in isolation lies. put it on the real thing, in the real setting, at the size people will meet it
+- stepping away until the work looks unfamiliar, then coming back with a colder eye
+- tidying files and naming things properly while the logic is still fresh, because future me is a stranger who forgets everything
+
+there's a recurring pattern where the work feels worst right in the middle. it's usually a sign that the rough idea has run out of road and the real craft is about to start, not a sign that it's failing. worth remembering when the urge to bail on a direction shows up.
+
+**working with clients**
+
+- clients usually describe solutions when what they really have is a problem. "make the logo bigger" is a symptom. ask what's happening that makes bigger seem like the cure
+- show the reasoning along with the work. people accept an unfamiliar choice far more readily when they can see the path that led there
+- present fewer options with stronger conviction. a wide menu invites taste-testing instead of thinking
+- vague feedback ("it needs more pop") is still information. translate it back into a question about feel or priority
+- keep a record of why a direction was picked. it saves arguments later when memories drift
+- be upfront early about what's flexible and what isn't. surprises are expensive for everybody
+
+**things to keep in mind**
+
+- restraint is a skill. removing the part that's almost working often improves the whole
+- hierarchy first, decoration after. if the eye doesn't know where to land, no amount of finish rescues it
+- spacing does more work than it gets credit for. when a layout feels off, check the gaps before touching anything else
+- type carries personality faster than color does. treat typeface choice as a major move, not a finishing touch
+- accessibility isn't an add-on. contrast, legibility, and clear structure are part of whether the work functions at all
+- constraints are friends. a tight palette, a limited set of shapes, a rule about what's allowed: they speed up work and give it identity
+- the thing that's hard to explain is often the thing worth keeping. don't sand off every odd edge
+- good work is quiet about its effort. the audience should feel clarity, not labor
+- protect the boring parts: backups, tidy naming, version history. losing a stretch of work to a careless mistake hurts more than any creative setback
+- rest is part of the job. tired judgment produces tidy, safe, forgettable results
+
+**revising and finishing**
+
+finishing is its own skill, not just more of the middle. the middle is about exploring; the end is about care. that means looking at edges, alignments, awkward line breaks in text, how things behave when copy runs longer or shorter than expected, what happens when an image fails to load, and what a stranger sees when they land on it with no context.
+
+- read everything out loud. awkward phrasing shows up in the mouth before it shows up to the eye
+- look at the work squinted, upside down, or very small to check the structure without the details
+- check the unglamorous states: empty, error, loading, too much text, too little
+- ask what would be embarrassing if a sharp-eyed person pointed it out, and fix that
+- know when to stop. there's a point where more tweaking makes the work worse, and it's usually earlier than it feels
+
+**on inspiration**
+
+inspiration is mostly a byproduct of paying attention. the useful sources are rarely other design work. signage in odd places, packaging from far away, old manuals, handwriting, the way worn objects show how they were used. a mind that has been feeding on varied material has more to combine. when stuck, change the input rather than forcing the output: go for a walk, read something unrelated, rearrange the room, make the thing in a different medium than usual.
+
+**staying sane as a solo studio**
+
+- keep some kind of boundary between work space and the rest of life, even if it's only a habit rather than a room
+- batch the admin so it doesn't leak into thinking space
+- say no to work that clearly doesn't fit. it clogs the pipeline for work that does
+- keep a running list of lessons from each project, short and candid, and reread it before starting something new
+- find outside eyes: other designers, friendly critics, people outside the field. fresh readers catch what familiarity hides
+- avoid comparing the studio to bigger outfits. different shape, different advantages: speed, directness, a personal touch
+
+**open ideas, unsorted**
+
+- build a small library of reusable thinking prompts, not templates: questions to ask at the start of any project, questions to ask when stuck
+- try writing the case study before the work is finished, as a way to see whether the story holds together
+- make something purely for the pleasure of it, with no brief, and see what habits show up when nobody is asking
+- a personal archive of textures, sounds, and scraps from the physical world that can seed future work
+- explore teaching or writing about the process. explaining a method is a good test of whether it's really understood
+- look at how other crafts handle critique (cooking, carpentry, music) and borrow rituals
+- develop a better way to show work-in-progress so clients feel included without feeling they must judge unfinished things
+- a habit of post-project reflection: what surprised me, what stayed hard, what i'd quietly change
+- sketch a "studio voice" document describing how the studio sounds in emails, proposals, and invoices, so the voice feels deliberate
+- think about collaborating with specialists: illustrators, writers, developers, photographers. the studio stays small but the reach doesn't have to
+- try a deliberately odd constraint, like only shapes with no curves, just to see what breaks open
+- keep a folder of rejected ideas. they often come back in a better form
+
+**closing thought**
+
+the work that holds up usually comes from clear thinking, patient iteration, and a willingness to leave things out. the habits around the work matter more than anything else, so it's worth looking after them.
+
+laptop bought 2025
+second monitor

@@ -1,0 +1,89 @@
+client h
+
+general working notes
+
+loose, add to as stuff comes up. mostly reminders to myself about how i like to work and what i keep forgetting.
+
+**approach**
+
+- hear people out before proposing anything. the stated request is usually a symptom, and the real problem leaks out in the offhand remarks, the sighs, the thing they say right before apologizing for rambling.
+- get plain-language answers about what success would look like. a vague answer is still useful information.
+- work out who the thing is really for. the person approving it and the person using it are rarely the same, and work that only pleases the approver falls apart in use.
+- keep a running pile of questions i haven't asked yet. unfinished questions are fine, they sharpen when they're on paper.
+- find the constraints early: what already exists, what can't move, what the audience is sick of seeing.
+- say back what i heard in my own words before drawing anything. if they wince, good. cheaper to learn that now.
+
+research doesn't have to be heavy. read what the organization publishes, read what others say about it, and spend real stretches in the space or the product the way a regular visitor would. notice what's confusing before it gets too familiar to see.
+
+i also want to be careful about how much of a problem is design and how much is something else. sometimes a confusing website is really a confusing organization, and no amount of layout work fixes that. worth naming it gently rather than quietly absorbing it.
+
+**process**
+
+i work best when the early stretch is messy on purpose. lots of bad thumbnails, rough word lists, a collage of references that don't belong together. the goal is range, not quality. making things look good too early is a trap because it makes everything after feel precious.
+
+then narrow. look at the mess and ask what is actually carrying the idea and what could be removed without anybody missing it. a lot of good work is subtraction.
+
+show rough work in a way that makes clear it's rough. people react to polish and miss the thinking. if the thinking is the point, strip the polish.
+
+write the rationale as i go, in plain sentences. if i can't explain a choice without hand-waving, it's probably decoration.
+
+- test with real material as early as possible. placeholder copy hides problems, real names and real awkward lengths expose them.
+- look at the work small, then large, then printed or on a bad screen. things that survive rough conditions are sturdier.
+- step away and come back with fresher eyes. the fix is often obvious after a break.
+- keep versions, with a note on why each exists. future me will not remember.
+- leave room for the unplanned. some of the best moves come from a mistake that got looked at instead of undone.
+
+**working with feedback**
+
+feedback is data about a reaction, not an instruction. when a person says make the logo bigger, the useful question is what they're worried about. usually it's visibility, or confidence, or a feeling that something is missing, and there are better fixes than scaling a shape.
+
+- separate taste from function when sorting through comments. whether a person can read the thing is a different kind of question than whether they like it.
+- thank people for blunt feedback even when it stings. it's rare and valuable.
+- when a reaction surprises me, sit with it before defending. defensiveness feels like clarity in the moment but it isn't.
+- ask for reactions to specific things, not general impressions. "what do you notice right away" gets further than "what do you think."
+- when a group is giving feedback, watch for the loudest voice standing in for the whole group.
+
+**communication**
+
+keep messages short and concrete. long updates get skimmed and the important line gets lost. lead with what i need from them, if anything.
+
+be upfront about uncertainty. saying "i'm not sure yet, here's how i'd find out" builds more trust than faking confidence.
+
+write things down after calls, in plain words, and send them back. misunderstandings are cheaper to fix on paper.
+
+be careful with jargon. words like "system" and "brand architecture" mean different things to different people, and nodding along isn't the same as agreeing.
+
+**things to keep in mind**
+
+- scope creeps quietly. each small ask sounds reasonable on its own. a visible list of what's in the work and what isn't helps, and it's worth revisiting whenever a new ask shows up.
+- being a studio of me means i'm the designer, the bookkeeper, the project manager, and the receptionist. that's a lot of hats, and the hats compete. protect the design-brain space on purpose.
+- energy is a resource as real as any schedule. work taken on while drained usually shows it.
+- a kind, clear "not a fit" beats a resentful yes. practice phrasing for that so it's ready when needed.
+- the unglamorous parts matter: file naming, handoff notes, how things get delivered. a beautiful result that's a mess to receive is a worse result.
+- accessibility isn't a finishing pass. contrast, legibility, reading order, plain language, build them in from the start.
+- ask whether the people receiving the work can maintain it. a system nobody can update becomes a museum piece.
+- be wary of trends. borrowing a look is fine, borrowing it without knowing why it worked is how work ends up generic.
+- stay curious about what the organization actually does in practice, not just what its materials say it does.
+- don't confuse being busy with making progress. a quiet stretch of thinking can be more productive than a loud stretch of pushing pixels.
+- keep track of where references came from, and be generous with credit.
+
+**open-ended ideas**
+
+- an intake questionnaire that feels like a conversation instead of a form. questions like "what do people get wrong about you?" and "what would you be embarrassed to see on a wall?"
+- a "not doing" list for each project, kept right beside the "doing" list, so boundaries are shared and visible.
+- a library of set-aside directions, tagged by why they were set aside. they sometimes turn into the start of something else.
+- a small reflection ritual at the close of each project: what surprised me, what i'd do differently, what i'd steal from myself.
+- what would it look like if the deliverable were a way of working rather than an object? a guide people could grow into, instead of a finished package they're afraid to touch.
+- study old signage, hand-lettered shop fronts, municipal forms, anything designed with no ego. there's usually a clarity there worth stealing.
+- think about sound. how would this identity read aloud? how would it be said across a bad connection?
+- build a vocabulary board for the studio's own taste, so i notice when i'm repeating myself.
+- try writing the project's story as a short letter to a stranger. if the letter is dull, the design probably will be too.
+- experiment with constraints on purpose: limited palette, limited type, limited shapes. see what the restriction forces out.
+- find a way to show process to people without turning it into a performance.
+- keep a folder for "things that made me jealous" and work out, for each, what exactly it did right.
+- a handoff checklist that leaves a project better documented than i found it.
+
+mostly these are reminders. the work goes better when i'm curious and a bit stubborn about clarity, and worse when i'm trying to impress. worth rereading when things start to feel muddy.
+
+nonprofit, maybe do it pro bono
+not decided

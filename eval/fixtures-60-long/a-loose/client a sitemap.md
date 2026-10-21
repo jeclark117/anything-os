@@ -1,0 +1,65 @@
+client a sitemap
+
+- home
+- about
+- services
+- work
+- contact
+
+general working notes
+
+**approach**
+
+start with what the people visiting actually want to find, not what the business wants to say about itself. those overlap less than anybody admits. write down the questions a visitor walks in with, in their own words, and check which ones the structure answers without effort. if a question has no obvious home, that's a gap. if a section answers a question nobody asks, it's probably decoration.
+
+keep early structure ugly on purpose. boxes, arrows, plain labels. nothing that looks finished enough to get precious about. the moment a layout looks polished, people react to color and photography instead of the logic underneath, and the logic is what needs attention at this stage.
+
+it helps to separate three kinds of thinking and not let them bleed into each other: what exists (the raw material), how it's organized (the structure), and how it feels (the look and voice). jumping to feel too early makes everything after it a fight against whatever got locked in by accident.
+
+also worth remembering that a small studio's biggest advantage is directness. there's no layer of people between the thinking and the making, so the notes can be rough and the questions can be blunt. use that. don't build process theater just because bigger shops have it.
+
+**process, loosely**
+
+- gather everything the business already has: old materials, half-written descriptions, photos, offhand phrases they use when they talk about their own work. the way they talk casually is usually better than the way they write formally.
+- listen for repeated words. if they keep reaching for the same idea, that's probably the center of the whole thing, even if they've never put it on paper.
+- sort material into piles by purpose rather than by format. a testimonial and a case study might serve the same purpose even though they look nothing alike.
+- sketch the structure on paper before touching anything digital. paper is slow enough to make you choose.
+- walk through it as a stranger who's slightly impatient. where do they get stuck? where do they have to guess?
+- walk through it again as someone who already knows the business and just needs a specific detail. does the structure get out of their way?
+- only after the logic holds, start thinking about layout, type, and rhythm.
+
+when feedback comes in, sort it before reacting. some of it is about taste, some is about confusion, and some is about fear. taste can be negotiated. confusion should always be taken seriously. fear is usually a sign that something unspoken needs to be said out loud.
+
+**things to keep in mind**
+
+- labels matter more than they seem to. clever names for sections feel fun to write and cost visitors effort. plain words win unless there's a real reason to be playful.
+- every page needs a reason to exist that can be said in a sentence. if the sentence takes a paragraph, the page is probably doing too much.
+- people skim. design for the skimmer, reward the reader. headings should tell the story even if nothing else gets read.
+- the structure should survive growth. ask what happens when there's more material than expected, and also what happens when there's less. a layout that only works when it's full looks sad when it isn't.
+- small screens aren't an afterthought. think about the narrowest case early, because whatever survives there is the real core.
+- accessibility is part of the structure, not a finishing coat. reading order, contrast, clear link text, and sensible headings are all decisions made at the planning stage.
+- don't assume visitors arrive at the front. many land deep inside, from a search or a shared link, so every page should orient a newcomer without relying on what came before.
+- be honest about what the business can actually deliver. a polished promise that the real experience can't keep is worse than a plain one that holds up.
+- keep a running list of assumptions. most project trouble comes from an assumption that nobody noticed they were making.
+- write down why things are arranged the way they are. future-you will forget, and a clear reason makes it easier to change something later without breaking the thinking behind it.
+- leave room for the weird stuff. the best detail in a project is often an accident that got noticed and kept.
+
+**open-ended ideas**
+
+- what if the structure were tested by writing the headings as a short story, in plain sentences, and seeing whether it reads like something a person would say out loud?
+- try describing the business to a skeptical friend and recording the questions they ask. those questions could become the skeleton.
+- maybe a "what we'd rather you not ask" list. the awkward questions are often the ones visitors are quietly wondering, and answering them honestly builds trust fast.
+- consider building a tiny glossary of the words the business uses and the words their customers use, then noticing where they differ. the gap is usually where confusion lives.
+- could the visual system grow out of the structure instead of being applied on top? repeated patterns in how information is grouped might suggest repeated patterns in how it looks.
+- explore what happens if the quietest part of the site gets the most care. often the ordinary reference material is what people actually rely on, and it gets the least love.
+- think about what the site does for someone who never buys anything. a good resource, a clear explanation, a bit of generosity. that's the thing people remember and pass along.
+- try designing the worst version on purpose, crowded, loud, and confusing, and then list exactly what makes it bad. that list is a pretty good set of principles for the opposite.
+- is there a way to show process without turning it into a boring diagram? maybe a few honest sketches, an abandoned direction, a note about what got cut and why.
+- what would it look like to treat the written voice as seriously as the visual identity? a consistent way of speaking can carry a small business further than a fancy mark.
+- worth wondering how the whole thing ages. a site that feels right now but dated soon is a risk. aim for choices that rely on clarity and proportion rather than whatever happens to be fashionable.
+
+**a few reminders to self**
+
+stay curious about the people, not just the deliverable. ask the question that feels slightly too obvious, because it often hasn't been asked. protect time for thinking that doesn't look productive. and when something feels stuck, change the medium: draw it, say it aloud, write it as a letter, rearrange the pieces on a table. the answer is usually sitting just outside the format being used.
+
+keep the notes honest and a little messy. tidy notes are often a sign that nothing is being risked.

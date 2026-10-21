@@ -1,0 +1,93 @@
+call w/ client a, 2026-09-08
+
+general working notes
+
+**starting a project**
+
+start from the problem, not the pages. a site is usually a symptom of something else: people can't find what they need, the business can't explain itself briefly, the old thing looks tired and nobody trusts it anymore. work out which of those is really driving the request before touching layout. a sitemap is a useful artifact, but it's a hypothesis. it's worth poking at when real material shows up and the shape stops fitting.
+
+things that help early on:
+
+- ask what a visitor should be able to do in their laziest, most distracted moment. if that's fuzzy, the design will wobble.
+- get the client to describe their best customer in plain words, not marketing words.
+- collect examples of things they dislike as eagerly as things they like. dislikes are more specific and more honest.
+- find out who actually owns the words. design stalls when copy belongs to nobody.
+- ask what they're embarrassed by in their current setup. that's usually where the real brief is hiding.
+
+**process, roughly**
+
+i like to work from rough to refined and keep the rough stage ugly on purpose. grey boxes, real sentences, no color. if the structure doesn't hold up with no decoration, decoration won't save it. once the bones feel right, then type, then spacing, then color last. color is the easiest place to hide a weak idea.
+
+write the headings before drawing anything. if a page can't be summed up in a plain sentence, it probably isn't a page yet, or it's trying to be too many things.
+
+try to design the awkward states early, not at the end:
+
+- what the page looks like with far too much text
+- what it looks like with almost none
+- what happens when an image is missing or the wrong shape
+- what a very small screen does to the nicest part of the layout
+- what an error or empty message sounds like
+
+these are the moments that make something feel finished or flimsy, and they're easy to forget until they're embarrassing.
+
+**keeping the scope honest**
+
+small projects get big quietly. watch for phrases like "while you're in there" and "it should just be easy to add." none of these are bad requests, they're just requests that need to be named as additions, kindly, so they don't dissolve into the original work. a short written note of what's in and what's out, kept somewhere both sides can see, saves awkward conversations. it doesn't need to be formal. it needs to exist.
+
+also worth remembering: a studio of one person has a very particular constraint, which is attention. every extra thread costs more than it looks like it will. say no to the kind of work that needs constant availability unless the arrangement is built for it.
+
+**feedback**
+
+feedback usually arrives as solutions ("make the logo bigger") when the real issue is a feeling ("i don't feel noticed"). ask what's behind the request before acting on its surface. a good question is "what would that change for the visitor?" it's gentle, and it often reveals that a different fix is better.
+
+presenting work:
+
+- lead with the reasoning, then the visual. people judge the picture instantly and the logic never, unless it's set up first.
+- show fewer options than feels generous. too many options just hands the decision back to the client and makes them tired.
+- point out what's deliberately restrained so it doesn't read as unfinished.
+- leave room for silence. let people look before explaining everything.
+
+went through the sitemap, they're happy with 5 pages
+floated $4,000 for the whole project
+they said they'd think about it and get back to me
+
+when someone goes quiet after seeing something, that isn't necessarily bad or good. people process in their own way. don't fill the gap with nervous extra explanations or discounts on the idea.
+
+**about the money side, in general**
+
+keep the conversation about value tied to what the work does for them, not to effort. effort is invisible and easy to argue with. outcomes are concrete. also keep a private sense of what a project actually costs in energy, not just in output, because that's what decides whether the work is sustainable.
+
+**visual thinking, loose bits**
+
+- restraint reads as confidence. a limited set of type sizes and a small palette do more than a clever flourish.
+- whitespace is not empty, it's pacing.
+- consistency matters more than any individual choice. a mediocre typeface used carefully beats a beautiful one used carelessly.
+- contrast is a tool, not a style. decide where the eye should land and make everything else support that.
+- photography carries more weight than people admit. a weak image can sink a strong layout, so it's worth asking early what visual material even exists.
+- motion should explain something. if it only decorates, it's noise.
+- accessibility isn't a layer on top. contrast, readable sizes, clear focus states, and sensible reading order are part of the shape from the start.
+
+**handoff and afterward**
+
+build things so the client can live in them without calling for help. clear naming, tidy structure, a short plain-language guide for the parts they'll touch. people feel respected when they're not dependent on the person who made the thing.
+
+leave breadcrumbs for future me too: why a choice was made, what was tried and dropped, what's fragile. my memory of reasons fades much faster than my memory of results.
+
+**open-ended ideas to chew on**
+
+- a reusable checklist for early conversations, written as questions rather than steps, so it stays a prompt and not a script.
+- a small library of annoying real-world content problems (very long names, awkward line breaks, odd image ratios) to test layouts against.
+- a personal "things i got wrong" file that's honest and unpolished. patterns show up there quicker than anywhere else.
+- a way of describing the studio's approach that's short enough to say out loud and doesn't sound like a brochure.
+- maybe keep a running list of sites that feel good to use for reasons that have nothing to do with how they look, and try to name what that quality is.
+- experiment with presenting work as a story of a visitor's path rather than a set of screens. might change how clients react.
+- think about what a calmer version of the whole workflow looks like, with fewer tools open, fewer tabs, more time on paper.
+
+**reminders**
+
+- slow, clear communication beats fast, vague communication.
+- don't mistake being busy for being useful.
+- protect the stretch of the day when thinking is sharpest and don't spend it on admin.
+- the best work usually comes from a client who trusts the process, and trust is built in small, boring ways: answering clearly, doing what was described, flagging problems early.
+- not every project is for this studio, and noticing that gently is a skill too.
+- rest is part of the process. tired design looks tired.

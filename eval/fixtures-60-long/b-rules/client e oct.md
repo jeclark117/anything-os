@@ -1,0 +1,63 @@
+client e october
+
+general working notes
+
+this is mostly a dump of how i think about the work, so i can find it again when my head is full of something else.
+
+**approach**
+
+- start with the problem, not the look. most of what feels like a visual question is really a question about who will see the thing and what they should walk away feeling or doing.
+- ask what the piece has to survive. a graphic that sings on a big screen but falls apart when shrunk to a thumbnail is a draft, not a result.
+- keep the brief within reach. when i drift, rereading it tells me whether the drift is useful or just fun.
+- restraint wins more often than not. when stuck, remove something before adding something.
+- let constraints do some of the designing. a tight palette, a short list of typefaces, and a rigid grid make choices easier and help a whole set of work hang together.
+- treat the awkward version as information. if a layout fights me, it is often telling me the message underneath is not clear yet.
+
+**process, loosely**
+
+i work from rough to refined, and i try hard not to polish too early. the early stage is for cheap, ugly sketches: boxes, scribbles, type set in the wrong font just to feel the rhythm. if an idea cannot survive being drawn badly, it was probably not an idea. polish makes weak concepts look stronger than they are, which is dangerous when i am the only person in the room to catch it.
+
+after the rough stage comes a middle stretch where the system forms. this is where i settle on how headings behave, how much space things get, how color is used to signal rather than decorate. i like to write these rules down in plain words as i go, because future me will not remember why a certain gray was chosen over a slightly warmer gray.
+
+then comes the long tail of refinement: spacing, alignment, optical corrections, the tiny stuff that people never consciously notice but always feel. a good habit here is to step away, look at the work upside down or reduced to blurry shapes, and see whether the hierarchy still reads. if the eye does not know where to land, no amount of kerning will rescue it.
+
+at the end of a body of work, i like to lay everything out together, side by side, and look for outliers. a set should feel like a family, not a crowd of strangers. outliers are either the best thing in the set or a mistake, and it is worth being honest about which.
+
+all october graphics delivered 2026-10-10
+
+**things to keep in mind**
+
+- clients rarely know what they want, but they almost always know what they do not want. use that. showing a range of directions early, including a couple of deliberately wrong ones, is a cheap way to find the edges of their taste.
+- feedback is data about a feeling, not an instruction about a solution. when a reaction comes in as "make the logo bigger," the real message is often "i do not feel seen." dig for the feeling.
+- keep files tidy as if a stranger will open them. layers named, groups sensible, colors stored as swatches rather than scattered values. the stranger is usually me, after a long break.
+- naming matters. a consistent naming habit saves more grief than any clever shortcut. say what the thing is, say what state it is in, and keep the pattern the same everywhere.
+- accessibility is not a layer on top. contrast, legibility at small sizes, and sensible reading order are part of the foundation. check them while building, not afterward.
+- keep source material and exports separate. nothing is worse than discovering the only editable copy got overwritten by a flattened one.
+- back up in more than a single place. dull advice, still true.
+- be careful with borrowed imagery and borrowed fonts. licensing is boring right up until it isn't. keep a running note of where assets came from.
+- watch for scope creep dressed up as a small favor. small favors compound. a polite, clear boundary protects the relationship better than quiet resentment.
+- write handoff notes in plain language. what was made, how it is meant to be used, what should never be done to it (stretched, recolored, crowded). people follow instructions that are short and kind.
+
+**working alone**
+
+being a one-person studio means every role lives in my head: designer, producer, accountant, critic, cheerleader. the roles argue. the critic is useful but needs a leash. the producer is useful but can flatten the fun out of a project. it helps to notice which hat i am wearing and say it out loud, even if only to the empty room.
+
+isolation can quietly narrow the work. to counter it, i try to keep a steady diet of things that have nothing to do with design: old signage, packaging from other countries, hand-painted shop lettering, textbook diagrams, the way a handwritten label peels at the corner. none of it is directly useful, and that is the point. ideas show up when the inputs are weird.
+
+rest is part of the process, not a reward after it. tired eyes make muddy decisions. a walk, a swim, a long stare out a window: all of it counts as work if the mind is left free to rearrange things.
+
+**open-ended ideas**
+
+- build a personal library of small, reusable pieces: a handful of grid setups, some well-tested type pairings, a few color relationships that always behave. not templates exactly, more like warm-up exercises that start a project from a stronger place.
+- keep a visual glossary of words clients use and what those words have turned out to mean in practice. "clean," "bold," "friendly," and "premium" each seem to mean different things to different people, and a map of those translations could speed up early conversations.
+- try a practice of annotating finished work with what went wrong along the way. not as self-criticism, just as a record. patterns would likely show up, like the recurring places where i overcomplicate or under-explain.
+- explore a set of experiments with no client at all: posters about everyday objects, imaginary brands for imaginary shops, alphabets built from a single repeated shape. low stakes, high curiosity. some of it might feed back into paid work in unexpected ways.
+- think about a plain-spoken process document that could be shared with new clients, explaining how the work unfolds and where their input matters most. it might head off confusion before it starts.
+- consider how motion, sound, or print finishing might extend static pieces. a graphic can have a second life if it is designed with that in mind from the start.
+- try designing with the weakest screen and the cheapest printer in mind, then enriching from there. a lot of work gets judged in lousy conditions.
+- look for ways to make the review stage more of a conversation and less of a verdict. maybe short recorded walkthroughs, maybe annotated boards, maybe simply asking better questions.
+- keep a small list of questions that open up a brief: what should this make someone do, what should it never feel like, what would be embarrassing if it showed up in the wrong place?
+
+**loose reminders**
+
+good work usually comes from clarity, patience, and a willingness to throw away the clever thing. keep the margins generous. keep the language human. keep asking what a piece is for. and when something feels almost right but not quite, trust that feeling and keep nudging until it settles.

@@ -1,0 +1,67 @@
+office
+
+work from home
+spare room
+
+Most of the useful thinking happens before anything gets drawn. I try to spend the early stretch just collecting: what the thing is for, who will meet it, and what it should feel like when someone encounters it cold. A loose pile of words and scraps beats a tidy brief at this point, because a tidy brief tends to lock in assumptions nobody has tested yet.
+
+**Approach**
+
+- Begin with the problem as it was described, then ask what sits underneath it. The stated request is often a symptom of something quieter.
+- Look at what already exists before adding to it. Old material usually holds clues about what people actually respond to.
+- Keep the reasoning visible. If I can't explain a choice in plain words, it's probably decoration.
+- Make rough things early and make them ugly on purpose. Polish is a good way of hiding weak ideas from yourself.
+- Prefer a narrow set of moves done well over a wide set done halfway.
+- Let constraints do some of the work. A limited palette, a limited type system, a limited grid. They make decisions faster and make the result feel intentional rather than accumulated.
+
+**Process**
+
+Sketching comes before screens. Paper is slow in a useful way: it stops me from fiddling with details that don't matter yet. I fill pages with bad thumbnails, circle whatever has a pulse, and drop the rest without sentiment. Only when the structure feels sturdy enough to survive being rendered cleanly do I move to anything digital.
+
+From there it becomes a loop of showing, listening, and adjusting. Work shared while it's still slightly unfinished gets better feedback, because people feel allowed to change it. The questions matter as much as the work. "Do you like it" gets polite noise. "What does this make you expect" gets something usable. Reactions are worth writing down word for word, since paraphrasing smooths away the interesting parts.
+
+Details get their own pass, separate from the big shapes. Type, spacing, alignment, contrast, the way edges meet. Check things at the size they'll actually appear, on a worse screen than mine, in bad light, and on paper if paper is where they'll live. A squint test and a grayscale test catch more problems than any amount of staring at full color.
+
+Handoff deserves real care. Files should be organized so a stranger could open them and understand the logic. Layers get names written by a considerate person. A short note of intentions travels with the work, explaining the why and not only the what, since the why is what disappears first.
+
+**Things to keep in mind**
+
+- Scope creep in a small studio rarely announces itself. It arrives as favors, small additions, and "while you're in there" requests. Naming what is not included, as clearly as what is, keeps everyone honest.
+- The loudest voice in the feedback pile is not necessarily the most representative. Weigh comments by how closely the person matches the audience.
+- Accessibility is a starting condition, not a finishing pass. Retrofitting it is always clumsier than building with it.
+- Keep a record of rejected directions. They often come back later as the right answer for a different problem.
+- Fresh eyes catch more than extra effort. Stepping away is part of the work, not a break from it.
+- Busy is not the same as progressing. Some of the best days produce very little visible output and a lot of clarity.
+- If something isn't working, say so early, while changing it is still cheap and nobody is attached to it.
+- Administrative chores deserve a small standing place in the routine, or they quietly take over the whole week of attention.
+- Taste is useful but it's not evidence. When possible, back opinions with something observed.
+- Be wary of trends. They feel like relevance but age like milk.
+
+**Working alone**
+
+Without colleagues to bounce things off, I need substitutes. Talking out loud helps. So does writing the pitch as if addressing a skeptic, reading a layout from the bottom up, or printing something just to see it differently. Explaining a problem to an imaginary newcomer often reveals the answer halfway through the sentence.
+
+Boundaries between working and not working don't exist by default, so they have to be built from small rituals: clearing the desk surface, closing every open window, changing the lighting, putting the headphones down. A visible end to a session matters more than it sounds. Without it, the work leaks into everything else and nothing gets proper rest.
+
+Physical reference material is worth keeping close: swatches, printed samples, type specimens, objects with a good texture or an interesting weight. Screens flatten everything, and a quick touch of something real recalibrates judgment. The surface in front of me should hold only what belongs to the current problem. Clutter is a form of unresolved decisions.
+
+**Open-ended ideas**
+
+- Keep a running collection of everyday annoyances: confusing signage, awkward forms, packaging that fights back. Patterns in the irritation point to opportunities.
+- Build a small library of starting points, such as grids, type pairings, and color relationships, without letting them harden into crutches. Review and prune them regularly.
+- Try designing for the ear or the hand instead of the eye. What would this feel like with the screen off? What would it sound like read aloud?
+- Write a product's voice before designing its look. Decide what it would never say, then let the visuals inherit that restraint.
+- Work for a stretch with deliberately worse tools and see which ideas survive. The ones that do are probably structural rather than cosmetic.
+- Keep a process diary of short entries about what surprised me. Surprise is a decent proxy for learning.
+- Test how an identity behaves when shrunk to almost nothing and when blown up enormous. Most systems are only good at a narrow range of scales.
+- Hand finished work to a stranger with no context and ask them to describe it back. The gap between their description and the intention is the real brief for the next round.
+- Borrow thinking from crafts far from design, like sign painting, bookbinding, or cooking. They have mature ideas about finish, patience, and what counts as careful.
+- Imagine a case study that opens with the failures and works toward the result. What would that honesty change about how work gets presented?
+- Check whether a system can be explained over the phone. If it can't, it may be too clever.
+- Photograph surfaces and textures without any project in mind, then see what they suggest months later.
+- Explore what a studio's own materials would look like if they were treated as a client project: the invoices, the emails, the way a first message lands.
+- Consider what it means for design to be finished at all. Some things want to stay a little open, so they can be adapted by whoever inherits them.
+
+**A loose closing thought**
+
+None of this is a method so much as a posture: curious early, skeptical in the middle, generous at the end. The aim is for the work to feel considered without feeling fussy, and for the process behind it to stay light enough that it can bend when a project asks for something unexpected. These notes are meant to be added to, argued with, and occasionally ignored.

@@ -1,0 +1,105 @@
+working notes
+
+approach
+
+the work goes better when the problem is understood before anything gets drawn. plenty of mistakes come from solving a problem that was slightly different from the real problem the client had. asking questions up front is worth the awkwardness, and playing the answers back in plain words catches gaps early.
+
+keep the early thinking messy on purpose. rough marks on paper, words stuck on a wall, ugly boxes in a layout file. polish too soon makes everything feel precious, and precious things are hard to change when they need changing.
+
+habits that seem to help:
+
+- begin with the constraints, since constraints are where the interesting ideas hide
+- write down what the work should make people feel, then check each idea against that phrase
+- look at what competitors do, then go somewhere else on purpose
+- keep the strange idea that doesn't fit the brief; it frequently turns out to be the useful one
+- stay curious about the client's world, because good solutions usually borrow from it
+
+process
+
+a project has a rhythm worth protecting: discovery, exploration, refinement, handoff. the edges blur, but it helps to know which mode is active so feedback arrives at the right moment. comments about colour while the structure is still unsettled are just noise, and they pull the work in circles.
+
+working solo means nobody else is around to catch drift, so the process has to do that job. a short summary at each stage, in plain language, makes it obvious when the direction has wandered. it also gives something to point at when a conversation gets fuzzy.
+
+things that smooth the flow:
+
+- show work in context whenever possible. a logo floating on white space says very little; the same mark on a shopfront, a receipt, or a tiny avatar says a lot
+- present a small set of options with a clear point of view rather than a buffet. a buffet hands the choosing back to the client, which is the opposite of what they came for
+- explain the reasoning in the client's language, not design jargon
+- keep files tidy as the work goes: named layers, sensible folders, clear versions. a future self is also a collaborator
+- leave a pause before sending anything out, because work looks different after some distance
+
+when stuck
+
+every project hits a wall where nothing seems right. pushing harder at the same angle rarely helps. a change of angle works better: sketch instead of arranging words, arrange words instead of sketching, explain the problem aloud to an imaginary stranger, or build the ugliest possible version on purpose. bad versions are useful because they show what is specifically wrong, and wrong is easier to fix than blank.
+
+working with clients
+
+most friction in this business isn't about taste. it's about expectations that were never said out loud: what's included, what counts as a revision, who gives feedback, who has the final say. the sooner these get talked through, the less awkward they feel. a calm, friendly, slightly boring conversation about scope beats a tense exchange later.
+
+clients are experts in their own field and nervous in this one. they might not have the vocabulary to say what's wrong, only that something feels off. translating that feeling into something actionable is a big part of the job.
+
+feedback from a committee is its own animal. it helps to find out whose opinion actually carries weight, and to stay kind to the rest.
+
+things to keep in mind:
+
+- say no gently and early, with a reason and an alternative
+- keep a clear record of what gets discussed so memory isn't doing the heavy lifting
+- thank people for useful feedback; it encourages more of it
+- separate taste from problems. taste is personal and negotiable, while poor legibility or confusing structure is worth defending
+- be candid when something isn't working, even when that's uncomfortable
+- it's fine for a project to be a poor fit, and saying so kindly is part of the service
+
+craft
+
+spacing, rhythm, hierarchy. these are the quiet things that separate work that feels considered from work that merely looks decorated. squint at a layout until the details blur; whatever still stands out is the real hierarchy. if that isn't the thing that should stand out, the layout needs adjusting.
+
+letterforms deserve patience. the shapes between the letters matter as much as the letters themselves. check text at the sizes people actually meet it, in the places they actually meet it, on the devices they actually own.
+
+colour is relational. a shade looks different beside everything around it, so judge it in company, never in isolation.
+
+restraint is underrated. every extra flourish asks the viewer to do more work. ask what happens if something is removed; if nothing is lost, it probably didn't belong.
+
+questions worth asking of any piece of work:
+
+- what is this trying to say, in the plainest terms?
+- who is it for, and what do they already know?
+- what would make it feel wrong?
+- would it survive if the colour drained out of it?
+- would it hold up if it were tiny, or enormous?
+
+the business side
+
+running a studio solo means wearing every hat, and the unglamorous hats matter: admin, invoicing, follow-ups, bookkeeping, paperwork. when these slide, stress rises and the work suffers. it helps to treat them as part of the craft rather than a tax on it.
+
+talking about value without flinching is a skill that gets built, not a trait people are born with. value comes from what changes for the client, not from the effort spent inside the studio.
+
+- explain the outcome in terms of the client's own business
+- leave space for rest, because tired work shows
+- notice which kinds of projects give energy and which drain it, and let that quietly shape taste and direction
+- relationships built on trust bring better work than advertising does
+
+open-ended ideas
+
+things to mull over, with no pressure to act on them:
+
+- a collection of small experiments made purely out of curiosity, with no client and no brief, to keep the hands loose
+- a habit of writing up what went well and badly after a project wraps, in plain language, for future reference
+- a visual diary of found things: signs, packaging, hand-painted lettering, odd labels, anything with character
+- exploring how work reads when it's printed, projected, embroidered, carved, or stamped; materials teach things screens can't
+- collaboration with people from other disciplines, such as writers, photographers, makers, and developers; fresh perspectives are valuable for a small studio
+- a set of reusable questions for kickoff conversations, refined as it goes
+- thinking about how the studio explains itself to strangers, and whether the explanation is truthful, warm, and clear
+- a gentle way of showing process publicly, so people see the thinking behind the work and not only the result
+- making accessible design the default rather than an extra step: contrast, legibility, clear structure, kindness to tired eyes
+- mentoring or teaching, even informally; explaining something out loud is a good test of whether it's understood
+- what a studio looks like if it deliberately stays small, and what that protects
+
+small reminders
+
+- good ideas arrive during dull tasks: walks, washing up, staring out of windows. leave room for that
+- good enough, delivered with care, beats flawless and stuck
+- imitation is a decent way to learn and a poor way to practise professionally
+- the client's customers are the real audience, so keep them in the room mentally
+- keep asking why, especially about habits nobody has questioned
+- look at things that have nothing to do with design; they usually have plenty to do with it
+- notes like these are only useful if they stay loose enough to change

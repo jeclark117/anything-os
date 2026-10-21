@@ -1,0 +1,83 @@
+misc
+
+general working notes
+
+**approach**
+
+- start from the problem, not the look. a lot of work goes sideways because a brief that was really a question about what somebody needs to understand got treated as a request for a style.
+- ask what the thing is supposed to make easier. if nobody can say, that's the real work, and it comes before touching any layout.
+- keep early rough stuff truly rough. scribbles and ugly boxes invite honest reactions. polished comps invite polite ones.
+- show the thinking along with the result. people argue less about taste when the reasoning is sitting on the table next to the pictures.
+- when stuck, change the medium. paper if I've been on screen, screen if I've been on paper, talking out loud if it's been quiet too long.
+- constraints are friends. a tight palette, a narrow set of type choices, a strict grid. open canvases are where I drift.
+
+**process**
+
+loose shape, not a ritual. work tends to move through hearing, wandering, narrowing, making, testing, polishing, and handing over. the edges blur and that's fine, but it helps to know which mode I'm in so I don't polish something I haven't understood yet.
+
+*hearing out the brief:* read what was asked, then read around it. look at what a client's existing materials say about them without meaning to. note the words they keep reusing. repeated words are usually the actual brief.
+
+*wandering:* collect references widely, especially ones with nothing to do with the field. signage, packaging, old manuals, worn textures, hand-painted shop fronts. keep it a loose pile and resist sorting it too early, because sorting too early flattens the odd stuff that turns out to matter.
+
+*narrowing:* choose a direction by what it lets me say, not by how it looks. cut things that are merely nice. a direction should be able to survive being described in plain sentences without any adjectives about vibes.
+
+*making:* build the structure before the surface. type, spacing, hierarchy, and rhythm carry most of the weight. color and ornament are seasoning.
+
+*testing:* squint at it, shrink it, blur it, flip it upside down, print it, view it in bad light. show it to a person with no context and watch where their eyes go before they say anything.
+
+*polishing:* alignment, optical spacing, consistency in the small states nobody plans for, like empty screens, error messages, and the moment something is loading. people feel these even when they can't name them.
+
+*handing over:* write down the why. name layers and files as if a stranger will open them. leave things organized enough that somebody could pick the work up without a call.
+
+coffee with another designer, talked about burnout
+she recommended a project tracker
+
+**things to keep in mind**
+
+- scope creeps quietly. it arrives as a small favor or a "while you're in there." notice it when it shows up and name it, even if only privately.
+- group feedback is often contradictory. look for the worry underneath each comment rather than treating every comment as an instruction.
+- say what I'm unsure about early. awkwardness now is cheaper than a surprise later.
+- protect the slow thinking. in a studio like this, every interruption lands on the same person, and the damage shows up first where it's hardest to see: in the ideas.
+- rest is part of the work, not a reward after it. tired eyes make worse calls about spacing, and tired people make worse calls about everything. early signs are flat taste, irritability, nothing looking good, and suspiciously thorough tidying as a way of avoiding the real task.
+- keep a record of work that felt good and why. it works as a compass for what's worth wanting later.
+- not every project has to be a portfolio piece. some are just honest, careful work for the person on the other end, and that's enough.
+- be wary of borrowed taste. trends move fast and the pull is real. ask whether a choice would still make sense with the trend stripped away.
+- accessibility isn't a layer at the end. contrast, legibility, motion, reading order, and plain language belong in the thinking from the start, and they usually make the design better for everybody.
+- the client's customers are the real audience. the person approving the work is rarely the person living with it.
+- a good critique of my own work sounds like a question, not a verdict. try asking what a piece is doing before judging whether it's working.
+- naming things matters more than it seems. files, layers, components, and sections that are named well save an absurd amount of confusion.
+
+**working by myself**
+
+- there's nobody to bounce ideas off, so build substitutes. one habit is writing out the argument for a design in plain sentences. if it won't come out clearly, the design probably isn't clear yet.
+- talk to other designers, people in neighboring fields, and folks who do completely unrelated work. outside views crack open stale assumptions faster than another round of staring at the same screen.
+- keep admin from swallowing everything. invoicing, email, and file wrangling are real work, but they expand to fill whatever space is available.
+- fewer small decisions is a kind of kindness to myself. templates, defaults, and a consistent folder habit save energy for the choices that matter.
+- good systems should disappear into the background. if a method takes more effort to maintain than it saves, it's the wrong method, no matter how nicely it's organized.
+- a recommendation from somebody who has actually lived with a tool is worth more than any review. ask how it feels after the novelty wears off.
+- make space for work that nobody asked for. it keeps the craft alive and gives me something to show that isn't shaped by someone else's constraints.
+
+**open-ended ideas**
+
+- a private library of problems already worked through, with short write-ups, searchable by situation rather than by client or project.
+- a reusable set of kickoff questions that gets past what people want to what they're afraid of.
+- an exercise in redesigning something ordinary and overlooked, like a receipt, a bus stop sign, a medicine label, or an instruction leaflet, purely for practice.
+- a small zine or newsletter of process sketches, rough and unfinished on purpose.
+- working under constraints chosen blindly, like a typeface pulled from a hat, a palette drawn at random, or a layout that has to work with no images at all.
+- exploring how motion can carry feeling in identity work that's otherwise static.
+- trading critiques with peers in a loose format: what's working, what's confusing, what's missing.
+- an anti-portfolio of ideas that failed and what each failure taught.
+- walking as a design method. wander a neighborhood just to notice lettering, wayfinding, and the accidental design that nobody signed.
+- ways to make a quiet stretch useful instead of anxious: self-started work, tidying archives, learning something unrelated.
+- what a gentler pace could look like as a business model. fewer engagements, deeper involvement, longer relationships, more room to do things properly.
+- questioning whether certain habits in the process serve the client or just serve my comfort.
+- a shelf of physical objects that are well designed, kept in view as a reminder of what care looks like when nobody's watching.
+- a standing habit of asking what could be removed before asking what could be added.
+
+**loose thoughts to leave open**
+
+good work usually feels slightly inevitable once it's finished, and nothing like that while it's happening. the messy middle is normal. the trick is learning to tell productive confusion from the kind that means something is wrong upstream.
+
+it might be worth noticing which kinds of work leave energy behind and which kinds drain it, and what separates them. the answer probably isn't about difficulty. it might be about whether the work feels seen, whether the people involved are curious, and whether there's room to think.
+
+there's also the question of what the studio is for. a place to make a living, a place to make things, a place to practice a way of seeing. those aren't the same, and the balance probably shifts over time without announcing itself.

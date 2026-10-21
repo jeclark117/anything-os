@@ -1,0 +1,61 @@
+general working notes
+
+**approach**
+
+the work is mostly listening before it is drawing. projects tend to wobble early, not late, and the wobble usually traces back to a brief that was really a polite guess about what somebody wanted. so the instinct is to slow down at the start and ask the slightly awkward questions. what is this actually for? who gets annoyed if it goes wrong? what would make it feel like a waste of effort?
+
+being a studio of just me is a strength and a trap. the strength is that there are no handoffs and no telephone game, so the thinking stays intact from the earliest scribble to the final file. the trap is that nobody walks past and says "that's overcooked." so it helps to build stand-ins for another opinion: print the thing, flip it upside down, view it in a mirror, squint at it, or show it to a patient friend who doesn't work in design and will say what they actually see.
+
+fewer, stronger directions beat a spread of safe ones. a wide menu of options feels generous, but mostly it hands the decision back to the client. having a point of view is part of what people are paying for, even when they don't say so.
+
+also worth remembering that taste is not the same as fit. something I love might be wrong for the job, and something plain might be exactly right. the job is to serve the problem, not to decorate my own portfolio of preferences.
+
+**process, roughly**
+
+- begin on paper. rough, ugly, fast. the screen makes everything look finished too early, and that kills exploration.
+- collect references, but sort them by what they do rather than what they look like. a reference for "calm" is more useful than a reference for "a nice serif."
+- write the problem in plain sentences before opening any software. if the sentences are mushy, the layout will be too.
+- work in rounds of widening and narrowing. when widening, make lots of bad ideas and refuse to judge them. when narrowing, keep what has a spine and drop the rest without sentiment.
+- test at the extremes: tiny, enormous, black and white, with the worst possible content dropped in. a layout that only works with perfect placeholder text isn't a layout yet.
+- name and tidy files as I go, because future me is a stranger who is tired and in a hurry.
+- let work sit before judging it. fresh eyes catch more than extra effort ever does.
+- jot down why a choice was made, in a line or two. rationale evaporates quickly, and people always ask for it later.
+- when stuck, change the medium rather than pushing harder. cut paper, a marker, a different canvas size, a different grid. the block is often just the habit of the current tool.
+- show work in context whenever possible. a logo floating on white means little; the same logo on a cluttered shelf, a phone screen, or a rainy window sticker tells the truth.
+
+**things to keep in mind**
+
+- clients rarely dislike a design as much as they dislike surprise. narrate the thinking as it develops so nothing lands cold.
+- feedback is data about a reaction, not an instruction. "make it bigger" often means "I don't feel confident about this." dig for the feeling underneath the note.
+- scope creep arrives politely, dressed as a small favor. notice it early, name it kindly, keep the boundary visible without making it awkward.
+- constraints are friends. a tight palette, a limited set of type styles, a rigid grid: they make decisions on my behalf and free up energy for the interesting parts.
+- accessibility isn't a layer applied at the end. contrast, legibility, and clarity are part of the craft from the beginning, and they usually make the work better for everybody.
+- rest is a working tool. the good ideas tend to show up while washing dishes or walking, not while staring harder at the screen.
+- be wary of comparing my behind-the-scenes mess with other people's polished showcases. they have a mess too; it just isn't on display.
+- be wary of work that would require pretending to be something I'm not. it usually shows in the result.
+- isolation creeps in quietly when working alone. loose contact with other makers matters more than it seems to, even if it's only swapping a sketch and a grumble.
+- not every problem is a design problem. sometimes the real issue is a muddled offering, an unclear audience, or a disagreement inside the client's own team, and no amount of typography will fix that. better to say so gently than to polish around it.
+- good defaults are underrated. a sensible type scale, sensible spacing, a sensible way of naming layers. boring infrastructure buys freedom for the parts that deserve attention.
+- keep a bias toward finishing. an idea that ships imperfectly teaches more than an idea that stays perfect in a drawer.
+
+**open-ended ideas**
+
+- a small library of reusable questions for kickoff conversations, grown from whatever turned out to matter on past projects and trimmed whenever one turns out to be dead weight.
+- a post-mortem habit: after a project wraps, a short paragraph on what surprised me. not a report, just a note to leave for later.
+- designing under deliberately odd limits. just a typeface and a rule. only circles. only what could be made with a photocopier. see what the restriction produces that comfort wouldn't.
+- redoing an old piece of work from scratch with what I know now, then comparing the two without any intention of publishing either.
+- a swipe file of things that are well made but aren't design in the usual sense: packaging, signage, handwritten shop notices, instructions printed on old appliances, the labels on tins.
+- imagining how a piece would be described over the phone. if it can't be explained out loud, it may not be clear enough on the page.
+- writing or teaching as a way to sharpen thinking. explaining a process out loud exposes the gaps faster than anything else.
+- a folder for dead ends that deserve another life. half of them were just ahead of their moment, or in the wrong project.
+- occasional collaboration experiments with a writer, illustrator, or developer on a self-started piece, mainly to feel other rhythms and borrow other habits.
+- thinking of a brand as a voice. how would it talk to a stranger, to a friend, to somebody who is angry? useful for tone, and surprisingly useful for layout.
+- presenting with less slideshow and more conversation: a prototype to hold, a printed object to touch, a rough model to push around the table.
+- a personal glossary of words clients use that mean something different from what I assume. "clean," "modern," "pop," "friendly," "premium." each one hides a whole set of expectations.
+- paying more attention to endings: the last screen of a flow, the back of a package, the sign-off of a letter. those quiet places are often where care is most visible.
+
+**questions to chew on**
+
+what does "finished" actually mean for a project? how much polish is enough before it becomes fussing? when does a favorite template turn into a rut? how do I tell the difference between a style and a habit? and what would the work look like if I trusted my first instinct more, or trusted it less?
+
+none of this is a rulebook. it's more a pile of reminders and curiosities that I keep coming back to, and the pile is allowed to contradict itself.
