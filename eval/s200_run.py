@@ -226,6 +226,10 @@ def run_history(model, arm, h, upto, cps, version, synthesis=True):
         json.dump(state, open(state_path, "w"))
         print(f"  {arm} h{h} edit {i + 1}: ${rec.get('cost_usd') or 0:.3f}")
         if (i + 1) in cps:
+            # Keep the folder as each checkpoint saw it, so other models can be asked the same questions later.
+            cp_snap = os.path.join(out, f"folder-cp{i + 1:02}")
+            shutil.rmtree(cp_snap, ignore_errors=True)
+            shutil.copytree(work, cp_snap)
             run_checkpoint(model, arm, h, i + 1, work, version)
     # After a stop, the latest checkpoint can still be finished from the snapshot.
     if state["done_edits"] in cps and state["done_edits"] > 0:
@@ -304,7 +308,7 @@ def call_grader(prompt):
 
 def cp_dirs():
     for root, dirs, files in os.walk(RAW):
-        dirs[:] = [d for d in dirs if d != "folder"]
+        dirs[:] = [d for d in dirs if not d.startswith("folder")]
         if os.path.basename(root).startswith("cp") and files:
             yield root
 
@@ -395,7 +399,7 @@ def med(xs):
 def cmd_report(a):
     sessions, edits, grades = [], [], {}
     for root, dirs, files in os.walk(RAW):
-        dirs[:] = [d for d in dirs if d != "folder"]
+        dirs[:] = [d for d in dirs if not d.startswith("folder")]
         for fn in files:
             p = os.path.join(root, fn)
             if fn == "grades.json":
