@@ -1,0 +1,89 @@
+---
+type: Note
+title: "Client M"
+description: "Client M: dental office, patient forms and signage. Finished 2026-09-28."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Client M
+
+general working notes
+
+**approach**
+
+- figure out what the thing has to do before worrying about how it looks. who meets it, what they're carrying, how they feel when they arrive, what they need to get through. looks follow function more easily than expected.
+- assume the person using it is slightly stressed, slightly rushed, and not interested in design. if it works for them, it works for everybody with more patience.
+- ask the client what annoys them about the current setup before asking what they want. complaints are specific, wishes are vague.
+- keep a running list of questions the brief doesn't answer. most surprises later trace back to something assumed instead of asked.
+- go see how the space or medium behaves in real life before sketching. stand where the user stands. read from the distance they'd read from. a layout that sings on a big screen can fall apart in a hallway.
+- look at what already exists: leftover stickers, handwritten notes taped to walls, photocopies of photocopies. those are quiet evidence of where the system is failing and people are improvising.
+
+**process**
+
+i like to work rough for a long stretch. thick markers, cheap paper, boxes with labels instead of real text. the point is to argue with the structure while it's still cheap to change. once real type and color show up, everybody starts reacting to surface, and structural problems get buried under opinions about whether a shade is warm enough.
+
+when the structure feels right, build a small system instead of a pile of separate pieces: a restrained set of type styles, a limited palette, spacing that repeats, a way of handling emphasis that never changes. the system is what makes the work feel calm. it also makes later additions painless, because the rules already exist.
+
+- Dental office, new patient forms and signage
+- Finished 2026-09-28
+
+type comes before decoration. if the typography is clear and the spacing is generous, the piece is already largely there. decoration is for when something still feels flat, and even then it should earn its place by helping somebody find or understand something.
+
+color is a sorting tool, not just a mood. use it to separate categories, flag what's urgent, and guide the eye along a path. then check that everything still works with color removed, since printers, photocopiers, and eyes all fail in different ways.
+
+test early with somebody who hasn't seen the work. hand it over without explanation and watch. where do they hesitate, what do they skip, what do they misread. the awkward silence while they figure it out is the most useful feedback available, and because nobody enjoys sitting through it, it's easy to skip.
+
+keep the source files tidy while working, not afterward. layers named, styles shared, colors defined in the same place, notes left for a stranger. the stranger is usually me, much later, with no memory of why anything is the way it is.
+
+**things to keep in mind**
+
+- hierarchy is mostly about choosing what to leave quiet. if everything is loud, nothing is.
+- plain language beats clever language almost everywhere. if a label needs a clever explanation, rewrite the label.
+- contrast and size have to survive bad conditions: poor light, tired eyes, reading glasses left at home, glare off a glossy surface, a printer running low on ink.
+- people skim. design for skimmers first, then reward the readers.
+- leave room. crowded layouts feel anxious, and anxious is rarely the goal.
+- accessibility isn't a layer on top. type size, contrast, sensible reading order, and generous space to write or tap are part of the base.
+- materials matter as much as layout. paper stock, finish, how a sheet feels when it's handled, whether a pen glides or skips across it. glossy stock looks sharp and writes terribly.
+- print drifts from screen. colors shift, hairlines vanish, small text fills in. proof on the real material whenever possible.
+- consistency across pieces is worth more than polish on any individual piece. a modest system applied everywhere beats a brilliant piece surrounded by strays.
+- write down why something was made the way it was, briefly, so that the client's staff or a future version of me doesn't undo it by accident.
+- rules about brand voice are really rules about respect. say things the way a thoughtful person would say them across a counter.
+- every extra word on a sign or sheet costs somebody a little effort. spend that effort on purpose.
+
+**working with clients**
+
+- explain reasoning in terms of their goals, not taste. "this reads faster from across the room" lands better than "i like it."
+- show less, and show it in context. mockups placed in realistic settings get better feedback than flat layouts floating on white.
+- feedback frequently arrives as a feeling: too cold, too busy, too fancy. translate the feeling into a concrete issue before touching anything. ask what they were looking at when they felt it.
+- keep the circle of reviewers small and known. too many opinions produce mush.
+- hand over files and guidance that a non-designer can use without breaking things. locked-down templates, plain instructions, forgiving margins.
+- be clear about what's included and what isn't, early and in friendly language. surprises about scope are never pleasant, in either direction.
+- people in busy workplaces have little patience for design talk. show the result, name the benefit, skip the vocabulary.
+- remember that the client knows their own people better than i do. the front desk knows which questions get asked over and over, and that knowledge is worth more than any amount of research i can do from a distance.
+
+**small habits**
+
+- name files so a stranger could follow them.
+- keep a folder of things that worked and things that didn't, with a line about why.
+- photograph real-world signs and printed pieces that are either great or awful. the awful ones teach more.
+- step away from a layout, then look again upside down or squinting. hierarchy shows up fast when detail blurs.
+- read all text out loud. awkward phrasing hides on screen and gets exposed by the voice.
+- check spelling of names and specialist terms with extra care. nothing sinks trust faster than a typo in a professional setting.
+- print things at actual size, even rough. proportions lie on a screen.
+- take breaks that involve walking somewhere and looking at ordinary lettering on ordinary buildings. good reference is everywhere and mostly free.
+
+**open-ended ideas**
+
+- what if the studio kept a small library of reusable modules: a header treatment, a way of laying out instructions, a pattern for lists of choices. not templates exactly, more like proven answers to recurring problems.
+- a plain-language glossary habit. whenever a field's jargon shows up, jot down a friendlier phrase beside it. over time that becomes a quiet superpower.
+- tactile cues as wayfinding: texture, edge shape, notched corners, raised marks. useful for people who can't read the sign or don't want to.
+- a "quiet mode" version of every piece, the most stripped-back layout that still functions. useful as a baseline, and sometimes it simply turns out better than the fuller version.
+- silent observation sessions where somebody uses a piece for the first time and i say nothing at all, only watch their eyes and hands.
+- swappable panels or inserts, so that the parts that change can be refreshed without reprinting everything that doesn't.
+- color-coded paths that also hold up in grayscale or when copied badly.
+- a handoff checklist: typefaces licensed for the intended use, source files labeled, color values recorded, print specs written in plain words, a short page of dos and don'ts for whoever maintains it.
+- a loose after-project reflection habit. what took longer than it should have, what got skipped, what the client actually used versus what i assumed they would. keep it to a paragraph so it actually gets written.
+- wonder about the non-visual side of physical spaces: light, sound, smell, temperature, the feel of a door handle. how a place feels changes how people read the signs inside it.
+- what would it look like to design for the worst day instead of the average day? somebody nervous, in a hurry, in pain, juggling bags and paperwork. if the materials hold up for that person, they hold up for all of them.
+- is there a way to make instructions that people follow without noticing they're being instructed? arrows, spacing, and rhythm doing the work that sentences usually do.
+- maybe explore how much a layout can lean on shape alone, with text as backup rather than the lead.

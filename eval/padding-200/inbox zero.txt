@@ -1,0 +1,74 @@
+general working notes
+
+**approach**
+
+the work goes better when the brief gets translated into plain language before anything is drawn. if I can't say what a piece is for in a sentence a stranger would follow, the visuals will wander. so start with purpose, then audience, then the feeling it should leave behind, and only after that the look.
+
+keep early rounds ugly on purpose. rough shapes, boxes, scribbles, placeholder words. people react more honestly to something that clearly isn't finished, and it's easier to throw away work I haven't gotten attached to.
+
+running a studio by myself is more of a strength than a limit. there's no handoff to explain and no process theater, so the thinking can stay messy as long as what goes out the door is clean. the tradeoff is that nobody pushes back, which means building in ways to argue with myself: step away, come back with fresh eyes, and ask what a skeptical stranger would say about the piece.
+
+it also helps to separate the modes of making: exploring, refining, and producing. mixing them is where energy gets wasted. exploring wants speed and a high tolerance for bad ideas. refining wants patience and a critical eye. producing wants a checklist. noticing which mode I'm in makes it easier to be kind to myself in the right places and ruthless in the others.
+
+**process**
+
+- begin with a pile of references, but make it an honest pile. things that share a quality, not just things that look impressive in a screenshot
+- write the words before the layout whenever possible. layouts built around real copy behave very differently from layouts built around filler, and the filler version always lies
+- stay in grayscale until the structure holds up. color is seasoning, not scaffolding
+- test type at the smallest and largest sizes it will ever appear, and on the worst paper or screen it might end up on
+- squint at things. blur them. flip them upside down. if the hierarchy survives all that, it's probably real
+- keep a scrap folder of rejected ideas. they tend to turn into the answer to some other problem
+- name files plainly and consistently so future me isn't decoding a trail of "final" and "final-really"
+- present work with the reasoning attached. pictures alone invite arguments about taste, while reasoning invites a conversation about goals
+
+when feedback arrives, ask what the reaction is pointing at before taking the suggested fix literally. "make the logo bigger" usually means "I don't feel sure about this yet." the real fix is often somewhere else: clearer hierarchy, better spacing, a stronger reason for the thing to exist. a useful habit is to repeat the feedback back in different words and see whether the person nods. if they do, the problem is understood. if they hesitate, the problem is still hiding.
+
+it's also worth being honest about what kind of critique is useful. "I don't like it" is information about a person. "I can't tell where to look first" is information about the design. try to steer conversations toward the second kind without making anybody feel corrected.
+
+**things to keep in mind**
+
+- the client is rarely the audience. design for the person who has never heard of them and has no reason to care yet
+- consistency beats cleverness nearly every time. a clever idea used unevenly looks like a mistake
+- whitespace is a choice that deserves the same care as the things around it
+- accessibility is not a finishing pass. contrast, legibility, and clear order belong in the structure from the start
+- check work in the real medium. screens flatter everything, while paper, signage, and small devices tell the truth
+- production details are part of the design: file formats, color profiles, bleed, export settings, fonts that need outlining. a lovely layout that prints wrong is a bad layout
+- scope creep arrives dressed as a small favor. it's fine to be generous, but notice when generosity is quietly becoming the whole project
+- say no gently and with an alternative attached
+- keep paperwork from swallowing the creative hours. it's necessary but it isn't the work, and it expands to fill whatever space it's given
+- energy is uneven. protect the slow stretches, because that's often where good ideas assemble themselves
+- keep a record of where reference material came from, and be careful with credit and permissions on anything borrowed
+
+some thoughts on taste. it gets built by looking at lots of things and being honest about why some of them work. go look at places that have nothing to do with design: hardware aisles, old signage, packaging from far away, handwritten notices taped to doors. the best reference material is usually accidental, made by people who weren't trying to be stylish and just needed the thing to be clear.
+
+restraint is a skill too. the urge to add another element, another color, another flourish is strongest right when a piece is nearly finished. a decent test is to remove something and see whether anybody would miss it. if the answer is no, leave it out.
+
+on working with clients more broadly: most of them are not trying to be difficult. they're anxious about spending resources on something they can't fully judge, so reassurance often matters as much as the artwork. explaining why a choice was made, in terms of their goals and not my preferences, tends to settle more worries than polish does. showing a rough path early, before there's anything shiny to defend, keeps surprises small.
+
+**open ideas**
+
+- build a small library of reusable layout studies, not as templates but as a way to remember what worked and why
+- start a personal project with no client, purely to try techniques without anybody's expectations hanging over it
+- write brief process notes after each project: what surprised me, what I'd skip, what I'd steal from myself
+- try making things by hand, scanning them, and refining digitally, so some texture survives the cleanup
+- explore sound or motion as a quiet layer on top of otherwise static identities
+- impose strict limits on purpose, like a restricted palette, a restricted typeface, or a restricted grid, and see how far the limits go
+- try a reverse brief exercise: take a finished piece from anywhere and write the brief it must have come from
+- ask clients to bring an object that represents their business instead of a list of adjectives
+- pair a serif and a sans in unexpected proportions and see what the page does
+- build a vocabulary of feelings with matching visual moves, like calm meaning generous margins, low contrast, and round forms, then compare it across projects
+- experiment with showing process publicly, while wondering how much of the mess to reveal
+- collect examples of bad design deliberately and work out exactly what's wrong with each
+- explore how a brand would sound read aloud, since voice and visuals should feel like they belong to the same personality
+- now and then, design for the opposite audience from the intended one, just to find out what the piece is really made of
+- try describing a project using only verbs, to see whether the work is about doing something or being something
+
+**loose thoughts**
+
+a lot of design trouble comes from skipping the boring questions. who is this for, where will it be seen, what should happen after somebody sees it, what happens if they don't care. the answers are rarely glamorous, but they save an enormous amount of wandering.
+
+there's also a case for being slightly less precious. not every piece needs to be a statement. some jobs are meant to be useful, quietly, and the satisfaction comes from how little friction they create. a form that's easy to fill in or a sign that's easy to read can be a better accomplishment than a bold poster nobody can parse.
+
+and a reminder to self: the portfolio is a record of what got made, not a promise about what kind of work is wanted. it's okay to let it drift toward the work that feels most alive, even if that means quietly retiring the pieces that no longer feel like mine.
+
+none of this is a rulebook. it's a set of leanings, written down so they're easier to question. the useful ones will survive contact with real projects, and the rest can be revised whenever they stop earning their place.

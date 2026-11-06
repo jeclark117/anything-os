@@ -1,0 +1,87 @@
+general working notes
+
+approach
+
+the way i work is mostly about hearing people out before drawing anything. clients usually arrive with a feeling rather than a brief, and the early job is turning that feeling into words they'd recognise as their own. if i can reflect their purpose back in plain language and they nod, the visuals get much easier. if they hesitate, that hesitation is the real brief.
+
+i try to keep the early stage loose. rough boards, scribbles, borrowed references that stay inside the studio. the point is to find the edges of their taste, what they flinch at as much as what they light up about. reactions to wrong things are more useful than polite approval of right ones.
+
+habits worth keeping:
+
+- ask what the work needs to do for them in practical terms, not just how it should look
+- collect what already exists before proposing anything new: logos, packaging, signage, old flyers, screenshots, whatever is lying around
+- look at how their customers actually find them and talk about them
+- write down the odd phrases they use naturally, because those often become the best copy
+- keep a running list of questions so nothing gets lost between conversations
+
+imagery in general
+
+imagery matters more than most people expect. a tidy layout with weak pictures reads as unfinished, and a mediocre layout with confident pictures reads as deliberate. so it's worth thinking early about what the visual material is going to be, since everything else leans on it.
+
+things to keep in mind when judging whether existing material can be used:
+
+- resolution matters at the largest size it will ever appear, not the smallest
+- lighting inconsistencies show up fast once images sit next to each other
+- cluttered backgrounds can sometimes be cropped around, sometimes not
+- colour casts from indoor lighting can be corrected, but only so far
+- faces and hands expose problems quicker than anything else
+- a set of images should feel like it belongs to the same world, even if the pictures were made at different moments
+
+there's a middle ground between "use what's there" and "commission everything". treatments help: consistent cropping, a restrained colour grade, a shared frame or mask, graphic overlays that unify a set. they can rescue modest material, though they can also become a crutch that hides the lack of a real visual idea. worth being straight with myself about which is happening.
+
+sometimes the answer is a mix. a select few strong hero images, carefully made, and supporting material that is allowed to be humbler. the hero pieces set the standard and the rest borrow from them. i like that approach because it spends effort where it gets seen most.
+
+process thoughts
+
+- show work in context as early as possible. a logo on a flat white page tells nobody anything; the same logo on a sign, a bag, a profile avatar, a header image tells the whole story.
+- keep the options narrow. presenting a wide spread invites committee behaviour. a small, opinionated set gives the client something to react to.
+- name files and layers as if a stranger will open them. future me counts as a stranger.
+- leave breathing room between rounds of feedback so the work can be seen fresh.
+- when feedback is vague, translate it into a visual question. "more energy" might mean tighter spacing, warmer colour, bolder type, or just a livelier picture.
+- when feedback is contradictory, don't average it. find the underlying worry and design for that.
+- keep the rationale for choices written down in plain words. it makes presenting easier and keeps the work honest about why it looks the way it does.
+
+things that go wrong
+
+- assuming the client's materials are in better shape than they sound in conversation. a quick look at the actual files saves a lot of grief.
+- falling for a direction because it's fun to make rather than because it fits.
+- letting scope blur. small extras pile up quietly and then the whole project feels heavier than it should.
+- skipping the awkward conversation about who supplies what and who approves what.
+- designing around placeholder pictures that never get replaced, then discovering the real ones don't match the mood.
+- forgetting that some clients feel self-conscious about being photographed, or about showing their space, and need gentle handling.
+- presenting too polished too early, which makes people reluctant to say what's wrong.
+
+working with other creatives
+
+bringing in somebody else for part of a project changes the dynamic. a collaborator needs a clear brief, a sense of the mood, references that show purpose without dictating, and room to bring their own eye. micromanaging defeats the point of hiring skill. but vagueness wastes everybody's effort.
+
+useful things to hand over:
+
+- a short written description of the feeling, in plain words
+- a small set of reference images with notes on what exactly to notice in each
+- practical constraints: where the pictures will be used, what shapes they need to fit, what needs empty space around it for text
+- a list of things to avoid
+- a frank sense of the client's temperament, so the collaborator isn't walking in blind
+
+there's also the question of whose relationship it is. the client should feel looped in without feeling like they're managing a crew. a warm introduction and clear roles usually help.
+
+open-ended ideas
+
+- a little library of reusable shot lists for different kinds of small businesses: what a good set of pictures usually includes, in what order of importance, so a client can brief anybody confidently
+- a short guide for clients on making decent pictures with whatever they have: window light, clean surfaces, steady hands, leaving space around the subject. not a replacement for professional work, but a bridge
+- a habit of capturing process shots during projects, for the studio's own portfolio, so there's always fresh material to show
+- explore illustration or graphic patterns as a way to carry a brand when photography isn't the strongest asset
+- a simple scoring sheet for judging imagery: light, focus, framing, mood, consistency. would make conversations with clients less subjective
+- think about how a brand's visuals will age. trendy treatments date quickly; plain, well-lit, candid pictures hold up
+- a swipe file organised by feeling instead of by industry. "calm and slightly wry" cuts across categories in useful ways
+- the most satisfying projects have room for a slow middle, where nothing is being delivered and everything is being figured out. worth protecting that
+
+small reminders
+
+keep the client's real personality in view. the best brand work sounds like the person, not like a template. ask what they would never say, wear, or show, and respect that.
+
+remember that clients mostly can't read design language. "kerning" and "hierarchy" mean nothing to them; "easy to read" and "knows where to look" do. translate.
+
+protect the quiet stretches for actual design. admin expands to fill whatever space it's given.
+
+leave a bit of room for accidents. some of the best moves come from a misplaced layer, a bad crop that turned out right, a wrong colour that suddenly worked. staying curious beats staying tidy.

@@ -1,0 +1,101 @@
+general working notes
+
+**approach**
+
+- start from what the reader needs to walk away knowing, then work backwards. if the takeaway can't be said in plain words, no amount of layout polish will rescue it.
+- treat the reader as busy and smart. they don't need decoration, they need the point quickly and a reason to trust it.
+- figure out early who will actually open the document and who will just skim it. those are rarely the same people, and the design has to serve both.
+- keep the structure boring on purpose. a predictable rhythm lets the content be the interesting part.
+- sketch on paper before touching the screen. loose boxes and arrows show pacing problems faster than polished mockups do.
+- when a design problem feels stuck, it's usually a content problem wearing a layout costume. go back and ask what the page is actually trying to say.
+
+**process**
+
+long documents go wrong in the middle. the opening gets attention, the ending gets attention, and the stretch between them drifts into inconsistency. it helps to build the skeleton of the whole thing before any page gets finished: headings, placeholder blocks, a sense of where the heavy pages and light pages fall. then fill in from the loudest spots outward.
+
+habits that keep a long piece coherent:
+
+- set up styles for everything before laying out much. headings, captions, callouts, footnotes, pull quotes. changing a style in a central spot beats hunting through the whole document.
+- pick a grid and respect it. when something breaks the grid it should be on purpose, and it should look on purpose.
+- name layers and files like a stranger will inherit them. that stranger is usually me, later, tired.
+- keep a running list of things that look off but aren't worth fixing right now. clear it out at the end of a session rather than letting each wobble interrupt the flow.
+- step away from the screen regularly. fresh eyes catch spacing issues, orphaned words, and mismatched alignment that tired eyes slide right past.
+- print it, or at least view it at actual size, now and then. screens flatter everything.
+
+**pacing and rhythm**
+
+a report is a sequence, not a pile of pages. think about where the reader gets to breathe. dense analysis wants to be followed by something airy, like a big statement, a lot of white space, or a simple visual. if every page is equally busy, nothing stands out and the reader coasts.
+
+- vary the density on purpose. alternate heavy and light.
+- let section openers do real work. they reset attention and signal that something new is starting.
+- use repetition as a navigation aid. when similar content looks similar, readers learn the pattern and move faster.
+- notice where the eye lands first on each page. if it lands somewhere unimportant, adjust size, weight, or position until it doesn't.
+
+**working with data visuals**
+
+anything built from raw figures has a way of fighting back. the data arrives messy, labels run too long, categories don't fit the space, and the client's internal naming doesn't match what a stranger would expect on an axis. visuals are arguments, not decoration. each should answer a question the reader would plausibly ask.
+
+- ask what comparison matters most before choosing a form. a visual that tries to show every relationship usually shows none of them well.
+- strip back until it hurts, then add back only what the reader would miss. gridlines, borders, legends, and shadows are usually the first to go.
+- direct labels beat legends almost every time. nobody enjoys matching colors across the page.
+- color should carry meaning and keep it. if a color stands for something in an early section, it shouldn't mean something else further on.
+- check accessibility. color alone shouldn't be the only signal, and contrast should hold up when printed in grayscale.
+- scale honesty matters. truncated axes and stretched proportions can mislead even when nobody intended it.
+- annotate the interesting part. a short note pointing at the spike or dip saves the reader from guessing.
+- keep type in visuals consistent with body text so they feel like part of the page instead of pasted-in guests.
+- messy data deserves a cleanup pass before any design happens. fixing labels and categories at the source saves a lot of fiddling in the layout.
+- keep examples of visuals that worked well somewhere handy. good reference beats starting from a blank canvas every time.
+
+**talking with clients**
+
+- show rough work early and label it rough. people react more honestly to something that looks unfinished.
+- explain the reasoning behind choices in plain language rather than design jargon. "this helps the eye land here" beats a lecture on hierarchy.
+- feedback often arrives as a solution ("make it bigger") when the real issue is a feeling ("i can't find it"). ask what's bothering them before acting on the fix they suggest.
+- gather comments in a shared spot so conflicting requests are visible side by side.
+- be clear about which changes are cheap and which ripple through the whole document. late structural changes are the real cost, and clients rarely see that unless it's explained.
+- send work with a short note on what to look at and what to ignore for now.
+- remember that the person reviewing may be passing it up the chain. make things legible to people who weren't in the conversation.
+
+**things to keep in mind**
+
+- text always changes after layout is "done." leave breathing room in boxes and columns so a longer headline doesn't break the page.
+- data changes too. build visuals so figures can be swapped without redrawing everything.
+- widows, orphans, and awkward line breaks are small but readers feel them.
+- check every page at reading size, and also zoomed way out to see the overall rhythm.
+- export settings deserve a careful look. fonts, color profiles, and image compression can quietly change how things look.
+- proofread figures against the source separately from proofreading words. it's a different kind of attention.
+- keep terms consistent. if a metric is called a certain thing in a heading it shouldn't be called something else in a caption.
+- leave white space alone. the urge to fill it is strong and usually wrong.
+- save versions generously. the version that felt too plain on a bad afternoon is sometimes the better one.
+
+**energy and workflow**
+
+the hardest stretch of a long project is rarely the creative part. it's the middle, when the novelty is gone and the finishing details pile up. a few things seem to help:
+
+- tackle the thing that scares me most while energy is high, not as a reward for finishing easier work.
+- keep small wins in the mix. a tidy page that's actually done feels good and builds momentum.
+- notice when frustration is a signal. if something keeps resisting, the approach may be wrong rather than the execution.
+- write down where i stopped and what comes next in plain language before closing the file. coming back cold is much easier with a trail.
+
+**open-ended ideas**
+
+- what would a report look like if the most important visual came before any text at all?
+- could a recurring report have a signature move, something small that returns each time so readers learn where to look?
+- maybe a short plain-language glossary near the front for terms that clients use internally but readers don't.
+- what if every section ended with a "so what" line in a distinct style, so a flipper could read only those and still follow the story?
+- try writing captions as full sentences that state the finding instead of just labeling the subject.
+- an index of visuals up front might help readers who navigate by pictures.
+- experiment with a quiet palette for the body and a loud accent reserved for the most important thing.
+- think about how the document will be read: on a screen, on paper, projected in a meeting. each wants different density and type size.
+- wonder whether some content belongs in a reference area at the back, freeing the main story to move faster.
+- a retrospective habit: after finishing a long project, jot what slowed things down and what felt smooth while memory is fresh. over time the patterns say a lot about where effort pays off.
+- explore how motion or interactivity might change the shape of a report that is mostly read on screens.
+- consider how the same data might be shown for different audiences, a detailed view for analysts and a stripped view for executives.
+
+**reminders to self**
+
+- clarity over cleverness.
+- the reader's attention is borrowed, not owed.
+- a good layout is mostly invisible.
+- consistency builds trust faster than flair.
+- when stuck, simplify.

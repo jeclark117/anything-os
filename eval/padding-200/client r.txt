@@ -1,0 +1,62 @@
+general working notes
+
+**approach**
+
+a small business site is mostly a trust machine. a stranger lands on it with a vague worry and a short fuse, and the job is to make them feel looked after quickly. layout, type and color all serve that. if a choice doesn't help the visitor feel safe and informed, it's probably decoration.
+
+start from the work the business actually does, not from what sites in the same category look like. category conventions are a decent floor and a bad ceiling. a quick look around at competitors is useful for spotting clichés to avoid, not for copying.
+
+get the owner talking about their best day on the job, the worst misunderstanding they've had with a customer, and what they wish people understood before calling. those stories are better raw material than any brief. they also surface the real questions visitors have, and those questions should become the backbone of the page structure.
+
+**process, roughly**
+
+- hear them out before sketching anything. early conversations are mostly about vocabulary: what words the owner uses, what words customers use, and where those differ. the site should use the customers' words.
+- map the questions a visitor arrives with, in the order they tend to come up. is this the right kind of business, can i trust them, what does their work look like, how do i reach them. then arrange sections to answer in that order.
+- rough structure before visuals. a plain text outline with no styling exposes weak logic fast. if the outline reads badly, a pretty layer won't rescue it.
+- low-fidelity layouts next, deliberately ugly, so feedback goes to structure and not to color preferences.
+- type and color late. pull a small palette from the real world of the business: materials, surroundings, the tools of the trade. it feels grounded instead of generic.
+- build with the smallest set of components that can carry the design. fewer moving parts means fewer things for the owner to break later.
+- check on a small mobile screen early and repeatedly, since that's where a lot of visitors will be, often in a hurry and in poor light.
+- read all copy aloud. if it sounds like a brochure, loosen it until it sounds like the owner talking to a neighbor.
+
+**things to keep in mind**
+
+- photos carry more weight than almost anything else. real images of real work beat stock every time, and a handful of well-chosen shots does more than a sprawling gallery. worth finding out early what material exists and how good it is, because it shapes the whole look. if it's weak, some simple shooting tips for the owner, or a short guided shoot, can transform the result.
+- the owner is busy doing the actual work. keep requests for input small and concrete. "which of these feels more like you" gets answered. "what are your thoughts on the brand" sits in an inbox forever.
+- scope creep often arrives disguised as a nice idea: booking systems, blogs, portals, galleries with filters. any of them might be right eventually, but each adds upkeep. the useful question is who maintains it after launch.
+- outdoor businesses have rhythms that affect what the site should show and when. a homepage that can flex with the time of year, without a rebuild, is worth thinking about.
+- the contact path should be impossible to miss and impossible to get wrong. a tap-to-call button on mobile, a short form, and an honest note about how replies work.
+- local search rewards clarity more than tricks: plain service descriptions, consistent business details everywhere they appear, an address presented in a way people and maps can both read.
+- accessibility is not an extra. contrast, readable sizes, keyboard use, meaningful image descriptions. it quietly improves everything else too.
+- speed matters more than people admit. heavy images are the usual culprit, so compress sensibly and don't load what isn't needed.
+- testimonials work best when they're real, specific, and used with permission. vague praise reads as filler.
+- be honest when something is uncertain. it's better to say "i don't know yet, here's how we'd find out" than to bluff and rework later.
+- write down the reasoning behind choices while it's fresh. future me, and the owner, will want to know why a thing is the way it is.
+- the handover deserves real care. the owner should be able to change text and swap photos without calling for help. short, plain instructions with screenshots beat a long manual nobody opens.
+- leave breathing room in the schedule of a project for the unexpected. things like missing assets, slow replies and changes of heart are normal, not failures.
+- protect the quality of feedback rounds. ask for reactions to specific things, keep the group giving feedback small, and gather comments in a single place so nothing gets lost in scattered messages.
+- saying no kindly is part of the work. a focused site that does a few things well usually serves the owner better than a crowded one.
+
+**open-ended ideas**
+
+- a plain "how it works" strip that walks a visitor through what happens from first contact to finished work, mainly to calm nerves. people hire more readily when the path feels predictable.
+- a short plain-language guide to the questions homeowners tend to have before hiring anyone. it helps visitors and doubles as useful search material.
+- a project story format: the problem, the approach, the result, with a couple of images that actually show the change. maybe the owner can fill in a simple template without needing me.
+- a gentle banner the owner can switch on and off for timely notices, so the site feels alive without constant editing.
+- organizing the range of work by type of space or situation rather than by service name, since visitors think in terms of their own yard or property, not the company's categories.
+- photographing work in different light and weather to show how it holds up through the year, not just on its best day.
+- a printed leave-behind that matches the site, so the paper and the screen feel like the same business.
+- a small collection of recurring visual motifs drawn from the work itself, such as textures, edges, and plant shapes, used sparingly as dividers or backgrounds.
+- a before-and-after pairing, handled carefully. sliders can be gimmicky, and side-by-side images with a sentence of context are often stronger.
+- a quiet "meet the people" section with a real photo and a human sentence, since for local trades the person behind the work is often the product.
+- a swipe file of sites that feel warm and trustworthy, kept loosely and reviewed now and then, mainly to notice what they have in common.
+- a reusable checklist for launch readiness: forms tested, links walked through, images described, metadata sensible, a plain page for when something is not found.
+- a gentle audit habit for sites after launch, to see what visitors actually do and what they ignore, then adjust language before touching visuals.
+
+**general reminders to self**
+
+- clarity first, charm second, cleverness last.
+- the best compliment is a customer saying the site felt like the company.
+- keep the stack boring and the design memorable.
+- when stuck, go back to the owner's stories. the answer is usually sitting in how they describe their own work.
+- not every problem is a design problem. sometimes it's a copy problem, a photo problem, or a question nobody has asked yet.

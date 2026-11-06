@@ -1,0 +1,72 @@
+Mostly a reminder to myself about how I like to work, since good habits are easy to drop when the inbox gets loud.
+
+**approach**
+
+Listen more than I design at the start. The brief people write is rarely the brief they need, and the gap tends to show in how they talk about the audience. Notice whether they sound proud, nervous, or bored. That mood ends up in the layout whether anybody intends it or not.
+
+Questions worth keeping plain:
+- who is this really for, and what do they do with it afterward
+- what should somebody feel when they put it down
+- what's the awkward material everybody knows is in there but nobody wants to mention
+- what was tried before, and why did it feel wrong
+
+Work from content outward. Layouts built on placeholder text always look better than they deserve to, then collapse when real material arrives. Ask for real words and real figures early, even rough, even ugly. If they can't be had, design for the longest and shortest plausible versions and make the system hold up under either. Dense information needs air far more than it needs decoration.
+
+**process**
+
+Paper sketches before screens still pay off. Screens make everything look finished too soon, and people react to polish instead of thinking. Loose boxes and scribbled hierarchy keep the conversation about structure.
+
+Build the skeleton before the skin: grid, type scale, spacing rhythm, color roles. Get those behaving, then add personality. When a design feels off, the cause is almost always spacing or hierarchy, not the color or the typeface. Squint at it, blur it, shrink it to a thumbnail. If the important thing still reads, the bones are fine.
+
+When presenting:
+- show fewer directions than feels generous, because a crowd of options invites mixing and matching into mush
+- explain the reasoning in the client's language, not design language
+- say what the work is trying to do before showing it, so it gets judged against the right goal
+- leave room for them to feel like co-owners without handing over the steering wheel
+
+Feedback is data about a feeling. "Make the logo bigger" usually means "I don't feel seen." Ask what's behind a note before acting on its literal wording. Keep a running list of comments so contradictions surface early and can be pointed out kindly instead of discovered late.
+
+File hygiene matters more than it seems. Name layers as if a stranger will inherit them, because eventually somebody will, and it might be me after a long gap. Keep source files, exports, and reference material in predictable places. Save versions with plain descriptive names rather than "final" anything.
+
+**things to keep in mind**
+
+- Charts and tables carry the weight in data-heavy documents. Treat them as the main characters, not afterthoughts, and give them the same care as a headline.
+- Accessibility isn't a bonus pass at the end. Contrast, readable sizes, and sensible reading order belong in the skeleton stage.
+- Print and screen behave differently. Paper hides sins that screens expose and the reverse. Check on the real medium whenever possible, and judge color on the real material, not just a glowing monitor.
+- Photography and illustration direction deserve as much care as layout. A strong system gets undermined by mismatched imagery.
+- Protect the quiet pages. Not every spread needs a moment. Rhythm needs rest the way music does.
+- Be wary of trends that only work in a portfolio screenshot. Ask whether the idea survives a messy real-world edit.
+- Say no gracefully to additions that fight the structure, and offer an alternative that serves the wish underneath the request.
+- Working alone means nobody catches my mistakes, so build a proofing routine. Read everything aloud, read it backward for typos, check every name and label against the source, and look at pages upside down to judge balance.
+- Fatigue makes mediocre choices feel acceptable. Walk away, come back, look again with fresh eyes.
+- Typography is the quiet workhorse. Spend effort on line length, leading, and the small stuff like captions, footnotes, and page furniture. Readers don't notice when it's right, only when it's wrong.
+- Brand rules are a starting point, not a cage. If the existing guidelines produce something dull, that's worth raising gently, with a sketch of what a small bend could look like.
+
+**being a studio of one**
+
+Boundaries around scope save a lot of grief. Write down what's included in plain language so surprises are rare and nobody has to feel awkward later. Pay attention to the moment a project starts growing sideways, and name it out loud while it's still small.
+
+Leave breathing room between projects for tidying, reading, and experimenting. The work benefits from it, and the alternative is arriving at every new brief already tired. Keep an informal log of what worked and what dragged. Patterns show up in it that never show up in memory.
+
+Collect reference constantly: packaging, signage, old books, receipts with strange typography, the lettering on delivery vans. Sort it loosely. The point is to have a pile of unrelated textures to pull from when the obvious solutions run dry.
+
+A short, warm check-in after delivery tends to be remembered long after the details of the project fade. Relationships are most of the business, and they're built in the boring follow-through, not the big reveal.
+
+Also worth remembering that rest is part of the process. Some of the best fixes arrive away from the desk, in the shower, on a walk, while washing dishes. Don't treat that as slacking.
+
+**open-ended ideas**
+
+- A library of reusable layout skeletons for data-heavy documents, loose enough that the results don't look templated. Maybe organized by the feeling they create rather than by format.
+- A plain-language guide for clients that explains how type, space, and color affect readability, so conversations about taste can be grounded in something shared.
+- Experiments with tactile finishes and how paper stock changes the reading of a page. A heavier sheet makes the same words feel more serious.
+- A long document that has a quiet mode for skimmers and a deep mode for readers, with pull-outs, summaries, and margin notes working as separate layers.
+- A habit of redesigning something ordinary as a warmup: a receipt, a bus schedule, a medicine label, a parking sign. Low stakes, high learning.
+- Ways to show process in case studies without exposing anything confidential. Maybe abstracted sketches, redacted layouts, or just the thinking and none of the content.
+- A short set of retro questions to ask after each project wraps, kept honest and slightly uncomfortable on purpose.
+- Making data visualization feel more human, with hand-drawn annotations, conversational captions, and charts that admit uncertainty instead of pretending to be absolute.
+- What would a practice look like if it prioritized maintenance? Systems that age well, files that are easy to hand off, documents that can be updated by a non-designer without breaking.
+- A little personal archive of mistakes, framed kindly, covering what went wrong, why, and what the early warning sign looked like.
+- Thinking about sound and motion as part of print-adjacent work: how a document might be experienced when it's read aloud, scrolled, or flipped through quickly.
+- A way to test hierarchy with people outside the field. Hand them a page for a few seconds, take it away, and ask what they remember.
+
+None of this is a rulebook. It's more like a pile of reminders to look through when a project feels stuck, or when it feels too easy and I suspect I'm missing something.

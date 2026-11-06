@@ -1,0 +1,89 @@
+general working notes, mostly thinking out loud. nothing here needs doing.
+
+approach
+
+the work goes better when the brief gets boiled down to a plain sentence before anything gets drawn. if that sentence won't come, the problem isn't understood yet, and no amount of nice type or clever layout will cover the gap. worth keeping a scrap page of rough sentences like that and letting them be wrong for a while.
+
+start loose and ugly. thumbnails, scribbles, words on scraps of paper, a board of other people's work pinned up just to see what the gut reacts to. the aim is to find out what feels right before explaining why. the explanation comes later and always sounds more certain than it really was.
+
+keep the exploration wide for longer than is comfortable. working solo makes it tempting to settle early because nobody is there to argue. a useful trick is to deliberately build a route that seems wrong, then check whether anything in it is worth stealing.
+
+constraints help more than they hurt. a blank page is the real enemy. writing down what the thing has to do, where it lives, who sees it, and what it can't be gives the work edges to push against.
+
+process
+
+- name files so they make sense later. descriptive beats clever. "final_really_new" is a trap everybody falls into.
+- keep a running list of questions for the other side of a project and send them as a batch. it's kinder than trickling them out, and it forces a check on which ones matter.
+- leave work alone before judging it. fresh eyes catch what familiarity hides: awkward spacing, a label that reads wrong, a color that only worked because the screen was dim.
+- look at things tiny and huge, on paper and on a phone, in bright light and dim. problems show up at the extremes.
+- show work in context where possible: a mockup on a shelf, a page in a scroll, a mark on a tote bag. flat artboards flatter everything.
+- keep source material organized as it comes in, because digging for a reference photo in the middle of a good flow kills the flow.
+- when stuck, change the medium. sketch what's been built on screen, build what's been sketched, cut paper, trace, photograph.
+
+talking with people
+
+- explain choices in terms of their goals, not design vocabulary. nobody cares about kerning; they care whether the thing feels trustworthy.
+- present a focused set of options with a clear point of view rather than a buffet. a buffet invites committee taste and averages everything out.
+- feedback is information about a reaction, not an instruction. dig under "make it pop" to find the real worry.
+- be honest early about what's unclear. an awkward conversation up front is easier than an awkward one near the end.
+- listen for what gets repeated. when somebody keeps circling back to the same word, that word is the real brief.
+- write things down after calls while they're fresh, in plain language, so nothing relies on memory.
+
+craft notes
+
+- type does most of the heavy lifting. pairing is less about contrast for its own sake and more about giving each voice a job.
+- restrained palettes age better. let a lone accent do the shouting.
+- grids are a safety net, not a cage. break them on purpose, and make it obvious it was on purpose.
+- rhythm matters. repetition with small variation keeps a layout alive.
+- the details in the margins, like alignment, optical corrections, and the spacing around a mark, are what separate decent from good.
+- if something moves, it should move for a reason.
+- treat photos and illustration as part of the system, not decoration dropped in at the end.
+
+running a small studio
+
+every role belongs to me: designer, bookkeeper, salesperson, janitor. the danger is letting the most enjoyable role swallow the rest.
+
+- the pipeline is its own project and deserves attention even when work is plentiful. conversations that go nowhere still teach something about how the pitch lands, how scope gets described, which questions make people lean in.
+- a loose list of people worth staying in touch with, kept without pressure, might beat any formal outreach. the point is to be useful and remembered, not pushy.
+- slack in the schedule is a feature. packed calendars leave no room for the good surprise or the bad emergency.
+- admin needs protected space or it leaks into everything else.
+- rest counts as work. plenty of the better ideas arrive away from the desk, on walks, in the shower, while doing dishes.
+- jot down what worked and what didn't after each project, even roughly. patterns show up that nobody would spot in the thick of it.
+
+things to keep in mind
+
+- clarity before cleverness. a clever idea that confuses is just a puzzle.
+- hierarchy matters: what gets seen at a glance, and what rewards a closer look.
+- accessibility is part of the job: contrast, legibility, reading order, motion. design that shuts people out is unfinished.
+- consistency builds trust, and small inconsistencies erode it quietly.
+- whitespace is a material, not leftover.
+- restraint: every element should earn its place. when in doubt, remove something and see whether anybody notices.
+- look outside design for reference: signage, packaging, old manuals, hand-painted shopfronts, textiles, maps, hardware store labels.
+- think about the handoff while building. tidy files, licensed typefaces, clear instructions, so whoever inherits the work isn't stuck.
+- taste is a muscle. it grows by looking critically at lots of things, including things that aren't liked.
+- doubt is normal. a project that feels shaky in the middle isn't necessarily broken. it's often just the awkward stage where the idea hasn't found its shape yet.
+
+open-ended ideas
+
+- a small library of reusable proposal language in plain talk, explaining how the studio works and why it asks the questions it does.
+- an archive of abandoned directions. they sometimes resurface as exactly right for something else.
+- a self-initiated project with no brief: a poster series, a typeface sketch, a tiny zine. purely to keep the hands in practice and to have something no client shaped.
+- case studies that show the thinking and the mess, not just polished results. people hire judgment.
+- a kickoff checklist: goals, audience, constraints, who decides, what success looks like, what's been tried before.
+- a pre-mortem habit: imagine the project went sideways and ask why, before it does.
+- collaborations with other small practitioners who complement the work: writers, photographers, developers, illustrators.
+- ways to make the process more visible, like sketches and behind-the-scenes notes. transparency builds trust.
+- a texture library photographed in everyday life: peeling paint, ticket stubs, worn stair edges, water stains.
+- a method for quiet stretches: tidy files, refresh the portfolio, learn something unfamiliar, resist the panic.
+- a plain-language guide for people new to hiring a designer, explaining what to expect and what to prepare. could double as a lead magnet, or just be a kindness.
+- a reading pile that includes typography, color, and psychology, but also gardening, cooking, and history. unrelated fields feed the work in sideways ways.
+- try writing the copy before the layout on some projects, to see if it changes the structure.
+- audit the studio's own materials with the same rigor given to everybody else's: invoice template, email signature, website text. the cobbler's children and all that.
+
+loose thoughts to end on
+
+the job is mostly looking carefully, asking decent questions, and making things slightly clearer than they were. everything else is support for that. it's easy to get lost in tools, trends, and the pressure to look busy, but the thing people remember is whether the work made their situation easier to understand or nicer to be in.
+
+there's also a quiet value in being the kind of studio that's easy to work with. clear communication, honest reasoning, files that open properly, and a calm tone when things get tense add up to a reputation, and a reputation travels further than any portfolio piece. worth protecting, especially when stressed.
+
+last, keep some room for play. the best work often starts as a joke, a doodle, or a wrong turn, and a studio that never makes space for those tends to produce competent, forgettable things.

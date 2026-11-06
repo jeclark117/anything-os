@@ -1,0 +1,97 @@
+client s poster notes
+
+limited palette worked well
+printed as a two-color riso
+
+general working notes
+
+**approach**
+
+start with the feeling, not the layout. before anything gets drawn, try to say in plain words what a stranger should feel from across a room. if that statement is mushy, the design will be mushy too.
+
+the brief is usually a starting point and rarely the real problem. worth asking what the thing is actually for, who will be standing in front of it, and how much patience they'll bring. most work gets glanced at, not studied, so the glance has to carry the whole message and the details are a reward for viewers who stick around.
+
+restraint usually pays off. every element needs a reason to be there, and if it can't explain itself it goes. empty space is a material, not leftover room.
+
+good constraints are a gift. a tight brief, a rough surface, an awkward format. they push past the habitual move and force an actual idea. when everything is possible, nothing is interesting.
+
+**process**
+
+- gather references loosely, then throw most of them away. the useful ones are rarely the obvious ones. a worn shop sign or a seed packet can teach more than another design annual
+- sketch small and ugly on paper before touching a screen. the screen makes everything look finished too early
+- make thumbnails fast enough that nothing feels precious. the goal is volume of ideas, not quality of drawing
+- let the headline find its own size. push it until it feels uncomfortable, then pull back a little
+- squint at the layout. if the big shapes still hold together when the details blur out, the structure is working
+- walk away and come back with fresh eyes. problems that were invisible become loud
+- print it out whenever possible. things behave differently at real size, taped to a wall, seen from across the room
+- keep a folder of rejected directions. they come back more frequently than expected and sometimes turn into the seed of a later project
+
+**type**
+
+type does most of the heavy lifting. pick a typeface for its personality and then respect its habits. wide letterforms want room to breathe, condensed forms want confidence and a bit of attitude. kern by eye, always, especially at display sizes where small gaps turn into canyons.
+
+when mixing typefaces, make the contrast obvious or skip it. faces that are almost alike just look like a mistake. a loud face needs a quiet partner and the reverse.
+
+line breaks in a headline matter as much as the words. break where a person would pause if they were saying it out loud. ragged edges deserve the same care as the letters themselves, and a stray little word hanging at the end of a line is a small crime.
+
+**image and texture**
+
+imperfection is a feature. a slightly off alignment, a grainy edge, uneven ink, a halftone that shows its dots. these all say a person made this. the catch is that the roughness has to look chosen rather than accidental. consistency is the difference: rough in a way that repeats reads as a system, rough in a random way reads as a mess.
+
+images work harder when they're cropped aggressively. let a subject run off the edge and let the viewer's brain finish it.
+
+**paper and finish**
+
+surface is part of the design. a slick sheet and a toothy sheet make the same artwork say different things. think about how light hits it, how it feels when handled, whether it hangs flat or curls, whether ink sits on top or soaks in. a good finish can rescue a quiet layout and a bad finish can bury a loud one.
+
+**feedback**
+
+show work with a short story attached, not just an image. say what problem the layout solves and why the choices follow from it. people respond better to reasoning than to taste, and it keeps the conversation on the goal instead of on preferences.
+
+when feedback arrives that feels wrong, wait before reacting. the instinctive reaction is usually defensive and the useful part is buried underneath. look for the problem the comment is pointing at, even when the suggested fix is off.
+
+separate the client's feedback from the client's taste. a comment like "make it pop" is a feeling, and the work is translating that feeling into something that can actually be changed.
+
+**keep in mind**
+
+- the file that goes to the printer is a different animal than the file on screen. bleed, margins, trim, how ink behaves on a given paper, how a fold lands. all of it is cheaper to think about early than late
+- check fonts, links, embedded images, outlines. missing fonts are a classic way to ruin a good session
+- name files so future me can find them without a map. "final-final" is a joke because it's true
+- legibility from a distance, contrast, and not leaning on color alone to carry meaning
+- write down why a choice was made while it's fresh. explaining it later is easier with notes than with memory
+- late additions like an extra logo, a legal line, or a slogan each carry a cost to the whole composition. worth pushing back gently and showing what the cost looks like rather than just refusing
+- proof the copy by reading it aloud and by reading it backwards. names and contact details deserve extra suspicion
+
+**working solo**
+
+working solo means nobody catches mistakes. build habits that stand in for a colleague: read copy aloud, step away, show the work to a friend outside the field and watch where their eyes go. their confusion is data, not an insult.
+
+protect energy. creative energy is limited and admin eats it. batch the boring stuff together so it doesn't leak into the good stretches. stay curious on purpose with small side projects that have no client attached, because that's where new habits form.
+
+keep a record of what went smoothly and what felt like pulling teeth. patterns show up.
+
+**getting unstuck**
+
+stuck usually means the problem is framed badly, not that ideas have run out. rewrite the brief in different words. swap the format for a while. change the scale, work huge or tiny. set an arbitrary rule and see what it forces. when nothing works, make something deliberately bad and notice exactly what's wrong with it, because that points at what right looks like.
+
+**open-ended ideas**
+
+- what happens if a layout is built entirely from type with no image at all
+- a series where each piece breaks the same rule in a different way
+- make something purely by cutting paper and scanning it, then see what the digital pass adds and what it ruins
+- hand-lettering for just a word, surrounded by plain type, so the hand feels special
+- a process zine showing failed attempts, maybe as a leave-behind for clients who like seeing how things get made
+- study signage in ordinary spaces and how it solves problems under pressure: fast reading, bad lighting, tired eyes
+- what if the back of a poster got as much thought as the front
+- layer transparent shapes until accidents appear that nobody drew on purpose
+- imagine the piece working in a dark room, on a crowded street, as a tiny thumbnail on a small screen. what survives
+- build a personal archive of good problems: briefs that were hard in interesting ways, and what made them hard
+- borrow structure from unrelated fields like maps, recipes, sheet music, and timetables, and see what a poster looks like when it's organized that way
+
+**questions that keep nagging**
+
+- how much explanation does a finished piece deserve? case studies can flatten the work
+- when does a system turn into a cage
+- is the strongest work always the quietest, or does that just flatter my own taste
+- how to stay loose when the stakes feel high
+- what's the right amount of polish for a piece that's meant to look handmade

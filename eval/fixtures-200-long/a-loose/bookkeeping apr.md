@@ -1,0 +1,72 @@
+bookkeeping apr
+
+general working notes, loose
+
+**how the work tends to go**
+
+the studio runs on a simple loop: get curious about the problem, make something rough, show it, react to the reaction, make it less rough. the loop matters more than any particular stage. when the work stalls it's usually because the loop got interrupted, either by polishing too early or by hiding the rough thing for too long.
+
+work from the problem outward. a brief usually arrives as a request for a deliverable (a mark, a site, a poster, a set of cards) but the real question underneath is what the thing is supposed to make happen for the people who meet it. worth asking that out loud early, even when it feels like it slows everything down. the answers save a lot of backtracking later.
+
+being a studio of just me has real upsides: no handoffs, no translation layer between taste and execution, quick answers to small questions. the downside is that nobody pushes back. so build in ways to get pushed back on. let work sit overnight and look again with fresh eyes. print things out. read the copy aloud. show work in progress to a trusted friend outside the field, because they'll say what they actually see instead of what they think a designer wants to hear.
+
+**process habits that seem to help**
+
+- start with words before shapes. a paragraph describing how the work should feel usually beats a mood board, because a mood board lets you borrow other people's answers.
+- keep a scrap file of rejected directions. rejected ideas often turn into the seed of the next project, or the fix for a stuck one.
+- constraints are friendly. a narrow palette, a small set of typefaces, a strict grid. the tighter the box, the more the small choices read as intentional.
+- rough before refined, always. grayscale before color, system type before chosen type, gray boxes before images. it's hard to fall in love with something that's obviously unfinished, which is the point.
+- name files so a tired future self can parse them. plain descriptive names, clear version labels, no cute nicknames that only make sense in the moment.
+- at the end of a work session, jot where the thread was left and what the open question is. picking up cold is much easier with a handle to grab.
+- when stuck, change the medium. sketch on paper, rebuild the layout in a different program, rearrange it on the wall. the problem often looks different from a new angle.
+- look at the work small, then large. thumbnail size shows hierarchy; full size shows craft. both lie a little on their own.
+
+**things to keep in mind**
+
+- feedback is data about a reaction, not a set of instructions. "make it pop" really means something is missing, and the job is to figure out what. restate what's being asked before touching anything.
+- "can we just..." is a phrase worth noticing. small-sounding requests sometimes hide a bigger shift in direction. no need to be defensive about it, just name it gently so the shift is visible.
+- the person paying isn't always the person using. keep both in view, and keep a third party in view too: the stranger who stumbles on the work with no context at all.
+- accessibility is easier built in than patched on. contrast, size, motion, reading order, how things behave when a screen is tiny or a connection is slow.
+- say what was left out, and why, when presenting work. people trust a designer who can explain the absences as well as the choices.
+- busy is not the same as productive. a tidy desk and a full task list can still hide the fact that the hard question hasn't been touched.
+- taste drifts when tired. judgments made in a foggy state are worth revisiting once rested.
+- one-person studios blur into the rest of life very easily. protect some space where the work isn't the topic. the work gets better when there's something else feeding it.
+- keep copies of everything that matters, in more places than feels necessary, and keep the originals organized enough that someone else could find things. future emergencies don't announce themselves.
+- be wary of fashionable moves. trends are fine as seasoning but a poor foundation; they age faster than the problems they claim to solve.
+- generosity helps: with credit, with explanation, with process. people remember being included.
+- when a project feels heavy, shrink the question. what's the smallest version of this that would still be true?
+
+**on talking with clients**
+
+income $2,600
+expenses $395
+reconciled 2026-05-04
+
+clarity beats cleverness in nearly every email. short paragraphs, plain words, a clear ask at the end. when something is ambiguous, say so rather than guess and hope. people generally forgive a question; they rarely forgive a surprise.
+
+it helps to show work with a little story attached: what the problem seemed to be, what was tried, what the current answer is and why. a bare image invites taste-based reactions ("i like it" / "i don't"). a framed image invites reactions to whether it works.
+
+also worth remembering that silence on the other side is rarely about the work. people get busy, get nervous, get pulled into other fires. a gentle nudge usually lands better than a stewing assumption.
+
+**open-ended ideas, none of them settled**
+
+- a small personal library of typographic experiments, made purely for the pleasure of it, that could feed future projects or just keep the eye sharp.
+- a habit of reverse-engineering admired work: pick a piece, write down every choice it seems to have made, then guess at the reasoning. like taking a watch apart.
+- a "what went sideways" review after projects wrap, kept honest and blameless, even though the only person to blame is me.
+- writing up process as short essays. explaining something is the fastest way to find out whether it's actually understood.
+- collaborating with a writer, photographer, or developer on a self-initiated piece, just to see what happens when taste collides with someone else's.
+- physical experiments: rubbings, stamps, cut paper, scanned textures, ink that behaves badly. digital work gets richer when it has something real to borrow from.
+- a pre-kickoff list of questions that gets people thinking about what success looks like, who it's for, and what would be a shame to lose.
+- a portfolio that shows thinking as well as outcomes: the false starts, the ugly drafts, the moment a direction changed.
+- a calmer way of presenting the studio itself. less hustle, more quiet confidence, a site that reads like a good conversation.
+- sound, motion, or scent as part of identity work, even if only as a thought exercise. what would a brand smell like? what would it sound like in an empty room?
+- a running list of questions that don't have answers yet, revisited now and then to see which have quietly resolved themselves.
+- trading critiques with other solo practitioners, in a format that's light enough to survive busy stretches.
+
+**a few small reminders**
+
+- finished is a feeling, not a fact. there's always another tweak, and knowing when the next tweak is just anxiety is a skill.
+- boring work done well builds the reputation that exciting work needs.
+- ask what the work would look like if it were easy.
+- look at things other than design. gardens, signage, packaging in a corner shop, the way a stranger folds a map. ideas hide in odd places.
+- keep a little stubbornness and a little humility, and learn to tell which one the moment calls for.

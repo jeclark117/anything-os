@@ -1,0 +1,79 @@
+bank fees
+
+working notes, general
+
+**approach**
+
+Start with the problem, not the look. When a project lands, the urge is to open the software and push shapes around, and that usually produces something pretty that answers the wrong question. Better to spend the early stretch asking what the thing is for, who will meet it, and what they're doing when they meet it. A poster glimpsed from across a street is a different job than a label read in the hand, even if the brand is identical.
+
+Write the problem down in plain language before drawing anything. If it can't be said plainly, it isn't understood yet. That plain sentence becomes a ruler to hold the work against later, especially when feedback starts pulling in odd directions and everybody has a favorite detail.
+
+Being solo means wearing every hat: strategist, designer, bookkeeper, receptionist, the person who sweeps up. The hidden tax is the switching between them. Group like with like where possible, admin with admin, making with making, and protect the making, because that's where the real value gets created and also where focus is easiest to lose. A tidy desk and a closed inbox do more for the work than any clever technique.
+
+Work from rough to refined, and resist polish until the structure holds. Gray boxes and ugly type tell the truth about a layout. Color and photography are excellent at hiding a weak idea, which is exactly why they should arrive late.
+
+**process, loosely**
+
+- hear people out before proposing anything. Clients often describe a solution when what they actually have is a worry. Ask about the worry.
+- gather references widely, then throw out the obvious ones. If a reference could belong to any competitor, it isn't helping.
+- explore wide, then narrow. Make plenty of directions early, drop most of them quickly, and don't get attached to the clever ones, because cleverness is easy to come by and clarity is not.
+- show work with reasoning attached. A design presented without explanation invites an argument about taste; a design presented with a stated purpose invites a conversation about whether it meets the purpose.
+- keep a running log of why choices were made along the way, so future me isn't guessing when a question comes back around.
+- name files sensibly and keep the folder structure boring. Boring is findable.
+- test the work in the real setting: on a small screen, in print, in bad light, at a size smaller than is comfortable, whatever applies.
+- leave room at the end for the unglamorous cleanup pass: alignment, stray marks, leftover layers, mismatched spacing. People feel sloppiness even when they can't name it.
+
+**things to keep in mind**
+
+- scope creep arrives politely. It rarely shows up as a big ask; it shows up as "while you're in there." Worth noticing the pattern and naming it kindly when it appears.
+- the brief is a living thing, but changes to it should be visible to everybody involved. Quiet drift causes trouble later.
+- paperwork matters more for a small studio than it feels like it should. Clean records, clear terms in writing, receipts kept somewhere findable. Dull, and protective.
+- rest is part of the process. Tired eyes miss obvious mistakes, and stepping away from a layout then coming back almost always reveals what's off.
+- accessibility isn't a bolt-on. Contrast, legibility, and clear hierarchy make work better for everybody, not just the people who rely on them.
+- type does most of the heavy lifting. Care for spacing, rhythm, and hierarchy before reaching for ornament.
+- say no kindly. Not every inquiry is a fit, and a polite pass beats a resentful yes.
+- watch the urge to over-explain in emails. Short and specific lands better.
+
+**client conversations**
+
+Short, plain, specific. Summarize after calls in writing so nobody carries a different memory of what was said. When there's bad news, lead with the fix. Stay calm even when the message isn't. Skip jargon unless the client uses it first, and even then, use it lightly.
+
+Feedback is easier to use when it's a reaction rather than a solution. "This feels cold" is more helpful than "make it blue." Translating the reaction into a design response is the job. Taking an instruction literally usually produces a worse result than the person who gave it expected.
+
+It also helps to ask what success would look like for the people on the receiving end of the work, not just for the person approving it. The audience is rarely in the room, so somebody has to speak for them.
+
+**craft habits**
+
+- squint test: blur the layout and see what still reads
+- grayscale before color, always
+- swap in real copy early; placeholder text lies
+- check the awkward cases: very long names, missing images, empty states, error messages
+- let negative space be intentional rather than leftover
+- keep a swipe file of things that made me stop and look, and annotate why they worked
+- revisit old work with a harsh eye now and then; it teaches faster than new work does
+- read the work aloud if it has words in it. Clumsy phrasing is easier to hear than to see
+
+**open-ended ideas**
+
+- a small library of reusable questions for kickoff conversations, sorted by type of project
+- a reflection template for after a project wraps: what felt smooth, what dragged, what surprised
+- short pieces on process, partly to clarify thinking, partly to attract the right kind of work
+- a set of starter files so the boring setup disappears
+- informal critique swaps with other independent designers, no stakes, just fresh eyes
+- how much early research could be reused across similar jobs without making the output feel templated
+- a parking lot note for ideas that surface mid-project and don't belong in it yet
+- presenting process as part of the deliverable, since people tend to value what they can see the effort behind
+- whether the best work comes from tight constraints, and whether it's worth inventing limits on purpose when a project doesn't supply them
+- collecting examples of good microcopy, the tiny bits of text that carry personality without getting in the way
+- a plain-language guide for clients explaining how the work moves from rough to refined, so the gray-box stage doesn't alarm anybody
+
+**little reminders**
+
+Keep the tools sharp but don't confuse tools with talent. The software changes constantly; the underlying skills of seeing, arranging, and explaining don't.
+
+Pay attention to what is energizing and what is draining. A sustainable pace beats heroic bursts, and burnout is a design problem too, just one with a studio as its subject.
+
+The work exists to help people understand something, find something, or feel something. When admin piles up and the small stuff gets loud, that's a good thing to come back to.
+
+no monthly fee on the business account
+wire transfers cost extra

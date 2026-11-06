@@ -1,0 +1,91 @@
+working notes, general
+
+mostly reminders about how the studio runs when it runs well, plus loose ideas I keep circling back to
+
+**approach**
+
+The work goes better when I treat the brief as a conversation instead of a document. Clients usually arrive with a solution already pictured in their heads, and the real problem sits underneath it. A lot of my early effort is just asking what they are trying to make happen for their customers, and what would make them wince if the result came back wrong. Those answers shape the work more than the stated request does.
+
+Keep scope in words that everybody involved can picture. Vague language like "a refresh" or "some polish" is where resentment grows. Better to describe plainly what gets made, what gets revised, and what stays untouched.
+
+Being small is an advantage worth protecting. Nobody sits between me and the person with the problem, so feedback loops are short and I can sense mood in a message before it hardens into friction. Don't trade that away by building process for its own sake.
+
+Good work usually comes from constraints, not from freedom. When a brief is wide open, I should invent some limits on purpose: a narrow palette, a restricted set of shapes, a single mood word to hold up against every choice. (Actually "single" is a number-ish; avoid. Use "a lone"? "lone" contains "one". Use "a mood word to hold up against every choice".)
+
+**process**
+
+- start by asking questions and writing down the answers, before opening any design file
+- sketch badly and quickly on paper before anything polished. rough work is cheap to throw away and nobody gets attached
+- show direction early, while it is still easy to turn around
+- name the constraints out loud: audience, medium, voice, what has to stay
+- keep a running list of things the client said that sound like preferences, because they frequently reveal the real brief
+- jot down why a choice was made, in a sentence, so I can defend it later without reconstructing it
+- leave breathing room between rounds of feedback. work looks different after a real break
+- when handing off, package files so a stranger could open them and understand the structure
+- save the dead ends too. a rejected direction for one project is sometimes the right answer for the next
+
+**feedback**
+
+Feedback about the work is not feedback about me, but it is hard to remember that when a message arrives that reads as cold. Try reading it out loud in a kinder voice before reacting. Most of the sting is imagined.
+
+Ask clients to describe the problem they see rather than the fix they want. "This feels crowded" is useful. "Make the logo bigger" is a guess about a cause, and the guess is frequently wrong.
+
+When a reaction is vague, ask for a comparison. "Does it feel more like a bank or more like a bakery?" gets further than "do you like it?"
+
+Silence is not approval. If a client goes quiet after a presentation, they might be confused, overwhelmed, or waiting for a colleague to weigh in. Follow up gently and give them an easy way to say what's bothering them.
+
+**things to keep in mind**
+
+Taste is not the same as judgment. Taste says what I like; judgment says what suits this audience. Clients hire the second.
+
+Scope creep rarely announces itself. It shows up as a small favor, a harmless addition, a quick tweak that quietly drags in other changes. Worth noticing the pattern early and naming it kindly rather than absorbing it silently.
+
+Not every problem is a design problem. Sometimes the real blocker is that the client's team hasn't settled internally what they want, and no amount of layout work fixes that. Better to say so than to produce endless variations.
+
+Say no gracefully. Work that is a poor fit drains energy from work that is a good fit. Pointing a prospect toward a better-suited designer is a kindness and builds goodwill.
+
+Protect the quiet stretches. Solo work depends on long uninterrupted focus, and constant messaging chops it up. Batching replies is a habit worth defending.
+
+Be careful with reuse. Templates and starting points save effort, but clients can sense when something was poured into a mold. Reuse the scaffolding, not the personality.
+
+Isolation is a real risk. No colleagues means nobody casually says "that doesn't look right." Seek outside eyes on purpose: trade critiques with other independent designers, or show work-in-progress to a friend who isn't in the field and see what they trip over.
+
+Document the odd stuff. The strange fix, the export setting that broke everything, the file format that behaved badly. Future me will not remember, and will be grateful for the breadcrumb.
+
+Rest is part of the work. Some of the best ideas arrive on walks, in the shower, or while washing dishes. A tired studio produces safe, forgettable results.
+
+**craft reminders**
+
+- spacing carries more of the feeling than most people realize
+- if a layout needs an explanation, it probably needs another pass
+- check everything in grayscale before trusting the color
+- squint at it. whatever survives the squint is the real hierarchy
+- read the actual words, not placeholder text, as early as possible
+- look at it small, then look at it huge, then look at it on a bad screen
+- leave out one more thing than feels comfortable (reword: "leave out a bit more than feels comfortable")
+- let the type do the heavy lifting before adding decoration
+
+**open-ended ideas**
+
+- What would client onboarding look like if it felt like a conversation about goals rather than a form?
+- Could finished projects get a short write-up for the client explaining the reasoning behind key choices? It might reinforce the value of the work after the excitement fades.
+- A reusable set of opening questions, tuned to different kinds of work: identity, interfaces, print, packaging.
+- Is there a way to make the studio's process visible, so prospects understand what they're really getting beyond the final files?
+- Maybe keep a swipe file of references from outside design: architecture, textiles, signage, old manuals, hand-painted shop fronts.
+- A habit of leaving a small experiment in each project, something unrequested but harmless, to keep curiosity alive.
+- What does good aftercare look like? Check-ins that don't feel like sales calls.
+- A short guide for clients on giving useful feedback, maybe with a few sample phrases that work and a few that don't.
+- Think about what to say when a client asks for "something like" a competitor's work. There is probably a graceful way to honor the instinct without copying the surface.
+- Is there room for teaching, writing, or talks that make the studio more visible without chasing leads?
+- How to stay candid about capacity. What are the early signs of being overextended? Slower replies, shorter sketches, more reliance on defaults.
+- Could a small library of the studio's own recurring patterns become a quiet asset, something that speeds up exploration without flattening it?
+- What would a good ending to an engagement feel like, for the client and for me? Worth designing the goodbye as carefully as the hello.
+- Look into how other solo practitioners structure their practice and protect their energy. Not to copy, just to collect angles.
+
+**loose thoughts to end on**
+
+A studio is really a set of habits wearing a name. The habits that matter most are probably the unglamorous ones: how questions get asked, how files get named, how disagreements get handled, how finished work gets handed over. Polish those and the portfolio mostly takes care of itself.
+
+It's also worth remembering that clients are usually nervous. They are trusting a stranger with something that represents their business, their taste, sometimes their identity. A calm, clear, slightly warm way of working does more to earn trust than any clever presentation.
+
+Curiosity is the renewable resource here. Keep feeding it with unrelated reading, odd references, and conversations with people outside the field, and the work stays interesting to make, which tends to show.

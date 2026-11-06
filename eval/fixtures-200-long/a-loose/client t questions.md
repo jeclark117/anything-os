@@ -1,0 +1,66 @@
+client t questions
+
+general working notes
+
+approach
+
+- start from what the person actually does in their working life, not from the mood the brand wants to give off. the best work usually comes from watching how people move through a thing rather than from a pile of reference images
+- keep the brief honest. if the brief is vague the work will be vague, and then everybody blames the work
+- listen for words a client repeats without noticing. those are usually the real brand, and they tend to be plainer than whatever is written on the about page
+- being a small studio means no handoffs to hide behind. the person who draws the thing also answers the email, so the reasoning behind a choice should be explainable in normal language
+- rough before polished. ugly sketches are cheap and let people react honestly. polished comps make people polite, and polite feedback is useless
+- ask what the client is worried about, not just what they want. worries drive more of the project than wishes do
+
+process thoughts
+
+the early stretch is mostly about reducing fear. a client who hands over a project is nervous about being misunderstood, about looking silly, about paying for something that feels generic. a lot of the early conversation is just proving that the listening is real. repeat their phrasing back to them, then show what it looks like drawn. nothing builds trust faster than seeing your own offhand remark turned into a shape.
+
+exploration should be wide and a bit reckless. the temptation is to settle on the obvious direction because it works and move on. the obvious direction usually does work, but it works better after you have tried to break it. push a few ideas past the point of usefulness so you know where the edges are, then pull back.
+
+narrowing is where taste comes in, and taste is hard to defend out loud. keep a running list of why each direction was dropped, even if the reasons are small. when a client asks "what about the other one," the answer should be more than a shrug.
+
+presenting work is its own skill, separate from making it. show less than you think you should. a wall of options invites picking at details; a short, confident set invites a real conversation. frame each piece with the problem it solves before showing it, otherwise people judge it as decoration.
+
+feedback comes in layers. the first layer is usually about color or a font because those are easy to have opinions about. the real feedback sits underneath, often in a throwaway sentence at the end of a call. leave room after the formal part is over. people say the true thing when they think the meeting is finished.
+
+things to keep in mind
+
+- a design is only finished when somebody who did not make it can use it without help. test with a stranger whenever possible, even a patient friend
+- systems beat one-off pieces. if a decision only works on a single page, it is probably a decoration, not a decision. look for rules that can be reused without thinking
+- restraint is a feature. every extra flourish is something the client has to maintain, and most small businesses cannot maintain much
+- accessibility is not a layer to add at the end. contrast, reading size, tap targets, and plain language are part of the shape of the thing from the start
+- write down assumptions as they appear. most project trouble comes from an assumption that nobody said out loud
+- the client knows their customers better than the designer does. the designer knows how strangers read things better than the client does. the work lives in the overlap, so respect both sides of that
+- keep a folder of things that failed. old rejected directions are a surprisingly good source of fresh ideas for different projects
+- be careful about borrowing the look of a trend. trends date quickly and make a small business look like it is shopping rather than standing somewhere
+- clear files beat clever files. name layers like a stranger will inherit them, because eventually a stranger will
+- rest the eyes. work that looks wrong after long staring often looks fine after a walk, and work that looks fine after long staring often looks wrong to everyone else
+
+on client relationships
+
+the warmest projects tend to be the ones where expectations were stated early and gently. it helps to describe how the work usually unfolds, where the client will be asked for input, and what kinds of changes are easy versus expensive in effort. people do not mind constraints; they mind surprises.
+
+be wary of the client who agrees with everything. silence is not approval. a client who pushes back is engaged, and engagement is worth more than comfort. try to turn vague unease into specific language by asking what they imagine a customer would feel when they first see the thing.
+
+also worth noticing: how a client talks about the people they serve. warmth and respect in that language usually translate into a better identity than any amount of clever positioning. if the language is cold or dismissive, the design will quietly inherit that, and it is better to catch it early.
+
+open-ended ideas
+
+- a short plain-language guide for clients explaining how a project tends to move, written once and reused with light edits. might reduce a lot of repeated explaining
+- a library of small real-world observations: signs that work, signs that fail, menus people squint at, forms that make people sigh. collect them as a habit and revisit when stuck
+- experiment with presenting work in the setting where it will live rather than on a neutral mockup. a draft looks different in context, and context is where the client's judgment is sharpest
+- try pairing every visual direction with a few sentences of voice and tone, so that words and shapes get decided together instead of arguing later
+- consider a loose post-project reflection habit: what surprised me, what I over-explained, what I under-explained. keep it informal so it actually gets written
+- explore how a small studio can feel bigger without becoming slower, maybe through better templates, clearer intake, and fewer stray files
+- think about what a calm project looks like from the client's chair, and work backward from that
+- wonder about teaching: explaining a process to a beginner is the fastest way to find out which parts are real and which parts are habit
+
+a note on voice
+
+keep the writing around the work as human as the work itself. emails that sound like a template make the design feel like a template. a bit of dry humor goes a long way, as long as it never lands on the client's expense.
+
+and when stuck, go back to the plainest question available: who is this for, what are they trying to do, and what is in the way?
+
+- class schedule on the site?
+- booking system they use
+- photos of the space

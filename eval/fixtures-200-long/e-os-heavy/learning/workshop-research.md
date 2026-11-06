@@ -1,0 +1,105 @@
+---
+type: Note
+title: "Workshop research"
+description: "Research for the Webflow workshop idea."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Workshop research
+
+general working notes
+
+**approach**
+
+the work goes best when the thinking stays loose for a good while and the making stays tight. the pull is always to start drawing before the problem has a shape, and that tends to produce something polished that answers the wrong question. better to sit with the brief, talk it through out loud, and write down whatever keeps coming up. the repeated words are usually the real brief.
+
+- start from what a person needs to be able to do, not what the thing should look like
+- write the plain-language version of the idea before any visuals exist. if it can't be said simply, it probably isn't clear yet
+- keep a running list of questions rather than answers, and let the list steer what gets looked at
+- pay attention to what feels awkward about an idea, since awkwardness often points at something real
+- borrow structure, not surface. understand why something works before copying how it looks
+- assume the obvious solution has been tried already and ask what it missed
+
+**process**
+
+working solo means nobody is around to push back, so the process has to do that job. some habits that stand in for a colleague:
+
+- explain the work out loud to an empty room. the gaps show up fast
+- step away from a draft, come back, and react as if it belonged to somebody else
+- keep rough versions around instead of overwriting them. the abandoned direction sometimes holds the best part
+- sketch on paper when stuck, because the screen invites polish too early
+- keep making and judging apart. no critiquing while generating
+- name files and layers so a stranger could follow them, because future-me is basically a stranger
+- when a problem resists, change the medium before changing the idea
+
+**research habits**
+
+research is easy to turn into procrastination. collecting examples feels productive and can quietly replace the thinking. a useful test is whether the notes contain opinions or only links and screenshots. if it's all collection, stop and write down what is actually being learned from it.
+
+when watching how other people run sessions or teach, the interesting stuff is rarely the headline format. it's the small moves: how they handle silence, how they recover when an exercise falls flat, what they choose to leave out, how they make it safe to be wrong. the energy in the room matters as much as the structure. handouts and slides are usually the least informative part.
+
+- Look at how others run beginner workshops
+- Small groups seem better
+
+- notice where attention drops and what brought it back
+- notice what gets explained versus what gets demonstrated
+- notice the order things arrive in, and what would break if the order flipped
+- notice what people do with their hands and faces when they're confused
+- gather the complaints as well as the praise. complaints are more specific
+
+**things to keep in mind**
+
+- clarity beats cleverness nearly every time
+- people rarely read. they scan, then decide whether reading is worth it
+- anything that needs a long explanation is probably carrying too much
+- a client's words for their problem are data, even when their diagnosis is off
+- constraints are friends. a blank canvas is harder than a tight brief
+- leave room for the awkward parts of real life: bad lighting, tired people, slow connections, folks who show up unprepared
+- accessibility isn't an add-on. contrast, legibility, and reading order belong in the thinking from the start
+- whatever gets made will be used in conditions the designer never pictured
+- feedback is about the work, not about worth. easy to say, harder to feel
+- decorating a weak idea just makes the weakness more expensive to fix later
+
+**working with clients**
+
+most disagreements about design are really disagreements about the problem that nobody said out loud. showing the reasoning alongside the visuals keeps the conversation on the problem instead of on taste. it also helps to be clear, when sharing work, about what kind of feedback is useful. "does this read clearly" invites a different response than "what do you think".
+
+- watch for the moment a conversation slides from problem to preference
+- restate what was heard before defending anything
+- rough work shown early gets better input than finished work shown nervously
+- people are more generous when they feel included in the thinking, not handed a verdict
+
+**the solo studio itself**
+
+there's a particular kind of tiredness that comes from being the designer, the bookkeeper, the writer, and the person who answers the door. the admin side deserves respect. it's work, not a distraction from work. protecting space for deep thinking means being a bit stubborn about what gets let in.
+
+- isolation narrows taste. seek out things that are unlike what the studio normally makes
+- saying no is part of having a point of view
+- a tidy workspace helps less than a predictable one
+- it's fine for some projects to exist mostly to try a method out
+
+**open-ended ideas**
+
+- what would a workshop look like if the materials were physical objects people could rearrange rather than slides to sit through?
+- could the leftover artifacts from a session, like sticky notes, scribbles, and half-finished drafts, become the take-home instead of a polished summary?
+- is there a way to show the mess of a design process without it feeling like a performance?
+- an exercise where failed attempts get celebrated and the wrong turns are the point
+- silence as a tool: ask a question and then genuinely wait
+- a glossary of words that mean different things to designers and everybody else. "balance," "feel," "clean," "layout"
+- a library of small exercises, each built around a lone idea, that can be mixed and matched
+- feedback that is only allowed to arrive as questions
+- constraints dealt out randomly, like cards, to shake loose habits
+- documenting process as a byproduct of making, so it never feels like extra work
+- how much of teaching design is really teaching looking? maybe exercises that are purely about noticing
+- viewing work with the sound off, the color drained, the text blurred, to see what structure is left
+- pairing a visual problem with a non-visual medium, like describing a layout over the phone and having somebody redraw it from the description
+
+**loose thoughts**
+
+taste is built from paying attention over a stretch of time, and it can be taught mostly by pointing. the best teachers and collaborators seem to say "look at this" more than "do it like this." that might be worth carrying into anything the studio makes for other people to learn from.
+
+people learn more when they feel safe being wrong, so the tone of the opening matters more than the content of it. the room, the language, even the way the materials are laid out all signal whether mistakes are welcome. small cues add up.
+
+it's also worth remembering that most good ideas look slightly boring on paper. the spark is usually in the execution, the pacing, the care taken over details nobody will consciously notice but everybody will feel. when something seems too plain, ask whether it's actually clear, because clear and plain are easy to confuse.
+
+and some questions are better left open for a while. not everything needs an answer straight away. a note that says "unsure, keep watching" is a perfectly good note.

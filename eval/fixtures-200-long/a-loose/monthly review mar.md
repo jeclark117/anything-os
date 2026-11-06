@@ -1,0 +1,84 @@
+monthly review mar 2026
+
+general working notes
+
+**approach**
+
+the studio runs on a simple idea: the work should feel calm to the person on the other side of it, even when it's messy on my side. that mostly means being clear early, being honest about what a project actually needs, and not pretending a fuzzy brief is sharper than it is. when a brief is fuzzy, the most useful move is usually a good question rather than a fast mockup.
+
+things to keep in mind:
+- people hire a designer partly to think, not just to produce. show the thinking.
+- a rough sketch shared early beats a polished piece shared late.
+- say what's out of scope as plainly as what's in scope.
+- write down the reason behind a choice while it's fresh, because the reasoning fades faster than the artwork does.
+- quiet stretches are not a verdict on the work. neither are loud ones.
+
+**process**
+
+most projects seem to move through the same loose shape, even when the labels change. there's a listening phase, a wandering phase, a narrowing phase, and a finishing phase. the trap is skipping the wandering because it feels unproductive. it's where the surprising options come from, and the narrowing goes better when there's actually something to narrow.
+
+some habits that seem to help:
+- start with a page of plain words about what the thing is for, before opening any design software. if the words are wobbly, the visuals will be too.
+- collect references widely, then deliberately look at what they have in common. often it's a feeling rather than a style, and the feeling is the useful part.
+- work in grayscale and rough type for as long as possible. color and polish can hide a weak structure.
+- step away from a piece when it starts to feel precious. come back and ask what a stranger would notice in a glance.
+- keep a running file of dead ends. they're often right for a different project later.
+- finish by reading everything out loud, including the small print. awkward phrasing shows up immediately that way.
+
+**talking with clients**
+
+the tone of early conversations sets the tone of the whole engagement. warm but specific tends to work. vague enthusiasm on either side usually turns into confusion later.
+
+- ask what would make the work a success from their point of view, and listen for the answer behind the answer.
+- ask what they've seen elsewhere that they hated. people are often more articulate about dislikes than likes.
+- explain the process in plain language so feedback lands at the right moment instead of the wrong one.
+- when feedback arrives as a solution ("make it bigger"), gently dig for the problem underneath ("what's getting lost?").
+- keep written recaps short and friendly. they're not legal documents, they're memory aids for both sides.
+- be careful about the urge to over-explain a design choice. if it needs a long defense, it may need another look.
+
+an open question worth turning over: how much of the work should be visible while it's happening? too little and people get anxious, too much and they start steering every small decision. there's probably a sweet spot that differs by temperament, and learning to read that early would save a lot of friction.
+
+**craft notes**
+
+- spacing does more work than people credit. when something feels off and can't be named, check the gaps before touching anything else.
+- fewer type choices, used with confidence, beat a crowd of clever ones.
+- contrast is a tool for attention, not decoration. decide what deserves to be noticed and let everything else step back.
+- constraints are friendly. a tight palette or a limited grid makes decisions easier and results more coherent.
+- test things at awkward sizes and in awkward conditions: tiny, blurry, squinting, on a bad screen, in poor light.
+- good defaults are underrated. a system that makes the right thing easy will outlast a beautiful one-off.
+- consistency is a kindness to whoever inherits the work, including future me.
+
+**keeping the studio itself healthy**
+
+working solo means the same person is designer, bookkeeper, scheduler, and support desk. the risk is that the loudest task wins instead of the most important one. it helps to remember that admin work is part of the craft, not a tax on it, and that small tidy systems pay for themselves in calm.
+
+- protect uninterrupted stretches for deep work, and keep messages and small chores in their own pockets.
+- rest is part of the process. the best ideas tend to show up on walks, in the shower, or while doing something unrelated.
+- record what went well and what dragged, in plain language, while it's still vivid. patterns appear when the notes pile up.
+- stay curious about adjacent fields. ideas from architecture, editorial work, or even cooking often transfer in unexpected ways.
+- watch for the pull toward saying yes to everything. fit matters as much as availability.
+- remember that being a small studio is an advantage: quick to respond, personal, flexible. lean into that instead of imitating bigger outfits.
+
+**open-ended ideas**
+
+these are just floating around, nothing attached to them:
+- a short plain-language guide for new clients explaining how the work tends to unfold, written warmly enough that it doubles as a bit of personality.
+- a personal library of reusable questions for kickoff conversations, sorted by the kind of project.
+- a habit of making small self-directed pieces purely for play, to keep the eye sharp when client work is demanding.
+- a way of showing process that isn't just before-and-after, maybe the messy middle presented honestly.
+- a gentle review ritual at the end of each project: what surprised me, what I'd tell a past version of myself, what I'd like to try with a bit more courage.
+- experimenting with how the studio sounds in writing. the voice of the emails, the proposals, and the notes could all feel more like one personality.
+- thinking about what kind of work the studio wants to be known for, as a direction to drift toward rather than a plan.
+
+**loose thoughts to leave open**
+
+- is there a difference between work that's good and work that's right for the people it's for? probably, and the gap is where the interesting conversations happen.
+- how do you tell when a project needs more time versus when it needs to be let go?
+- what does a sustainable pace actually feel like from the inside? it might be easier to notice what it isn't.
+- how much of taste is learned, and how much is just paying steady attention?
+- there may be value in keeping a small shelf of things that make the studio happy, whatever they turn out to be, and glancing at it when the work feels heavy.
+
+mostly the aim is to keep things human, keep the thinking visible, and leave room for ideas that haven't announced themselves yet.
+
+opened the business account
+busier, three inquiries

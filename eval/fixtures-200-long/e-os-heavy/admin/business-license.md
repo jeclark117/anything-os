@@ -1,0 +1,115 @@
+---
+type: Note
+title: "Business license"
+description: "City business license, renewed 2026-03. Next renewal 2027-03."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Business license
+
+- City license renewed 2026-03
+- Good for a year, renew 2027-03
+
+general working notes
+
+**approach**
+
+start with the problem, not the look. before any sketching, figure out what the work is supposed to do for the person on the other end. plenty of projects go sideways because the brief describes a style when it should describe a need.
+
+- ask what happens if this thing doesn't exist. the answer usually shows what matters.
+- put the goal in plain words, then step away and check whether it still makes sense.
+- keep a running list of open questions, separate from the list of things made so far.
+- when a request is vague, the person often hasn't finished thinking it through either. gentle questions help more than guessing.
+
+being solo means every role lands on me: designer, bookkeeper, file wrangler, answerer of messages. that's a strength and a trap. the strength is no handoffs, so context never leaks. the trap is that nobody pushes back, so assumptions go unchallenged. worth building small habits that stand in for a colleague, like explaining the work out loud to an empty room, or writing the rationale as if for a skeptical reader.
+
+**process**
+
+loose stages, not a strict ladder. they overlap and loop back constantly.
+
+- collecting: references, the words the client uses, the things they can't stand. dislikes are more informative than likes.
+- wandering: lots of rough marks, cheap and fast, nothing precious. the point is to see how big the space of possibilities is.
+- narrowing: pick a direction, push it until it breaks, see what's left standing.
+- refining: spacing, rhythm, contrast, all the boring details that make something feel finished.
+- handing over: tidy files, plain notes on how to use and extend the work, so it survives contact with people who weren't in the room.
+
+the wandering stage is the easiest to cut short and the most costly to skip. whenever a project feels stuck, it's usually because narrowing started too early.
+
+**things i keep noticing**
+
+- rough work gets better feedback. polished mockups invite comments about colors and fonts. rough ones invite comments about whether the idea works.
+- constraints are friends. a tight palette, a narrow choice of typefaces, a strict grid: they free up attention for the real problems.
+- contrast does most of the heavy lifting. if a layout feels flat, something needs to be bigger, quieter, or farther from its neighbors.
+- whitespace is not leftover space. treat it as material.
+- if i can't explain why an element is there, it's probably decoration.
+- readability beats cleverness nearly always. a clever layout nobody can read is just a puzzle.
+- look at work upside down, squinting, shrunk small, or in grayscale. problems show up fast.
+- fresh eyes catch what tired eyes defend.
+- the best ideas rarely arrive at the desk. walking, washing dishes, staring out a window. leave room for that.
+
+**working with clients**
+
+- people respond to what they can see, so show something early even if it's rough.
+- feedback is information about a reaction, not a set of instructions. "make the logo bigger" frequently means "i don't feel noticed." find the feeling underneath.
+- keep a trail of the reasoning. disagreements shrink when all parties can see why a choice was made.
+- scope creep rarely arrives as a big ask. it arrives as small friendly additions. worth noticing the pattern and naming it kindly.
+- explain tradeoffs in the client's language, not design jargon.
+- some projects are a poor fit. a mismatch in taste or temperament costs more than the work is worth, and it helps to recognize the signs early.
+- clients who can describe what they're afraid of are easier to serve than clients who can only describe what they want.
+- a good brief often arrives only after a conversation that felt like it was off topic.
+
+**on type, color, and layout**
+
+type carries mood before anybody reads a word. choosing a typeface is closer to casting an actor than picking a tool. it's worth asking what voice the words should have, and whether that voice matches the person speaking.
+
+color works best when it has a job. one that signals action, one that signals calm, one that stays out of the way. a palette without roles turns into wallpaper. also worth testing colors beside things the client actually owns, since a swatch on a white screen lies.
+
+layout is mostly about deciding what gets noticed first, then what gets noticed after that, and being honest that not everything can win. when everything shouts, the page becomes noise. hierarchy is an act of kindness toward the reader.
+
+alignment is quiet but powerful. strong edges make a page feel intentional even when the content is messy. breaking alignment on purpose can work, but only when the surrounding structure is solid enough for the break to read as a choice.
+
+**keeping the studio healthy**
+
+- admin grows quietly if ignored. small regular tidying beats occasional panic.
+- keep a spot for loose paperwork that's easy to find when needed. future frustration is built out of misplaced documents.
+- creative energy and administrative energy don't share well. invoices when drained are miserable, and creative work when drained is worse.
+- an archive of past work is portfolio material and a memory aid. seeing how an old problem was solved saves reinvention.
+- name files so a stranger could follow them. future me is that stranger.
+- back things up in separate places, and occasionally check that the backups open.
+- rest matters. burnout in a solo practice is invisible until it isn't.
+- keep the workspace calm. calm space, calmer work.
+
+**open-ended ideas**
+
+- a library of small experiments: type combinations that failed, color schemes that surprised, layouts that were almost right. a graveyard with notes on why each didn't work.
+- a habit of making something with no client and no purpose, just to keep the hands loose.
+- a short questionnaire for prospective clients that surfaces taste and fears before any work begins.
+- collecting physical textures like paper, fabric, and packaging, and scanning them as raw material.
+- a way to record the why behind each design choice right when it happens, since memory rewrites it.
+- a running glossary of how different clients describe the same thing. "clean," "modern," and "friendly" mean wildly different things depending on who says them.
+- constraints as games: only circles, only a narrow range of grays, only short words.
+- explore how sound or movement could suggest a layout.
+- study signs and labels in ordinary places for lessons in clarity, especially the badly designed ones.
+- look at how old printed material handled hierarchy with no digital help.
+- a walk-through test: hand the work to a stranger and watch where their eyes go, without explaining anything.
+- write the client's likely objections before presenting, and answer them inside the design itself.
+- a notebook just for overheard phrases and odd words that might become names, headlines, or titles.
+- try designing the failure state first: what does this look like when it's broken, empty, or ignored?
+
+**questions to sit with**
+
+- how much of the process should clients see, and how much is better kept behind the curtain?
+- is there a way to make feedback rounds feel like collaboration rather than judgment?
+- what would it look like to treat every project as a small research question?
+- where does consistency end and sameness begin in a body of work?
+- how can the studio's own voice stay recognizable without making every project look alike?
+- when is a thing finished, and who gets to say so?
+
+**small truths**
+
+- good enough to ship and good enough to be proud of are different bars. knowing which is needed helps.
+- ask for context when the brief is thin. it's cheaper than redoing.
+- not every problem needs a visual solution. sometimes the answer is a clearer sentence.
+- taste develops by looking at a great deal of work and noticing why some of it lands.
+- being stuck is information. it usually points at a question that hasn't been asked yet.
+- people remember how a thing made them feel long after they forget what it looked like.

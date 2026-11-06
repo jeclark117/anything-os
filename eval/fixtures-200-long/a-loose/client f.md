@@ -1,0 +1,94 @@
+client f
+
+general working notes
+
+Approach
+
+The early stretch with anybody new is mostly listening. Before thinking about visuals I want to understand what the person is really trying to shift. A brief is usually a stand-in for something else: a business that feels blurry, a product that doesn't land, a founder who can't explain what they do at a party. The request is the symptom and the actual problem sits further down.
+
+Curiosity over pitching. The pull to show off past work is strong and mostly unhelpful. Better to ask what they've tried, what they hated, what they borrowed from others and why it didn't hold. Dislikes are more useful than likes because dislikes are specific. "Clean and modern" tells me nothing. "Not like the thing my competitor does" tells me a lot.
+
+A small studio means the person hiring me is also hiring my attention. That's the real offer. Larger agencies have layers and handoffs, while here there's direct access to the person doing the thinking. Worth leaning into that without overselling it.
+
+Things to be wary of in myself:
+- falling in love with an idea before it's been tested against the actual problem
+- answering the question as asked when the better question is sitting right behind it
+- reading silence as rejection, or as acceptance; silence is just silence
+- over-preparing for conversations that haven't happened yet
+- dressing up uncertainty as confidence
+
+Process thoughts
+
+A loose shape for how projects tend to go, not a rule:
+- Listening and absorbing. Gather their language, their materials, their mess.
+- Narrowing. Name the tension the work has to resolve in plain words. If it can't be said plainly it isn't understood yet.
+- Exploring wide, ugly, fast. Sketches, collages, words on paper. Nothing precious.
+- Pruning. Cut directions that are merely pleasant. Keep the ones that make somebody slightly uncomfortable in a productive way.
+- Refining the survivors until the details hold up under close looking.
+- Handing over with enough context that they can use the work without me hovering.
+
+The exploration stage should feel a bit embarrassing. If everything looks resolved, I probably haven't pushed far enough from the obvious answer.
+
+Show work in a way that makes feedback easy. People respond better to a clear rationale and a tight set of directions than to a wall of options. Too much choice sends people retreating into taste, and taste arguments go nowhere. Frame each direction around what it's for, not just how it looks.
+
+Write things down while they're fresh. The reasoning behind a design choice evaporates quickly, and then it's hard to defend or revisit honestly.
+
+On feedback
+
+Feedback is information about a reaction, not an instruction. When somebody says make the logo bigger, the useful move is to ask what they're worried about. Usually it's visibility, or confidence, or a fear that the thing looks timid. Solve that and the size often stops mattering.
+
+Separate what's wrong from what's unfamiliar. New work often feels off simply because it's new, so give it room to settle before reacting. Equally, a persistent unease that people can't articulate deserves to be taken seriously.
+
+Explaining is fine; arguing is a trap. If I'm spending energy winning a point, I've probably lost sight of the goal.
+
+When people on the other side disagree among themselves, the design tends to get blamed for a problem that existed before it. Worth naming that gently when it shows up.
+
+Things to keep in mind
+
+- Scope is slippery. Early conversations are the cheapest place to find out where the edges are. Vague language around deliverables becomes friction later. Ask what "done" looks like in their head.
+- Money conversations get easier the earlier they happen, and awkwardness grows with delay. A clear sense of what the work is worth to them matters as much as what it costs me to make.
+- Fit goes both ways. A project that drains energy and produces mediocre work is no favor to anybody. Notice early signals: how they talk about past collaborators, how they handle disagreement, whether they listen.
+- Capacity is a real constraint when working solo. Honesty about what fits is kinder than an optimistic yes followed by stress.
+- Warm introductions carry a head start on trust, but expectations may have been shaped by conversations I wasn't part of. Worth finding out what picture people already have in their heads.
+- Follow-ups land better when they carry something useful, like a small observation or a relevant thought, than when they simply ask whether a message arrived. People are busy, and quiet inboxes are usually about the inbox.
+- Tired judgment produces safe choices. Rest is part of the craft.
+
+On communication
+
+- Plain words. Skip jargon unless they use it first.
+- Put the ask at the top so a message can be understood at a glance.
+- Send back a short recap after conversations so misunderstandings surface early.
+- Tone: warm, direct, not eager. Eagerness reads as need.
+- Notice how people write, whether clipped or chatty, and match their energy without mimicking it.
+
+On the studio itself
+
+Working solo is a feature and a risk. The strengths are speed, coherence, and accountability. The risks are blind spots, isolation, and nobody around to argue with. One way to counter that is to share rough work with trusted peers outside the project and borrow their fresh eyes. Another is to keep a habit of looking at things unrelated to the work at hand so the well doesn't run dry.
+
+Boundaries between work and life blur easily. Worth watching for the moment when a project stops being interesting and starts being a background hum.
+
+Open-ended ideas
+
+- A short, plain document explaining how I work, written for people who've never hired a designer. Might reduce a lot of awkwardness at the start.
+- A set of questions that surface the real problem faster, grouped by theme: audience, history, fears, what success would feel like.
+- Treat outreach as a small piece of design in itself. What if an opening message offered a tiny observation about their work rather than an introduction of mine?
+- A running log of interesting problems people describe, stripped of anything identifying, as a source of pattern recognition.
+- Present rationale visually, through maps, diagrams, and annotated sketches, instead of paragraphs.
+- A lightweight way of sharing work in progress that makes people less anxious about the unknown. Transparency early, rough edges included.
+- Explore what a good ending looks like: handover, documentation, a check-in after the work has been out in the world. What makes a relationship worth continuing without being needy?
+- Think about which projects make the best use of a small studio's strengths. Probably those where speed, care, and direct conversation matter more than scale.
+- Keep a shelf of references that aren't design: architecture, grocery packaging, signage, old manuals, anything with a clear point of view.
+- Try writing the story of a project backward, from how the finished thing will be talked about, and see what that changes about the early questions.
+
+Loose reminders
+
+Good work usually comes from constraints that were taken seriously rather than resented. Ask what the limits are, then treat them as material.
+
+Presentation is part of the work. A sloppy delivery undermines good thinking.
+
+Keep notes honest. Write down what actually happened in conversations, not what I wished had happened.
+
+Leave room for play. Some of the best directions come from ignoring the brief for a while and returning with fresh eyes.
+
+lead from a referral
+emailed them, no reply yet

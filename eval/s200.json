@@ -1,0 +1,617 @@
+{
+ "about": "The 200-note cost-over-time round. Edits 1 to 10 are the same as edits.json. Questions are asked at each checkpoint, in sessions of 1, 3 and 6 questions, plus u7 on its own, and graded against the facts as they stand at that checkpoint. Written 2026-10-21, before any run. Changed 2026-10-21, per s200-update.md: edits 12, 14, 15, 16 and 17 arrive as raw sources in s200-sources/, a saved Q1 2027 plan is written after the checkpoint 10 questions, and u7 asks for every booked 2027 start. Changed again 2026-10-21, after history 1: edits 14, 15 and 18 stated requests, not decisions, and the key treated them as settled. From history 2 on, each one is explicit: the owner's reply agreeing to Pat's date, 'told them yes' in the Client D call notes, and 'we agreed it today' for Client E. History 1 ran on the request versions, archived in s200-sources/v1/ and in text_v1, and is graded against key_v1.",
+ "edit_prefix": "Today is {date}. Using my notes in this folder, record this: ",
+ "question_prefix": "Today is {date}. Using my notes in this folder: ",
+ "followup_prefix": "Using the same notes: ",
+ "edits": [
+  {
+   "date": "2026-10-22",
+   "text": "Pat confirmed $4,200 for Client A. That's the agreed price now."
+  },
+  {
+   "date": "2026-10-24",
+   "text": "Client A's launch moved again, to 2027-01-23."
+  },
+  {
+   "date": "2026-10-27",
+   "text": "Dana has left Client B. Lee is my main contact there now."
+  },
+  {
+   "date": "2026-10-28",
+   "text": "I paid the insurance renewal today."
+  },
+  {
+   "date": "2026-10-30",
+   "text": "Client D signed. We start 2027-03-01 and their budget is still $6,500."
+  },
+  {
+   "date": "2026-11-02",
+   "text": "I'm raising my rate to $110 an hour starting 2027-01-01."
+  },
+  {
+   "date": "2026-11-04",
+   "text": "Client E is pausing the retainer after November."
+  },
+  {
+   "date": "2026-11-06",
+   "text": "Renewed the domain today and turned auto-renew on."
+  },
+  {
+   "date": "2026-11-09",
+   "text": "Decided to do Client H pro bono, starting February 2027."
+  },
+  {
+   "date": "2026-11-10",
+   "text": "Client A wants a blog added, so it's 6 pages now. Price stays $4,200."
+  },
+  {
+   "date": "2026-11-12",
+   "text": "Client I signed for the logo. $1,800, and we start 2026-12-01."
+  },
+  {
+   "date": "2026-11-13",
+   "text": "The accountant sent the bill for year-end prep: $450, due 2026-12-15.",
+   "source": "s200-sources/edit-12.txt",
+   "fact_phrase": "comes to $450 this time",
+   "banned": [
+    "bill",
+    "invoice",
+    "accountant's bill",
+    "year-end prep"
+   ]
+  },
+  {
+   "date": "2026-11-16",
+   "text": "Client K cancelled the packaging project. The deposit covers the work so far, so there's no second invoice."
+  },
+  {
+   "date": "2026-11-18",
+   "text": "Client A's launch moved again, to 2027-02-06. Pat's new photos won't be ready until mid-January.",
+   "source": "s200-sources/edit-14.txt",
+   "fact_phrase": "let's aim to go live on February 6 instead",
+   "banned": [
+    "launch",
+    "Client A",
+    "deadline"
+   ]
+  },
+  {
+   "date": "2026-11-19",
+   "text": "Client D wants to start earlier, on 2027-02-22.",
+   "source": "s200-sources/edit-15.txt",
+   "fact_phrase": "kick off the week of February 22",
+   "banned": [
+    "start date",
+    "Client D starts"
+   ]
+  },
+  {
+   "date": "2026-11-20",
+   "text": "Finished the pricing research. The new rate from 2027-01-01 is $120 an hour, not $110.",
+   "source": "s200-sources/edit-16.txt",
+   "fact_phrase": "an hour of my time costs $120",
+   "banned": [
+    "rate",
+    "hourly",
+    "per hour"
+   ]
+  },
+  {
+   "date": "2026-11-23",
+   "text": "Lee is on leave at Client B until 2027-03-01. Sam is my main contact there until then.",
+   "source": "s200-sources/edit-17.txt",
+   "fact_phrase": "Sam will be your person here while Lee's away",
+   "banned": [
+    "main contact",
+    "contact"
+   ]
+  },
+  {
+   "date": "2026-11-25",
+   "text": "Client E is restarting the retainer in February 2027, at $650 a month. We agreed it today.",
+   "text_v1": "Client E wants to restart the retainer in February 2027, at $650 a month."
+  },
+  {
+   "date": "2026-11-27",
+   "text": "Paid the accountant's $450 bill."
+  },
+  {
+   "date": "2026-11-30",
+   "text": "Client M paid invoice 15, the $2,400."
+  }
+ ],
+ "checkpoints": {
+  "0": "2026-10-20",
+  "5": "2026-10-30",
+  "10": "2026-11-10",
+  "15": "2026-11-19",
+  "20": "2026-11-30"
+ },
+ "facts": [
+  {
+   "topic": "Client A launch date",
+   "values": [
+    [
+     0,
+     "2027-01-09"
+    ],
+    [
+     2,
+     "2027-01-23"
+    ],
+    [
+     14,
+     "2027-02-06"
+    ]
+   ],
+   "older": [
+    "2026-11-14",
+    "2026-12-05"
+   ]
+  },
+  {
+   "topic": "Client A price",
+   "values": [
+    [
+     0,
+     "not agreed yet ($4,000 was floated)"
+    ],
+    [
+     1,
+     "$4,200, agreed"
+    ]
+   ]
+  },
+  {
+   "topic": "Client A pages",
+   "values": [
+    [
+     0,
+     "5 pages"
+    ],
+    [
+     10,
+     "6 pages, with a blog added"
+    ]
+   ]
+  },
+  {
+   "topic": "Client B main contact",
+   "values": [
+    [
+     0,
+     "unclear: one note says Dana, another says Lee"
+    ],
+    [
+     3,
+     "Lee, since Dana left"
+    ],
+    [
+     17,
+     "Sam, while Lee is on leave until 2027-03-01"
+    ]
+   ]
+  },
+  {
+   "topic": "Hourly rate from 2027-01-01",
+   "values": [
+    [
+     0,
+     "$95 an hour now, raise not decided"
+    ],
+    [
+     6,
+     "$110 an hour"
+    ],
+    [
+     16,
+     "$120 an hour"
+    ]
+   ]
+  },
+  {
+   "topic": "Insurance renewal",
+   "values": [
+    [
+     0,
+     "$1,240, due 2026-11-01, not paid"
+    ],
+    [
+     4,
+     "paid on 2026-10-28"
+    ]
+   ]
+  },
+  {
+   "topic": "Domain renewal",
+   "values": [
+    [
+     0,
+     "renews 2026-11-12, auto-renew off, not paid"
+    ],
+    [
+     8,
+     "renewed 2026-11-06, auto-renew on"
+    ]
+   ]
+  },
+  {
+   "topic": "Client D",
+   "values": [
+    [
+     0,
+     "prospect, wants spring 2027, budget $6,500, not signed"
+    ],
+    [
+     5,
+     "signed, starts 2027-03-01, $6,500"
+    ],
+    [
+     15,
+     "signed, starts 2027-02-22, $6,500"
+    ]
+   ]
+  },
+  {
+   "topic": "Client E retainer",
+   "values": [
+    [
+     0,
+     "$600 a month, ongoing"
+    ],
+    [
+     7,
+     "paused after November 2026"
+    ],
+    [
+     18,
+     "paused after November 2026, restarts February 2027 at $650 a month"
+    ]
+   ]
+  },
+  {
+   "topic": "Client H",
+   "values": [
+    [
+     0,
+     "nonprofit, maybe pro bono, not decided"
+    ],
+    [
+     9,
+     "pro bono, starting February 2027"
+    ]
+   ]
+  },
+  {
+   "topic": "Client I",
+   "values": [
+    [
+     0,
+     "lead for a logo, budget not discussed"
+    ],
+    [
+     11,
+     "signed for a logo, $1,800, starts 2026-12-01"
+    ]
+   ]
+  },
+  {
+   "topic": "Client K",
+   "values": [
+    [
+     0,
+     "packaging job, $2,000, due 2026-12-10, deposit paid"
+    ],
+    [
+     13,
+     "cancelled, no second invoice"
+    ]
+   ]
+  },
+  {
+   "topic": "Accountant's year-end bill",
+   "values": [
+    [
+     0,
+     "none received"
+    ],
+    [
+     12,
+     "$450, due 2026-12-15, not paid"
+    ],
+    [
+     19,
+     "$450, paid 2026-11-27"
+    ]
+   ]
+  },
+  {
+   "topic": "Client M invoice 15",
+   "values": [
+    [
+     0,
+     "$2,400, due 2026-10-31, not paid"
+    ],
+    [
+     20,
+     "paid 2026-11-30"
+    ]
+   ]
+  }
+ ],
+ "questions": [
+  {
+   "id": "q1-launch",
+   "kind": "lookup",
+   "prompt": "When does Client A launch?",
+   "must": "Gives the current Client A launch date."
+  },
+  {
+   "id": "q2-contact",
+   "kind": "lookup",
+   "prompt": "Who's my main contact at Client B?",
+   "must": "Gives the current Client B main contact. Where the current state is unclear, it says the notes disagree and names both."
+  },
+  {
+   "id": "q3-rate",
+   "kind": "lookup",
+   "prompt": "What will I charge per hour in February 2027?",
+   "must": "Gives the current state of the rate from 2027-01-01. Where no raise is decided, it says so."
+  },
+  {
+   "id": "u4-bills",
+   "kind": "open",
+   "prompt": "What bills do I still have to pay before the end of 2026?",
+   "must": "Lists every one-off bill still unpaid at this checkpoint and none that are paid. Unpaid one-off bills by checkpoint: 0, the insurance renewal and the domain renewal. 5, the domain renewal. 10, none. 15, the accountant's $450. 20, none. Listing recurring monthly subscriptions is fine. Money owed to the owner, like a client invoice, isn't a bill to pay."
+  },
+  {
+   "id": "u5-pat",
+   "kind": "open",
+   "prompt": "Write a short status update on Client A's site that I could send to Pat.",
+   "must": "Any launch date, page count or price it gives is current."
+  },
+  {
+   "id": "u6-q1",
+   "kind": "open",
+   "prompt": "What's on my plate from January to March 2027? A short list.",
+   "must": "Includes Client A's launch with the current date. Any other date or status it gives for a tracked fact is current."
+  },
+  {
+   "id": "u7-starts",
+   "kind": "open",
+   "prompt": "Which clients have work booked to start in 2027, and when does each start?",
+   "must": "Lists every client with work booked to start in 2027 at this checkpoint, with its current start, and no client that isn't booked. Booked starts by checkpoint: 0, none. 5, Client D on 2027-03-01. 10, Client D on 2027-03-01 and Client H in February 2027, pro bono. 15, Client D on 2027-02-22 and Client H in February 2027. 20, Client D on 2027-02-22, Client H in February 2027, and Client E's retainer restarting in February 2027 at $650 a month. Not booked at any checkpoint: Client I, which starts in 2026, Client J, Client K, and Client T, which is only a conversation. Also not booked: Client Q, which wants next year's report but has no brief or date, and Client L, O, P and R, which are only maybes. Mentioning Client A's ongoing work is fine, as long as it isn't listed as a new start."
+  }
+ ],
+ "sessions": [
+  {
+   "id": "s1-q1",
+   "questions": [
+    "q1-launch"
+   ]
+  },
+  {
+   "id": "s1-q2",
+   "questions": [
+    "q2-contact"
+   ]
+  },
+  {
+   "id": "s1-q3",
+   "questions": [
+    "q3-rate"
+   ]
+  },
+  {
+   "id": "s1-u4",
+   "questions": [
+    "u4-bills"
+   ]
+  },
+  {
+   "id": "s1-u5",
+   "questions": [
+    "u5-pat"
+   ]
+  },
+  {
+   "id": "s1-u6",
+   "questions": [
+    "u6-q1"
+   ]
+  },
+  {
+   "id": "s3-a",
+   "questions": [
+    "q1-launch",
+    "q2-contact",
+    "q3-rate"
+   ]
+  },
+  {
+   "id": "s3-b",
+   "questions": [
+    "u4-bills",
+    "u5-pat",
+    "u6-q1"
+   ]
+  },
+  {
+   "id": "s6",
+   "questions": [
+    "q1-launch",
+    "u4-bills",
+    "q2-contact",
+    "u5-pat",
+    "q3-rate",
+    "u6-q1"
+   ]
+  },
+  {
+   "id": "s1-u7",
+   "questions": [
+    "u7-starts"
+   ]
+  }
+ ],
+ "living_files": {
+  "about": "Undated notes a person would open to see where things stand. Checked after the last edit for any superseded value stated as current. Dated notes, like call notes and monthly reviews, are history and aren't checked.",
+  "pairs": [
+   [
+    "todo.md",
+    "todo.md"
+   ],
+   [
+    "capacity.md",
+    "business/capacity.md"
+   ],
+   [
+    "rates.md",
+    "business/rates.md"
+   ],
+   [
+    "contacts.md",
+    "business/contacts.md"
+   ],
+   [
+    "ideas.md",
+    "business/ideas.md"
+   ],
+   [
+    "q4 goals.md",
+    "business/goals.md"
+   ],
+   [
+    "q1 2027 plan.md",
+    "business/q1-2027-plan.md"
+   ],
+   [
+    "leads.md",
+    "clients/leads.md"
+   ],
+   [
+    "client b.md",
+    "clients/client-b/client-b.md"
+   ],
+   [
+    "client d.md",
+    "clients/client-d.md"
+   ],
+   [
+    "client e.md",
+    "clients/client-e.md"
+   ],
+   [
+    "client h.md",
+    "clients/client-h.md"
+   ],
+   [
+    "client i.md",
+    "clients/client-i/client-i.md"
+   ],
+   [
+    "client k.md",
+    "clients/client-k/client-k.md"
+   ],
+   [
+    "client m invoice.md",
+    "clients/client-m/invoice.md"
+   ],
+   [
+    "insurance.md",
+    "admin/insurance.md"
+   ],
+   [
+    "domain.md",
+    "admin/domain.md"
+   ],
+   [
+    "invoices.md",
+    "admin/invoices.md"
+   ],
+   [
+    "invoice log.md",
+    "admin/invoice-log.md"
+   ],
+   [
+    "year end checklist.md",
+    "admin/year-end-checklist.md"
+   ],
+   [
+    "cash flow.md",
+    "admin/cash-flow.md"
+   ],
+   [
+    "portfolio plan 2027.md",
+    "marketing/portfolio-plan-2027.md"
+   ]
+  ],
+  "os_only": [
+   "clients/index.md",
+   "clients/client-a/index.md",
+   "clients/client-b/index.md",
+   "admin/index.md",
+   "business/index.md"
+  ]
+ },
+ "raw_prefix": "Today is {date}. Using my notes in this folder, file this: ",
+ "synthesis": {
+  "after_checkpoint": 10,
+  "date": "2026-11-10",
+  "prompt": "Today is 2026-11-10. Using my notes in this folder, put together my plan for January to March 2027: what's booked, when each thing starts or ends, and what's still open. Save it in my notes so I can come back to it.",
+  "about": "One write session per history, after the checkpoint 10 questions and before edit 11. Whatever files it writes are added to that history's living-files check."
+ },
+ "key_v1": {
+  "about": "History 1's key. It saw edits 14, 15 and 18 as requests, so the last agreed value stays current and the request is pending. Presenting a pending request as agreed is wrong. Giving the agreed value and noting the request is right. Giving the agreed value without the request is fine.",
+  "histories": [
+   "1"
+  ],
+  "facts": {
+   "Client A launch date": [
+    [
+     0,
+     "2027-01-09"
+    ],
+    [
+     2,
+     "2027-01-23"
+    ],
+    [
+     14,
+     "2027-01-23 is the last agreed date. On 2026-11-18 Pat proposed 2027-02-06, and the owner hasn't answered"
+    ]
+   ],
+   "Client D": [
+    [
+     0,
+     "prospect, wants spring 2027, budget $6,500, not signed"
+    ],
+    [
+     5,
+     "signed, starts 2027-03-01, $6,500"
+    ],
+    [
+     15,
+     "signed, starts 2027-03-01, $6,500. On 2026-11-19 they asked to move to the week of 2027-02-22, and the owner hasn't confirmed"
+    ]
+   ],
+   "Client E retainer": [
+    [
+     0,
+     "$600 a month, ongoing"
+    ],
+    [
+     7,
+     "paused after November 2026"
+    ],
+    [
+     18,
+     "paused after November 2026. They want to restart in February 2027 at $650 a month, not yet agreed"
+    ]
+   ]
+  },
+  "musts": {
+   "u7-starts": "Lists every client with work booked to start in 2027 at this checkpoint, with its current start, and no client that isn't booked. Booked starts by checkpoint: 0, none. 5, Client D on 2027-03-01. 10, Client D on 2027-03-01 and Client H in February 2027, pro bono. 15 and 20, Client D on 2027-03-01, with a pending request to move to the week of 2027-02-22, and Client H in February 2027. At 20, Client E's wish to restart in February 2027 isn't agreed, so listing it as booked is wrong, and listing it as a possible restart is fine. Not booked at any checkpoint: Client I, which starts in 2026, Client J, Client K, Client T, Client Q, and Client L, O, P and R. Mentioning Client A's ongoing work is fine, as long as it isn't listed as a new start."
+  }
+ }
+}

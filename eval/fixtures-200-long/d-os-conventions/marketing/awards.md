@@ -1,0 +1,87 @@
+---
+type: Note
+title: "Awards"
+description: "Maybe enter a local design award. Deadline 2027-02-01."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Awards
+
+general working notes
+
+**how i tend to approach a project**
+
+start by working out what the thing is actually for. not the brief as written, the problem underneath it. clients describe symptoms, and the deliverable they ask for is usually a guess at the cure. spend real effort on the question behind the question before touching a layout.
+
+- ask what would make this a failure, not just what would make it a success. failure conditions are usually clearer and more honest
+- figure out the audience's actual situation: where they're sitting, what they're tired of, what they already believe
+- write the plain-language version of the message before designing anything. if it can't be said simply, the design will paper over the confusion instead of fixing it
+- collect references widely, then throw most of them out. the useful ones explain a feeling, not a look
+
+**process that keeps working**
+
+work loose and ugly early. rough marks on paper, cheap mockups, boxes with labels instead of finished imagery. the point is to find structure before polish, because polish makes weak ideas look finished and then they're hard to kill.
+
+after the rough stage, build the system before the pages. type, spacing, colour roles, how things align, what happens when content is too long or too short. a system that survives awkward content is worth more than a beautiful layout that only works with the sample text.
+
+- keep a running file of decisions about why something looks the way it does. future me never remembers
+- name layers and files like a stranger will inherit them, because a stranger might, and that stranger is usually me after a long break
+- step away from a piece before judging it. the gap does half the editing
+- print things when it makes sense. screens flatter everything
+- test at the smallest and the largest sizes early, not as a final check
+- squint at it. blur it. turn it upside down. flip it in a mirror. whatever hierarchy survives is the real hierarchy
+
+**things to keep in mind**
+
+being a one-person studio means there's no one to catch mistakes, so build in cheap ways to catch them. read every word aloud. check every link and every spelling of a client's name. check the file that actually gets sent, not the working file. exporting is where careful work goes wrong.
+
+it also means the whole business lives in my head, and that's fragile. anything that matters should be written down somewhere findable. a half-remembered idea isn't an asset.
+
+- scope creep usually arrives politely, as a small favour. notice it when it arrives, not afterward
+- say what's included in plain words, in writing, early. ambiguity is only free for the person who benefits from it
+- feedback is data about the reader, not a verdict on the work. translate vague comments ("make it pop", "feels off") back into the underlying worry
+- don't defend a choice by taste alone. defend it by purpose
+- resist the urge to show every option. a wide spread of choices hands the decision back to the client and quietly weakens the recommendation
+- rest matters. tired work looks tired, and it's hard to see that from the inside
+
+**on presenting work**
+
+- Local design award, entry deadline 2027-02-01
+- Maybe enter the client q report
+
+people respond to a story more than to a deliverable. lead with the problem, show how the work answers it, and let the visuals confirm the argument rather than carry it. show work in context whenever possible, on the actual surface, in the actual setting, next to the competition. a logo floating on white tells nobody anything.
+
+- keep the pitch short enough that questions can happen while it's still warm
+- bring a point of view. a studio that has no opinion is just a pair of hands
+- be honest about trade-offs. clients trust the person who names the downside of their own idea
+- leave room for the client to feel ownership. the best outcomes usually come when they can say "we" about the result
+
+**on reporting and documents**
+
+reports and long documents are secretly design problems about attention. most readers skim, jump, and judge in seconds, so the job is to make the skimming path reward them. strong headings, honest summaries up front, charts that make one point each and say what it is in the title. data visualisation should clarify a claim, not decorate a page. if a chart needs a paragraph of explanation, the chart is wrong.
+
+- cut decoration that carries no information
+- let whitespace do structural work
+- be consistent about how numbers and labels are presented, because inconsistency reads as carelessness even to people who can't say why
+- make the dull parts excellent. appendices and footnotes tell readers whether the care is real
+
+**open-ended ideas worth turning over**
+
+- a small private archive of rejected directions, tagged by the problem they were trying to solve. rejected ideas often fit a different job
+- a habit of writing a short retrospective on a project while it's still fresh: what surprised me, what I'd skip, what I'd repeat
+- a template for the opening conversation with new clients, made of questions rather than forms
+- experimenting with constraints on purpose: a palette limited to very few hues, one typeface, no imagery at all. see what the work becomes
+- making a few self-initiated pieces that exist only to practise something I'm weak at. no client, no brief, no polish required
+- a visual library of textures, scans, and found marks gathered from ordinary life, so there's raw material that doesn't look like everyone else's stock
+- thinking about how to show process publicly without giving away the thinking that clients pay for
+- exploring motion more seriously, even in small doses, since static work increasingly gets seen in motion anyway
+- a more deliberate way of pricing the invisible work: research, revisions, thinking in the shower. worth considering how to make that legible without sounding defensive
+- a reading list of old design writing, not for trends but for how earlier designers argued about purpose
+
+**loose reminders**
+
+good work is mostly editing. the clearest idea usually appears after the clumsy ones have been cleared away. keep the tools simple, keep the files tidy, keep a notebook within reach, and treat curiosity as part of the job rather than a break from it.
+
+also worth remembering: recognition is pleasant, but it's a side effect of the work being useful and well made, not the reason for it. the best measure is whether the client's problem got smaller and whether the thing still looks right when nobody's watching it closely.
+
+more later as thoughts surface.

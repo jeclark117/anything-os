@@ -1,0 +1,71 @@
+handoff checklist
+
+- source files
+- exports
+- a short guide to using them
+
+working notes
+
+**general approach**
+
+- start from the person who inherits the work. what do they need to be able to do on their own, without having to ask me anything? work backward from that question
+- treat the handoff as part of the design instead of a chore bolted on at the end. work that can't be picked up by somebody else is a weaker piece of work, however good it looks
+- leave a trail while building, rather than reconstructing everything from memory afterward. memory flatters. it drops the awkward workarounds and the reasons behind odd choices
+- name layers, folders and assets for a stranger. if a label only makes sense to me, it's a trap with a delayed fuse
+- assume the recipient is smart but missing context. don't talk down to them, and don't skip steps either
+- boring structure is kind structure. predictable beats clever almost every time
+
+**process**
+
+i lean toward working loosely and then tightening up. the early stretch is deliberately messy: rough shapes, throwaway explorations, ugly variations that exist only to find out what's wrong with the obvious direction. the discipline is keeping that mess from leaking into the material that travels onward. a workshop floor and a showroom are different places, and the person receiving the work should only ever have to walk through the showroom.
+
+somewhere in the middle, the work stops being exploration and becomes production. that shift deserves a small ritual, even if it's just a quiet moment of tidying. clean up the structure right then, while the reasoning is still warm, because every later cleanup costs more and comes out less accurate.
+
+naming deserves more patience than it gets. a good name saves an explanation, and a bad name creates a need for one. picture somebody scanning a long list at speed and ask whether they'd land on the right item without opening anything. if not, the name is doing too little.
+
+habits that help:
+
+- group by purpose, not by the order in which things got made
+- keep a plain record of what was tried and rejected, with a line about why. rejected ideas are valuable to the next person, who will otherwise propose them all over again
+- check that typefaces, colors, spacing rules and image assets are all accounted for, and that nothing quietly depends on something that lives only on my own machine
+- open the work on a clean setup, or at least imagine doing so, and see what breaks. missing fonts and broken links hide in plain sight
+- write down the odd bits: the workaround, the nudge that looks like a mistake but is deliberate
+- build polished pieces so they can be reused. flexible beats pixel-perfect when somebody else has to build on top
+
+**things to keep in mind**
+
+- whoever reads a guide is usually a little tired and a little impatient. write for that mood: short lines, plain words, pictures where words fall short
+- explain the reasoning along with the instruction. "use this spacing" is brittle. "use this spacing because the layout needs room to breathe on small screens" lets somebody make good calls in situations i never imagined
+- be candid about rough edges. a known flaw that's been named is a courtesy; a hidden flaw is an ambush
+- different recipients want different things. a developer wants measurements and assets they can pull straight in. a marketer wants flexible pieces they can rearrange without breaking the look. an owner wants reassurance that they aren't locked in to me forever. it's worth picturing who's actually on the receiving end before picking a format
+- licensing and permissions for typefaces, photography and stock elements deserve a clear note. they're easy to overlook and awkward to untangle afterward
+- accessibility choices, like contrast and legibility, belong in the explanation and not just in the design
+- don't bury the useful material. if the most important part sits at the bottom of a long document, it might as well not exist
+- avoid jargon that only makes sense inside my own head. studio shorthand feels efficient and reads as noise
+- software moves on. favor open, plain formats where possible, so the work still opens and makes sense long after the current tools have changed
+
+**open-ended ideas**
+
+- what if the guide were built around real questions people ask, rather than a tidy walk through the system? things like "how do i make a new page that still looks right?" or "what do i do when the logo has to sit on a busy photo?"
+- a tiny summary paragraph at the very top of everything, for the reader who will go no further. if that paragraph is enough, great; if not, it points them to the right spot
+- try recording a casual walkthrough, talking through the work out loud, as a companion to the written material. people absorb differently, and a spoken tour surfaces details that writing skips
+- an optional section about directions the work could grow, offered as possibilities without pressure
+- a short reflective note after each project: what the handoff got right, what confused people afterward. across a long run of projects that becomes a quietly powerful feedback loop
+- could the process generate the documentation as a byproduct? annotating as i go, so the guide is mostly assembled by the time the work wraps up
+- a gentle test: hand the material to a friendly outsider and watch where they hesitate. the hesitation points are the real table of contents
+- maybe a visual map of how the pieces relate, drawn loosely by hand, since a rough diagram often explains more than a careful paragraph
+- worth wondering what a handoff would look like if the recipient had no way to reach me at all. everything they'd need would have to be inside the package, which is a useful constraint to design against
+
+**on working solo**
+
+there's no colleague to catch blind spots, so rituals have to stand in. a checklist is basically another set of eyes that never gets bored. the trouble is that a checklist only catches what it already knows to look for, so it helps to keep adding to it whenever something slips through. the best additions usually come from small embarrassments: a missing asset, a confusing label, a question that arrived after the work had already left the building.
+
+it also helps to remember that the goal isn't to look thorough. it's to make the recipient feel capable. when somebody opens the package and immediately understands where things are and why, that's the whole job landing properly. everything else (the polish, the tidy folder names, the plain explanations) is in service of that moment.
+
+some loose reminders to end on:
+
+- people forget fast, including me. write things down while they're still obvious
+- clarity is a form of generosity
+- the work keeps living after it leaves, and its afterlife is part of the design
+- a good handoff reads as calm, not as a panic of last-minute explanations
+- leave things a bit better organized than strictly necessary

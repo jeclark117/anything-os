@@ -1,0 +1,83 @@
+office upgrade
+
+better light for video calls
+shelf for printed samples
+
+general working notes
+
+**approach**
+
+- start with the problem behind the brief, not the brief itself. people often ask for an object when what they need is an outcome, and the gap between those is where the interesting work lives.
+- keep early sketches rough on purpose. polish too early makes everyone protective of the wrong idea, including me.
+- write the reasoning in plain sentences before opening any software. if it can't be said simply, a clever layout won't rescue it.
+- when stuck, change the medium. pencil, cut paper, a wall of tape. a different material shakes loose a different kind of thinking.
+- treat constraints as collaborators. a narrow palette, a stubborn logo, an awkward format can force better choices than total freedom does.
+- look for what can be taken away. most of the time the work improves by subtraction, and the hard part is noticing which element is only there out of habit.
+
+**process**
+
+Working alone means every role belongs to me, so the process has to forgive constant switching between hats. The rhythm that seems to work is loose: a stretch of listening and gathering, a stretch of making a mess, a stretch of editing the mess down. The danger is skipping the listening because it feels like it isn't producing anything. It is producing the thing that makes the rest faster.
+
+Some habits worth protecting:
+
+- keep a running scrap file of half-thoughts, odd references, and things overheard in conversation. most good ideas arrive disguised as irrelevant observations.
+- separate making from judging. generate freely, then step away, then judge with fresh eyes. doing both at the same moment produces timid work.
+- show work in context whenever possible. a mark on a blank page tells a very different story than the same mark on a package, a screen, or a wall.
+- name versions in a way that future-me will understand without a decoder ring. vague labels become archaeology projects.
+- leave breadcrumbs in every project folder: what was tried, what was rejected, and why. the rejected ideas are often the most useful material when a project resurfaces.
+
+**working with clients**
+
+- the best conversations happen when the client feels safe saying "I don't know". pretending to certainty early leads to expensive surprises later.
+- ask what they would be embarrassed by. it reveals taste and fear faster than asking what they like.
+- feedback comes wrapped in preferences. unwrap it: "I don't like the green" usually means "this doesn't feel like us" or "my colleague will object". find the real note underneath.
+- explain the why alongside every choice. people accept an unfamiliar solution much more readily when they can follow the path to it.
+- be honest about uncertainty and about limits. trust accumulates when someone says "that's outside what I do well" and means it.
+- a calm, clear written recap after a conversation prevents a surprising amount of confusion. memory is generous to everyone's own version of events.
+
+**things to keep in mind**
+
+- a studio of one has no colleague to catch mistakes. build in small checks instead: read text aloud, view work upside down, view it tiny, view it in grayscale, view it on a screen that isn't the usual one.
+- tidy surroundings help thinking, but a space that's too perfect can feel precious and make messy exploration feel disallowed. leave room for clutter in the right places.
+- the environment shapes the output more than it seems. posture, glare, noise, and how far the reference materials are from reach all quietly steer the work.
+- rest is part of the process, not a reward after it. the best solutions often arrive while washing a cup or staring out of a window.
+- avoid comparing the studio to larger outfits. the advantage of being small is speed, intimacy, and a distinct point of view, and none of those survive imitation.
+- guard attention. notifications, open tabs, and reflexive inbox checks fragment the long, quiet stretches that deep work depends on.
+- keep the habit of finishing small personal projects. they keep the craft sharp and remind me why I wanted to do this in the first place.
+
+**on taste**
+
+Taste is built by looking at a great deal of things with curiosity and then asking why some of them land. It's worth looking outside design too: signage, packaging in a corner shop, hand-lettered notices, old manuals, instructions on appliances. Anonymous design often solves problems with a directness that award-winning work forgets.
+
+It also helps to notice how things age. A piece that looks stunning on the day it's made but dull after a season is a different achievement from one that quietly improves with wear. Material, proportion, and restraint tend to age well. Novelty rarely does.
+
+**open-ended ideas**
+
+- a small library of reference objects: odd textures, paper stocks, fabric offcuts, anything that makes a conversation about "feel" less abstract.
+- a habit of writing short post-project reflections. what went smoothly, what dragged, what surprised. patterns will show up eventually.
+- an experiment with making a deliberately ugly version of every project early, just to learn what the boundaries are.
+- inviting a trusted outsider to look at work in progress, someone who knows nothing about the field. their confusion is data.
+- a recurring practice of redesigning something everyday and slightly broken, like a form, a receipt, a label, a menu. no audience required.
+- documenting the process visually as it happens, so that explaining the work later is easier and the story is honest.
+- trying a project with a severe self-imposed limit, such as a single typeface family, or only found imagery, or only hand-drawn elements, just to see what breaks open.
+- thinking about how the studio itself reads to a stranger: its voice, its tone, its sense of order. the studio is also a piece of design, and it's often the most neglected one.
+- building a more deliberate way to say no. a clear sense of what kinds of work don't fit makes the right work easier to recognize.
+
+**loose questions**
+
+- what does "finished" actually mean for a given project, and who gets to declare it?
+- where does consistency help a client and where does it flatten them?
+- how much of a good process is ritual and how much is genuinely useful?
+- which parts of the work are better done slowly on purpose, even when speed is available?
+- what would the studio look like if it were designed for the quietest, most focused version of the work rather than the busiest?
+- is there a way to share half-formed thinking publicly without it turning into performance?
+
+**small reminders**
+
+- say less in the presentation, show more in the work.
+- trust the first instinct enough to test it, and distrust it enough to challenge it.
+- keep the hands busy when the head is stuck.
+- good work leaves room for the person using it.
+- ask for help in ways that make it easy to give.
+- notice what feels effortless. it often points toward a real strength worth leaning on.
+- be kind to the past version of the work. it was solving the problem with the information available then.

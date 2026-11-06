@@ -3,7 +3,7 @@ type: Reference
 title: Eval plan
 description: How the anything-os eval works, what each trap tests, how results get read, and what it can't show.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-10-20T22:52:40-07:00 }
+generated: { by: claude-code/opus-5, at: 2026-10-21T10:46:02-07:00 }
 ---
 
 # Eval plan
@@ -91,6 +91,46 @@ The first two pilots used notes of about 12 words each. Real notes in the vault 
 The report also counts how many mentions of superseded values are left in each folder afterward. That count includes legitimate history, like "moved from 2026-12-05," so it's a rough signal, not a grade.
 
 The evolving folders live in the system temp directory during a run, outside any vault. Claude Code reads instruction files from parent directories, and a folder inside the vault would pick up the vault's own.
+
+## Round three: 200 notes, cost over time
+
+Written 2026-10-21, before any run. Settings in [s200.json](s200.json), changes and their reasons in [s200-update.md](s200-update.md).
+
+**The question.** Writing to the OS costs more. Reading it may cost less. Which one is cheaper over time, given that a person reads far more often than they write? And do the files stay true?
+
+**The set (`s200long`).** The 60 long notes plus 140 more, written in [s200_notes.py](s200_notes.py) and padded the same way, about 1,300 words a note. Built by [build_s200.py](build_s200.py). Three versions:
+
+| Version | What it is |
+|---|---|
+| **a-loose** | 200 loose notes, no instruction file. |
+| **d-os-conventions** | The OS plus `conventions.md`, the way onboarding leaves it. |
+| **e-os-heavy** | The same OS with about 8,500 tokens of instructions that load every session, matched to the owner's own 200-file work OS. |
+
+The rules-only version is dropped. It answered a question this round doesn't ask.
+
+**Six of the new notes repeat a tracked fact in the loose version and link to the source in the OS version.** People repeat facts in loose notes, and the OS rules say to link instead. That favors the OS by design, like t1 and t2. The six are listed in `PLANTED` in `s200_notes.py`.
+
+**The run.** Each history applies 20 edits in order. Edits 1 to 10 are the 60-note round's. Five of the last ten, edits 12, 14, 15, 16 and 17, arrive as a pasted email or set of notes, 300 to 600 words, stating one changed fact once, in words the notes don't use for it. `build_s200.py check-sources` enforces that. At checkpoints 0, 5, 10, 15 and 20, the same questions get asked in fresh read-only sessions: 3 lookups and 3 open-ended tasks, in sessions of 1, 3 and 6 questions, plus u7, which spans every client, on its own. After the checkpoint 10 questions, each history saves a Q1 2027 plan in a write session, and later edits change what's in it. Three histories per version, plus one OS history that skips the saved plan, as a pilot control.
+
+**Measures.**
+- **Cost per edit,** split into one-line edits and raw sources.
+- **Cost per question, by session size.** Session size matters because the startup load is paid once per session.
+- **Total cost over time,** worked out afterward for 1, 5, 10, 20 and 50 questions per edit, so the owner can read off their own rate rather than us picking one.
+- **Accuracy,** graded against the facts as they stand at each checkpoint.
+- **Stale files.** After the last edit, 22 undated notes a person would open, plus whatever the saved plan wrote, are checked for superseded values stated as current. In the OS, five listings get checked too, because a listing can go stale.
+
+**Predictions:**
+- **Checkpoints 0 to 10:** every version passes, as in the 60-note rounds. If they don't, the 200 notes are doing something on their own, which matters more than anything below.
+- **Checkpoints 15 and 20:** this is where the versions should split, if they ever do. If loose notes stay accurate on the raw-source facts, the case for the OS doesn't rest on accuracy for a strong model at this size. The README should say that plainly.
+- **u7** costs the loose version more as the round goes on, and costs the OS about the same.
+- **The saved plan:** the outcome nobody can predict. A stale plan that later answers repeat would be the strongest argument for the write-time rule so far. It would also be an argument against saving answers without one.
+- **Cost:** the OS costs more per edit, as before. Whether reading makes that back depends on questions per session. More questions per session should favor the OS, and the heavy OS needs more of them than the light one.
+
+**Limits:**
+- **Five sources, one author.** The banned-word rule makes them hard to search on purpose. Real email isn't always that oblique, so a split here shows the mechanism, not how often it happens.
+- **The saved plan is prompted.** A real user might not ask for one.
+- **Same model throughout.** Sonnet 5.5. A weaker model is still untested.
+- **One grader.** Sonnet grades every checkpoint in one call. Joseph spot-checks a sample.
 
 ## What it can't show
 

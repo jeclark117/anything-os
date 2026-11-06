@@ -1,0 +1,117 @@
+instagram post ideas
+
+- before and after of client m signage
+- sketch to final for client s poster
+- desk setup
+
+general working notes
+
+things i keep circling back to when i'm working out how the studio shows up and how the work gets made. nothing here is final. it's a pile of thinking that tends to be useful when the work gets noisy.
+
+**approach**
+
+the work goes best when i treat a project as a conversation rather than a delivery. the person on the other side knows their world far better than i do, and my job is mostly to listen well enough that the design feels inevitable to them. when i skip the listening and jump into making, the result looks fine but feels borrowed.
+
+- start from the problem, not the look. what is this thing supposed to do for somebody standing in front of it?
+- plain language over design jargon, in either direction. if a client can't repeat back why a choice was made, the choice isn't finished.
+- restraint is a skill. the urge to add is strong, and most pieces get better when something comes out.
+- keep a loose list of what the work is not. it's often easier to name the wrong direction than to describe the right one.
+- good constraints are a gift. a tight space, a limited palette, a rough material: they make decisions for you.
+- care about the boring parts. the way a file is named or an email is phrased is part of the design of the studio.
+
+**process, roughly**
+
+the shape is usually gather, wander, narrow, refine, hand over. gathering is conversation, looking at the space or the audience, and collecting references that have nothing to do with design: textures, grocery packaging, old hand-painted shopfronts. wandering is where bad ideas are welcome. narrowing is the uncomfortable part where good ideas get cut.
+
+- paper before screen whenever possible. the screen makes everything look more resolved than it is.
+- make the ugly version fast. it exposes problems that polished work hides.
+- step away and come back with fresh eyes. things that seemed clever often look fussy later, and things that seemed boring sometimes turn out to be right.
+- show work in context. a logo floating on white tells you little. the same logo on a door, a bag, or a phone screen tells you plenty.
+- squint test, distance test, blur test. if it falls apart when you can't make out the details, the idea isn't strong enough yet.
+- keep files tidy as you go. future me is a stranger with no memory of why a layer is called what it's called.
+- write down the reasoning behind choices while it's fresh. it makes presenting easier and it's a lifesaver when feedback arrives sideways.
+
+**working solo**
+
+there's no art director down the hall. that's freedom and also a risk, because nobody pushes back at the right moment. some ways to compensate:
+
+- talk through problems out loud, even to an empty room. explaining usually reveals the weak spot.
+- keep a small circle of honest people and ask them specific questions rather than "what do you think?"
+- build in friction on purpose: a pause before sending, a read-through with a different hat on.
+- protect the quiet stretches for thinking and the noisy stretches for admin, and try not to let them bleed together.
+- be kind to the version of yourself who has to wear every role: designer, bookkeeper, project manager, photographer, tea maker.
+
+**feedback**
+
+- feedback is usually about a feeling, wrapped in a request about a detail. "make the logo bigger" often means "i don't feel seen yet."
+- ask what a change is meant to fix before changing it.
+- separate taste from function. taste is negotiable. whether somebody can read it from across the room is not.
+- say less at the start of a reply and let the person finish thinking.
+- not every note needs to be applied. some need to be understood and then gently set aside.
+- praise is information too. notice which parts get the warmest reaction and ask why.
+
+**when stuck**
+
+- change the medium. if it's stuck on screen, go to paper. if colour is muddying things, go grayscale.
+- go for a walk and look at lettering. other people's solutions, good and bad, loosen things up.
+- work on a different problem for a while and let the stuck one simmer.
+- lower the stakes by making it badly on purpose. permission to be terrible is underrated.
+- ask what the piece would look like if it were braver, then if it were quieter.
+- remove the part you love most and see whether the rest still stands.
+
+**showing the work (social, portfolio)**
+
+the process is often more interesting than the result, because people like seeing how something came together. but not every project is photogenic, and forcing it feels fake.
+
+- good photos beat good captions. natural light, plain backgrounds, real surroundings.
+- show scale. a hand holding something, a person walking past it.
+- tell small stories: a problem, a wrong turn, a solution. skip the self-congratulation.
+- consistency of voice matters more than consistency of look.
+- mind what's confidential. some work isn't ready for the world, and a client's comfort outranks a good photo.
+- leave room for the unpolished: mess, offcuts, test prints, coffee rings. it reads as honest.
+- captions can invite a reply rather than announce. a question at the end sometimes starts a better conversation than a statement.
+- think about what a stranger would learn from a post, not just what they'd admire.
+- not everything needs to be shared. some work is better kept as a quiet satisfaction.
+
+**things to keep in mind**
+
+- materials behave differently from how they look on screen. colour especially shifts across paper, paint, vinyl, and light. proofs matter.
+- legibility is a form of kindness.
+- accessibility isn't an add-on. contrast, size, and clear shapes belong in the work from the beginning.
+- leave generous margins, in layouts and in schedules.
+- typefaces have moods, and pairing them is like seating guests at dinner. some get along, some start arguments.
+- licences and permissions are boring until suddenly they are very important.
+- backups, always, kept in separate places.
+- trends date quickly. ideas with a clear reason age better.
+- it's okay to turn down work that pulls the studio away from what it's good at, and also okay to be curious about the odd request that stretches it.
+- tired eyes lie. judge colour and spacing when rested.
+- people remember how a thing made them feel long after they forget what it looked like.
+
+**open-ended ideas**
+
+- a running collection of wrong turns that turned out useful: abandoned directions that fed later work.
+- a small series about everyday objects that are well designed and that nobody notices: door handles, bus stop signs, receipts, bottle caps.
+- a short note to self at the end of each project: what surprised me, what i'd do differently, what i'd borrow from myself.
+- hand lettering as a recurring thread through otherwise digital work.
+- a reading list from outside design: building, gardening, cooking, shop signs in languages i can't read.
+- a way of explaining the studio's approach to a curious stranger in a sentence or so.
+- inviting a local maker, printer, or painter to talk about their craft, just to see how their constraints differ from mine.
+- an archive of textures: peeling paint, cracked pavement, rust, worn stone, woven fabric.
+- thinking about how the studio sounds, not just how it looks: how emails read, how a quote is phrased, how a call opens.
+- a small tactile leave-behind for clients that carries some of the thinking.
+- walking around the neighbourhood and collecting lettering that works, lettering that fails, and lettering that was clearly made by hand with love.
+- a loose glossary of the studio's own words, the shorthand that appears in notes and never gets explained.
+
+**questions that don't have answers yet**
+
+- how much of the process can be visible without making the work feel less magical?
+- is there a way to make admin feel as creative as the design?
+- what does "finished" mean when a piece will weather, fade, and get scuffed?
+- when does a signature style help, and when does it box a studio in?
+- what do clients wish they'd been asked sooner?
+- how do you stay generous with ideas without giving away the thing that makes the studio worth hiring?
+- what would the work look like if nobody were watching?
+
+**loose closing thought**
+
+the best days tend to be the ones where the work is a little bit surprising to me. if everything is predictable, something is probably being repeated rather than discovered. keeping some space for the odd, the awkward, and the unfinished seems to be what keeps the studio interesting, for me and for whoever happens to be looking.

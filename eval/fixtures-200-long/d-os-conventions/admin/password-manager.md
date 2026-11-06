@@ -1,0 +1,81 @@
+---
+type: Note
+title: "Password manager"
+description: "Password manager plan, renews 2027-05."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Password manager
+
+- Annual plan
+- Renews 2027-05
+
+working notes, general
+
+Mostly thinking out loud. These are the things that keep resurfacing whenever the desk gets messy and a project starts to sprawl.
+
+**Approach**
+
+Working solo means the process has to be light enough that I actually follow it, and sturdy enough that it holds up when I'm tired or distracted. My best work usually comes from starting loose: a heap of references, ugly sketches, scribbled phrases in margins, half-formed diagrams. The trap is polishing too soon. A tidy early draft feels like progress, but it often just locks in the wrong idea and makes it harder to let go.
+
+Before touching a layout, it helps to understand what the thing is actually for. Who will look at it, what mood are they in when they do, and what should they feel or be able to do afterward? A lot of design trouble comes from solving the stated request instead of the need underneath it. Asking a slightly awkward question early is far cheaper than rebuilding a direction late.
+
+I like to think of the work as having a wide phase and a narrow phase. The wide phase is about range: lots of directions, some of them deliberately wrong, just to see where the edges are. The narrow phase is about commitment to craft: spacing, rhythm, proportion, the small decisions that make something feel calm. Mixing them up is where things go sideways. Fussing over kerning in the wide phase wastes energy; staying vague in the narrow phase makes the result feel unfinished.
+
+**Process notes**
+
+- Keep a running scrap file for ideas that don't fit the current project. Most of them go nowhere, but a few turn out to be the seed of something good later.
+- Write the problem in plain sentences before drawing. If it can't be explained simply, it probably isn't understood yet.
+- Work in grayscale for as long as possible. Color can hide weak structure.
+- Squint at things. Step back. Look at the work small, look at it huge, look at it upside down. Each view reveals different problems.
+- Let rough work sit overnight when possible, then react to it with fresh eyes instead of defending it.
+- Keep versions. Even bad ones. Going backward to an earlier idea is sometimes the smartest move available.
+- Name files in a way that future-me can decode while exhausted.
+- Make the boring parts boring on purpose. Naming, folders, exports, handoff files: set up a pattern once and let it be invisible.
+
+**Working with clients**
+
+Clients rarely know what they want in design terms, but they usually know what they don't want the moment they see it. Showing something concrete, even if it's flawed, tends to unlock better feedback than asking abstract questions. That said, a bit of framing helps. Presenting work with a short explanation of the reasoning keeps the conversation on goals instead of personal taste.
+
+Feedback is a gift and a hazard. Some of it points at a real problem but offers a clumsy fix. The skill is separating the symptom from the proposed cure. When someone says "make the logo bigger," the underlying note is often "I don't feel seen" or "this feels timid." Worth digging for what's underneath.
+
+Be wary of scope that grows quietly. It rarely arrives as a big request; it arrives as a string of small, reasonable-sounding additions. Having a gentle way to name that out loud, without sounding defensive, is a useful habit.
+
+It also helps to be honest about what a small studio can and can't do well. Pretending to cover everything leads to mediocre work and strained relationships. Being clear about strengths tends to attract the right kind of project.
+
+**Things to keep in mind**
+
+- Constraints are friends. A tight brief, a limited palette, a restricted set of type styles: these often produce sharper results than total freedom.
+- Hierarchy first. If everything is loud, nothing is heard. Decide what matters most, then let the rest support it.
+- White space is a material, not leftover room.
+- Consistency builds trust, but rigid consistency can feel lifeless. Leave room for a little surprise.
+- Accessibility is part of quality, not a bolt-on. Contrast, legibility, clear structure, and thoughtful reading order make things better for everybody.
+- Beware of trends. They age quickly, and borrowing them without understanding why they work produces shallow results.
+- Pay attention to how things behave across contexts: small screens, large prints, dark backgrounds, bad lighting, tired eyes.
+- Rest matters. Fatigue makes everything look fine, which is the most dangerous state to review work in.
+- Admin is real work. Invoicing, contracts, correspondence, and bookkeeping quietly eat energy if they're left to pile up. A calm system for the dull stuff protects the creative stuff.
+- Protect some time for unpaid curiosity. Self-initiated experiments keep the eye sharp and the portfolio honest.
+
+**Open-ended ideas**
+
+- A small personal library of textures, scanned from physical things: paper edges, torn tape, ink bleed, fabric weave, rust. Real imperfection is hard to fake and can give digital layouts some warmth.
+- A recurring habit of redrawing a familiar everyday object in many styles, just to loosen up the hand.
+- Maybe a short written set of studio principles, not as rules but as a mirror. Something to read when a project starts feeling off and the cause isn't obvious.
+- Explore a quieter way of presenting work to clients: less deck, more conversation, perhaps with a physical mockup they can hold.
+- Think about how to document process in a way that is useful to the next project and not just a pile of screenshots. Notes about what surprised me, what failed, and what I'd do differently.
+- A reading list that isn't about design at all: architecture, botany, typography history, sound, cooking, repair manuals. Cross-pollination tends to beat staring at other designers' portfolios.
+- Consider building a lightweight checklist for the end of a project: files tidy, assets organized, lessons jotted, loose threads tied. Not as a rigid procedure, just a gentle sweep.
+- Look for ways to make the studio feel more like a place and less like a laptop. Better light, a pinboard that actually gets used, a shelf for physical references.
+- Wonder about collaborating with makers outside the usual orbit: illustrators, writers, ceramicists, woodworkers. The studio is small by design, but it doesn't have to be isolated.
+
+**Loose questions**
+
+- What makes a piece of work feel finished versus merely abandoned?
+- How much explanation does good design need? Ideally little, but context can change that.
+- Is there a way to keep the early messy energy alive all the way through to the polished end?
+- What would the studio look like if it were optimized for enjoyment rather than efficiency? Probably worth sitting with that for a while.
+- Where does taste come from, and how does it get sharpened without turning into snobbery?
+
+**A last thought**
+
+Most of this boils down to attention. Notice what a project is asking for, notice what the work is doing, notice when something is off even if it can't be named yet. The tools, methods, and habits are all just scaffolding for paying better attention. When in doubt, slow down and look again.

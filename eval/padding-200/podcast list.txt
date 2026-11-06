@@ -1,0 +1,78 @@
+general working notes
+
+nothing here is tied to a particular project. it's just the stuff that keeps surfacing when I think about how the work actually gets made. loose, rearrange freely.
+
+**approach**
+
+the work tends to go better when the problem is stated plainly before anything gets drawn. not a grand brief, just a sentence about what the thing needs to do and who it's for. if that sentence is fuzzy, the layouts come out fuzzy, and no amount of polish rescues them.
+
+working small and rough at the start is almost always worth it. thumbnails, scraps, bad collages, scribbles over printouts. the goal at that stage is thinking, not output. ugly versions are cheap to throw away, and throwing things away is where direction shows up.
+
+people react to whatever is put in front of them, so what goes in front of them matters. showing a spread of options that are all secretly the same idea wastes goodwill. better to show real differences in direction, even if some are weaker, so the conversation has something to push against.
+
+- start from constraints, not taste. constraints give the work a spine
+- let real copy drive the form wherever possible; placeholder text hides problems that real text exposes immediately
+- keep the reasoning attached to the work so it can be explained without improvising
+- when stuck, change the medium instead of pushing harder in the same medium
+
+**process**
+
+a rough shape that seems to hold up, though it never plays out cleanly:
+
+- absorb before making. read what exists, look at what the audience already sees, collect the irritations people have with the current situation
+- gather references, but sort them by why they're interesting rather than how they look. something collected for its restraint is different from something collected for its energy, and mixing them muddies the water
+- sketch wide, then narrow. narrowing is the hard part, and it usually involves admitting that a favourite idea doesn't fit
+- build a small system before building the full thing: a limited palette, a handful of text styles, a spacing rhythm. if the small system feels right, the rest tends to follow
+- test in context. a mark looks different on a screen, on paper, tiny, huge, in a busy setting, in a quiet setting
+- step away and come back with fresh eyes before judging. work reads differently after a gap, and the gap costs nothing
+
+**keep in mind**
+
+- working solo means nobody is there to catch the obvious. build in ways to get distance: print it, flip it upside down, view it small, read the copy aloud
+- energy is a material too. some work wants a clear head, and other work is fine on a low-energy stretch. matching task to energy saves frustration
+- the most useful feedback is usually vague unease rather than specific instruction. when somebody says it feels off, the job is to find what's underneath instead of patching the surface thing they pointed at
+- consistency beats cleverness more than expected. a clever detail that shows up in a spot and never returns looks like an accident
+- white space is not leftover space. it needs the same care as the marks
+- accessibility is not a layer added at the end. contrast, legibility, and clear hierarchy are part of the form
+- scope creeps quietly. noticing it early is easier than renegotiating it after the fact
+- boring admin is part of the craft. tidy files, clear naming, backups, notes about why things were chosen. a future self is a collaborator who remembers nothing
+- taste grows from looking at lots of things, including things that aren't design: signage, packaging, handwritten labels, old manuals, hardware store aisles
+
+**on feedback and revision**
+
+revision goes better when the reason behind each change is understood, not just the change. otherwise it turns into a guessing game. asking what a change would fix for them tends to open things up. it also helps to separate matters of preference from matters of function. preference can be discussed forever. function can be checked.
+
+there's a temptation to defend early work because of the effort that went into it. effort isn't evidence. the question is only whether the thing does its job, and whether it does it with some charm.
+
+silence after sending work is hard to read. it can mean approval, confusion, busyness, or quiet disappointment. worth resisting the urge to fill the silence with extra explanation or unrequested tweaks.
+
+**on doubt and rest**
+
+doubt is part of the job and probably a useful part. the trouble starts when it can't be told apart from real information. a useful test: can the worry be named as a specific problem with a specific fix? if yes, it's a note. if no, it's mostly mood, and mood passes.
+
+rest counts as work, more than it feels like. plenty of solutions arrive while walking, washing dishes, or staring out a window. protecting that kind of slack seems wise, even when the schedule looks tight.
+
+**open-ended ideas**
+
+- what if every project began with a short description of the feeling the finished thing should leave behind, and that description got reread at the end to see whether the work matches it?
+- a running scrapbook of failures, with directions abandoned and why, might be more instructive than any polished showcase
+- redrawing something admired from memory and comparing it with the original could show what memory kept and what it dropped. the gaps show what actually mattered
+- is there a way to show process publicly without it turning into performance? the messy middle is interesting but easy to stage
+- constraint exercises for fun: only straight lines, no ornament, only lowercase, only the materials within arm's reach
+- collaborating with people from other fields, like a writer, a woodworker, a cook, to see how their sense of craft maps onto layout and form
+- what would a client handover look like if it were designed like a product? documentation, a guide, a small rulebook, an explanation of the reasoning
+- thinking about the afterlife of work: how it ages, gets modified by others, gets misused. designing for graceful decay
+- the relationship between slowness and quality. some things improve by waiting, others just go stale. telling them apart is a skill
+- a plain-language glossary of the terms that come up in client conversations might help everybody start from shared words
+- a reading pile that has nothing to do with design: field guides, repair manuals, cookbooks, old catalogues
+- describing a project to a stranger in the shortest truthful way could be a good test of what survives
+
+**things that seem true but are hard to act on**
+
+- people remember how a thing felt to use, not the rationale behind it
+- accidents of format and material often force the most inventive moves
+- a good mark survives bad conditions: blurry, cropped, squeezed, badly printed
+- the urge to add is stronger than the urge to remove, and removal is usually where the improvement is
+- clarity is generous; cleverness is often for the maker
+
+this isn't a rulebook. it's a pile of reminders that tend to be useful when the work gets muddy, plus some questions that can stay open for now.

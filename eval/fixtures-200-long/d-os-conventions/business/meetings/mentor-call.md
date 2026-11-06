@@ -1,0 +1,77 @@
+---
+type: Note
+title: "Meeting: mentor call"
+description: "Call with a mentor."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Meeting: mentor call
+
+- Said to specialize sooner
+- Pick one kind of client to be known for
+
+general working notes
+
+some loose thoughts on how the studio runs, collected here so they stop rattling around in my head.
+
+**approach**
+
+- start from the problem the person is actually having, not the problem they say they're having. the brief usually describes a symptom. the useful work happens in the gap between the request and the real need.
+- keep the early conversations wide and curious. the goal is to understand how the person's business makes sense to their own customers, because that's where the design has to land.
+- treat constraints as material. limited content, a rough budget of attention, an awkward legacy mess: all of it shapes the work and usually makes it better than a blank canvas would.
+- aim for work that looks inevitable. if someone looks at the finished piece and can't imagine it any other way, that's the target.
+- prefer fewer moving parts. when a design feels busy, the answer is usually removal, not another clever layer.
+
+**process, roughly**
+
+The process isn't a rigid pipeline. It loops. But there's a general shape:
+
+Listening comes at the start and keeps happening throughout. Read everything the client sends, even the stuff that seems irrelevant. Ask them to show me what they admire and what makes them wince. Reactions to existing work reveal more than abstract descriptions of taste.
+
+Then comes a messy exploration phase. Sketch badly and quickly. Use paper when possible because it keeps things loose and stops me from polishing too early. Make a pile of directions, including some that feel wrong, and look for the thread that connects the ones that feel right.
+
+After that, narrow. Pick the direction that best answers the real problem and push it until it either holds up or breaks. If it breaks, that's information, not failure. Go back to the pile.
+
+Refinement is where craft lives: spacing, rhythm, how type behaves at awkward sizes, how color holds up when printed badly or viewed on a cracked screen. Spend real time here. It's what separates competent from memorable.
+
+Handoff matters more than it gets credit for. Leave behind something the client can actually use without me: clear files, sensible naming, a short guide to the reasoning. Good handoff means they don't feel stranded, and it quietly sells the next project.
+
+**things to keep in mind**
+
+- clients rarely want what they ask for in the exact form they ask for it. they want to feel confident about what they're putting out into the world.
+- feedback is data about a person's anxieties as much as about the design. when comments seem contradictory, look for the worry underneath.
+- explain the why behind decisions in plain language. nobody trusts a designer who hides behind jargon.
+- present fewer options with stronger conviction rather than a buffet. a big spread of choices transfers the hard thinking back to the client.
+- protect the quiet hours for deep work. shallow tasks expand to fill whatever room they're given, and admin can swallow the whole week if it's allowed to.
+- being a solo operation means being the designer, the accountant, the salesperson, and the person who answers the door. notice which hat is on and don't let the dull ones crowd out the creative one.
+- rest is part of the work. the best ideas tend to arrive away from the desk, on walks or while washing dishes.
+- keep a record of what worked and what didn't after each project, even if it's just a few honest sentences. memory is unreliable and flattering.
+- scope creep rarely announces itself. it arrives as small friendly requests. worth noticing the pattern early and naming it kindly.
+- not every good idea belongs in the current project. park the extras somewhere so they aren't lost but also don't bloat the work.
+
+**how to talk about the work**
+
+Case studies should tell a story: what the situation was, what was tricky, what changed afterward. Pretty screenshots alone don't convey thinking. People hiring a designer are partly hiring judgment, and judgment shows up in the narrative around the pictures.
+
+Writing about the work also forces clarity. If I can't explain why a choice was made, it was probably a habit and not a decision. That's a useful audit.
+
+Also worth remembering that confidence reads as competence. Plain, warm, direct communication goes further than polish. Reply promptly, say what's happening, and admit uncertainty without drama.
+
+**open-ended ideas**
+
+- a running collection of small observations about how ordinary people interact with ordinary interfaces. signage, packaging, forms at the clinic, the menu at the café. it's cheap research and it sharpens instinct.
+- a personal library of problems solved well by other people, filed by the underlying idea instead of the industry. patterns travel across sectors more than most people expect.
+- maybe a recurring habit of making something for no client at all, purely to keep taste alive and hands warm. side experiments often feed back into paid work in unexpected ways.
+- explore whether a short written guide on how to brief a designer could double as a useful filter. the way a prospective client responds to it might say a lot about fit.
+- think about what kind of reputation accumulates quietly over years. what do people say when they recommend the studio when it's not in the room? that sentence is worth shaping on purpose.
+- consider how the physical workspace affects mood and output. light, clutter, the angle of the desk. small adjustments might matter more than new software.
+- look into collaborating with writers, photographers, or developers who share similar standards. a trusted circle makes bigger work possible without turning the studio into something it isn't.
+- wonder about teaching or speaking as a way to clarify thinking. explaining a method to strangers exposes the weak spots fast.
+- keep an eye on what the studio is saying through its own materials. the studio's site and proposals are design work too, and they get neglected because there's no client pushing for them.
+- ask what the work would look like if fear of being judged were removed. probably bolder, probably simpler.
+
+**loose reminders**
+
+Stay curious about the people on the other side of the screen. Remember that most of them are juggling much more than the project at hand, and that patience and clarity are a form of service. Be generous with credit and honest about limits. Let the portfolio reflect where the studio wants to go, not only where it has been.
+
+The long game is about building trust slowly: through consistent quality, straight talk, and work that quietly does its job. The rest is craft and stamina.

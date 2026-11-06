@@ -1,0 +1,87 @@
+designer meetup sept
+
+general working notes
+
+how i approach a project
+
+- start with the problem the person is really trying to solve, not the thing they asked for. a brief is usually a guess at the answer, and the guess is wrong in interesting ways more often than you'd think
+- keep early rounds loose and cheap to throw away. rough marks, rough layouts, rough wording. polish too early and people start defending things that should have been allowed to die
+- say out loud what's being left out, not just what's going in. the edges of a project matter as much as the middle
+- write down why something looks the way it does while the reasoning is fresh. later the result sticks and the argument doesn't
+
+process
+
+most good work comes out of a boring, repeatable rhythm. listen, sketch, show something rough, react, tighten, show again. the trick is keeping the loop honest, which mostly means not skipping the listening part when things get busy and the urge is to jump straight to making.
+
+when a project feels stuck it's usually because a question upstream never got properly answered and everything downstream is quietly waiting on it. worth going back and asking what the real question is before pushing harder on the visuals. pushing harder on visuals is the most tempting wrong move there is.
+
+i like working in layers: structure and hierarchy before colour, colour before texture, texture before the little flourishes. if the thing doesn't work as plain grey boxes it won't be rescued by a nice palette.
+
+things to keep in mind
+
+- clear communication beats clever work. a mediocre idea explained well often lands better than a great idea dropped into a folder with no context
+- scope creeps in through friendly requests. a small favour here and a tiny tweak there add up to a different project. worth naming the shift gently when it happens, without making it awkward
+- running a small studio means every mistake feels personal and every win does too. try not to let either swing the mood for too long
+- leave slack for the unexpected. things that look straightforward have a habit of hiding awkward corners
+- keep files, layers and naming tidy as you go. cleanup after the fact is where good intentions go to die
+- the handoff matters. whatever gets delivered should make sense to a stranger opening it cold
+- be suspicious of work that feels too easy and of work that feels impossibly hard. each usually means the brief is off
+
+sharing work with other people
+
+working solo means leaning on trust whenever the work leaves your own hands. mostly it comes down to clarity: what good looks like, what's flexible, what isn't. give examples, not adjectives. "make it feel warm" means different things to different people, so show a reference and say what exactly about it is right.
+
+questions worth asking whenever work is shared out:
+
+- is the brief written so a stranger could pick it up without a call
+- what does the other person need to see in order to feel confident
+- how will feedback travel, and who has the last word on taste
+- what happens if the style drifts away from the studio's usual voice
+- how will credit be handled, and does that match how the work gets presented publicly
+
+boring paperwork is part of it too. ownership of the work, confidentiality, who is responsible when something goes sideways. it's not fun, but it's far cheaper than the awkward conversation later.
+
+feedback
+
+feedback is information about how the work lands, not a verdict on the designer. easy to say, harder to feel. a trick that helps is separating the reaction from the request. a person who says "i hate the green" is often telling you the page feels cold or loud or off-brand, and the fix may not be the colour at all. ask what they're noticing before changing anything.
+
+also worth remembering that vague praise is as unhelpful as vague criticism. "looks great" tells you nothing about what to protect in the next round. gentle follow-up questions usually shake loose something more useful.
+
+quality and craft
+
+- details are where trust is built. alignment, spacing, consistent rules for how things behave. most people can't name these but they feel them
+- rhythm and contrast do more than decoration. if everything shouts, nothing is heard
+- test things in awkward conditions: squinted at, shrunk down, seen on a bad screen, printed on cheap stock. real life is not a presentation mockup
+- accessibility isn't a bonus layer. legibility, contrast and clear structure are just part of making something that works
+- read the copy aloud. layouts built around placeholder text tend to fall apart when the real words arrive
+
+open-ended ideas
+
+- a small library of reusable starting points: layouts, type pairings, colour moods, so the blank page is less blank
+- a running file of things that made me stop and look. not for copying, for spotting patterns in what pulls attention
+- a plain-language description of the studio's style, written as if explaining it to a stranger. could reveal what's truly consistent and what's accidental
+- a way of showing work in progress that feels less like a big reveal and more like a conversation
+- loose write-ups of the thinking behind finished projects, as case studies. useful for clarifying thought, maybe useful for others
+- experimenting with constraints on purpose: limited palette, limited type, rigid grid. constraints often free things up
+- asking people outside the field to describe what they see in a piece. their words are often more useful than a designer's critique
+- balancing paid work with personal experiments so neither starves the other
+- an honest look at which parts of the process are energising and which are just habit, and whether the habit parts could be streamlined or dropped
+
+habits worth protecting
+
+- step away from the screen when something isn't working. paper, a walk, a different room
+- keep a list of questions, not just tasks
+- look at things that have nothing to do with design: buildings, packaging, hand-painted signs, old manuals
+- rest is part of the process, not a reward for finishing
+- talk to other people who make things. isolation narrows the work without announcing it
+
+loose thoughts to chew on
+
+why do some projects feel effortless and others fight back the whole way? maybe it's the quality of the early conversation. maybe it's trust. maybe it's a mismatch between the person and the problem. worth paying attention to the pattern.
+
+what would the studio look like if it were shaped around the work that's most enjoyable rather than the work that's most available? not a plan, just a lens for noticing.
+
+there's a difference between being busy and being useful. a calm studio with room to think probably produces better work than a frantic one, even if it looks less impressive from the outside.
+
+met a few freelancers
+one might subcontract overflow work

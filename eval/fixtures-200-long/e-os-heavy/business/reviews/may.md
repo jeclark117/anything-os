@@ -1,0 +1,78 @@
+---
+type: Note
+title: "Review: may"
+description: "May 2026 review: Client Q started."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Review: may
+
+general working notes
+
+**approach**
+
+- start from the problem, not the look. most work that goes sideways got treated as a style request when it was really a communication problem.
+- ask what the thing has to do for the person on the receiving end. a reader skimming on a phone, a customer deciding whether to trust a brand, a board member flipping pages while thinking about something else. design for their attention, not for the portfolio.
+- keep the early stage cheap and ugly. rough layouts, scraps, thumbnails, marker on paper. the moment something looks polished, people stop questioning it, and that includes me.
+- let real content lead as early as possible. real copy, real images, real data. placeholder text hides problems that only show up when the actual words arrive and refuse to fit.
+- write the constraints down before sketching anything: format, audience, tone, what's off limits, what the client already loves or hates. constraints make the decisions smaller, which is a gift.
+- explore wide before narrowing. the obvious idea is usually fine, but it's worth pushing past it to find out whether it's fine or just familiar.
+
+**process thoughts**
+
+the work tends to go best when it moves in loose passes rather than a straight line. a pass for structure, a pass for hierarchy, a pass for type, a pass for color, then a pass for the small stuff nobody notices until it's wrong. trying to do everything at once produces muddy decisions. structure first, because no amount of nice typography rescues a confused layout.
+
+long documents are their own animal. they need a system before they need a style: a grid, a set of text styles, rules for how images behave, a rhythm of dense pages and breathing pages. once the system is solid the individual pages get easier, and changes ripple through cleanly instead of turning into hand-fixing. it's worth building the skeleton carefully even when it feels slow, because the slow part pays back later when the client asks for a change late in the process.
+
+print work and screen work forgive different things. print forgives nothing once it's out the door, so proofing deserves real patience: read it aloud, read it backward, print it and look at it on a wall, hand it to somebody who hasn't seen it. screens forgive almost everything but punish inconsistency across sizes. check the awkward in-between sizes, not just the tidy ones.
+
+keep the files organized as if a stranger will have to open them. clear names, sensible folders, fonts and links gathered, a readme-style note on anything unusual. future me counts as a stranger after enough time has passed.
+
+**things to keep in mind**
+
+- clients rarely know what they want, but they usually know what they don't want once they see it. show work that makes that easy to say out loud.
+- feedback comes in layers. the stated comment is often a proxy for a feeling. "make the logo bigger" might mean "i don't feel seen." it's worth asking a gentle follow-up question before changing anything.
+- scope creep is mostly polite. it arrives as small favors. notice the pattern early and name it kindly, rather than quietly absorbing it and resenting it later.
+- good restraint is hard to sell, because nothing visibly happened. a clean page took a lot of decisions. explain the reasoning briefly when presenting, so the quiet choices read as choices.
+- don't fall in love with a direction before the client has seen it. attachment makes feedback feel personal, and it isn't.
+- rest matters for the work itself. eyes get tired and judgment drifts. stepping away and returning fresh catches problems that staring never will.
+- accessibility is part of quality, not a bonus. contrast, size, reading order, clear labels. if it can't be read, it hasn't communicated.
+
+**working solo**
+
+there's nobody down the hall to ask whether something looks off, so it helps to build substitutes. a habit of flipping the layout upside down or viewing it tiny to see the shapes. a folder of work by others that makes me jealous in a useful way. a trusted friend or peer who gives honest reactions without softening them. writing a short rationale for a design is a decent stand-in for a critique, because if the reasoning is thin, it shows on the page.
+
+the business side deserves steady, boring attention, because neglected admin creates stress that leaks into the creative work. keeping records tidy, keeping communication clear, keeping supplies and collateral stocked so that a surprise request doesn't become a scramble. none of that is glamorous, but it protects the part that is.
+
+also worth remembering that being small is an advantage. it allows quick turns, direct conversation, and a personal feel that larger shops struggle to fake. lean into that in how the studio talks and presents itself, rather than trying to look bigger than it is.
+
+**open-ended ideas**
+
+- a reusable checklist for the end stage of any project: spelling, alignment, color consistency, export settings, file naming, links, accessibility, a final read-through by fresh eyes. maybe it lives as a plain text file that gets copied and adapted.
+- a personal library of small pattern experiments: textures, grids, type pairings, odd cropping tricks. low pressure, no audience, just play that feeds real jobs later.
+- a short intake questionnaire for new clients that asks better questions than the usual ones. less "what colors do you like" and more "what would a stranger be surprised to learn about you" or "what does your best customer complain about."
+- a habit of writing a brief wrap-up note after a project closes: what worked, what dragged, what to repeat, what to avoid. over time that becomes a quiet playbook.
+- try presenting work in a different order than the instinctive one. lead with the quiet, confident option instead of the flashy one, and see how the conversation changes.
+- explore more analog steps in the workflow: hand lettering, printed proofs pinned up, physical mockups of packaging or stationery. the tactile check often reveals things the screen hides.
+- think about how to make the studio's own materials feel as considered as client work. the cobbler's children problem is real, and the studio's own presence is its best ongoing sample.
+- consider a slower, more reflective kind of case study. not just before and after, but the awkward middle: the wrong turns, the reasoning, the restraint. that's what other designers and prospective clients find most convincing.
+- wonder about what a "quiet" version of the studio's process looks like during busy stretches, where deliberate pauses are protected so quality doesn't slip when things pile up.
+
+**questions to sit with**
+
+- what kind of work leaves the most energy afterward, and how could more of the workload resemble it?
+- where does the process still rely on memory instead of a system?
+- which habits are genuinely useful, and which are just comfortable?
+- what would a client say is the studio's best quality, and does it match what the studio believes about itself?
+- is there a kind of project that keeps getting accepted out of politeness rather than interest?
+
+**small reminders**
+
+- zoom out often. the detail you're polishing might not matter at reading distance.
+- save versions generously. disk space is cheap and regret is not.
+- keep a running list of things that annoyed you in other people's design, because that list is a quiet source of principles.
+- good enough is a real stopping point for some details and a trap for others. learn which is which.
+- talk to the actual people who will use the thing, whenever possible, even briefly. a casual conversation beats an hour of speculation.
+
+- Client q annual report started
+- Reordered business cards

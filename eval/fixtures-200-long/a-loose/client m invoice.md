@@ -1,0 +1,70 @@
+client m invoice
+
+general working notes
+
+**how i tend to come at new work**
+
+- listen more than talk at the start. the brief people hand over is usually the visible edge of the problem, not the problem itself. ask what success would feel like in plain language, then ask what failure would feel like. the second answer is often more honest.
+- collect the mess early. screenshots, old files, offhand remarks, half-finished sketches, a logo someone made years ago and is embarrassed by. a pile of raw material says more than a tidy deck of references.
+- stay out of the layout software for a while. paper, a marker, bad drawings. if an idea can't survive being scribbled, it won't survive being rendered.
+- keep a list of questions separate from the list of ideas. they get tangled otherwise, and then every idea pretends to be an answer.
+- write the problem in a sentence or so before drawing anything. if the sentence is slippery, the work will be too.
+
+**process, loosely**
+
+the early stretch should feel wide and slightly irresponsible. lots of directions, most of them wrong, some of them wrong in useful ways. the point is to find out where the edges are. a bad direction that clarifies what a client dislikes is worth more than a safe direction that clarifies nothing.
+
+after that comes narrowing, which is harder than it sounds. the temptation is to keep everything alive because it all cost effort. but effort spent is not a reason to keep an idea. cut things that are merely clever. keep things that feel inevitable.
+
+then the long middle, where the work is mostly small adjustments that nobody will consciously notice. spacing, rhythm, how a heading sits against a paragraph, whether a color feels warm or just muddy. this is where a studio of this size can quietly beat bigger outfits, because there's no handoff to dilute the taste.
+
+the end is about consistency. check the thing in the places it will actually live, not just on a big screen in a quiet room. look at it small, look at it cropped, look at it badly printed, look at it on a cracked phone. if it holds up there, it's probably sturdy.
+
+**things to keep in mind**
+
+- clients rarely know the vocabulary of design, and that's fine. translate their feelings instead of correcting their words. "make it pop" usually means "i can't tell what to look at first."
+- show fewer options than feels generous. a crowd of choices invites committee behavior, and committee behavior sands everything down.
+- explain the reasoning behind a direction, not just the direction. people defend what they understand.
+- separate taste from fit. something can be beautiful and wrong for the audience. something can be plain and exactly right.
+- feedback is data about the viewer as much as about the work. sometimes a note is really a mood. learn to tell the difference without being dismissive.
+- protect the quiet hours. the best thinking tends to happen when nobody can reach me, and being reachable constantly is a slow way to produce average work.
+- keep records of why things were made the way they were. future me will have forgotten, and future clients will ask.
+- be honest about what's out of scope before it becomes a quarrel. a polite boundary early is kinder than a resentful one late.
+
+**small habits worth keeping**
+
+- name files like a stranger will have to open them in an emergency. no "final" or "final-really" or "use-this-one."
+- keep a folder for rejected work. it's a quarry. ideas that failed in one context sometimes fit perfectly in another.
+- take screenshots of things that catch the eye in the wild: a shop sign, a menu, a badly lit packaging shelf. don't analyze them right away. let them sit and see which ones still nag later.
+- read outside the field. architecture, cooking, old manuals, field guides. design vocabulary gets stale when it only feeds on itself.
+- walk away from a draft before judging it. a night of distance changes what looks good and what looks merely familiar.
+- keep the desk less cluttered than the head. or at least try.
+
+**on working solo**
+
+the upside is speed and coherence. there's a single sensibility from start to finish, and the work shows it. the downside is that nobody argues with me, which means my blind spots get comfortable. worth building some friction in: show work-in-progress to a trusted outsider, ask a friend in a different field what they see, reread old projects with a harsh eye.
+
+another solo hazard is treating every request as urgent because there's no buffer between the person asking and the person doing. not everything is. learning to sort the genuinely pressing from the merely loud is half the job, and it's a skill that doesn't show up in any portfolio.
+
+the admin side deserves respect too. it's tempting to treat paperwork as a distraction from the real work, but it is part of the real work. a studio that makes lovely things and handles the business side carelessly is a hobby with extra steps. clear paperwork, clear expectations, and clear follow-up all make the creative side easier, because they remove low-grade worry from the background.
+
+**open-ended ideas**
+
+- a short written guide for new clients explaining how the process works, in friendly language, so expectations are set before the first conversation gets awkward.
+- a library of tiny experiments: type pairings, color relationships, grid quirks. not for any project, just to build instinct.
+- a practice of writing a brief reflection after each project wraps. what felt smooth, what dragged, what i'd do differently. patterns would show up if enough of these piled up.
+- explore making a few self-initiated pieces with no client at all. a poster series, a typeface sketch, a zine. the freedom would probably feed back into paid work in ways that are hard to predict.
+- think about how to make the studio's own materials less of an afterthought. the cobbler's children problem is real, and the studio's own presentation should hold up to the standards applied to everyone else's.
+- consider whether there's a niche that keeps pulling at the work anyway. maybe the projects that feel best share a quality worth naming: small businesses with a strong point of view, cultural organizations, makers who care about craft.
+- look for ways to collaborate with writers, photographers, or developers on a loose basis, so larger projects don't require stretching beyond what a single person can do well.
+- keep asking whether the work is making the client's world a little clearer or just a little shinier. clarity lasts. shine fades.
+
+**a few reminders to self**
+
+stay curious about the ordinary parts of a project, because that's where the polish lives. don't mistake busyness for progress. let good ideas be simple. let the work breathe. and when something isn't working, say so early, even if only to myself.
+
+the best projects tend to be the ones where trust runs both ways. the client trusts the process, the process respects the client's reality, and the result looks like it belongs to them rather than to the studio. that's the target, always, even when the details get fiddly.
+
+invoice 15, $2,400
+sent 2026-10-01, due 2026-10-31
+not paid yet

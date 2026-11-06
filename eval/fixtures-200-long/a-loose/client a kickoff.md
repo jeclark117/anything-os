@@ -1,0 +1,72 @@
+client a kickoff 2026-09-02
+
+working notes, general stuff
+
+**how i like to start**
+
+start from what the site is actually for. before touching layout, i try to write down in plain language what a visitor should be able to do and feel after landing. if that sentence is fuzzy, the design will be fuzzy. owners usually know the answer better than they can say it, so the early job is asking small, concrete questions until it shows up on its own.
+
+look at what exists with a kind eye. the old site did something right or it wouldn't have survived this long. find the parts people already use and protect them. redesigns go sideways when everything gets treated as a problem.
+
+keep a running list of "things i noticed" separate from "things i'm proposing". noticing is cheap and commits nobody to anything. proposals need more care and a reason attached.
+
+**process thoughts**
+
+- content drives structure. layouts built around placeholder text break when the real words arrive. sketch with honest rough copy, even ugly copy, so lengths and tone are believable.
+- stay low fidelity longer than feels comfortable. boxes, arrows, marker on paper, whatever gets a conversation going without people arguing about colors.
+- build the type and spacing system early, then let pages fall out of it. a consistent rhythm does more for perceived quality than any clever moment.
+- sort out the small stuff early and write it down: link styles, button states, form errors, empty states, what happens when a name is too long. these are the things that make a site feel finished.
+- try designing the densest, most awkward page ahead of the easy ones. if the system survives that, the rest is calm.
+- review work on a real phone and a tired old laptop, not just the nice monitor. things look different when they aren't pampered.
+- write the handoff notes while the reasoning is still fresh, not after. future me is a stranger with no memory of why a margin is what it is.
+
+**things to keep in mind**
+
+clients are rarely lazy about content, they're busy. material tends to arrive in odd shapes: text pasted into emails, photos in strange formats, documents with leftover formatting, three versions of the same paragraph. leave room in the process to sort that out. a tidy intake habit saves grief: a shared folder, plain file names, a short note about what each file is for and who approved it.
+
+ask for the thing behind the thing. if someone wants a bigger logo, the real worry might be credibility, or being remembered, or a comparison with a competitor they saw. solve the worry and the logo size often takes care of itself.
+
+treat feedback as data about reactions, not as instructions. "make it pop" usually means something is missing: contrast, hierarchy, energy, confidence. translate before acting, and say the translation out loud so they can correct it.
+
+keep scope honest. a small site can quietly grow, and it rarely announces itself. when a new wish appears, write it in a parking-lot list and talk about it separately rather than absorbing it silently. absorbing is how good will turns into resentment.
+
+accessibility belongs at the start, not the end: contrast, focus states, readable text sizes, respect for reduced motion, alt text that actually describes. it's far cheaper to build in than to retrofit, and it makes the site better for everyone, including people squinting at a screen in bright light.
+
+performance is a design material. heavy images and fonts shape how a site feels before anyone judges the visuals. a page that appears quickly and calmly earns trust that no illustration can buy.
+
+mobile isn't a smaller version of desktop. think thumbs, glare, patience, interruptions. what does a person need when they're standing in a doorway with one bar of signal? (that's a figure of speech, but design for it anyway.)
+
+words are interface. headings that say something, buttons that say what will happen, error messages that sound like a helpful human. a lot of polish lives in microcopy.
+
+as a solo studio, i'm the single point of failure for everything. that means boring discipline matters: backups that i've actually tested restoring, version names that mean something, a log of why choices were made, and project files organized so a stranger could open them and find their way. nobody gets to cover for me if a laptop dies.
+
+protect energy. creative work degrades when the schedule is packed with context switches. group similar tasks, keep long stretches for deep work, and leave email for the gaps.
+
+**open-ended ideas**
+
+- a "voice sheet" per client: words they use, words they'd never say, how formal they are with customers. makes copy edits faster and less subjective.
+- a content template for each page: purpose, audience, key message, proof, next action. hand it over as a question list. it makes the content request concrete and shows early where the gaps are.
+- test the navigation with a paper prototype and a friendly outsider. ask them to find things without explaining anything. watch their hands more than listen to their words.
+- consider real photography of real people and real work over stock, or commissioned illustration as a middle path. even rough honest images tend to beat polished generic ones.
+- a tiny living style guide delivered at the end so the site doesn't drift when others edit it later. include do and don't examples, they're more useful than rules.
+- a "what we left out on purpose" section in the handoff doc. it prevents the same idea from being rediscovered as a bug.
+- think about maintenance from the start: who will edit text later, what their comfort level is, what happens when they add a new section that nobody designed for. build the editing experience for the person, not the ideal.
+- an "ugly first pass" ritual: deliberately make the worst version quickly to get the bad ideas out and see what's left worth keeping.
+- keep a swipe file of small details that delighted me elsewhere: a transition, a footer, a way of handling a long list. review it when stuck, copy nothing, borrow the feeling.
+- try writing the page's headline before any layout exists, then see whether the layout can serve it. often the best design move is cutting a section.
+- build in a moment of quiet review before anything goes public: read every page aloud, tab through with a keyboard, break the forms on purpose, resize until it complains.
+
+**questions to ask myself now and then**
+
+- what would make this easy for the owner's customers to love, not just to use?
+- what am i adding because it's fun for me rather than useful for them?
+- where did i assume instead of ask?
+- what would i be embarrassed to leave in if a stranger looked closely?
+- is the site kind to someone who arrives confused, in a hurry, or both?
+
+loose thought to end on: the best projects feel like the client got more clear about their own business as a side effect. if the process does that, the visuals tend to follow.
+
+website redesign, 5 pages
+contact is Pat (owner)
+launch deadline 2026-11-14
+they'll send content by end of sept

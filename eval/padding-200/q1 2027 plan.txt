@@ -1,0 +1,75 @@
+general working notes
+
+stuff i keep circling back to. mostly written so i stop re-explaining it to myself every time a project starts up.
+
+approach
+
+the work goes better when it starts from the problem and not the look. it's tempting to open the canvas and push shapes around until something feels right, but that tends to produce something pretty that answers a question nobody asked. a better habit is to write the problem in plain words, then write what a good result would let a person do that they can't do now. if that sentence is hard to write, the design will be hard too.
+
+keep early rounds ugly on purpose. rough boxes, placeholder words, grey everywhere. people react to polish before they react to structure, and polish makes feedback shallow. rough work gets honest reactions about the stuff that matters.
+
+being solo means there's nobody to bounce an unfinished idea off, so the notes have to do that job. writing down why a choice was made, even in a clumsy sentence, saves a lot of guessing later when a client asks why something lives where it lives.
+
+process
+
+loose shape, not a rigid recipe:
+
+- listen far more than talk at the start. the brief is usually a symptom of something else, and the real need tends to show up in offhand remarks
+- gather references, but gather them from outside the field as much as inside it. a lot of the best ideas come from architecture, packaging, old signage, field guides, maps
+- sketch on paper before the screen. paper is slower and that's the point, it keeps me from committing too early
+- explore wide, then cut hard. a pile of directions is only useful if most of them get dropped without guilt
+- show work with a story attached, not just a picture. a picture invites taste, a story invites reasoning
+- leave room at the end for the boring finishing work, because it's where projects quietly fall apart: spacing, states, edge cases, empty screens, error messages, the file naming nobody sees
+
+when stuck, change the medium. if it's stuck on screen, go to paper. if it's stuck visually, write the thing as a paragraph. if it's stuck in words, draw it. a change of medium shakes loose more than pushing harder does.
+
+working with clients
+
+- the kickoff conversation matters more than the kickoff document. documents get skimmed, conversations stick
+- ask what they're afraid of. fear shapes more decisions than goals do, and naming it early makes the feedback calmer later
+- feedback is information about a reaction, not an instruction. when a person says "make the logo bigger" the useful question is what they're feeling that made them say it
+- say plainly what's out of scope, kindly and early. vague edges are where resentment grows
+- keep a running list of small requests that drift in sideways. they're individually harmless and collectively exhausting
+- be honest when something isn't working, including when it's my own work. clients tend to trust a designer more after watching them kill their own idea
+
+keeping the studio healthy
+
+there's a rhythm to solo work: stretches of intense output, then a lull where it's quiet and slightly worrying. the lull is not wasted. it's when the unglamorous maintenance happens, like tidying files, updating the portfolio, writing up what was learned, and reaching back out to people who were nice to work with.
+
+worth remembering that relationships are the pipeline. most work arrives through a person who remembered the studio fondly, so a short, genuine check-in with no ask attached is cheap and often pays off sideways.
+
+keep the admin boring and systematic. invoices, contracts, backups, a clean folder structure. it's not interesting and it's painful when neglected.
+
+protect the energy. creative judgment degrades when tired, and tired judgment tends to approve mediocre work. stepping away is part of the job, not a break from it.
+
+things to keep in mind
+
+- constraints are friends. a tight palette, a limited type system, a narrow set of components. they make decisions faster and the result more coherent
+- consistency beats cleverness. a clever flourish that breaks the system costs more than it gives
+- accessibility isn't a finishing layer. contrast, legibility, and keyboard paths are easier when they're there from the beginning
+- words are design material. placeholder text hides problems that real copy exposes immediately
+- test with somebody who has never seen the thing. even a quick look over a shoulder reveals what's confusing
+- handoff is part of the design. whoever builds it needs clear states, clear spacing logic, and a sense of intent, not just a pile of frames
+- don't fall in love with the obvious idea. it's usually the most familiar and the least surprising
+
+open-ended ideas
+
+things worth turning over without any pressure:
+
+- a small library of reusable starting points: a rough brief template, a feedback prompt list, a handoff checklist. maybe not templates exactly, more like prompts that make the early conversation sharper
+- a habit of writing a short retrospective after each project ends. what surprised me, what dragged, what i'd do differently. could grow into a searchable archive, which would be a useful thing to have in a note system
+- experimenting with showing process openly, like sharing the ugly early rounds publicly. could build trust, could also invite unwanted opinions
+- a personal side project with no client, just to keep the craft sharp and try techniques that clients wouldn't pay to see tried
+- looking at how other solo studios structure their time and handle lulls, without copying them
+- trying a looser way to capture ideas, a running scrap file instead of tidy notes, then sorting later
+- exploring collaborations with other independents, such as a writer, an illustrator, a developer. a looser network instead of hiring
+- thinking about what the studio wants to be known for, as opposed to what it can do. range is nice but a clear point of view is easier to refer to
+
+loose leftovers
+
+- good work is mostly good judgment about what to leave out
+- a calm client is a better collaborator than a delighted client, and calm comes from clarity
+- writing a thing down makes it feel lighter
+- keep a folder of things that made me stop and look. it's a better source of taste than any trend report
+- be suspicious of work that came too easily and also work that came with too much suffering
+- the best feedback often arrives as a throwaway comment after the meeting officially ends

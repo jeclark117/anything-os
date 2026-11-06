@@ -1,0 +1,90 @@
+---
+type: Note
+title: "Review: september"
+description: "September 2026 review: Client A started, Client M finished."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Review: september
+
+general working notes, loose and unsorted
+
+approach
+
+the job is mostly working out what is really being asked, which is rarely the same as what the brief says. briefs usually arrive with a solution already attached, and a good chunk of the work is peeling that off gently to see the problem underneath. people know their business far better than i do, and i know the visual side better than they do, so my role is translating between the two without making either side feel talked down to.
+
+i'd rather ask a slightly awkward question early than build the wrong thing politely. questions that have been useful before:
+
+- what would make this feel like it worked, long after launch?
+- who will see this when they're tired, rushed, or annoyed?
+- what is the thing you'd be embarrassed to have it say?
+- what have you already tried that didn't land?
+- who is going to disagree with this direction, and why?
+
+the answers matter less than the way people light up or go quiet when they hear the question. that reaction is usually where the real brief is hiding.
+
+process
+
+rough thinking happens on paper before anything touches a screen. screens make everything look more finished than it is, and then people react to polish instead of ideas. loose sketches keep the conversation on structure, hierarchy, and what matters most.
+
+after the sketching, build the boring skeleton: grid, type scale, spacing rules, a restrained palette. get that right and the rest moves quickly. skip it and every later choice turns into an argument with myself that nobody wins.
+
+show work in stages that match how people actually make up their minds. early on, direction and mood, with plenty of room to push back. in the middle, structure and system. late, details. if a reviewer starts fussing over details while the direction is still wobbly, that's a signal to step back rather than keep polishing.
+
+keep a running log of why things look the way they do. reasons evaporate fast, and being able to say "we landed here because of this" calms a nervous review better than any amount of persuasion.
+
+before sending anything out, step away and come back with fresh eyes. mistakes that were invisible become embarrassing the moment the work is left alone for a bit.
+
+things to keep in mind
+
+- a studio this small means i'm designer, project manager, bookkeeper, and receptionist all at the same time. the hidden cost is switching between those hats. batch the admin together and protect the making time like it's a client.
+- feedback arrives wrapped in feelings. "it feels off" is real data, just badly packaged. dig gently for what's underneath before reacting.
+- scope creeps politely. every small extra feels free when it's asked for and never is. notice it early, name it kindly, and keep a list of what has quietly been added.
+- say no quietly and early rather than loudly and late.
+- things take longer than the optimistic version in my head. leave slack around everything, especially anything involving other people's approvals.
+- physical things behave differently than screens. light, glare, distance, material, and the angle someone approaches from all change how a design reads. test in bad conditions, not flattering ones.
+- anything that asks people to fill something in is really about trust and patience. every unnecessary request is a small tax on goodwill.
+- accessibility isn't a bonus layer. contrast, size, and clarity are just part of doing it properly, and they tend to make the work better for everybody.
+- write things down while they're fresh. notes made in the moment beat memory reconstructed later.
+- rest is part of the process. the good ideas show up on walks and in the middle of washing dishes, not while staring harder at the problem.
+- don't confuse busy with healthy. a full plate can still be the wrong plate.
+
+working with people who hire me
+
+set expectations about how feedback works before it starts: who gives it, how it gets consolidated, and what kind of input is useful at which stage. design by committee produces mush, and a clear point of contact on their side is worth a lot.
+
+projects start strongest when the opening conversation is generous and unhurried. let people talk about their frustrations, their competitors, their hopes, and the thing they're worried about saying out loud. that's where the useful material lives, and it builds the kind of trust that makes later disagreements easier.
+
+keep language plain. jargon makes people nod politely when they actually disagree, and then the disagreement surfaces at the worst possible moment.
+
+when handing work over, give people what they need to live with it without me: organized files, simple guidance on how to use things, and a short plain document covering the do's and don'ts. that generosity pays back in trust and in people recommending the studio to others.
+
+and remember that finishing well matters as much as starting well. a tidy ending leaves a good taste, and a good taste is what people remember.
+
+open-ended ideas
+
+- a small library of reusable starting points for the admin around design: intake questions, handover checklists, feedback guidelines. not templates for the creative work itself, just less reinventing for the dull parts.
+- a habit of looking back over finished projects and asking which parts were satisfying and which were draining. let that quietly steer what kind of work to chase more of.
+- writing up process notes in public, plainly and without showing off, as a way of attracting people who like how i think.
+- a standing slot for experiments that aren't for anybody: posters, type studies, odd little tools, bad ideas made on purpose. curiosity needs feeding or it goes stale.
+- maybe a structured starting engagement for people who aren't sure what they need, a sort of diagnostic that produces clarity even if nothing else follows.
+- a loose circle of other solo designers for swapping feedback, referrals, and overflow when things get lopsided. isolation is the occupational hazard.
+- a graceful stock phrase for "not right now" that is kind but firm, so it doesn't have to be reinvented under pressure each time.
+- an archive of rejected directions. they often come back useful in a different context, and it's reassuring to see how much was explored.
+- a short ritual for closing out a project: tidy the files, jot down what was learned, and note what i'd do differently. small, but it compounds.
+- thinking about the studio's voice. how it sounds in emails, proposals, and invoices is part of the design work whether or not anyone calls it that.
+- finding ways to show process without overwhelming people. maybe a simple narrative of the thinking that sits next to the final work.
+
+loose reflections
+
+the best projects tend to share a feel: curiosity on both sides, a clear question, and enough trust that hard feedback doesn't sting. the difficult ones usually lack at least one of those, and it's worth noticing early which is missing.
+
+there's a temptation to treat every project as a chance to prove something. mostly it's better to treat it as a chance to be useful. useful work is quieter, but it's the kind people come back for.
+
+keep an eye on what energizes and what drains. the studio exists so the work can be good and the life around it can be reasonable, and when those pull apart, that's information worth listening to rather than pushing through.
+
+and try to stay a beginner at something. picking up a clumsy new skill is a good reminder of what clients feel when they walk into a design conversation without the vocabulary. it makes me kinder, and it makes the work clearer.
+
+- Client A kicked off.
+- Client M forms and signage finished.
+- Rates: see [../rates.md](../rates.md).

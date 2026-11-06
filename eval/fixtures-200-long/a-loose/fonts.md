@@ -1,0 +1,72 @@
+fonts
+
+bought a serif license 2026-04, $120 one-time
+desktop and web
+
+general working notes
+
+how a project starts matters more than it seems. before opening any file, it helps to sit with the brief and ask what the thing is supposed to feel like for the person on the receiving end. the look follows from that. when that question gets skipped, the result is usually boxes rearranged without a reason.
+
+approach
+- start loose. paper, scraps, margins full of arrows. screens make everything look finished far too early.
+- gather references widely, then throw out the obvious ones. what's left says where the project is leaning.
+- put the problem into plain words before sketching. if the sentence is mushy the design will be mushy too.
+- keep a pile of rejected directions. they have a habit of becoming useful in some other project.
+- explain the layout out loud, even to an empty room. weak joints show up fast when they have to be spoken.
+- restraint is a skill. most of the work is deciding what to leave out and defending the empty space.
+
+process
+
+the rhythm that seems to work is wide, then narrow, then wide again. wide at the start means lots of rough directions, none of them precious. narrow means picking a direction and pushing it until it breaks, which is the only way to learn where it breaks. then wide again at the end, stepping back to look at the whole system instead of the pieces. does it hold together from across the room? does it still hold together up close?
+
+hierarchy is the backbone. if everything shouts, nothing gets heard. a useful test is squinting at a layout until the detail blurs and seeing what survives. whatever survives should be the most important thing on the page. if it isn't, the structure needs work before any polish does.
+
+type and texture
+- a pairing needs enough contrast to read as deliberate and enough shared temperament to feel like a family. faces that disagree about everything look like an accident.
+- spacing does more than the choice of face. loosening or tightening the gaps between letters and lines can change the whole mood without touching anything else.
+- test text at its real size on its real surface. what looks elegant large can turn fragile small, and what feels sturdy on a laptop can feel clumsy in print.
+- heft should have a job. bold used as decoration gets tiresome fast.
+- real copy beats filler. placeholder text hides problems like awkward line breaks, stranded words, and headings that run long.
+- texture matters even in flat work. grain, rhythm, and the way a paragraph looks as a gray block all carry feeling before a word is read.
+
+working with the people i'm working for
+- ask what success looks like in their words. the answer is rarely what the brief says.
+- show fewer options with clearer reasoning rather than a wall of possibilities. a wall invites picking by mood.
+- feedback is data about a reaction, not an instruction. "make it pop" means something is missing, and the job is working out what.
+- keep the conversation about the goal, not about personal taste. taste arguments can't be won.
+- explain why before showing what. a layout presented without its reasoning is easy to dismiss.
+- silence after sending work is normal. it doesn't automatically mean dislike.
+
+standing in for other eyes
+
+working by myself means there's no art director down the hall and nobody to say that the emperor has no clothes. so it takes substitutes. step away and come back fresh. flip the layout upside down or mirror it. strip the color and look in grayscale. shrink it to a thumbnail. print it and tape it to the wall. each of these breaks the spell of familiarity, and familiarity is what hides the problems.
+
+files and housekeeping
+- name things plainly. clever names are a tax on the future.
+- keep source files tidy enough that a stranger could open them and understand the structure. that stranger is usually me after a long gap.
+- group layers and styles by purpose, not by when they were made.
+- save working versions with a note about what changed and why. a bare "final" label is a trap.
+- export settings, color profiles, and fallbacks deserve thought early. fixing them at the end is miserable.
+- keep a running notes file per project with loose observations, so context isn't trapped in memory.
+
+energy and focus
+
+creative energy isn't constant, and pretending it is leads to forced work that has to be redone. some stretches are for making, some for fixing, some for just reading and looking. matching the task to the mood saves effort. walking away from a stuck problem is often the most productive move available, even when it feels like avoidance. boredom is useful too, because it pushes ideas toward odd places. looking at things unrelated to design helps as well: signage in strange spots, packaging, old books, the way hand-painted lettering wobbles. it all fills the well.
+
+open-ended ideas
+- what would a brand system look like if it were built from texture and rhythm instead of a logo? would it still be recognizable?
+- could notes like these grow into a kind of style guide for the studio itself, describing voice and values rather than rules?
+- try designing for the worst viewing condition: tiny, low contrast, cheap paper, slow connection. does the result also get better in good conditions?
+- treat constraints as a starting point. a very limited palette, a very limited vocabulary of shapes, a typeface used for everything. see what pressure produces.
+- run the process backwards, starting from the places the design will actually appear and working toward the core identity.
+- ask what the design would be if it had to be described over the phone with no visuals at all.
+- keep an archive of small experiments that have no brief and no purpose. over time they become a private library.
+- think about how things age. some designs look tired fast because they chased a moment, while others settle in. what separates them?
+- treat accessibility as a source of ideas instead of a checklist. contrast, spacing, and clarity pushed hard can produce a distinct look of their own.
+- imagine how a static layout would behave if it had to move. thinking in transitions changes spacing choices.
+
+loose reminders
+
+good work is mostly patient looking. most problems show up the moment the urge to defend the initial idea fades. be kind to rough drafts, since they're allowed to be ugly. make it readable before making it beautiful, and make it clear before making it clever. the goal isn't to impress other designers. leave room for accidents too: a smudge, a misaligned print, a crop that wasn't planned can beat the plan.
+
+and stay curious about the boring parts. margins, captions, footers, error messages, and empty states are where care shows most, because nobody expects it there.

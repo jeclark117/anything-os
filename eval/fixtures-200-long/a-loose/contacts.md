@@ -1,0 +1,102 @@
+contacts
+
+working notes
+
+**how I approach things**
+
+- hear people out before drawing anything. what a client says they want and what they actually need are usually neighbors, not twins, and the job is finding the gap without making anybody feel corrected.
+- get the problem into plain language before touching a layout. if I can't say what the thing is for in a short line a stranger would follow, the visuals will wobble no matter how nice they look.
+- keep early work rough on purpose. rough work invites candid reactions; polished work invites polite reactions.
+- show less at the start and explain more. a wall of options makes people freeze, and they end up picking whatever is closest to what they already have.
+- a real constraint is a gift. a vague brief is harder than a tight brief because there's nothing to push against.
+- ask what the work is supposed to make a person do or feel, then work backward. style follows from that more reliably than the other way around.
+
+**process, loosely**
+
+I work in loops rather than straight lines: look, sketch, step away, look again. stepping away is the part that gets skipped when things are busy, and it catches more mistakes than any amount of staring. fresh eyes are free; they just require leaving the screen.
+
+habits that seem to help:
+
+- keep a running pile of references, but sort them by what they teach rather than how they look. "confident use of empty space" is more useful than "nice blue."
+- jot down the reasoning behind a choice while it's fresh. future me will not remember why the spacing felt right, and the client will ask.
+- work in grayscale as long as possible. if the structure holds without color, color becomes a bonus rather than a crutch.
+- name files as if a stranger will have to open them. eventually a stranger does, and that stranger is usually me after a long gap.
+- check things at the size people will actually see them. a mark that sings on a big screen can turn to mush in a tiny corner.
+- print things out when it matters. paper tells the truth about hierarchy faster than a monitor.
+- read copy out loud. awkward phrasing hides on screen and shows up the moment it's spoken.
+- flip the canvas, view it upside down, squint. each trick exposes balance problems in a different way.
+
+**feedback**
+
+- separate the symptom from the diagnosis. "make the logo bigger" usually means "I can't find it," and there may be a better fix than size.
+- ask what would worry them if the work went out into the world as is. fear is more specific than taste, and it's easier to design against.
+- restate feedback in my own words and send it back, so misunderstandings surface early and cheaply.
+- not every note carries equal heft. some are about the work, some are about a person's mood in that moment, some are about a rival's site they stumbled on recently. sorting them is a skill in itself.
+- when reactions conflict, the conflict is information. it usually points at a goal that was never pinned down.
+- people judge by feel long before they can explain why. their reasons arrive afterward, so treat the reasons as clues rather than facts.
+
+**communication**
+
+- write updates so they make sense without context. a person skimming on a small screen between meetings should still get what's needed and what's being asked of them.
+- lead with the thing that needs a reaction, then the background. burying the question at the bottom guarantees a slow reply.
+- keep a plain voice. jargon makes people feel outside the room, and a client who feels outside the room stops giving useful feedback.
+- visuals travel better with a short story attached: the problem, the idea, the tradeoff. a bare image gets judged on taste alone.
+- silence from a client is rarely agreement or refusal. usually it's just life happening around the project.
+- keep a gentle paper trail of what was asked and answered, not out of suspicion but because memory bends.
+
+**craft notes**
+
+- spacing is the quiet signal of care. when everything lines up, nobody notices; when it doesn't, everybody feels something's off.
+- pick strong moves and let them repeat rather than sprinkling novelty everywhere. rhythm comes from repetition with small variation.
+- contrast needs a loser. if everything is emphasized, nothing is.
+- test with real material, not filler. filler never has the awkward long name or the empty field that breaks a layout.
+- edge cases are where design earns its keep: the very long title, the missing image, the tiny screen, the tired reader.
+- let the grid be a servant. break it deliberately when the work asks, not accidentally out of laziness.
+
+**working solo**
+
+- there's no colleague to say "that's off," so I build substitutes: checklists of questions, deliberate pauses, a habit of showing rough work to a trusted friend outside the field.
+- the quiet is a gift and a risk. nobody interrupts, but nobody catches drift either.
+- boundaries blur. the studio is in spirit also the kitchen table, the couch, the walk around the block. the trick is noticing when thinking has turned into fretting.
+- admin expands to fill whatever room it's given. creative work doesn't expand that way; it needs protected space or it quietly shrinks.
+- rest is part of the work. ideas arrive in the shower and on walks, rarely at the desk while glaring at a blank frame.
+- comparison is a trap. other studios show highlights, never the messy middle.
+
+**things to keep in mind**
+
+- clarity beats cleverness. a clever idea that needs explaining is a tax on the person receiving it.
+- accessibility is not a layer on top. contrast, legibility, and reading order belong in the earliest sketches.
+- restraint is a skill. the urge to add is strong; the urge to remove takes training.
+- type does most of the heavy lifting. a thoughtful typeface and generous spacing solve more problems than extra decoration.
+- consistency builds trust. small inconsistencies get felt even when they don't get noticed.
+- be kind to the next person who opens the files, including future me.
+- say what's out of scope plainly and early. surprises are welcome in a reveal and unwelcome everywhere else.
+- good work that a client can't actually use is just a nice picture. fit matters: their team, their habits, their limits, their reserves of patience.
+- keep the odd little choices recorded: why this grid, why that gap, why not the obvious route.
+
+**open-ended ideas**
+
+- a small library of boring-but-solid starting points: grids, type scales, spacing rules that can be adapted without feeling templated. wondering how to keep them from hardening into a rut.
+- a habit of making something purely for pleasure between projects, just to keep the hands loose. a poster for an imaginary event, an invented brand for an invented business.
+- what would a project post-mortem look like if it were light enough to really get written? maybe just a short list of questions: what surprised me, what dragged, what I'd steal from myself next time.
+- explore whether showing process openly (rough sketches, dead ends) builds trust with prospective clients or just invites nitpicking.
+- try a reverse brief: write down what the work should never feel like, then see how much that sharpens the rest.
+- use constraints as a generator: limited palette, limited typefaces, limited shapes, then see what falls out.
+- think about how sound, motion, or texture might sneak into otherwise static work.
+- a ritual for closing out a project: tidy files, jot notes, say thanks, put everything away properly. it might make endings feel like endings instead of fading out.
+- what does a studio look like if it grows slowly, or stays small on purpose? what should the work feel like in the long run?
+- collect the words clients use to describe what they like. the vocabulary is more revealing than the reference images.
+
+**odds and ends**
+
+- unglamorous environment stuff matters more than gear: decent light, a chair that doesn't punish, a quiet corner, good coffee.
+- a notebook beats a screen for early thinking, though screens win for searching later.
+- people rarely look at design; they look through it at the thing they're trying to get finished. serve that goal.
+- when stuck, make it uglier, make it smaller, make it louder, make it quieter. any move beats staring.
+- bad ideas are a toll road to good ideas. the toll is worth paying.
+- save the weird tangents in a drawer file; they have a way of becoming the answer to a later problem.
+- taste is mostly exposure plus genuine reflection on why something works. keep feeding it.
+
+- Pat: client a
+- Dana: client b
+- the accountant: email in my inbox

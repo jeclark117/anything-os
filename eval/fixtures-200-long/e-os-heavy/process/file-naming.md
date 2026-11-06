@@ -1,0 +1,119 @@
+---
+type: Note
+title: "File naming"
+description: "How project files get named."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# File naming
+
+working notes
+
+starting out
+
+listen more than talk. the brief is rarely the real brief. what people ask for is usually a symptom, and the thing underneath is what the design actually has to deal with. keep asking why until the answer gets a little uncomfortable, then stop and sit with it.
+
+- write the problem down in plain words before opening any software
+- if it can't be said plainly, the design won't be plain either
+- collect the words the client uses about themselves and their audience. those words often belong in the work
+- notice what they're afraid of. fear shapes briefs more than goals do
+- ask what they've already tried and what they hated about it
+
+paper before screens. rough, ugly, fast. paper is forgiving in a way a monitor never is, because nothing looks finished when it's scribbled, so nothing gets defended too early. make a pile of bad thumbnails and let the good direction show up by being the thing that survives.
+
+process
+
+the work moves in loose phases that overlap and loop back, and that's fine. trying to keep them tidy usually means hiding the mess, and the mess is where the ideas live.
+
+- gather: references, old materials, competitors, things that annoy me, things that delight me
+- narrow: pull out what matters and drop the rest without guilt
+- explore: wide and shallow, lots of directions, none of them precious
+- refine: deep and slow, a chosen direction gets all the attention
+- test: put it in context, never on a blank page
+
+context matters more than it seems. a logo on a white page lies. put it on a cluttered phone screen, on a dark background, tiny, blurry, across the room. if it only works under perfect conditions it doesn't really work.
+
+useful checks that cost nothing:
+
+- squint until the shapes blur and see what still reads
+- strip the color and see if the hierarchy survives
+- flip it upside down to spot balance problems the brain normally corrects
+- read every word aloud, because typos hide in silent reading
+- show it to a stranger for a brief moment and ask what they remember
+
+working with clients
+
+- people don't know what they like until they see what they don't. show contrast, not just variations on a theme
+- explain the reasoning in their language, not design language. nobody cares about kerning, they care whether it feels trustworthy
+- feedback is information about a reaction, not an instruction. "make it pop" means something is missing, so figure out what
+- when the whole room has input, the work drifts toward the middle. try to find the person who actually owns the decision
+- protect the idea while it's fragile. present it as a story with a reason, not a pile of options to pick from
+- pay attention to what gets said right at the end of a meeting, when people relax. that's usually the honest part
+- silence after a presentation isn't always disapproval. sometimes people are just thinking
+
+the solo part
+
+being just me means there's nobody to catch mistakes, so habits have to do that job.
+
+- step away from the work and come back with fresh eyes before judging it
+- judgment drifts when it's never challenged. seek out outside opinions from peers now and then, especially ones who disagree
+- energy is the real resource. protect the stretches when thinking is sharp and don't waste them on admin
+- a poor-fit project costs more than an empty calendar ever will, even when it doesn't feel that way
+- keep a running list of questions that came up and never got answered. they're often the seeds of better work
+- isolation can make everything feel more urgent than it is. go outside, look at real things, come back
+- it's easy to confuse being busy with being useful
+
+craft details
+
+- type does most of the heavy lifting. choose it with intention, set it with care, give it room to breathe
+- whitespace isn't empty, it's doing a job
+- color is about relationships between shades more than any individual shade. a restrained palette almost always beats an exciting one
+- consistency beats cleverness. clever gets tiresome, consistent gets trusted
+- things that line up feel calm, things that almost line up feel wrong. either commit to the alignment or break it hard
+- design for tired eyes, small screens, bad lighting, and people in a hurry
+- contrast and legibility aren't optional extras, they're the baseline
+- when handing work over, assume the next person opens it cold with no context and no way to ask me anything
+- decoration should earn its place. if removing it changes nothing, it was noise
+
+things that go wrong
+
+- falling in love with an early idea and defending it past its usefulness
+- polishing a direction that hasn't earned the polish
+- skipping the boring questions because they feel awkward to ask
+- scope creep that arrives disguised as small favors
+- letting personal taste override what the audience actually needs
+- borrowing a trendy look that will age badly. ask whether it still makes sense when the novelty fades
+- over-explaining the work because the work isn't speaking for itself
+- treating a revision request as an attack
+- confusing what's novel with what's good
+- assuming the client's competitors are doing it right just because they're doing it loudly
+
+open-ended ideas
+
+- build a small library of bad examples, the stuff that makes me wince, and write down exactly why it fails. a map of what to avoid is as useful as a map of what to chase
+- keep a swipe file of anything that catches the eye, with a short note on why. the notes matter more than the images
+- try designing a thing in the wrong medium first. a poster as if it were a sound, a logo as if it were a texture, a website as if it were a shopfront
+- begin each project by writing a short manifesto in a sentence, then see if the finished work agrees with it
+- play with constraints as a game: a tiny palette, no curves, only type, no imagery at all. limits tend to produce more interesting results than freedom does
+- make something with no client attached, just to keep the hand loose and the curiosity alive
+- look sideways at other fields. how does a store aisle handle hierarchy? how does a road sign handle urgency? how does a recipe handle sequence?
+- take a piece of design admired from afar and reverse engineer it. figure out the decisions hiding behind the surface
+- think about making the process visible to clients as part of what they receive, not only the polished result
+- explore what happens when the audience is invited to finish the work, leaving deliberate gaps
+- experiment with sound, motion, or touch as ways of reinforcing a visual identity
+- wonder about what a studio looks like when it's built around slowness rather than speed
+
+small reminders
+
+good design is mostly attention. noticing the awkward gap, the word that's slightly off, the corner nobody checked. most of the craft is caring about the parts that most people will never consciously see, and trusting that they feel it anyway.
+
+accidents are worth keeping. a smudge, a misaligned layer, a mistake that turned out better than the plan. leave room for them.
+
+talk about the work like a person, not like a portfolio. the best explanations sound like someone telling a friend why they made a choice.
+
+be kind to past work. it was the best available answer at the time, and it taught something. that's what it was for.
+
+and stay curious about the boring stuff, because the boring stuff is usually where the real problem was hiding all along.
+
+- Client-project-version
+- No 'final' in file names

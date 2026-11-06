@@ -1,0 +1,64 @@
+working notes, general
+
+this is the loose stuff that sits underneath the policy above. not a rulebook, more a place to think out loud when a project starts to feel muddy.
+
+**approach**
+
+the studio is small, which cuts both ways. there's no buffer between what a client says and what reaches me, and no buffer between what I make and what reaches them. nobody to hand a problem to, but nobody to translate a vague request into a different vague request either. that directness is worth protecting.
+
+most of the work is listening for what a person is actually worried about. the stated brief is usually a polite version of the real concern. someone asks for a "cleaner look" and what they mean is that they're embarrassed by something specific in front of their own customers. finding that thing early saves a lot of wandering later.
+
+I tend to do better when a project has a clear shape before any pixels get pushed. a rough sentence about what the work is supposed to make people feel, written in plain words, does more than a mood board. if the sentence is hard to write, the project isn't ready, and that's useful to know.
+
+**process**
+
+- start with questions, not sketches. the questions are cheap and the sketches are expensive, even when they feel fast.
+- show rough work roughly. polished work invites polished feedback, and polished feedback is mostly about polish.
+- keep a running list of things the client said they dislike. it's often more reliable than the list of things they like.
+- when feedback arrives, sort it before reacting. some of it is taste, some is a real problem, some is a stakeholder who wasn't in the room and is being quoted secondhand.
+- write down why a choice was made at the moment it's made. memory smooths over the reasoning and leaves only the result.
+- leave work alone overnight whenever possible. things look different after sleep, and usually more honest.
+
+there's a rhythm to a good project: wide, then narrow, then very narrow. the trouble comes when the client wants to go wide again after the narrowing has happened, and nobody names that out loud. the work feels like it's going backward and everyone gets quietly frustrated. naming the shape of the project out loud, early, makes it easier to notice when it changes.
+
+**things to keep in mind**
+
+approval is a feeling as much as a status. someone can say yes and still be unsure, and the unsureness leaks out later as a pile of small requests. worth asking, gently, whether a yes is a real yes. the question itself sometimes surfaces the doubt while it's still easy to deal with.
+
+people forget what they approved. it isn't dishonesty, it's just how attention works. a short written recap of what was agreed on, in plain language and sent while it's fresh, is kinder than a debate about memory later.
+
+good feedback and bad feedback often arrive in the same message. "make it pop" might sit next to a sharp observation about hierarchy. the job is to pull the sharp observation out and let the rest go without making anyone feel dismissed.
+
+small requests are rarely small in effect. a nudge to a color can ripple through every surface that touches it. a nudge to a headline can change the whole voice. before treating something as trivial, trace where it lands.
+
+the person paying and the person using the thing are often different people with different needs. design for the user, communicate with the payer, and try to find the overlap where both feel served. when there's no overlap, that's a conversation worth having early rather than a problem to solve silently.
+
+be careful with generosity. doing extra feels good and builds goodwill, but it also quietly resets expectations. extra effort that arrives unlabeled becomes the baseline. if something goes beyond the ask, say that it does.
+
+be careful with pride, too. a favorite idea that the client doesn't respond to is not a client failure. it goes in a drawer, and drawers are fine. some of the best material comes out of old drawers.
+
+**on feedback and tone**
+
+- ask what a comment is trying to fix, not just what it wants changed. the fix and the change are often different.
+- when a comment is vague, offer a few concrete interpretations and let them point. pointing is easier than describing.
+- avoid defending the work in the moment. take it in, sit with it, respond when the first flush of reaction has passed.
+- when something is genuinely wrong, say so plainly and own it. it costs little and builds a lot of trust.
+- when something isn't wrong but is just different from what someone expected, treat that as a conversation about expectations, not a flaw.
+
+**open-ended ideas**
+
+- a short plain-language guide to the studio's process that a new client could read before anything begins. not a contract, just a map. it might head off a lot of confusion about what the work looks like in motion.
+- a habit of keeping a "parked" file for ideas that were good but didn't fit. maybe a few of them are worth revisiting for the studio's own projects.
+- a way of showing clients the history of a project visually, so they can see how far the work has traveled. people forget distance covered, and it helps them feel the progress.
+- some kind of gentle checkpoint language for moments when a conversation seems to be drifting. a phrase that is neutral, not accusatory, and that invites everyone to look at the map together.
+- experiments with giving feedback prompts instead of open invitations. "what feels off about the spacing?" gets better answers than "any thoughts?"
+- thinking about how to talk about taste without making it sound like a verdict. taste is real, but it shouldn't read as a ruling.
+- noticing which kinds of projects drain energy and which restore it, and whether there's a pattern worth acting on. it might say something about what the studio wants to become.
+
+**a few loose thoughts to end on**
+
+working alone means being both the maker and the manager of the making, and those two pull in different directions. the maker wants room to wander; the manager wants edges. a project goes best when both get a say, even if they have to take turns.
+
+there's also the quiet matter of confidence. clients can smell hesitation, and they can also smell false certainty. what seems to land best is calm, specific honesty: here's what I see, here's why, here's what I'd try, and here's what I'm not sure about.
+
+and finally, a reminder to self: the work is for people. systems, policies, and process notes like these exist to make room for that, not to replace it. when the paperwork starts to feel bigger than the thing being made, it's probably time to step back and look at the actual work again.

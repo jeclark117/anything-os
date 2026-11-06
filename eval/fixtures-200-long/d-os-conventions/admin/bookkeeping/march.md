@@ -1,0 +1,105 @@
+---
+type: Note
+title: "Books: march"
+description: "March 2026 books: reconciled."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Books: march
+
+- Income $3,050
+- Expenses $520
+- Reconciled 2026-04-06
+
+general working notes
+
+**approach**
+
+the work goes best when the brief gets pulled apart before any drawing starts. what is the thing actually for, who has to understand it at a glance, and what happens if they don't. the stated request is usually a symptom, and the real problem sits a layer underneath. a request for a new mark is often a request to figure out how to describe the business, wearing a costume.
+
+start loose and ugly. thumbnails, scraps, words on paper before shapes on a screen. the screen makes everything look finished too early, and finished-looking things get defended instead of questioned. paper stays honest longer.
+
+keep early rounds cheap on purpose. the goal is to find out what's wrong, not to impress anybody. a rough direction that gets a strong reaction, even a negative one, is worth more than a polished direction that gets a polite shrug.
+
+constraints are a gift. a tight palette, a limited set of typefaces, a narrow format. the work gets more inventive when the room is smaller. when a project feels too open, invent a constraint and see what it does.
+
+**process**
+
+- gather reference widely, then throw out the obvious stuff. whatever comes to mind immediately probably came to every other designer's mind too.
+- write the problem in plain sentences before designing. if it can't be said plainly it probably isn't understood yet.
+- build the system before the pieces. type, color, spacing, and tone should agree with each other before any individual deliverable gets polished.
+- test things at the size they'll actually live. tiny, huge, squinted at, grayscale, on a bad screen, in bad light, printed on cheap paper.
+- walk away and come back. fresh eyes catch what tired eyes were busy defending.
+- name files like a stranger will have to open them later, because that stranger is usually me.
+- keep a running scrap file of rejected ideas. they often fit a different project better than the one they were made for.
+- when stuck, change the medium. draw it, cut it out, print it, say it out loud, explain it to a houseplant.
+
+**things to keep in mind**
+
+working alone means nobody catches drift. the client's taste, my taste, and the audience's needs are all different things, and it's easy to quietly serve the wrong one. a useful check: whose problem is this decision solving?
+
+hierarchy is most of the job. if everything is emphasized, nothing is. squint at a layout and see what survives. whatever survives should be the thing that matters most.
+
+whitespace isn't leftover, it's material. crowded layouts usually mean the content wasn't edited hard enough, not that the layout needs cleverness.
+
+type carries more tone than imagery does. a mediocre image with considered type usually beats a great image with careless type. spacing and rhythm are where care shows, and where carelessness shows even faster.
+
+color is relational. it only looks right or wrong next to its neighbors, so judge it in context, never as a swatch.
+
+consistency isn't sameness. a system should have a clear voice and still allow surprise, otherwise it turns into wallpaper.
+
+accessibility isn't a layer added at the end. contrast, size, and clarity are design decisions from the beginning. if it's hard to read, it's hard to read, no matter how nice it looks in a portfolio.
+
+watch the pull toward trends. trend-chasing work ages visibly and fast. look for what's underneath the trend instead, the need it's answering.
+
+**client conversations**
+
+- people rarely know what they want but always know what they dislike. questions about dislikes are often more useful than questions about wants.
+- feedback is data about a reaction, not an instruction about a solution. "make the logo bigger" often means "i don't feel confident in this." ask what the feeling is before touching the size.
+- show reasoning along with the work. a design with no story gets judged on personal taste, and personal taste is a coin flip.
+- describe tradeoffs in the client's language, not design language. nobody cares about kerning; they care about being trusted.
+- a vague request deserves patient questions rather than a guess.
+- over-explaining when nervous is a habit worth noticing. confident work can be quiet.
+
+**craft habits worth protecting**
+
+- keep a library of small, boring, reliable setups: grids, type scales, spacing rules. boring foundations let the interesting parts breathe.
+- name layers and components sensibly. future me is a collaborator i never get to meet.
+- export and check, don't trust the preview. things shift in translation between screen, print, and everything else.
+- proof out loud. read copy aloud and typos and awkward rhythms jump out.
+- keep the archive tidy. old work is a resource only if it can be found.
+- look at things that have nothing to do with design: signage, packaging, hand-painted shop fronts, instruction leaflets, handwriting on found notes. good decisions are everywhere.
+
+**energy and rhythm**
+
+solo work has a particular failure mode where everything blurs together: admin, making, selling, thinking. it helps when each kind of work has its own posture. making needs quiet and a clear surface. admin can be done tired. thinking often happens away from the desk, walking or washing dishes.
+
+creative energy isn't constant and fighting it is expensive. there are stretches where ideas arrive fast and stretches where only craft is possible, and all of it is useful. matching the task to the energy beats forcing the schedule.
+
+boredom is a signal. if a project is dull, either the brief hasn't been dug into far enough or the approach is too safe.
+
+comparison is poison in small doses and fuel in others. looking at other studios' output is useful only when it sharpens questions, not when it produces dread.
+
+**open-ended ideas**
+
+- a small private library of "failed but interesting" experiments, tagged by what they were trying to do, as a source for later work.
+- a habit of writing a plain-language rationale for every piece of work, kept alongside it, so the reasoning outlasts memory.
+- what would a project look like if it were designed entirely backward, starting from the way it eventually gets thrown away or recycled?
+- could internal templates for proposals and handoffs be made so friendly that they also work as marketing?
+- what if every project began with a short written "anti-brief" listing everything the work should not feel like?
+- try presenting work in an unexpected format: a printed booklet, a walk-through recording, a physical mockup on the table.
+- experiment with deliberately limited toolkits: only geometric shapes, or only type with no imagery at all.
+- build a personal visual dictionary of textures and surfaces gathered on walks.
+- explore how much of a brand can be carried by sound, motion, or even smell, not only by the visual layer.
+- write a short manifesto of the studio's taste, then see which parts survive contact with real projects.
+- consider what a truly generous handoff looks like: documentation that makes the client feel capable instead of dependent.
+
+**loose questions**
+
+- how much polish is enough before a concept gets shown?
+- where does craft end and fussiness begin?
+- what makes a client relationship feel easy, and can that be set up deliberately?
+- is there such a thing as a signature style that doesn't box the work in?
+- what gets lost when a process is made too tidy?
+
+most of this boils down to paying attention. to the problem, to the people, to the details, and to my own habits. the rest is just keeping the desk clear enough to do it.

@@ -1,0 +1,83 @@
+general working notes
+
+stuff that keeps proving useful, written down so i stop relearning it the hard way.
+
+approach
+
+- start from the problem the person actually has, not the brief as written. a brief is usually a guess about what will help, and the guess tends to land a layer or so away from the real need.
+- keep early work rough on purpose. rough work invites honest reactions. polished work invites polite ones.
+- treat constraints as material. a tight palette, a limited set of type styles, an awkward format, a stubborn logo that can't change. they push toward decisions that unlimited room never would.
+- build the system before the surfaces. if the underlying rules are sound, new pieces fall out quickly and look like they belong together without much fuss.
+- say out loud what the work is deliberately leaving out. omission is a design choice, and naming it keeps it from looking like an oversight.
+- prefer a clear idea executed plainly over a muddy idea executed beautifully. the plain version at least tells you whether the idea works.
+- when stuck, change the question rather than pushing harder on the same answer. "what would make this feel calmer?" often unlocks more than "how do i fix this layout?"
+
+process
+
+- begin by listening more than sketching. let the client ramble about their customers, their worries, the things they're embarrassed by. the useful material tends to come out sideways, usually right when they think the real meeting is over.
+- write a plain paragraph describing the feeling the work should create. if it can't be said simply, the visuals will wobble too.
+- collect references widely, then sort them by the quality they share rather than by industry. the best reference is often from somewhere completely unrelated to the project.
+- sketch on paper, or anything equally fast, until the structure holds. only then open something with pixels in it.
+- work in grayscale with placeholder shapes while the structure settles. if the hierarchy works without color, color will amplify it instead of rescuing it.
+- swap in real content as early as possible. filler text hides the problems that matter: long names, awkward line breaks, empty states, the case where there's nothing to show at all.
+- step away from the screen on purpose. squint at the work, shrink it, flip it, print it, look at it from across the room. every trick exposes something different.
+- keep a running log of why choices were made. future me, and the client, will ask, and memory is worse than expected.
+- name files honestly. "final" has a way of becoming untrue almost immediately.
+- clean up as you go. a messy working file becomes a messy conversation when something has to change under pressure.
+
+rhythm
+
+- alternate between making and judging instead of mixing them in the same breath. judging while making produces timid work. make freely, then evaluate with a clear head.
+- keep a folder of things that made you stop scrolling, with no explanation attached. revisit it when the work feels flat.
+- when a project is going well, resist adding. when it's going badly, resist adding too. subtraction is usually the move.
+- let boring problems stay boring. templates for repetitive tasks free up energy for the interesting ones.
+- write the email you'd want to receive: short, specific, kind, with a clear ask at the bottom.
+
+keep in mind
+
+- the people looking at the work aren't inside your head. whatever feels obvious after living with a project is brand new to them.
+- feedback is information about a reaction, not a prescription. "make the logo bigger" is often really "i don't feel confident about this yet." dig for the feeling underneath.
+- silence in a review isn't approval. ask easy, direct questions: what jumps out? what feels off? what would you change if it were yours?
+- the loudest element in a layout gets the most commentary. if a feedback round fixates on a tiny detail, either the big picture is solid or it's confusing enough that people are grabbing something familiar.
+- too many options turns the discussion into a vote on taste. a small, curated set keeps the conversation anchored to goals.
+- accessibility is part of the craft, not a polish pass. contrast, legibility, and clear affordances make the work better for everybody, including the people who never notice why.
+- protect thinking time. admin and email expand to fill whatever space is left for them.
+- running a solo studio means being designer, account manager, bookkeeper, and support desk, sometimes within the same conversation. notice which hat is on, because each wants something different.
+- tired work looks tired. rest is part of the process, not a reward for finishing it.
+- the work is not the person. criticism of a layout is not criticism of the maker, and the reverse also holds.
+
+presenting, beyond the basics
+
+- talk slower than feels natural. pauses read as confidence, and they give the room space to catch up.
+- read the room as you go. watch faces, notice who leans in and who goes quiet, and adjust pacing instead of marching through the plan.
+- don't apologize for the work while presenting it. if something is unfinished, frame it as a deliberate stage.
+- have a plan for when the conversation goes off-script. a tangent often hides the real concern, so follow it a little before steering back.
+- bring a fallback for the tech misbehaving: a printout, an exported image, a story you can tell with no screen at all.
+- don't read the slides aloud. the slides carry the visuals; the voice carries the reasoning.
+- close by making it easy to respond. a clear, small question beats "any thoughts?" every time.
+
+loose ideas, unsorted
+
+- what would a case study look like if it told the stumbles honestly, including the dead ends and the idea that got killed by a practical constraint?
+- a personal library of recurring patterns, annotated with when they worked and when they quietly failed.
+- critiquing old work as if a stranger made it. maybe with the label removed, maybe printed and pinned up where it can be judged without sentiment.
+- closing a project with a short note on how to keep the work healthy as it grows: what to protect, what's safe to bend.
+- explaining a design through a voice memo or a screen recording instead of a document. might feel more human, might ramble.
+- a habit of studying everyday objects, signage, packaging, receipts, and asking why some feel trustworthy and others feel slippery.
+- a retrospective that asks "what went unexpectedly well?" as seriously as "what went wrong?"
+- a swipe file of awkward moments: misprints, confusing menus, buttons that lie. a reminder of what the work is up against.
+- is there a way to make revision rounds feel like collaboration rather than correction? maybe by framing feedback as a shared problem on the table instead of a verdict.
+- how much of the process should the client see? the mess builds trust but can also invite micromanagement.
+- could a studio this size lean into being small? faster responses, more care, a recognizable point of view. worth thinking about what that looks like in practice, not just as a slogan.
+- a ritual for starting a project that clears the head of the previous project, so old solutions don't leak in.
+- when a concept feels too safe, exaggerate the weirdest part until it either breaks or becomes the idea.
+- pairing a visual critique with a written one, to see whether the two agree. disagreement might be where the interesting problem lives.
+
+small reminders
+
+- clarity beats cleverness unless the cleverness is the point.
+- details are how people judge care they can't see directly.
+- good work often feels slightly uncomfortable to approve. that's usually a sign it has an opinion.
+- leave room in a layout the way you leave room in a conversation.
+- nobody remembers the rejected directions, so don't mourn them too much. but do keep them, because they have a way of coming back as the answer to a later problem.
+- the goal isn't to be impressive. it's to be understood, and then remembered for the right reasons.

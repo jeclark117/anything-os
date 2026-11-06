@@ -1,0 +1,117 @@
+---
+type: Note
+title: "Instagram october"
+description: "Instagram in October 2026 so far."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Instagram october
+
+general working notes
+
+approach
+
+hear people out before drawing anything. a brief is usually the polite version of the problem, so it's worth asking what happens if nothing gets made, what would make the owner wince, and what they'd be proud to show a skeptical friend. those answers shape the visuals more than any moodboard does.
+
+being small is the real selling point: quick replies, direct conversation, no layers between the person with the question and the person holding the pencil. worth protecting. when work piles up there's a pull to act like a bigger shop with stiff decks and jargon, and plain language usually wins anyway.
+
+lean on constraints. a tight palette, a restrained type system, a grid that actually gets respected. constraints make decisions lighter and make the finished work feel like it belongs together without much effort.
+
+process
+
+- start messy. loose sketches, ugly thumbnails, words on paper before shapes on screen.
+- say the idea out loud in plain words before polishing anything. if it can't be said simply, the layout can't rescue it.
+- show rough work early so people react to direction instead of decoration. folks are kinder to a sketch than to a polished comp, and their reactions are more useful too.
+- work in black and white until the structure holds. colour comes after.
+- test at tiny sizes and huge sizes. a mark that only works big isn't really a mark.
+- walk away when a piece starts feeling flat, then come back with fresh eyes and a colder judgment.
+- keep a folder of rejected directions. they sometimes turn into the answer for a different project.
+- write a short rationale for each direction in human words, as if explaining it to a relative.
+
+craft reminders
+
+- hierarchy before ornament. if everything shouts, nothing gets heard.
+- spacing is most of the design. generous margins read as confidence.
+- alignment errors are invisible until they're all you can see, so check edges before anything goes out.
+- contrast has to survive bad lighting, a cracked screen, and a quick glance.
+- type works best when the faces disagree politely. avoid combinations where they argue.
+- cut a flourish whenever it can't justify itself.
+- real words beat dummy text. design with the actual copy early, because placeholder layouts lie.
+
+on showing work
+
+showing work is a separate skill from making work, and it's easy to resent. treat it as another design problem: audience, message, format, voice.
+
+- Posted 4 times so far
+- Got a lead (client n)
+
+- open with the problem the work solved, then show the solution. the problem is the part that belongs to the viewer.
+- crop in close on details: texture, edges, a letterform up close. detail shots carry craft without needing explanation.
+- plain words about the thinking beat polished slogans.
+- vary the rhythm of a feed: loud next to quiet, wide next to tight, image next to text.
+- leave room for imperfection. a wobbly sketch builds trust that a flawless render can't.
+- watch the urge to explain too much. trust viewers to look.
+
+keeping in mind
+
+- visibility compounds slowly. showing process usually does better than showing only glossy results, because people hire a way of thinking, not just an outcome.
+- captions matter. a strong image with a lazy caption wastes most of its chance.
+- recognisability beats novelty. a feed should feel like it comes from a specific hand, even when the subjects vary.
+- don't chase trends just because they're loud. follow what's true to the studio's taste and let the trends orbit.
+- reply to enquiries with warmth and specifics. a vague, speedy answer is worse than a slightly slower thoughtful reply.
+- scope creep starts politely. "could you just tweak" is how it begins. keep boundaries soft but real.
+- keep a paper trail of feedback so memory never turns into a debate.
+- rest is part of the process. a tired designer makes tired work.
+- protect quiet stretches for deep making. answering messages feels productive but isn't the same as producing.
+- admin is part of the craft too. tidy files, clear naming, backups that actually exist.
+
+working with feedback
+
+feedback is usually feelings dressed up as instructions. "make the logo bigger" often means "i don't feel seen." ask what the change would fix. that turns a taste fight into a problem to solve together.
+
+when comments contradict each other, don't average them. find the shared worry underneath and answer that.
+
+thank people for blunt notes. blunt is quicker than polite, and quicker is kind.
+
+when a client falls for a weak option, don't fight head-on. show it beside a stronger option in real context, mocked up in use, and let the difference speak. context beats argument.
+
+open-ended ideas
+
+- a short series showing a rough sketch turning into a finished mark, narrated in plain words.
+- a "what got cut" series: discarded directions and why they lost.
+- teardowns of ordinary objects like packaging, signage, menus, with notes on what works and what's accidental.
+- behind-the-desk glimpses: paper swatches, pencil shavings, ink smudges, the real mess.
+- a plain-language glossary for the terms clients find intimidating, like bleed, kerning, vector, lockup.
+- invite questions from followers and answer them with quick sketches instead of paragraphs.
+- a loop of tiny motion experiments: gentle logo reveals, drifting shapes, type that breathes.
+- a small printed booklet of favourite sketches. physical things stick in memory in a way feeds don't.
+- collaborate with illustrators, photographers, and writers on experiments that have no brief.
+- a welcome kit for new clients: a gentle questionnaire, a plain explanation of how the studio works, and what to expect from the back and forth.
+- reusable layouts for social posts so the visual language stays connected without reinventing it each round.
+- a private design diary for small wins and small annoyances, notes to a future self.
+- a collection of "ugly but effective" references, to remind the studio that polish isn't the point.
+- a piece about naming: how names get found, tested, and thrown away.
+
+questions worth chewing on
+
+- what does the studio want to be known for? the true answer is probably narrower than feels comfortable.
+- who is the ideal client, what do they scroll past, and what makes them stop?
+- is the portfolio telling a story, or just listing outputs?
+- where does the studio's personality actually show: in the sketches, the emails, the way problems get explained?
+- what kind of work would be nice to make more of, and how could that get signalled without announcing it?
+- what is the studio's signature move, and is it a strength or a habit?
+- which parts of the process are fun enough to show, and which are better kept private?
+
+loose thoughts
+
+good design is mostly kindness to a stranger who is tired, distracted, and in a hurry, and still needs to understand what they're looking at.
+
+there's a difference between being busy and being visible, and between being visible and being understood. understood is the target.
+
+curiosity compounds like everything else. looking closely at ordinary things, a receipt, a bus map, a street sign, a cereal box, trains the eye better than any gallery trip.
+
+keep sketchbooks messy and private so they stay brave.
+
+taste is built by looking, but judgment is built by making something and then living with the result.
+
+the best marketing is probably the work itself, explained well and shown straight.

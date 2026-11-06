@@ -1,0 +1,95 @@
+---
+type: Note
+title: "Books: august"
+description: "August 2026 books: reconciled."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Books: august
+
+general working notes
+
+**starting out**
+
+the most useful habit i've found is listening longer than feels natural at the start of a project. people describe the surface problem ("we need a refresh") and the real brief hides underneath it ("we look smaller than we feel"). the gap between those sentences is where the good work lives. worth asking what they're afraid of, what they're proud of, and what they'd be embarrassed to see on a stranger's screen.
+
+it also helps to ask what they've tried before that didn't work. people rarely volunteer it, but it saves a lot of wandering down paths that already dead-ended.
+
+**approach**
+
+- start wide, narrow late. early work should look slightly embarrassing. if a sketch looks finished too soon, it stops being a question and becomes an answer
+- write the problem in plain words before opening anything with pixels. if it can't be said plainly, no layout will rescue it
+- keep a reference pile, but treat it with suspicion. other people's work has gravity, and everything slowly drifts toward it
+- make the ugly version on purpose. it shows which parts are load-bearing and which are decoration pretending to be structure
+- let contrast and spacing carry the hierarchy before color gets involved. squint at the work. if the hierarchy collapses when blurred, it was never really there
+- try the wrong tool now and then. pen on cheap paper, a cut-up printout, a layout built from torn scraps. the wrong tool knocks you out of habits
+- when stuck, change the scale. zoom way in or way out, or print it tiny. problems look different at different sizes
+
+**process notes**
+
+being the whole studio means being designer, project manager, email answerer, and the person who forgets lunch. those hats fight each other. the designer wants more time; the manager wants it out the door. neither is wrong. it helps to let the designer work in long unbroken stretches and keep admin in its own corner of the day, so the two don't bleed together and make everything feel slightly urgent.
+
+a loose rhythm that tends to work:
+
+- explore without judging
+- let it sit overnight
+- come back and be ruthless
+- show it to a human before showing it to the client
+
+- Income $3,800
+- Expenses $405
+- Reconciled 2026-09-07
+
+that last step matters. a trusted outside eye catches the thing you stopped seeing, usually something obvious like a label that reads wrong or an alignment that's off by a hair.
+
+there's also a difference between being stuck and being tired, and the cure is opposite. stuck wants a new angle. tired wants a walk and a sandwich.
+
+**talking about the work**
+
+- present the reasoning, not just the result. people can argue about taste forever, but it's harder to argue with a clearly stated problem and a clearly stated response to it
+- show fewer options than feels generous. too many choices invites committee design, and committee design sands everything down into oatmeal
+- when feedback arrives, separate the symptom from the prescription. "make the logo bigger" usually means "i can't find us." bigger might not be the fix
+- vague feedback is a gift if you ask the next question. "what were you hoping to feel?" gets further than "what don't you like?"
+- keep the voice of every message warm and plain. nobody wants design jargon in an update email
+- explain a rejected idea briefly and kindly. it builds trust faster than defending it
+
+**things to keep in mind**
+
+- legibility at small sizes, on bad screens, in bad light, for tired eyes. a design that only works on a great monitor is an unfinished design
+- color contrast is not optional, and neither is thinking about people who see color differently
+- print and screen lie to each other. what glows on a display goes muddy on paper
+- type carries personality before a word is read. pairing is mostly restraint: let a typeface be loud, and let its partner be quiet
+- file hygiene saves future you. clear layer names, a sensible folder structure, and a habit of never naming anything "final," because it never is
+- keep backups in places that don't share a fate. a drawer and a cloud are better than just a laptop
+- scope creep rarely announces itself. it arrives as "while you're in there..." and it's worth noticing the moment it shows up, then talking about it kindly
+- clear edges make generosity easier. when the boundaries of the work are obvious, going the extra mile feels like a gift rather than a leak
+- rest is part of the process. the best ideas turn up in the shower, on walks, while washing dishes, and almost never at the desk after a long grind
+- words matter as much as shapes. placeholder text hides problems. real copy, even rough, exposes them early
+
+**small studio realities**
+
+- reputation spreads sideways. a pleasant handoff and a tidy folder get talked about as much as the design itself
+- there's a pull to say yes to everything, and a studio this size has a real ceiling on attention. quality dips quietly, usually before a client notices, and it's the maker who feels it first
+- admin is invisible labor. it deserves a place in how the work gets thought about, not just whatever time is left over
+- isolation sneaks in. working solo means nobody casually says "that looks off," so it's worth building other ways to get eyes on things
+- confidence wobbles. a folder of kind messages from past clients is cheap medicine for the bad afternoons
+- the business side and the craft side feed each other. a calm, orderly back office makes for looser, braver design
+
+**open-ended ideas**
+
+- a "graveyard" folder of abandoned directions, reviewed now and then. dead ideas often fit a different problem
+- an onboarding questionnaire built from odd questions. if this brand were a room, what would the lighting be like? what would it never say out loud?
+- short write-ups after a project, mostly for myself: what surprised me, where the friction was, what i'd quietly do differently
+- a physical wall of paper stocks, swatches, and scraps to touch when the screen gets too abstract
+- constraint games: a layout using only type, a poster with a tiny palette, a brand mark that has to work as a rubber stamp. constraints are a cheat code for creativity
+- use other senses as a way into visual decisions. what does this brand smell like? what would it sound like in a quiet room? it sounds silly and produces surprisingly specific answers
+- a habit of looking at ordinary things with design eyes: receipts, street signs, packaging, the label on a jar. everyday design is where people actually live
+- trade critiques with other solo designers, informal and kind, no slides
+- what would a project look like if the client's own customers were part of the process early on? worth wondering about
+- could a studio share its unfinished thinking in public as a way of attracting the right sort of work? maybe the messy middle is more interesting than the polished end
+- a running list of unanswered questions to revisit when momentum stalls. sometimes the question was better than every answer
+- try designing something for no purpose at all, just to remember why this work is fun
+
+**a closing thought**
+
+good design is mostly good attention. paying attention to the person, the problem, the margins, the small awkward gap between two letters. most of the craft is just refusing to look away a little too soon. when the work feels flat, it's usually because attention drifted somewhere else, and the fix is to go back and look again, slower this time.

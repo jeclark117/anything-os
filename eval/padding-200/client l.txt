@@ -1,0 +1,78 @@
+general working notes, loose, mostly for me
+
+**how i tend to work**
+
+- start with the job the object has to do for whoever ends up holding it. the look falls out of that. when i start with the look, i end up defending it instead of testing it.
+- ask the annoying questions early while they're cheap. who picks this up, where are they standing, what are they hoping it tells them, what are they afraid of getting wrong?
+- keep a pile of references that have nothing to do with other design work. old signage, grocery packaging, textile swatches, maps, hand-painted shopfronts, instruction leaflets for appliances. the pile does more for me than any board of competitors ever did.
+- get the words in the room before the layout, or at least alongside it. layouts built around placeholder text lie to you, and they lie politely.
+- make the ugly version early. grey boxes, system type, no imagery. if the structure holds up ugly, it'll hold up pretty. if it only works when it's dressed up, it was decoration all along.
+- keep the rough versions. they're a record of why things ended up the way they did, which is handy when somebody asks.
+
+**working with people who aren't designers**
+
+most people who hire a small studio are experts in their own field and a bit nervous about mine. a lot of the job is translation. say what a choice is for before showing what it looks like. "this is here so people can find the part they care about" lands better than "this is the grid."
+
+- show a smaller set of options than feels generous. a wide spread of directions mostly teaches people to pick on mood. a tight, well-argued set teaches them to pick on purpose.
+- when feedback arrives as a dislike ("it feels cold"), ask what they were hoping it would feel like and what it's reminding them of. the real note is usually underneath.
+- be careful with "just make it pop." it almost never means what it says. usually the hierarchy is unclear or the page has no resting place for the eye.
+- people get attached to whatever they saw earliest. be deliberate about what goes in front of them at the start, even in rough form.
+- credit their ideas out loud when they're good. it makes the next round of feedback kinder.
+- explain the constraints of the medium plainly. people respect a limit more when they understand where it comes from.
+
+**craft things to keep in mind**
+
+- type does most of the work. get the reading size, line length and spacing comfortable before touching anything decorative. read it aloud in your head; if you stumble, the reader will too.
+- white space is a material, not leftover. know what it's doing: separating, resting, pointing, or just making the page feel unhurried.
+- restraint with color. a limited palette used consistently beats a rich one used nervously. check it in bad light, on a cheap screen, and photocopied.
+- test with real copy, including the awkward stuff: the long name, the missing image, the paragraph nobody trimmed.
+- paper and finish change everything. hold physical samples against the work, not just the swatch book. weight and texture say things the layout can't.
+- proof with fresh eyes. step away, come back, read it backwards, read it out loud. typos hide inside confident layouts.
+- check the edges: trims, margins, what happens when a fold lands somewhere unlucky, what survives being squashed in a bag.
+- keep files tidy for whoever inherits them. named layers, sensible styles, notes for the person after me, who might be me with no memory of any of it.
+
+**when i'm stuck**
+
+- change the medium. sketch on paper, cut things out, print it and mark it up with a pen.
+- explain the problem aloud to an imaginary stranger. the missing piece tends to fall out.
+- remove an element instead of adding one. most stuck layouts have too much in them.
+- sit in the reader's chair. what do they see from across a room, and what do they see up close?
+- walk somewhere and look at lettering on buildings. it resets the eye.
+- make the opposite of what feels right, just to learn what the right thing is leaning against.
+- lower the standard temporarily to get something on the page, then raise it again during editing. the blank page is the real enemy.
+
+**scope and boundaries**
+
+- vague briefs breed drifting work. a sentence or two on what the piece is for, written in plain language, saves a lot of pain later.
+- be wary of work that grows in the dark: small additions that each seem harmless and together change the shape of the job. notice when it's happening and say so kindly.
+- leave space in the process for people to be wrong early rather than late.
+- being a studio of just me means no handoffs, which is a gift and a trap. nobody catches my blind spots. build in outside eyes: a trusted peer, a printer's opinion, a stranger on a bus.
+- say what a piece can't do as clearly as what it can. nothing erodes trust faster than a result that quietly fell short of an unspoken hope.
+
+**the quiet parts of the job**
+
+- a lot of studio life isn't designing. it's reading, answering, chasing, tidying, explaining. protect the long stretches where nothing is interrupting, because that's where the good work comes from.
+- write down what went well while it's fresh, not just what went wrong. wins are easier to forget and harder to reproduce by accident.
+- looking back at older work from a distance is useful. what still feels right after a long gap is worth carrying forward. what feels embarrassing is the real teacher.
+- keep a running list of questions i can't answer yet. some of them turn into the next interesting piece of work.
+- rest matters. tired judgment makes safe, grey choices.
+
+**open-ended ideas**
+
+- a small library of tactile experiments: folds, cuts, stitched bindings, unusual stocks, anything that makes a printed piece feel like an object rather than a handout.
+- a habit of making something for no reason between jobs: a poster for an imaginary event, a typeface sketch, icons for a made-up utility. low stakes, high learning.
+- what would a printed piece look like if it were designed to be kept rather than skimmed and recycled? what makes people keep things?
+- could the way i document process become part of what i offer? a short visual diary that travels with the finished work, wrong turns included.
+- is there a way to make accessibility the starting constraint instead of the final check? contrast, size, plain language, reading order. i suspect the work gets better, not plainer.
+- explore how things are received through the other senses. packaging that's opened slowly. a page that's pleasant to turn. a sound a cover makes when it closes.
+- a glossary of the words people use for things they can't name yet. "friendly," "premium," "clean," "modern." map each to actual visual behavior, and keep adding to it.
+- collaborate more with writers, photographers, printers. the best results come from people who see the whole thing and care about their small piece of it.
+- think about what happens after a piece is handed over: pinned to a wall, tucked in a drawer, passed along to a stranger. design for that afterlife on purpose.
+
+**small reminders**
+
+- clarity beats cleverness, unless the cleverness is clarity.
+- if i can't explain a choice plainly, the choice isn't ready.
+- good enough isn't a sin on the small stuff. save the obsessing for what people will touch and read most.
+- say thank you properly. people remember.
+- leave room in the work for the reader to bring something of their own.

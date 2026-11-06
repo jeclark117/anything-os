@@ -1,0 +1,89 @@
+working notes, general
+
+stuff that sits underneath the day-to-day. not a rulebook, more a pile of reminders for the way i like to work.
+
+**approach**
+
+the way a project begins tends to decide how it ends. time spent at the start just listening to what the client is trying to accomplish pays back later. people describe solutions because solutions are easier to talk about than problems. a request for a fresh logo is often a request for confidence, or a way to stop looking scrappy next to a competitor, or a fix for a muddled message nobody has named yet. asking why, gently and repeatedly, usually uncovers the real brief hiding under the stated brief.
+
+working solo has an advantage here: nobody sits between the client and the designer translating. the person who hears the problem is the person who solves it. that directness is worth protecting. it also makes the work feel more personal and more exposed, so boundaries matter.
+
+**process, roughly in the order it tends to unfold**
+
+- listen and gather. questions, existing materials, old work they hate, old work they love, the things that annoy them about their whole category
+- look sideways. references from outside the client's industry are usually more useful than references from inside it
+- sketch badly and quickly on paper before touching a screen. the screen makes everything look finished too early
+- explore wide, then narrow. resist falling for a direction just because it arrived early
+- show work with a story attached, not just a picture. reasoning gives people something to push against that isn't purely taste
+- refine in conversation. feedback is data, not a verdict
+- hand over cleanly. organized files, plain instructions, nothing a future designer would curse about
+
+**things to keep in mind**
+
+- clarity beats cleverness. a clever idea that needs explaining is usually weaker than a plain idea that lands immediately
+- constraints are friends. a tight brief, a limited palette, a small set of typefaces: these make decisions easier and the result more coherent
+- scope drifts. the kindest thing for both sides is to notice drift out loud, early, in friendly language, rather than silently absorbing it and resenting it later
+- feedback from a committee is different from feedback from a person. committees average things toward the bland. when there are many voices, find out who actually owns the call
+- vague feedback ("make it pop," "needs more energy") is an invitation to ask what they feel when they look at it, not a literal instruction
+- distance improves work. stepping away between rounds lets mistakes show themselves
+- keep a record of why things were done. memory is not reliable about the reasoning behind a color choice, and that reasoning is exactly what gets questioned later
+
+**working solo**
+
+it means wearing every hat: designer, bookkeeper, salesperson, project manager, janitor of the file system. the hats compete. creative energy and administrative energy don't seem to share a tank, and switching between them costs more than it looks like it costs. grouping similar kinds of tasks together tends to protect the good thinking time.
+
+isolation is a real hazard. without colleagues to react to a rough idea, it's easy to polish in a vacuum. showing unfinished work to a trusted peer, or even explaining it out loud to an empty room, surfaces problems fast. explaining a decision to a non-designer is also a decent test of whether the decision is sound.
+
+the business side deserves the same care as the design side. putting expectations in writing isn't distrust, it's courtesy. talking about cost plainly and without apology gets easier with practice. vagueness invites haggling, clarity invites respect.
+
+**taste and critique**
+
+taste gets built by looking at a lot of things, noticing what pulls at you, and asking why. a habit of saving things that caught the eye, with a note about the reason, turns scrolling into study.
+
+critique your own work as if a stranger made it. ask what's doing no work. remove things until something breaks, then put back only what was holding it up.
+
+details carry more than they get credit for. alignment, spacing, rhythm, the way a line of text breaks. whitespace is a material, not leftover.
+
+**difficult people**
+
+most difficulty is fear. fear of wasting resources, looking foolish, being judged by their own customers. responding to the fear calmly usually does more than defending the work. a client who pushes hard is often a client who cares a great deal and doesn't have the vocabulary to say what's bothering them.
+
+not every inquiry is a fit, though. some mismatches are visible early:
+
+- a brief that is really a wish to copy a competitor
+- an expectation of extensive exploratory work with nothing at stake
+- impatience with process, as if the thinking were optional
+- a tone in the very first exchange that treats design as decoration
+
+noticing these signals is a skill. declining politely is also a skill, and it protects the work that deserves attention.
+
+**energy and sustainability**
+
+burnout creeps. the signs are small: resentment toward projects that should be fun, avoiding the inbox, sloppy file names, a flat feeling when looking at good work by other people. rest is maintenance, not indulgence. varied input helps: walks, galleries, bad movies, cooking, anything with texture that isn't a screen. worth keeping a stash of things that make the work feel playful again.
+
+also worth noticing which kinds of projects leave energy behind and which drain it. the pattern is useful information about where to point the studio.
+
+**open-ended ideas**
+
+- a library of small visual experiments made purely out of curiosity, no client attached, as a source of fresh starting points
+- write-ups after a project wraps: what worked, what dragged, what the client didn't expect. retrospective notes might make the next project smoother
+- a reusable kickoff questionnaire that feels friendly rather than bureaucratic. questions like: what would make this a success you could point to? what are you afraid it will look like?
+- presenting work as a short narrative walkthrough instead of a static deck
+- a collection of type pairings and palettes that have aged well, with notes on why they work
+- plain-language writing about design decisions for non-designers, maybe as a small series
+- making the studio's own materials feel like the work it sells. a design studio with ugly paperwork sends a mixed message
+- a loose network of writers, photographers, and developers to call on when a project outgrows a solo shape
+- better ways to capture ideas that arrive at inconvenient moments, in the shower, on a walk, halfway through something else
+- looking at what happens to work after delivery: how it ages, how it gets used, where it gets misused. maybe guidelines that people would actually read
+- a habit of redesigning something small and ordinary, like a receipt or a label or a form, just to practice caring about overlooked things
+
+**questions worth asking at any stage**
+
+- who is this really for
+- what should someone feel at a glance
+- what can be removed
+- what would make this easier for the person who inherits it
+- what's the honest version of this idea
+- is this solving the problem or just decorating it
+
+and a general reminder that good work is mostly patience, curiosity, and a willingness to be wrong in private so the final thing can be right in public.

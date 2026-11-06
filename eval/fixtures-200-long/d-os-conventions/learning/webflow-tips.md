@@ -1,0 +1,105 @@
+---
+type: Note
+title: "Webflow tips"
+description: "Webflow tricks worth remembering."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Webflow tips
+
+- Use classes, not one-off styles
+- Cms collections for anything repeated
+
+general working notes
+
+the thing about building in a visual tool is that it's easy to make something that looks right on the canvas and is quietly fragile underneath. most of what's below is about keeping the underneath calm.
+
+**approach**
+
+- start from the words, not the frame. work out what the page actually needs to say, then let the layout grow around that. designing a shell and stuffing copy in afterward tends to leave awkward gaps and forced line breaks
+- sketch on paper before opening the editor. rough boxes are plenty. the goal is finding the shape of the page's argument, not its polish
+- think in sections that can stand up on their own. if a block can be lifted out and dropped somewhere else without breaking, it's probably built well
+- keep the visual vocabulary small. a limited set of colors, spacing steps, and type sizes makes everything feel related without much effort
+- let the plain version work and read well before reaching for anything clever
+
+**process**
+
+build the skeleton plain and gray before color or imagery shows up. if the hierarchy holds in gray it will hold in color, and it's much easier to see where emphasis is really coming from.
+
+name things as you go instead of afterward. a pile of default labels turns into a puzzle surprisingly fast, and a puzzle is a bad thing to hand back to yourself in the middle of a project.
+
+check the narrow view early and keep checking. it's cheaper to let a layout flex from the start than to rescue it afterward. squeeze the window slowly and watch for the moment something looks wrong, then ask why instead of just patching it.
+
+leave room in the structure for the copy to change. real text is never the same length as the placeholder text. design for the awkward cases: the long headline, the missing image, the empty field.
+
+**things to keep in mind**
+
+- spacing is most of the design. when a page feels off, it's usually rhythm, not color or type. try adjusting gaps before adjusting anything else
+- keep nesting shallow. deeply stacked wrappers make a page hard to read in the navigator and hard to reason about when something shifts
+- prefer relative sizing for type and spacing so things scale together rather than needing separate fixes at every width
+- avoid fixed heights on anything holding text. text wins eventually, and it will overflow
+- images deserve care: sensible dimensions, descriptive alt text, and a thought about what happens when they fail to load
+- contrast and focus states are easy to forget and painful to retrofit. check them while the design is still loose
+- hover effects don't exist on touch screens, so nothing important should hide behind one
+- motion should explain something. if an animation only decorates, it's probably in the way
+- keep heading order sensible. headings are for structure, not for making text bigger
+
+**type**
+
+a restrained approach to type goes a long way. fewer families, more care with weight and size. line length matters more than most people think; if text runs edge to edge on a wide screen, reading becomes work. leave lines a comfortable width and let the whitespace do its job. headings usually want tighter line spacing than body text, and body text usually wants more room than feels natural at the start.
+
+**color**
+
+color works best as a supporting cast. a main accent, a quiet range of neutrals, and a signal color for states like errors and success covers a surprising amount of ground. check that text stays readable on every background it might land on, including images with busy areas. flip the page to grayscale now and then to see whether the hierarchy survives. dark and light variations are worth thinking about from the beginning rather than bolting on.
+
+**forms and buttons**
+
+forms are where visitors stop being passive, so they deserve extra love. label everything clearly, ask only for what's truly needed, and write error messages that sound like a helpful human. buttons should look pressable and say what happens; "send message" beats "submit". think about the moment after sending too: a calm confirmation that tells people what to expect.
+
+**speed and findability**
+
+speed is part of the design. heavy images, too many font files, and chunky embeds add up quietly. compress sensibly, size images for where they land, and be suspicious of anything that drags in a lot of extra weight for a small effect. a page that feels instant earns goodwill before anyone reads a word.
+
+for findability, write page titles and descriptions by hand, keep headings in logical order, and make links say where they go. "click here" tells nobody anything.
+
+**working habits**
+
+- leave short notes inside the project for anything non-obvious: why a workaround exists, what a hidden element is for. future-me is a stranger with no memory
+- step away from the screen and come back with fresh eyes before judging a layout. problems that were invisible suddenly shout
+- review the page the way a visitor would: start at the top, scroll slowly, don't click around the way a builder does
+- read the copy out loud. awkward phrasing and orphaned words show up fast
+- test with real, messy material rather than tidy samples
+- keep a running list of small annoyances noticed along the way, then batch them rather than interrupting good momentum
+
+**client-facing thoughts**
+
+- show work in context rather than as flat pictures when possible. people react better to something they can scroll
+- explain the why behind a layout in plain language. "this keeps your eye moving down the page" lands better than jargon
+- make editing feel safe. if the person receiving the site is nervous about breaking it, the structure has failed them a little
+- write handoff notes for a non-technical reader: where to change text, where to swap images, what to leave alone
+- be clear about what the site does not do; surprises after handoff are expensive for trust
+
+**open-ended ideas**
+
+- a personal checklist of pre-flight checks, kept short enough that it actually gets used
+- a small private starter project with sensible defaults for type, spacing, and buttons, so every new build begins from a calm place
+- a library of section patterns that have worked well: hero variations, testimonial blocks, feature rows, footers
+- a habit of writing a short postmortem-style note after a project, not to judge but to capture what was surprisingly easy or surprisingly hard
+- experiments with variable type and how it behaves across widths
+- ways to make review sessions less of a monologue and more of a conversation
+- a visual reference board of interactions that felt right, with a line about why
+- a way to document a design system so it stays alive instead of becoming a stale page nobody opens
+
+**questions worth chewing on**
+
+- how much structure is too much for a small site? at what point does organization turn into overhead?
+- when is a custom touch worth the maintenance burden it creates?
+- what would a site look like if it were designed from the smallest screen outward and the large view were the afterthought?
+- is there a way to keep the build tidy without slowing the early, messy exploring stage?
+- how do you leave room for a client's future needs without building things nobody asked for?
+- what do people actually notice on a page versus what designers think they notice?
+- what's the right amount of delight? where does charm tip over into noise?
+
+**loose closing thought**
+
+most good calls in this work come down to reducing surprise, for the visitor, for the client, and for the future version of yourself opening the project cold. if a choice makes the next change easier to understand, it's usually pointing the right way. if it needs a long explanation, that's worth noticing too.

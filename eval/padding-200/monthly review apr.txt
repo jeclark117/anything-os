@@ -1,0 +1,76 @@
+working notes, general stuff
+
+**approach**
+
+- start from the problem, not the look. most weak work comes from reaching for a style before understanding what the thing has to do for the person on the other end.
+- the brief is rarely the real brief. what people ask for is usually a symptom, so it helps to keep asking what happens if this goes wrong, and who notices.
+- being small is an advantage. there's no handoff, no translation layer, no meeting about the meeting. protect that by keeping process light enough that it never becomes the work.
+- treat constraints as material. a tight palette, a limited set of type styles, a rigid grid: these give the work a spine. blank-page freedom tends to produce mush.
+- say less, then say it clearly. if a layout needs a paragraph of explanation to justify itself, it probably isn't finished.
+
+**process**
+
+Most projects seem to move through the same loose phases, even when they feel messy from inside:
+
+- soak. read everything, look at what exists, talk to whoever will talk. resist sketching too early because early sketches harden into answers.
+- scatter. get lots of rough ideas out fast and ugly. the goal is range, not quality. bad ideas next to each other show what the good one is.
+- narrow. pick the direction that survives being looked at with tired eyes. if it only works when you're feeling generous, it doesn't work.
+- build. this is where the craft lives: spacing, rhythm, edge cases, the empty states nobody asked about.
+- hand over. package things so the client can live without me. files named sensibly, a short guide, a note about what not to touch.
+
+Some habits that seem to help:
+
+- work at a rough scale first, then zoom in. zooming in too early leads to polishing things that get cut.
+- look at work upside down, squinted, in grayscale, shrunk to a thumbnail. hierarchy problems show up fast that way.
+- print things. screens flatter. paper is honest about contrast and size.
+- step away from a layout, then come back and ask what you notice first. that's the real hierarchy, whatever the file says.
+- keep a folder of "almost" work. the leftovers from one project often solve a problem in another.
+
+**things to keep in mind**
+
+- clients rarely hate the work; they hate surprise. showing the thinking early, in plain language, makes the finished piece feel inevitable rather than sprung on them.
+- feedback is data about a reaction, not an instruction. when someone says "make the logo bigger," the useful question is what they're feeling that makes bigger seem like the fix.
+- consistency beats cleverness. a clever move used once looks like a mistake; a plain move used everywhere looks like a system.
+- whitespace is not leftover space. it's doing a job. treat it as deliberately as any element on the page.
+- accessibility is not a layer on top. contrast, size, and clarity are part of whether the work functions at all.
+- the dull parts of running a studio (admin, bookkeeping, upkeep of tools and assets) quietly decide whether the creative parts get room to breathe. neglect there shows up later as stress that leaks into the work.
+- rights and permissions matter more than they feel like they do in the moment. keep a clear record of what's allowed where, because future-me will have forgotten the fine print.
+- say no to the project that needs a version of me that doesn't exist. it's tempting to stretch, but a stretched studio makes average work for everybody.
+- being the only person means being the only quality check. build in ways to catch mistakes: fresh eyes from a friend, a checklist, a deliberate pause before anything leaves the building.
+
+**on type and image**
+
+- typefaces have temperaments. before choosing, say out loud what the text should sound like. warm, dry, nervous, confident. then audition candidates against that, not against taste.
+- pairing is mostly about contrast of structure, not contrast of mood. two faces that fight over the same job look indecisive.
+- body text deserves the most attention and gets the least. a beautiful headline over a tiring paragraph is a bad trade.
+- photography and illustration should feel like they come from the same world as the type. mismatch reads as stock even when it isn't.
+- when an image is weak, cropping harder helps more often than adding effects.
+
+**on working with others**
+
+- write down what was said after a call, in plain words, and send it back. disagreement surfaces cheaply that way.
+- make it easy to say yes. a clear recommendation with a reason beats a menu of options that pushes the decision onto the client.
+- be generous with credit and specific with praise. collaborators remember how work felt.
+- when a project goes sideways, name it early and calmly. most trouble gets worse in silence.
+
+**open-ended ideas, unsorted**
+
+- a small, regular show-and-tell with other solo people, mostly to have someone ask "why did you do it that way?"
+- a living document of rules of thumb, kept short enough to reread. prune it as much as it grows.
+- a practice of making work with no client attached, just to keep the hands honest. posters, alphabets, odd little tools, anything.
+- try writing the case study before the project is done. it exposes what the story actually is, and sometimes shows the project is aimed at the wrong target.
+- maybe a "reverse brief" exercise: describe the worst possible version of the thing, then design away from it.
+- explore how much of the studio's identity could be carried by behavior (how it answers email, how it presents files) rather than by a logo.
+- look at old work with new eyes: what still holds up, and why? what dated, and was it the content or the fashion?
+- a shelf for physical references: paper samples, printed oddities, packaging, anything with good texture. inspiration from screens tends to converge.
+- consider whether some processes could be templated without making the output feel templated. proposals, onboarding, handoff docs. the trick is automating the boring parts and leaving the thinking raw.
+- think about what rest looks like for a one-person operation. not just time off, but the kind of rest that lets taste recover. taste gets tired before the body does.
+- try designing something with deliberate imperfection and see whether it feels human or just sloppy. the line is thinner than it looks.
+- questions worth sitting with: what kind of client makes the best work happen? what kind of project teaches the most? are those the same?
+
+**small reminders**
+
+- finish the boring details with the same care as the exciting ones.
+- ask what the work is for, again, near the end.
+- keep a few things unfinished on purpose. they're where the next ideas hide.
+- good enough is a real standard, but only when it's chosen with clear eyes rather than reached out of fatigue.

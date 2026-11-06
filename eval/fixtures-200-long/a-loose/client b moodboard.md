@@ -1,0 +1,78 @@
+client b moodboard
+
+general working notes
+
+**starting out**
+
+A board is a conversation starter more than a verdict. Its job is to give the client something to react to, and the reactions are the useful part. A strong response in either direction tells me more than polite approval ever does, so I try to leave enough room that the board points somewhere without pretending to be finished work.
+
+Gathering is the loose part. I pile up far more than I need and let it sit before judging any of it. What keeps pulling my eye back is usually more honest than whatever I thought I wanted going in.
+
+- save texture as well as finished looks: paper grain, worn paint, fabric edges, weathered wood, handwriting, rubber stamps, shadows on plaster
+- keep a short line under anything saved about why it works. if I can't say why, it probably doesn't belong
+- notice what is missing from the pile as much as what's in it
+- look outside design for references: old packaging, botanical plates, shop signage, pottery, kitchen shelves, field guides
+
+**how the process tends to go**
+
+Pull back and squint. Early on I look at the whole board small, almost blurred, to see whether the overall mood holds without the details. If it only works up close, the mood isn't there yet. The pieces are just individually nice.
+
+Then cull. Removing is harder than adding and does more for the result. I cut anything that is merely pretty but doesn't share a temperament with the rest. A board with a clear point of view beats a board full of good images.
+
+After that I check how the parts talk to each other. Color, type, imagery, and spacing should feel like they came from the same household even if they never match exactly. I like a bit of friction, a rough thing beside a refined thing, because pure harmony tends to go flat.
+
+- step away and come back with fresh eyes before showing anything
+- look at the board on different screens, in different lighting, and printed if possible
+- write a few plain sentences describing the feeling, then see whether the board actually delivers it
+- let words and images check each other: if the description says warm and the board reads cold, something is off
+
+**things to keep in mind**
+
+Taste is not the brief. My favorites are not the client's, and the board should serve the work the client does, not my own habits. When I catch myself repeating a trick from an earlier project, that's a cue to question it.
+
+Warm palettes can slide into muddy fast. A clear lightest tone and a clear darkest tone keep things legible. Accessibility is worth thinking about early, since a gorgeous palette that fails for reading text becomes a problem later and is annoying to unwind.
+
+Type carries a lot of personality, and pairing is about contrast in role more than contrast in style. Body text needs to be calm and readable at small sizes, while display text can afford more character. Check how letterforms hold up in long passages, in all caps, and in cramped spots, not only in a big sample line.
+
+Handmade qualities can tip into costume. Natural and rustic turns into cliché when every surface is wood grain and kraft paper. Aim for authenticity that comes from the client's actual world rather than from a stock idea of authenticity.
+
+- keep the audience in view: who is looking, where, and in what mood
+- boards flatter. real layouts have clutter, long names, awkward photos, and legal text
+- trends date the work quickly, so be wary of fixating on them
+- jot down why something was rejected, since it helps in later conversations
+- stay honest about what the board does not yet answer
+
+**on feedback**
+
+Reactions come in odd shapes. "I don't know, it feels off" is real information, and it deserves curiosity rather than defense. Useful questions: what does this remind you of, what would you pull out, what would you add, which image would you show a friend first. Keep their phrasing verbatim where possible, because the exact words often matter more than my paraphrase of them.
+
+Silence is also feedback. If nobody mentions a piece of the board, it may be doing quiet, necessary work, or it may be filler. Worth asking about directly.
+
+**pacing**
+
+Rushing makes things generic. Slow looking is the actual labor in this kind of work, and much of it happens while doing something unrelated, like washing dishes or walking around the block. Good moves tend to arrive sideways. It helps to keep a scrap file for half-formed thoughts so they don't evaporate.
+
+Another trap is polishing a board past the point where it can still be argued with. Overly slick boards discourage honest reactions because they look settled. A bit of visible roughness invites people to say what they think.
+
+**open-ended ideas**
+
+- build a small set of texture swatches from scans of real materials and reuse them as backgrounds
+- try the board in grayscale to see whether the structure stands without color
+- make a deliberate anti-board of things that would feel wrong, and explain why
+- photograph objects around the studio and see whether they hold the same mood
+- sketch a few imaginary applications, such as a shopfront, a label, or a letterhead, just to test how the feeling travels
+- write a short voice guide alongside the visuals so the tone of the writing matches the tone of the imagery
+- imagine how motion would feel if the work ever moves: slow, soft easing, nothing snappy
+- collect sounds or smells that match the mood, as odd as that sounds, and see if they sharpen the visual choices
+- consider how the visual language ages, and what looks right after living with it rather than at first glance
+- invite the client to bring objects from their own space and build outward from those
+- try laying the board out on a physical wall, with real prints and swatches, and see what changes when it has weight and shadow
+- look at how the same palette behaves against different surfaces, like cardboard, glass, linen, and screen
+
+**a last thought**
+
+The board is a tool for thinking, not an artifact to polish endlessly. The bar is whether it provokes a useful response and gives the work a direction worth testing. Anything beyond that is probably me hiding from the harder part, which is making the actual things.
+
+earthy colors
+a serif for headings
+nothing too corporate

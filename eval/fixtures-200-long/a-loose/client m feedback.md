@@ -1,0 +1,100 @@
+client m feedback
+
+staff like the new forms
+want the signage a bit larger next time
+
+general working notes
+
+how the work tends to go
+
+i try to listen more than i talk at the start of a project. the brief is rarely the real brief. what people ask for is usually a symptom, and the thing underneath shows up when i ask them to walk me through how they actually use a space or a product when nobody is watching. watching beats asking. people are polite in conversation and honest with their hands.
+
+approach
+
+- start with the problem in plain language. if i can't explain it to a stranger without design vocabulary, i probably don't understand it yet
+- look at what already exists before drawing anything. what's worn down, what's been taped over, what's been relabeled by hand. homemade fixes are free research
+- make rough things early and make them cheap to throw away. a rough mockup invites honest reaction, a polished one invites politeness
+- keep the reasoning visible. when a client can see why something looks the way it does, they argue with the logic instead of the taste, and logic is easier to work with
+- leave room for the person who has to live with the thing, not just the person who signs off on it
+
+on feedback
+
+feedback comes in layers: what people say, what they mean, and what they do. the people on the ground tend to give the most useful signal because they live with the output constantly. the people who commissioned the work tend to give signal about goals and internal politics. each kind matters, and they rarely line up neatly. my job is partly translation.
+
+small, practical remarks are gold. a casual comment about something being awkward to reach or hard to read usually points at real friction that no formal review would have caught. worth treating offhand remarks with the same seriousness as a structured critique, maybe more.
+
+praise is data too. when people respond well to something, find out why. "it feels nice" isn't enough. is it clarity, familiarity, less effort, a sense of being taken seriously? knowing the reason means it can be repeated on purpose instead of by luck.
+
+things to keep in mind
+
+- distance and conditions are the most underestimated variables. things look fine on a desk and fall apart across a room, in poor light, or under a tired glance. test in realistic conditions whenever possible, and when it isn't possible, fake the harshest version available
+- legibility beats elegance when they conflict. elegance can usually be recovered somewhere else
+- people read in motion. design for glances, not for study
+- defaults are choices in disguise. whatever is easiest to do is what will get done
+- consistency is a kindness. the more predictably a system behaves, the less a person has to think about it
+- leave a trail. notes on why choices were made save enormous grief when the work gets revisited after a long gap
+- the thing that looks like a user mistake is often a design mistake wearing a disguise
+
+working solo
+
+the upside of working solo is speed and coherence. nothing gets lost between hands. the downside is blind spots, since nobody is across the desk to say "that's wrong." so it helps to lean on outside eyes deliberately: a trusted peer, a fresh look from a person unfamiliar with the project, or simply putting the work away and coming back with colder eyes. distance is a tool.
+
+the other risk is carrying everything in my head. writing things down, even badly, is cheaper than reconstructing them later. half-remembered reasoning is worse than none because it feels reliable.
+
+on presenting work
+
+- lead with the problem, then the response. showing the answer before the question makes people judge it as decoration
+- show less than i have. a restrained presentation reads as confidence, a pile of options reads as indecision
+- name what's still unresolved. clients tend to trust people who point at their own weak spots
+- bring a clear recommendation and the reasoning for it, even when alternatives are on the table
+- physical or full-scale samples settle arguments that screens only prolong
+- watch faces more than slides. the moment of confusion shows up before anybody says a word
+
+boundaries and scope
+
+scope creeps quietly, usually through generosity. small favors accumulate until the shape of the project has changed and nobody noticed. worth naming the edge of a project out loud while the mood is still friendly.
+
+when a request falls outside what the work was meant to cover, it helps to separate "can this be done" from "does this belong here." the answer to the former is nearly always yes, which is why it's the wrong question.
+
+good relationships survive disagreement when it's treated as shared problem solving rather than a contest. the goal is to be on the same side of the problem.
+
+on research and curiosity
+
+keep looking at ordinary things. how a waiting room is organized, how the label wears off a well-used button, how people line up when there's no marker telling them to. mundane environments are full of unspoken design that works or quietly fails.
+
+adjacent fields are worth borrowing from: wayfinding, packaging, interface work, even professional kitchens. systems that have to work fast under stress have already solved problems that design work keeps rediscovering.
+
+craft reminders
+
+type, spacing, and contrast do most of the heavy lifting. get them right and a surprising amount of other sloppiness is forgiven. get them wrong and nothing else saves it.
+
+materials matter more than screens suggest: how a surface catches light, how it feels at the point of touch, how it ages. things in public use get scuffed, smudged, and misused, so design for the worn version too.
+
+color needs testing in context. neighbors change everything. what looks calm alone can look harsh beside something else.
+
+keep a bias toward removing. when stuck, subtract. most layout problems are too much competing for attention, not too little.
+
+the urge to keep polishing is often avoidance in disguise. worth asking what part of the work is being protected by all that fiddling.
+
+open-ended ideas
+
+- a running catalogue of found fixes: photos and notes on improvised solutions people have made in their own environments. could turn into a source of patterns
+- a checklist for reviewing work at realistic distance and in realistic light, built from past misses rather than theory
+- a habit of asking, near the end of a project, "what would you tell the next person doing this?" the answers tend to be more candid than anything gathered earlier
+- a short template for reflection after a project wraps: what surprised me, what i'd do differently, what's worth keeping. not for anybody else, just so patterns surface
+- show alternatives side by side more often, even rough ones. comparison draws out preferences people didn't know they had
+- explore how much of a proposal can be communicated without words. a quick demonstration, a physical model, a walkthrough on scrap paper
+- think about documenting a finished project so the people who maintain it can adapt it without needing me. a design that only its maker can maintain is incomplete
+- wonder whether there's a better way to capture observations on site without breaking the flow of conversation. maybe voice memos, maybe a habit of writing everything down right after leaving
+
+questions that keep recurring
+
+- how much explanation does good work need before it feels trustworthy? too little feels arbitrary, too much feels defensive
+- when is a constraint a gift and when is it a trap? tight constraints often sharpen the work, but only if they're real and not inherited from old habits
+- how to tell a preference from a need. preferences negotiate, needs don't
+- what does it mean to finish? the work often keeps changing after handover, so maybe finishing is about leaving things in a state where change is safe
+- how much of good judgment is just noticing sooner?
+
+closing thoughts
+
+the best projects tend to be the ones where all the people involved feel heard, including those who never speak up in meetings. good work is rarely a flash of genius. it's accumulated small attentions. keep listening, keep testing, keep it simple, and keep the notes honest.

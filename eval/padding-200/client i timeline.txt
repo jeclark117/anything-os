@@ -1,0 +1,82 @@
+general working notes
+
+approach
+
+- begin with the job the thing has to do, not the look. once the job is clear the look mostly follows
+- keep the brief in plain words. if it can't be said in a plain sentence it isn't ready to be drawn
+- ask what the business is bad at explaining about itself. that gap is usually where the design work lives
+- collect references early, then step back and ask what they actually share. it's normally a feeling rather than a style
+- sketch badly and quickly on paper before touching the screen. the screen makes everything look more finished than it is
+- let rough ideas stay rough for a while. polishing too soon kills the odd ones, and the odd ones are sometimes the good ones
+
+the middle of a project is where most of the real thinking happens, and it's also where it's easiest to lose the thread. a running list of open questions helps more than a list of answers. when a question stays open for a long stretch it usually means the brief is hiding a disagreement that nobody has named. worth naming it out loud with the client instead of designing around it.
+
+process
+
+- work big and loose, then small and tight. a mark that only works large hasn't finished its thinking, and neither has a mark that only works tiny
+- test things at the smallest and largest sizes they'll ever live at, in the dullest conditions: low contrast, bad printing, a squint from across the room
+- strip color out early. if the idea needs color to hold together, the idea is weaker than it seems
+- keep a folder of rejected directions. they come back more than expected, usually as the seed of something better
+- write down why a choice was made while the reasoning is fresh. future me forgets, and the client will ask
+- build a short set of rules as the system emerges: spacing, clear space around the mark, what never to do with it. loose is fine, but written down beats remembered
+- check the work against what competitors are doing, mostly to find the habit everybody shares that can be avoided
+
+on talking with clients
+
+most conversations go better when i ask before i explain. people often arrive with a solution already in mind, a color or a style they saw elsewhere, and the solution is standing in for a worry they haven't said out loud. get to the worry. once it's on the table the solution tends to loosen its grip.
+
+show the reasoning along with the work. a direction presented without its logic gets judged on taste alone, and taste is a coin toss. a direction presented with its logic gets judged on whether it solves the problem, which is a better conversation to be in.
+
+silence after a presentation isn't a verdict. people need a moment to picture the work in their own world. resist the urge to fill the gap with apologies or extra options.
+
+on revisions
+
+- sort feedback into piles: what's about the job, what's about taste, what's about fear. each pile needs a different kind of response
+- when comments pull against each other, don't average them. go back to the brief and see what it actually backs
+- revisions that undo earlier revisions are a sign the brief moved. say so kindly and re-anchor
+- keep a calm paper trail. not for defense, just so the thinking can be retraced
+
+on craft details
+
+- spacing is most of the quality. when something looks cheap it's usually the gaps, not the shapes
+- check letterforms up close for awkward joins and uneven rhythm, then far away for clogging and blur
+- optical balance beats mathematical balance. trust the eye, then explain it afterward
+- curves deserve patience. a slightly lazy curve reads as a mistake even to people who can't say why
+- keep the palette restrained and let a lead color carry the heavy lifting
+- type choices should survive being set badly by somebody else
+
+on working solo
+
+- no colleagues means no fresh eyes, so make substitutes: step away, flip the work upside down, view it in a mirror, print it, squint
+- keep admin light and routine so it doesn't swallow the creative energy
+- guard the quiet stretches. the best thinking tends to happen when nobody is asking for anything
+- it's easy to confuse being busy with making progress. a clear head about which is which helps
+- keep making things that have no client, purely to keep the hands and eyes sharp
+
+things to keep in mind
+
+- the biggest advantage of a small studio is directness. the client talks to the person making the work, so there's no game of broken whispers between the brief and the drawing. protect that
+- clients are rarely reacting to the work itself. they're reacting to how it makes them feel about a business they've poured themselves into
+- feedback like "make it pop" or "it feels off" is a request for a conversation, not an instruction. ask what would worry them if it went out into the world exactly as it is
+- taste is not the same as fit. a thing can be handsome and still be wrong for the people who will meet it
+- say what the work is not as clearly as what it is. boundaries make presentations calmer
+- keep scope visible. small additions feel free in the moment and add up quietly
+- rest the work. leaving a direction alone for a while and coming back catches problems that staring never will
+- think about the people who live with the work after the handoff: whoever orders print, updates a website, hangs things on a wall. give them plain guidance and make their life easy
+- bring production realities into the picture early. what a material does, how ink behaves, what a fabricator can actually cut or bend. a beautiful drawing that can't be made is just a drawing
+- businesses with a busy stretch and a quiet stretch have a rhythm. worth reading it before proposing anything, since patience for design opinions rises and falls with it
+
+open-ended ideas
+
+- a short questionnaire that asks clients to describe their business as a person, a place, a smell, a sound. odd answers reveal values faster than formal ones
+- present a direction that goes too far on purpose: "here's what this looks like pushed to the edge." overreach can show where the right edge is
+- make a quiet version of every identity: black on cheap material, stamped, scratched, embroidered. the quiet version is the sharpest test
+- keep an image bank of things that age well, like worn paint, enamel, stitching, hand-cut stamps, and look at why they hold up
+- explore what a mark does when it's allowed to shift slightly instead of staying rigid. a living system might suit some clients better than a locked one
+- think about what the work looks like when it's being ignored, because that's most of its life. peripheral vision is the real test
+- an occasional teardown of an older project, asking what i'd quietly change now and why. useful as a mirror for habits
+- a small library of phrases that explain design choices to non-designers without jargon. "this shape feels friendly because..." wording that travels well
+- a habit of finishing each project with a plain reflection on what the client taught me about their field. their world is usually the best source of the next idea
+- what if the handoff guide read like a letter instead of a manual? people read letters
+
+mostly the notes above are reminders to myself about slowing down and asking better questions. the work gets better when the thinking is visible, the questions stay honest, and the details get the patience they deserve.

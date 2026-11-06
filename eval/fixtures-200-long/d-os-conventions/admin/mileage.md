@@ -1,0 +1,81 @@
+---
+type: Note
+title: "Mileage"
+description: "Mileage log for client visits."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Mileage
+
+- Drove to client m twice
+- Log is in the spreadsheet
+
+general working notes
+
+**approach**
+
+the best work usually comes from understanding the problem before touching a layout. it's easy to skip when a project feels familiar. the pull to open the canvas and push shapes around is strong, but shapes are rarely the issue. the issue is usually that nobody has said out loud what the thing is supposed to do for the person looking at it.
+
+so the habit worth protecting: spend a while with the brief until it can be explained in plain sentences to somebody outside the field. if the explanation wobbles, the design will wobble too.
+
+also worth remembering that a studio of this size has an advantage in being able to stay close to the work. there's no handoff where intent gets lost. the same head that heard the client's worries is the head choosing the typeface. that's a strength, but only if the worries actually get written down somewhere instead of living in memory.
+
+**process**
+
+loose shape of how a project tends to move:
+
+- listen first, and write down the exact words the client uses to describe what they want. their vocabulary is often better than any label i'd invent
+- gather references without judging them, then sort them by what they have in common rather than by how much i like them
+- rough thinking on paper before screens. paper is slow in a useful way, because it makes me commit to an idea's structure before i can hide behind polish
+- build the ugliest workable version early so the client reacts to something real instead of imagining
+- refine in layers: structure, then hierarchy, then rhythm, then detail. going out of order wastes effort, since a beautiful detail on a broken structure gets thrown away
+- leave room at the end for a calm review with fresh eyes, because small inconsistencies hide in plain sight when i've been staring too long
+
+a note on feedback rounds: they go better when the client is asked a specific question rather than "what do you think?" something like "does this feel too loud for your audience?" gets a useful answer. "thoughts?" gets a shrug or a rewrite of everything.
+
+**things to keep in mind**
+
+- admin is part of the job, not a distraction from it. records of expenses, travel, and materials are much easier to keep tidy as they happen than to reconstruct later. reconstruction always produces guesses, and guesses leak money in both directions
+- keep a running place for loose thoughts that don't belong to any project yet. half the useful ideas arrive while doing something unrelated, and they evaporate if there's nowhere to put them
+- be honest with myself about scope. work that quietly grows beyond what was discussed is the most common source of resentment, for both sides
+- protect the hours when thinking is sharpest from meetings and email. creative judgment is a limited supply and gets spent faster than expected
+- say what the design is for, in writing, near the top of every project file. when feedback gets confusing, that sentence is the anchor
+- accessibility is not a final polish step. contrast, legibility, and clear structure are design decisions from the start, and retrofitting them is always clumsier
+- whitespace is a material. resist the urge to fill it just because it's there
+- if a layout only works with a long explanation attached, it doesn't work yet
+- save the files in a way that a stranger could open them and understand the structure. future me counts as a stranger more often than i'd like to admit
+
+**working with clients**
+
+small studios live on trust, and trust is built mostly out of boring things: replying when expected, being clear about what's included, flagging problems early instead of hoping they dissolve. a client who feels informed rarely panics.
+
+it helps to remember that most clients aren't designers and shouldn't have to be. they're experts in their own field and nervous about spending money on something they can't fully evaluate. translating design choices into their language, like how a decision affects their customers, their staff, or their reputation, makes the work easier to defend and easier to approve.
+
+some clients arrive with a strong visual opinion. that isn't an obstacle. it's information. the job is to figure out what feeling sits underneath the opinion and see if there's a stronger way to produce that feeling.
+
+some clients arrive with no opinion at all, which can be harder. in that case, giving them contrasting directions to react to usually draws out preferences they didn't know they had.
+
+**open-ended ideas**
+
+things worth turning over when there's room, none of them urgent:
+
+- a short written guide for new clients explaining how a project flows, so the early conversations can be spent on the interesting parts instead of logistics
+- a personal library of small, reusable layout studies, kept separate from client work, as a place to experiment without stakes
+- what would it look like to document a finished project honestly, including the dead ends? the dead ends are probably more instructive than the final images
+- is there a better way to show process to prospective clients without it feeling like a performance?
+- a habit of looking at everyday printed objects, like packaging, signage, and forms, and asking why they look the way they do. a quiet way to keep the eye trained
+- exploring how much of the work could be made lighter by templates without making it feel templated. the line is thin
+- thinking about how a studio's own identity should behave. it probably shouldn't be the loudest thing in the room
+- collaborating occasionally with writers, photographers, or illustrators to stretch beyond what a solo practice can produce, while keeping the working relationship simple
+- whether a slower, more deliberate project cadence would improve the work, or just feel nicer
+
+**loose odds and ends**
+
+- constraints are friendly. a tight palette or a rigid grid often produces more inventive work than total freedom
+- rest matters. a stuck problem often loosens after a walk or a change of scenery, and driving to meetings can double as thinking space if the radio stays off
+- when stuck, change the medium: sketch it, say it aloud, build it from paper, or explain it to an imaginary skeptic
+- taste develops through volume. looking at a lot, making a lot, discarding a lot
+- the client's audience is the real audience. it's tempting to design for the person paying, but the person paying is rarely the person using
+- clarity beats cleverness nearly every time, though a touch of cleverness is what makes clarity memorable
+- write down what went well after a project wraps up, not just what went wrong. the habits worth keeping are easy to lose if they're never named
+- be kind to the early drafts. they're supposed to be rough

@@ -1,0 +1,78 @@
+---
+type: Note
+title: "Review: january"
+description: "January 2026 review: quiet month, two small jobs."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Review: january
+
+general working notes
+
+stuff that keeps circling in my head about how the studio runs. dumping it here so it stops rattling around.
+
+**approach**
+
+- start with what the work is for, not what it looks like. a brief usually describes what somebody thinks they want, and the real need sits underneath. a logo request might be a trust problem. a layout request might be a clarity problem. asking what should feel different afterwards, and for whom, saves a lot of wandering.
+- being a studio of me means nobody catches my mistakes before the client does. so build stand-ins for an outside view: leave work untouched for a while and come back cold, read copy out loud, squint at layouts from across the room, view things tiny and view them huge.
+- fewer, better decisions beat endless variations. showing too many directions mostly hands the client my indecision. a clear recommendation with reasoning is kinder than a menu.
+- keep the scope clear. most trouble starts with a vague edge around what's included. say the edges plainly before work begins and treat them as friendly rather than defensive.
+- taste is a muscle, not a gift. it grows from looking at a lot of things, making a lot of things, and being willing to say why something works or doesn't.
+
+**process**
+
+the process moves through loose phases that overlap more than any diagram suggests: hearing people out, collecting, sketching, narrowing, refining, handing over. the mistake is treating it as a straight line. narrowing too early kills good odd ideas; collecting forever delays everything. a decent test is whether i can explain the current direction in a sentence to a stranger. if i can't, it isn't ready for polish.
+
+sketching on paper still beats the screen for early thinking. screens make everything look finished, and finished-looking things get defended. rough things get questioned, which is exactly what early work needs.
+
+habits that seem to help:
+
+- keep a running pile of references, but sort it by feeling instead of category. "warm and slightly awkward" is more useful than "serif specimens".
+- name files plainly and consistently so future me can find things without archaeology.
+- write down why a choice was made while it's fresh. a rationale note takes moments and rescues a lot of confusion when a client asks about it later.
+- show work in context whenever possible: on a mock page, a mock shelf, a mock mobile screen. a mark floating on white tells you very little.
+- feedback goes better when the questions are specific. "does this feel trustworthy?" gets better answers than "thoughts?"
+- let a project end properly. a short reflection on what surprised me, what dragged, and what i'd tell myself at the start is worth more than it looks.
+
+- Quiet month
+- Two small jobs
+- Still no business bank account
+
+**things to keep in mind**
+
+- slow stretches are information, not verdicts. they're good for looking after the studio itself: tidying files, refreshing the portfolio, writing down lessons while they're still vivid.
+- admin that gets ignored comes back louder. boring infrastructure like contract templates, proposals, and record-keeping deserves care while things are calm instead of in the middle of a rush.
+- energy is a resource. creative output drops when i'm depleted, and no amount of process fixes that. rest counts as part of the work.
+- saying no is a skill. work that doesn't fit drains more than it gives, even when it looks harmless at first glance.
+- be wary of comparison. other studios post highlight reels. a solo practice has a different shape and different pleasures, and measuring it against a larger outfit rarely helps.
+- clients remember how it felt to work together more than any particular file. responsiveness, calm, and clear communication are part of what they're buying.
+- explain the thinking, not just the result. the reasoning is the real value, and without it the work looks like it appeared by magic and therefore looks cheap.
+- good constraints are a gift. a tight brief, a limited palette, a stubborn typeface can all force more inventive answers than total freedom does.
+- isolation is a real hazard of working solo. ideas get stale when nobody else pokes at them.
+
+**a note on pace**
+
+there's a temptation to treat every stretch of work as something to optimize, as if a studio were a machine with a dial for productivity. mostly it behaves more like a garden. some stretches are for planting, some for harvest, some for leaving things be. the trick is recognizing which kind of stretch it is before reacting to it. panic in a lull produces busywork; complacency in a rush produces sloppy work. neither feels like a mistake while it's happening, which is why it helps to keep some candid questions handy: am i avoiding something hard? am i making this because it matters or because it's comfortable? would i be proud to show this process to a peer?
+
+**open-ended ideas**
+
+- a little library of reusable discovery questions, grouped by project type. over time it becomes a real advantage.
+- short public notes about process: not tutorials, more like observations. might attract people who enjoy thinking out loud.
+- self-initiated projects that exist only to try a style or technique nobody asked for. keeps the eye sharp and sometimes turns into portfolio material.
+- look across old project reflections for patterns. maybe the best work always follows a certain kind of conversation, or a certain kind of mess.
+- a productized offering: a tightly scoped service that's easy to explain and easy to say yes to. open question whether it fits the temperament of the studio or just adds machinery.
+- loose collaborations with other independents (writers, developers, photographers, illustrators) so bigger projects don't require the studio to become bigger.
+- a collection of problems rather than solutions: confusing signs, awkward forms, packaging that fights back. good prompts for self-initiated work.
+- what kind of client leaves me energized? maybe the thread is the type of problem rather than the industry.
+- an archive of rejected directions. they're often better than they felt in the moment, and sometimes belong to a different project entirely.
+- try explaining a part of the process to a beginner. nothing exposes fuzzy thinking faster.
+
+**questions to circle back to**
+
+- what does "enough" look like for a studio of this shape?
+- which parts of the work would i keep doing even if nobody paid for them, and which only feel good when they're appreciated?
+- is there a kind of project the studio is secretly built to do best?
+- how much of the polish is for the client and how much is for my own nerves?
+- what would a calmer way to handle feedback look like?
+
+this isn't a plan. it's a pile of things worth remembering when the work is flowing and when it isn't.
