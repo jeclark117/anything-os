@@ -3,7 +3,7 @@ type: Reference
 title: Eval plan
 description: How the anything-os eval works, what each trap tests, how results get read, and what it can't show.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-10-21T10:46:02-07:00 }
+generated: { by: claude-code/opus-5, at: 2026-11-06T13:43:11-08:00 }
 ---
 
 # Eval plan
@@ -131,6 +131,79 @@ The rules-only version is dropped. It answered a question this round doesn't ask
 - **The saved plan is prompted.** A real user might not ask for one.
 - **Same model throughout.** Sonnet 5.5. A weaker model is still untested.
 - **One grader.** Sonnet grades every checkpoint in one call. Joseph spot-checks a sample.
+
+## Round four: three tests from Anthropic's memory work
+
+Written 2026-11-06, before any run. Each test comes from Anthropic's agent memory study, its dreaming cookbook, or its knowledge wiki quickstart. See the "Outside evidence" section of [findings.md](findings.md). All three start after round three's window 3, and all three reuse the s200 folders and runner.
+
+**Don't rerun `build_s200.py build` before window 3 is done.** It copies the current `conventions.md` into `d-os-conventions`, and §7 changed on 2026-11-06. The built fixtures hold the old copy, so the round stays consistent as long as nobody rebuilds.
+
+### Test 1: a health check that starts from what changed
+
+**The question.** Can a cheap check that starts from recent changes find what the full health check finds? And does the same check keep loose notes as true as the OS?
+
+**Why.** "Check my OS" in `conventions.md` §8 reads every file, and cost about $2.40 at 40 notes on Sonnet. Anthropic's dreaming pass targets instead. Each input gets an agent that greps for the related memory files and reads only those in full, and its analyzers run on Haiku. Its recorded run cost $0.36 for 11 transcripts.
+
+**Setup.** No new edits. Copy each folder as it stands after edit 20 in history 3. The OS records what changed, because every edited note gets a new `generated.at`. Loose notes use file modification times, which keeps the comparison fair.
+
+| Arm | Folder | What the check reads | Model |
+|---|---|---|---|
+| Full | OS | Every file, the current §8 | Sonnet |
+| Changed, Sonnet | OS | Notes changed since checkpoint 10, then every file that states one of their facts, found by search and read in full | Sonnet |
+| Changed, Haiku | OS | The same | Haiku |
+| Changed, loose | Loose | The same, using modification times | Sonnet |
+
+**Measures.** Stale claims fixed or flagged, out of those the `currency` step counts before the check. Wrong changes, meaning a current fact changed or a request turned into a decision. Cost, and files opened. Then the `currency` step again afterward.
+
+**Predictions:**
+- **Changed, Sonnet** finds nearly everything Full finds, for a fraction of the cost. Most stale claims sit one search away from a note that changed.
+- **Changed, Haiku** finds less, and makes more wrong changes, but costs the least. Whether it's good enough is the result that matters most for the template's default.
+- **Changed, loose** is the one nobody can call. If it comes close to the OS, the checking keeps files true and the structure doesn't, and the template could be much lighter.
+
+### Test 2: the OS with judgment instead of layout rules
+
+**The question.** Do the template's layout rules help a strong model, or get in its way?
+
+**Why.** The study found that "for stronger models, giving them freedom to judge salience was more effective than setting fixed rules in advance." Version B tested the rules without the structure, and kept the worst files. The structure without its layout rules has never been tested.
+
+**Setup.** A new version, **f-os-judgment**: the same starting folder as `d-os-conventions`, with a different `conventions.md`.
+
+| Kept from `conventions.md` | Dropped |
+|---|---|
+| §1 in full | §2 and §3, except `status` |
+| §4, sources | §5 and §6: the special files, the three-file rule, the listings |
+| §7 steps 4, 6 and 7 | §7 steps 1, 2, 3 and 5 |
+| §8's checks for contradictions, superseded claims, and decisions nobody made | §8's checks for format and listings |
+
+The dropped sections are replaced by one paragraph on what to keep, adapted from the fallback in the wiki quickstart's analyzer prompt: durable facts a later conversation would want to already know, decisions and the reasons behind them, what's still open, and who owns what. Nothing about where it goes or how it's laid out.
+
+One history each of `d-os-conventions` and `f-os-judgment`, through the full 20 edits and every checkpoint.
+
+**Measures.** Accuracy, stale files after edit 20, cost per edit, files changed per edit, and new files created. New files show whether F sprawls without the folder rules.
+
+**Predictions:**
+- **F matches D on accuracy and stale files, at a lower cost per edit.** The layout rules are bookkeeping a strong model doesn't need. That's the more likely result.
+- **If F's files drift,** through stale copies, scattered new notes, or a plan that never gets updated, the structure earns its place.
+- **If F beats D on accuracy,** that's the study's result reproduced here, and the strongest reason to cut.
+
+**Cost.** D's history 1 had a median of $0.27 per one-line edit and $0.57 per raw source, so about $7 for F's 20 edits, plus its questions. That's an estimate from medians.
+
+### Test 3: a weaker model answering
+
+**The question.** Does the OS let a cheaper model answer as well as a stronger one?
+
+**Why.** It's the knowledge wiki quickstart's whole case: "a small model answers within a point of a larger model that searches the raw documents with no wiki, at about 1/15 of the price per answer." The study adds that memory did almost nothing for Sonnet 4.6, 0.330 to 0.364, until its instructions were refined, when it reached 0.641. Every round here has run on Sonnet 5.5.
+
+**Setup.** No new edits. Ask every checkpoint's questions again, with Haiku 4.5 answering, against the history 3 folders of `a-loose` and `d-os-conventions`. Same grader and key.
+
+**Predictions:**
+- **Haiku on the OS comes closer to Sonnet than Haiku on loose notes does.** Following a listing is easier than reconciling scattered dated lines. If it holds, that's a cleaner pitch than anything the Sonnet rounds produced.
+- **Haiku on loose notes fails most at checkpoints 15 and 20,** on the facts that arrived as raw sources.
+- **If the two Haiku versions match,** the OS doesn't carry a weaker model either, and that goes in the README.
+
+### Order
+
+Test 1 first. It needs no edits and is the cheapest, and its loose arm could change how test 2 reads. Test 3 next, since it needs no edits either. Test 2 last, since it's the only one that runs a new history.
 
 ## What it can't show
 
