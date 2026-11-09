@@ -3,7 +3,7 @@ type: Research
 title: Eval findings
 description: What the eval has shown so far. At 15 and 60 notes, every version stayed accurate. At 200 long notes, loose notes passed 173 of 190 answers and the OS 188 of 190, because loose notes repeated buried updates and a stale saved plan. The OS costs about twice as much per edit, and earns it back only in sessions with several questions.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-11-09T11:56:38-08:00 }
+generated: { by: claude-code/opus-5, at: 2026-11-09T12:18:06-08:00 }
 sources:
   - id: anthropic-memory
     resource: https://www.anthropic.com/research/components-of-agent-memory
@@ -352,6 +352,27 @@ This was the prediction nobody could call, and the plan said what it would mean:
 
 **Limits:** one run per arm, one history, and the currency check covers 22 notes and the saved plan, not the whole folder. A check this good on loose notes still runs after the fact. Between checks, loose answers went stale in round three, so how often the check runs matters as much as whether it works.
 
+## Round four, test 3: Haiku answering
+
+Haiku 4.5 answered every checkpoint's questions, in the same sessions as round three, against history 3's loose and OS folders as each checkpoint saw them. Same grader and key as Sonnet. 2026-11-09, $6.38 for the answers and $1.36 for grading. Script in [s200_haiku.py](s200_haiku.py).
+
+History 3, out of 95 answers per version:
+
+| | Loose | OS, light |
+|---|---|---|
+| Sonnet 5.5 | 83 | 94 |
+| Haiku 4.5 | **54** | **84** |
+| Mean cost per question, Haiku | $0.037 | $0.039 |
+| Mean cost per question, Sonnet | $0.184 | $0.183 |
+
+**Haiku on the OS matched Sonnet on loose notes, at about a fifth of the price per question.** 84 of 95 against 83 of 95. That's the wiki quickstart's claim, a small model on a wiki matching a larger one searching raw documents, reproduced here at this size.
+
+**Haiku on loose notes fell apart.** 54 of 95, with its worst checkpoint at 5, 7 of 19. It missed the launch date, the bills and the Q1 plan most. The prediction said it would fail most at checkpoints 15 and 20, on the raw sources. It failed everywhere after checkpoint 0. Loose history 3 was also Sonnet's worst history, so some of that is this history's buried update.
+
+**Haiku's 11 OS failures:** 5 listed Client A's ongoing work as a new 2027 start, which the key rules out. 3 named Dana without the conflict, as Sonnet did at checkpoint 0. 3 were bills: a paid insurance listed as owed, an unpaid domain missed, and a tax date given wrong.
+
+**Limits:** one history, one run per session, and nobody has reviewed these grades by hand. Per-question cost is the session cost divided by its questions, averaged over every session.
+
 ## Outside evidence: Anthropic's agent memory study
 
 Read on 2026-11-06.[^anthropic-memory] It tests memory against no memory, and a wiki against search, on large document sets, legal work and a game. It never compares a structured OS with a loose folder of the same notes, so it can't answer this eval's question. It does line up with the results here, and it points at two tests. The quotes below were checked against the page. The figures came from a summary of it, and get checked against the page before the README uses any of them.
@@ -389,7 +410,8 @@ Read on 2026-11-06.[^anthropic-memory] It tests memory against no memory, and a 
 - **Be honest about cost.** The OS costs about twice as much per edit. It earns that back for someone who asks several things in one conversation, and not for someone who asks one thing and leaves.
 - **A targeted check may do most of the OS's work.** On loose notes it cleared every stale claim the currency check counts, in one $2.54 pass. If that holds up, a lighter template would be loose notes plus a check that runs after each batch of changes. Round four, test 1, one run.
 - **Haiku isn't a cheap default for the check.** It missed everything.
-- **Still untested:** a weaker model answering, and the OS without its layout rules. Those are round four's tests 3 and 2, in [plan.md](plan.md).
+- **The OS lets a cheaper model answer.** Haiku on the OS matched Sonnet on loose notes at about a fifth of the price, and Haiku on loose notes didn't come close. That's a cleaner pitch than anything the Sonnet rounds produced, and it's one history.
+- **Still untested:** the OS without its layout rules. That's round four's test 2, in [plan.md](plan.md).
 
 ## Spend
 
