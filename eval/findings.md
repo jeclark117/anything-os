@@ -3,7 +3,7 @@ type: Research
 title: Eval findings
 description: What the eval has shown so far. At 15 and 60 notes, every version stayed accurate. At 200 long notes, loose notes passed 173 of 190 answers and the OS 188 of 190, because loose notes repeated buried updates and a stale saved plan. The OS costs about twice as much per edit, and earns it back only in sessions with several questions.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-11-09T11:47:10-08:00 }
+generated: { by: claude-code/opus-5, at: 2026-11-09T11:56:38-08:00 }
 sources:
   - id: anthropic-memory
     resource: https://www.anthropic.com/research/components-of-agent-memory
@@ -329,6 +329,29 @@ Edits 14, 15 and 18 said "let's aim to go live on February 6... Does that work o
 
 **The review format has a flaw.** It shows only the tracked facts, not the notes. So a right answer that draws on the rest of the notes can look wrong to the reviewer, the same problem the blind picks had. A later review should say so up front, or show the notes the answer cites.
 
+## Round four, test 1: a health check that starts from what changed
+
+One check per arm, on the history 3 folders as they stood after edit 20. The three targeted arms got the same prompt: the list of notes changed since checkpoint 10, by file modification time, and an instruction to search for other notes stating the same facts, fix what a newer dated note settles, and flag the rest. Afterward, the same currency check as round three, and a grader read the diff for wrong changes. One run each, 2026-11-09. Script in [s200_check.py](s200_check.py).
+
+| Arm | Folder | Files read | Files changed | Stale claims, before and after | Wrong changes | Cost |
+|---|---|---|---|---|---|---|
+| Full, "Check my OS" | OS | 33 | 3 | 6 to 2 | 0 | $1.88 |
+| Changed, Sonnet | OS | 43 | 5 | 6 to 1 | 0 | $2.35 |
+| Changed, Haiku | OS | 36 | 0 | 6 to 7 | 0 | $0.28 |
+| Changed, loose | Loose | 49 | 12 | **19 to 0** | 0 | $2.54 |
+
+**The targeted check made the loose notes as current as the OS, in one pass.** It fixed 12 files: Client A's launch in the to-do, capacity note and both plans, Lee and Sam in the contacts, and the paid insurance, domain and accountant bill in the checklist. Each fix kept the old value as history, like "2027-02-06 (was 12/5)." The 0 was checked against the files, not just the grader. Nothing it changed was wrong.
+
+This was the prediction nobody could call, and the plan said what it would mean: the checking keeps files true, and the structure may not need to. One run can't carry that, but it's the most important result in round four so far.
+
+**"Check my OS" didn't read every file.** It read 33 of about 200 and said so: "Not checked: the many working-notes paragraphs in the files." It cost less than the $2.40 the same check cost at 40 notes. The targeted check read more and found slightly more, at about 25% more cost. So the prediction that it would cost "a fraction" of the full check was wrong, because the full check doesn't actually read everything at this size.
+
+**Haiku found nothing, and said so with confidence.** It read the 36 changed notes and changed no files. It reported "Nothing stale, nothing contradictory," and listed Sam as Client B's contact while `client-b.md` still said Lee. The currency count went from 6 to 7 with no files changed, which is the grader's noise, about one claim. As a cheap default, Haiku with this prompt doesn't work. It costs about an eighth of Sonnet and misses what it's for.
+
+**Both OS checks held Client A's February 6 launch as unconfirmed,** because the only record that the owner agreed is Pat's email. That's the OS's draft rule, the same caution that helped it in history 1. Here the email states the agreement outright, so it reads as overcautious.
+
+**Limits:** one run per arm, one history, and the currency check covers 22 notes and the saved plan, not the whole folder. A check this good on loose notes still runs after the fact. Between checks, loose answers went stale in round three, so how often the check runs matters as much as whether it works.
+
 ## Outside evidence: Anthropic's agent memory study
 
 Read on 2026-11-06.[^anthropic-memory] It tests memory against no memory, and a wiki against search, on large document sets, legal work and a game. It never compares a structured OS with a loose folder of the same notes, so it can't answer this eval's question. It does line up with the results here, and it points at two tests. The quotes below were checked against the page. The figures came from a summary of it, and get checked against the page before the README uses any of them.
@@ -364,7 +387,9 @@ Read on 2026-11-06.[^anthropic-memory] It tests memory against no memory, and a 
 - **Saving answers back needs the write-time rule.** Loose notes saved each plan into a new file and let it go stale. Adding a rule to save answers to the template would only be safe with §7 in place.
 - **Keep the always-loaded instructions small.** The heavy OS cost more per question and was no more accurate.
 - **Be honest about cost.** The OS costs about twice as much per edit. It earns that back for someone who asks several things in one conversation, and not for someone who asks one thing and leaves.
-- **Still untested:** a weaker model, the OS without its layout rules, and a cheaper health check. Those are round four, in [plan.md](plan.md).
+- **A targeted check may do most of the OS's work.** On loose notes it cleared every stale claim the currency check counts, in one $2.54 pass. If that holds up, a lighter template would be loose notes plus a check that runs after each batch of changes. Round four, test 1, one run.
+- **Haiku isn't a cheap default for the check.** It missed everything.
+- **Still untested:** a weaker model answering, and the OS without its layout rules. Those are round four's tests 3 and 2, in [plan.md](plan.md).
 
 ## Spend
 
