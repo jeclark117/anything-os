@@ -1,0 +1,140 @@
+{
+ "grader": "claude-sonnet-5-5",
+ "cost_usd": 0.14346640000000002,
+ "at": "2026-10-21T11:31:52-07:00",
+ "items": [
+  {
+   "file": "s1-q1.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Gives Jan 23, 2027 as current and lists the older dates only as history."
+  },
+  {
+   "file": "s1-q2.json",
+   "turn": 0,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Names Lee as the main contact and says Dana left; the odd remark about today's date doesn't change the contact fact."
+  },
+  {
+   "file": "s1-q3.json",
+   "turn": 0,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "Gives $110 from 2027-01-01 and Client H as pro bono starting February 2027."
+  },
+  {
+   "file": "s1-u4.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Says no one-off bills remain, with insurance paid and domain renewed, matching the key."
+  },
+  {
+   "file": "s1-u5.json",
+   "turn": 0,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Uses 6 pages, $4,200 and a Jan 23, 2027 launch, all current."
+  },
+  {
+   "file": "s1-u6.json",
+   "turn": 0,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Gives Jan 23 for Client A, $110 rate, Client H pro bono, and Client D signed at $6,500 starting Mar 1."
+  },
+  {
+   "file": "s1-u7.json",
+   "turn": 0,
+   "question": "u7-starts",
+   "pass": true,
+   "reason": "Lists Client D on 2027-03-01 and Client H in February 2027 (pro bono), and notes Client E is paused."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "States Jan 23, 2027 as current, with 6 pages and $4,200."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 1,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Names Lee as the main contact and says Dana left."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 2,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "States $110 an hour from 2027-01-01."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Lists no unpaid one-off bills, with insurance paid and domain renewed."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 1,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Uses six pages, $4,200 and a Jan 23, 2027 launch, all current."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 2,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Includes the Jan 23 Client A launch, $110 rate, Client H pro bono, and Client D signed at $6,500 on Mar 1."
+  },
+  {
+   "file": "s6.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": false,
+   "reason": "Gives Dec 5, 2026 as the Client A launch date, which is superseded; the current date is Jan 23, 2027."
+  },
+  {
+   "file": "s6.json",
+   "turn": 1,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Lists no unpaid one-off bills and corrects the launch date to Jan 23, 2027."
+  },
+  {
+   "file": "s6.json",
+   "turn": 2,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Names Lee as the main contact and says Dana left."
+  },
+  {
+   "file": "s6.json",
+   "turn": 3,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Uses six pages, $4,200 and a Jan 23, 2027 launch, all current."
+  },
+  {
+   "file": "s6.json",
+   "turn": 4,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "States $110 an hour from Jan 1, 2027."
+  },
+  {
+   "file": "s6.json",
+   "turn": 5,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Gives Jan 23 for the Client A launch, Client H as pro bono in February, and Client D at $6,500 starting Mar 1."
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "grader": "claude-sonnet-5-5",
+ "cost_usd": 0.13188840000000002,
+ "at": "2026-11-06T09:50:20-08:00",
+ "items": [
+  {
+   "file": "s1-q1.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Gives Jan 23, 2027 as current; older dates are shown only as history."
+  },
+  {
+   "file": "s1-q2.json",
+   "turn": 0,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Lee is correct, and Dana is described as having left."
+  },
+  {
+   "file": "s1-q3.json",
+   "turn": 0,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "States $95/hr now and that no raise is decided."
+  },
+  {
+   "file": "s1-u4.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Lists only the domain renewal as unpaid and correctly says insurance was paid Oct 28."
+  },
+  {
+   "file": "s1-u5.json",
+   "turn": 0,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "5 pages, $4,200 and Jan 23, 2027 are all current."
+  },
+  {
+   "file": "s1-u6.json",
+   "turn": 0,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Gives Client A launch as Jan 23 and Client D starting Mar 1 at $6,500, both current."
+  },
+  {
+   "file": "s1-u7.json",
+   "turn": 0,
+   "question": "u7-starts",
+   "pass": false,
+   "reason": "Lists Client J as having work booked for 2027, but Client J is not booked."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Gives Jan 23, 2027 as current, with earlier dates as history."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 1,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Lee is correctly named as the main contact."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 2,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "Says $95 with the raise not decided."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Lists the domain renewal as unpaid and insurance as paid, with no wrong facts."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 1,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Gives launch Jan 23, 2027 and price $4,200, both current."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 2,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Client A launch is Jan 23 and Client D starts Mar 1 at $6,500; Client J is not claimed as booked."
+  },
+  {
+   "file": "s6.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Gives 2027-01-23 as current, with earlier dates as history."
+  },
+  {
+   "file": "s6.json",
+   "turn": 1,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Domain renewal is the only unpaid bill, and insurance is correctly shown as paid."
+  },
+  {
+   "file": "s6.json",
+   "turn": 2,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Lee is correct, and Dana is described as having left."
+  },
+  {
+   "file": "s6.json",
+   "turn": 3,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Five pages, $4,200 and Jan 23, 2027 are all current."
+  },
+  {
+   "file": "s6.json",
+   "turn": 4,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "Says $95 now and that a raise is not decided."
+  },
+  {
+   "file": "s6.json",
+   "turn": 5,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Client A launch Jan 23 and Client D Mar 1 at $6,500 are correct."
+  }
+ ]
+}

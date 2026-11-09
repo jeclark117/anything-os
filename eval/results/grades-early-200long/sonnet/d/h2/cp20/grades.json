@@ -1,0 +1,140 @@
+{
+ "grader": "claude-sonnet-5-5",
+ "cost_usd": 0.1520914,
+ "at": "2026-11-06T09:50:37-08:00",
+ "items": [
+  {
+   "file": "s1-q1.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Launch date 2027-02-06 is current."
+  },
+  {
+   "file": "s1-q2.json",
+   "turn": 0,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Says Lee is on leave until 2027-03-01 and directs everything to Sam, which matches the current state."
+  },
+  {
+   "file": "s1-q3.json",
+   "turn": 0,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "$120 from 2027-01-01 is correct; $95 and $110 are mentioned only as history."
+  },
+  {
+   "file": "s1-u4.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Correctly shows insurance, domain and the accountant's $450 as paid and no one-off bills open."
+  },
+  {
+   "file": "s1-u5.json",
+   "turn": 0,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Launch 2027-02-06 and price $4,200 with the blog included are current."
+  },
+  {
+   "file": "s1-u6.json",
+   "turn": 0,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Client A launch 2027-02-06, Client D week of Feb 22, Client E $650 and Client H pro bono are all current."
+  },
+  {
+   "file": "s1-u7.json",
+   "turn": 0,
+   "question": "u7-starts",
+   "pass": true,
+   "reason": "Lists exactly Client D (2027-02-22), Client H (February) and Client E (February, $650)."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Current launch date 2027-02-06; earlier dates given only as history."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 1,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Lee on leave until March 1 with Sam handling contact matches the current state."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 2,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "$120 from 2027-01-01 is correct; Client D is described as signed at $6,500."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "No open one-off bills; the three paid items are correctly marked paid."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 1,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Launch date 2027-02-06 is current and no wrong page count or price is given."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 2,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Client A launch 2027-02-06, $120 rate, Client E $650, Client D week of 2027-02-22 and Client H February are all current."
+  },
+  {
+   "file": "s6.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Launch 2027-02-06 is current; earlier dates given as history."
+  },
+  {
+   "file": "s6.json",
+   "turn": 1,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Insurance, domain and accountant's fee are correctly shown as paid; no open one-off bills."
+  },
+  {
+   "file": "s6.json",
+   "turn": 2,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Sam is the current contact while Lee is on leave until 2027-03-01."
+  },
+  {
+   "file": "s6.json",
+   "turn": 3,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Launch 2027-02-06 is current."
+  },
+  {
+   "file": "s6.json",
+   "turn": 4,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "$120 from 2027-01-01 and Client A at $4,200 are current."
+  },
+  {
+   "file": "s6.json",
+   "turn": 5,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Client A launch Feb 6, $120 rate, Client H, Client E $650 and Client D week of Feb 22 are all current."
+  }
+ ]
+}

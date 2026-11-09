@@ -1,0 +1,140 @@
+{
+ "grader": "claude-sonnet-5-5",
+ "cost_usd": 0.1432964,
+ "at": "2026-11-06T09:50:19-08:00",
+ "items": [
+  {
+   "file": "s1-q1.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Launch date Feb 6, 2027, 6 pages with blog, and $4,200 are all current."
+  },
+  {
+   "file": "s1-q2.json",
+   "turn": 0,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Names Sam as contact with Lee on leave until 2027-03-01, which matches the key."
+  },
+  {
+   "file": "s1-q3.json",
+   "turn": 0,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "$120 from 2027-01-01 is current, and the $110 appears only as superseded history."
+  },
+  {
+   "file": "s1-u4.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Lists no unpaid one-off bills and correctly shows insurance, the accountant and the domain as paid."
+  },
+  {
+   "file": "s1-u5.json",
+   "turn": 0,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Launch Feb 6, 2027, six pages, and $4,200 are all current."
+  },
+  {
+   "file": "s1-u6.json",
+   "turn": 0,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Dates and facts are current: Feb 6 launch, $120 rate, E at $650, H pro bono, D on Feb 22 at $6,500."
+  },
+  {
+   "file": "s1-u7.json",
+   "turn": 0,
+   "question": "u7-starts",
+   "pass": true,
+   "reason": "Lists D on the week of Feb 22, H in February, and E in February at $650, with no unbooked clients."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Feb 6, 2027 is current, and the earlier dates are presented only as history."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 1,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Sam is the contact with Lee on leave until 2027-03-01, which is correct."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 2,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "$120 from 2027-01-01 is current, and $110 is flagged as superseded."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Correctly says no one-off bills are left, with insurance, the accountant, and the domain shown as paid."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 1,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Feb 6, 2027, six pages with blog, and $4,200 are current."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 2,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "All tracked facts given are current: Feb 6 launch, I at $1,800 from Dec 1, $120 rate, E at $650, H pro bono, D on Feb 22."
+  },
+  {
+   "file": "s6.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Gives 2027-02-06 as current and the earlier dates only as history."
+  },
+  {
+   "file": "s6.json",
+   "turn": 1,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "No one-off bills are open, and the paid items and dates are correct."
+  },
+  {
+   "file": "s6.json",
+   "turn": 2,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Sam is the contact, Lee returns 2027-03-01, and the older notes are flagged as out of date."
+  },
+  {
+   "file": "s6.json",
+   "turn": 3,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Launch of Feb 6, 2027 is correct and no wrong facts are stated."
+  },
+  {
+   "file": "s6.json",
+   "turn": 4,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "$120 from 2027-01-01 is current, with $110 treated as superseded."
+  },
+  {
+   "file": "s6.json",
+   "turn": 5,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Feb 6 launch, E at $650, H, D on Feb 22 at $6,500, and Lee's March 1 return are all current."
+  }
+ ]
+}

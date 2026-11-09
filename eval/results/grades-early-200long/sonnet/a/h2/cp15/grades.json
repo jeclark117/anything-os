@@ -1,0 +1,140 @@
+{
+ "grader": "claude-sonnet-5-5",
+ "cost_usd": 0.1381794,
+ "at": "2026-11-06T09:50:18-08:00",
+ "items": [
+  {
+   "file": "s1-q1.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Gives Feb 6, 2027 as current and treats the earlier dates as history."
+  },
+  {
+   "file": "s1-q2.json",
+   "turn": 0,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Names Lee as the current contact, with Dana having left."
+  },
+  {
+   "file": "s1-q3.json",
+   "turn": 0,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "Gives $110/hr from 2027-01-01, which is correct."
+  },
+  {
+   "file": "s1-u4.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Lists the accountant's $450 due 2026-12-15 as the only unpaid one-off bill and correctly shows insurance as paid."
+  },
+  {
+   "file": "s1-u5.json",
+   "turn": 0,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Gives Feb 6, 2027, 6 pages with the blog, and $4,200, all current."
+  },
+  {
+   "file": "s1-u6.json",
+   "turn": 0,
+   "question": "u6-q1",
+   "pass": false,
+   "reason": "Gives Client A launch as Jan 23, which is superseded; the current date is 2027-02-06."
+  },
+  {
+   "file": "s1-u7.json",
+   "turn": 0,
+   "question": "u7-starts",
+   "pass": true,
+   "reason": "Lists Client D on the week of Feb 22 and Client H in February 2027, and excludes Client I and the other unconfirmed clients."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Gives Feb 6, 2027 and mentions the older dates only as history."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 1,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Names Lee as the current contact, with Dana having left."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 2,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "Gives $110/hr from Jan 1, 2027, which is correct."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Gives only the accountant's $450 as unpaid and correctly shows insurance paid and the domain renewed with auto-renew on."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 1,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Gives Feb 6, 2027, 6 pages with the blog, and $4,200, all current."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 2,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Gives Client A launch as Feb 6, Client H in February and Client D in the week of Feb 22, all current."
+  },
+  {
+   "file": "s6.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Gives 2027-02-06 as the current launch date and treats the earlier dates as outdated."
+  },
+  {
+   "file": "s6.json",
+   "turn": 1,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Gives only the accountant's $450 due 2026-12-15 as unpaid and correctly shows insurance paid and the domain renewed."
+  },
+  {
+   "file": "s6.json",
+   "turn": 2,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Names Lee as the current contact, with Dana having left."
+  },
+  {
+   "file": "s6.json",
+   "turn": 3,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Gives Feb 6, 2027 as the launch date, which is current."
+  },
+  {
+   "file": "s6.json",
+   "turn": 4,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "Gives $110/hr from 2027-01-01, which is correct."
+  },
+  {
+   "file": "s6.json",
+   "turn": 5,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Gives Client A launch as Feb 6, Client H in February and Client D in the week of Feb 22, all current."
+  }
+ ]
+}

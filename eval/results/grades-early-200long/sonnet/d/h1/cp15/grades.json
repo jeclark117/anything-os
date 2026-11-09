@@ -1,0 +1,140 @@
+{
+ "grader": "claude-sonnet-5-5",
+ "cost_usd": 0.14933040000000003,
+ "at": "2026-10-21T18:52:32-07:00",
+ "items": [
+  {
+   "file": "s1-q1.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Gives 2027-01-23 as current and notes Pat's pending 2027-02-06 request; earlier dates are history only."
+  },
+  {
+   "file": "s1-q2.json",
+   "turn": 0,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Names Lee as the current contact and Dana as having left; the session-date remark doesn't contradict any key fact."
+  },
+  {
+   "file": "s1-q3.json",
+   "turn": 0,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "States $110 an hour from 2027-01-01, which is correct."
+  },
+  {
+   "file": "s1-u4.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Lists only the accountant's $450 due 2026-12-15 as unpaid and correctly treats insurance and domain as paid."
+  },
+  {
+   "file": "s1-u5.json",
+   "turn": 0,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Gives six pages with the blog and $4,200, and leaves the launch date as a placeholder for Pat's pending request."
+  },
+  {
+   "file": "s1-u6.json",
+   "turn": 0,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Gives Client A launch 2027-01-23 with the pending request, and Client D and Client H correctly."
+  },
+  {
+   "file": "s1-u7.json",
+   "turn": 0,
+   "question": "u7-starts",
+   "pass": true,
+   "reason": "Lists Client D (2027-03-01, pending request for the week of 2027-02-22) and Client H (February, pro bono) and no others as booked."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Gives 2027-01-23 as current with Pat's pending 2027-02-06 proposal."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 1,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Names Lee as the main contact and says Dana left."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 2,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "States $110 an hour from 2027-01-01 and Client A's price of $4,200, both correct."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Lists only the accountant's $450 due 2026-12-15 as unpaid; insurance and domain are correctly marked done."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 1,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "The draft leaves the launch date as a placeholder for Pat's 2027-02-06 proposal and states no wrong fact."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 2,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Gives Client A launch 2027-01-23 with the pending request, Client D 2027-03-01 or the week of 2027-02-22 if agreed, and Client H in February, all correct."
+  },
+  {
+   "file": "s6.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Gives 2027-01-23 as current, with Pat's 2027-02-06 request pending and earlier dates as history."
+  },
+  {
+   "file": "s6.json",
+   "turn": 1,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Lists the accountant's $450 due 2026-12-15 as the only unpaid bill, with insurance and domain paid."
+  },
+  {
+   "file": "s6.json",
+   "turn": 2,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Names Lee as the current contact, with Dana having left."
+  },
+  {
+   "file": "s6.json",
+   "turn": 3,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "The draft leaves the launch decision as a placeholder and states no wrong facts."
+  },
+  {
+   "file": "s6.json",
+   "turn": 4,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "States $110 an hour from 2027-01-01, with Client A at $4,200 and Client D at $6,500, all correct."
+  },
+  {
+   "file": "s6.json",
+   "turn": 5,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Gives Client A launch Jan 23 with Pat's Feb 6 request pending, Client D Mar 1 with the Feb 22 request, and Client H in February, all correct."
+  }
+ ]
+}

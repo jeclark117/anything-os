@@ -1,0 +1,82 @@
+{
+ "1": {
+  "version": "loose",
+  "history": 3,
+  "checkpoint": 0,
+  "question": "q2-contact",
+  "grade": "fail",
+  "reason": "States Dana is the main contact with confidence, but the notes disagree between Dana and Lee."
+ },
+ "2": {
+  "version": "OS, light",
+  "history": 3,
+  "checkpoint": 5,
+  "question": "u6-q1",
+  "grade": "pass",
+  "reason": "Includes the 2027-01-23 launch and Client D starting 2027-03-01 at $6,500."
+ },
+ "3": {
+  "version": "OS, light",
+  "history": 2,
+  "checkpoint": 5,
+  "question": "q1-launch",
+  "grade": "pass",
+  "reason": "Current launch date 2027-01-23 is correct; earlier dates are given as history."
+ },
+ "4": {
+  "version": "loose",
+  "history": 2,
+  "checkpoint": 20,
+  "question": "q3-rate",
+  "grade": "pass",
+  "reason": "$120 from 2027-01-01 is correct, with $110 shown as outdated."
+ },
+ "5": {
+  "version": "loose",
+  "history": 3,
+  "checkpoint": 10,
+  "question": "q1-launch",
+  "grade": "fail",
+  "reason": "States the Client A launch is Dec 5, 2026, which is superseded."
+ },
+ "6": {
+  "version": "loose",
+  "history": 3,
+  "checkpoint": 0,
+  "question": "u4-bills",
+  "grade": "pass",
+  "reason": "Lists the unpaid insurance ($1,240) and domain renewal and no paid bills."
+ },
+ "7": {
+  "version": "loose",
+  "history": 2,
+  "checkpoint": 0,
+  "question": "u5-pat",
+  "grade": "pass",
+  "reason": "Uses Jan 9, 2027 and five pages, and asks Pat to confirm the $4,000 rather than stating it as agreed."
+ },
+ "8": {
+  "version": "loose",
+  "history": 3,
+  "checkpoint": 5,
+  "question": "q1-launch",
+  "grade": "fail",
+  "reason": "States the launch is 2026-12-05, a superseded date."
+ },
+ "9": {
+  "version": "loose",
+  "history": 2,
+  "checkpoint": 0,
+  "question": "q2-contact",
+  "grade": "fail",
+  "reason": "Names only Dana as main contact, but the notes conflict between Dana and Lee."
+ },
+ "10": {
+  "version": "OS, light",
+  "history": 2,
+  "checkpoint": 0,
+  "question": "u6-q1",
+  "grade": "pass",
+  "reason": "Lists Client A's launch on Jan 9 and contradicts no tracked facts."
+ }
+}

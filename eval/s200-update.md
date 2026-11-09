@@ -3,7 +3,7 @@ type: Reference
 title: s200 update, three changes before the full round
 description: Changes to the 200-note round so it tests Karpathy's actual claim. Raw sources the agent has to ingest, a saved synthesis that later answers lean on, and one question that spans many clients.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-11-06T14:29:33-08:00 }
+generated: { by: claude-code/opus-5, at: 2026-11-06T15:15:03-08:00 }
 ---
 
 # s200 update, three changes before the full round
@@ -117,7 +117,7 @@ Add a session `{"id": "s1-u7", "questions": ["u7-starts"]}`. Leave the existing 
 | 1 | `python3 eval/s200_run.py run --arms a,d,e --histories 1 --yes` | **Done 2026-10-21.** Finished history 1, edits 15 to 20. |
 | 2 | `python3 eval/s200_run.py run --arms a,d --histories 2 --yes` | **Done 2026-11-06.** $44.73, no errors. |
 | 3 | `python3 eval/s200_run.py run --arms a,d --histories 3 --yes` | **Done 2026-11-06.** $44.79, no errors. The first history to keep a folder copy at each checkpoint, for round four's test 3. |
-| 4 | `grade`, then `currency`, then `report`, then the findings write-up | $10. History 2 was graded early, see below. Move its `grades.json` files aside first for a full regrade. |
+| 4 | `grade`, then `currency`, then `report`, then the findings write-up | **Done 2026-11-06.** Every checkpoint regraded, $4.53, with the early grades moved to `results/grades-early-200long/`. Currency $2.89. Results in [findings.md](findings.md). |
 
 Windows 1 and 4 can share a window if there's room.
 

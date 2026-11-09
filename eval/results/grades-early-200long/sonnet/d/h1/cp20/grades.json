@@ -1,0 +1,140 @@
+{
+ "grader": "claude-sonnet-5-5",
+ "cost_usd": 0.1602164,
+ "at": "2026-10-21T18:52:36-07:00",
+ "items": [
+  {
+   "file": "s1-q1.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Gives 2027-01-23 as current and notes Pat's pending 2027-02-06 request."
+  },
+  {
+   "file": "s1-q2.json",
+   "turn": 0,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Says Lee is nominally the main contact but on leave until 2027-03-01 and directs everything to Sam, so the current state is conveyed."
+  },
+  {
+   "file": "s1-q3.json",
+   "turn": 0,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "$120 from 2027-01-01 is correct; $110 is mentioned only as history."
+  },
+  {
+   "file": "s1-u4.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Correctly lists no unpaid one-off bills and shows insurance, domain and accountant as paid."
+  },
+  {
+   "file": "s1-u5.json",
+   "turn": 0,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Six pages, $4,200 and 2027-01-23 standing with Pat's proposal pending are all correct."
+  },
+  {
+   "file": "s1-u6.json",
+   "turn": 0,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Includes the 2027-01-23 launch with the pending request and gives correct current statuses for Clients D, H and E and the rate."
+  },
+  {
+   "file": "s1-u7.json",
+   "turn": 0,
+   "question": "u7-starts",
+   "pass": true,
+   "reason": "Lists Client D (2027-03-01, with pending move request) and Client H (February), and correctly excludes Client E and Client J."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Current launch date 2027-01-23 with earlier dates given only as history, and Pat's request noted as pending."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 1,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Names Sam as the current contact while Lee is on leave until 2027-03-01."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 2,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "$120 an hour from 2027-01-01, with $110 only as history."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "No unpaid one-off bills; insurance, domain and accountant correctly shown as paid."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 1,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Six pages and $4,200 are correct, and the launch date is a placeholder with no wrong date."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 2,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Launch 2027-01-23 with the pending request, plus correct statuses for D, H, E, the rate and Lee's return."
+  },
+  {
+   "file": "s6.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": true,
+   "reason": "Current date 23 January 2027 with Pat's 6 February request correctly pending."
+  },
+  {
+   "file": "s6.json",
+   "turn": 1,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "No open one-off bills; the paid dates are correct and the 15 December deadline is mentioned only as history."
+  },
+  {
+   "file": "s6.json",
+   "turn": 2,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Says Lee is on leave until 1 March 2027 and that Sam is the contact until then."
+  },
+  {
+   "file": "s6.json",
+   "turn": 3,
+   "question": "u5-pat",
+   "pass": true,
+   "reason": "Content is current and the launch date is left as a placeholder, with Pat's 6 February proposal noted as unanswered."
+  },
+  {
+   "file": "s6.json",
+   "turn": 4,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "$120 from 1 January 2027 is correct, with $110 only as history."
+  },
+  {
+   "file": "s6.json",
+   "turn": 5,
+   "question": "u6-q1",
+   "pass": true,
+   "reason": "Launch on 23 Jan with the pending 6 Feb request, Client D with its pending move, and correct statuses for H and E."
+  }
+ ]
+}

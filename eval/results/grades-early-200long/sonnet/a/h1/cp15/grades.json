@@ -1,0 +1,140 @@
+{
+ "grader": "claude-sonnet-5-5",
+ "cost_usd": 0.17628639999999998,
+ "at": "2026-10-21T18:52:43-07:00",
+ "items": [
+  {
+   "file": "s1-q1.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": false,
+   "reason": "Says Client A is 'set to launch' on Feb 6 and treats Jan 23 as replaced, when 2027-01-23 is the last agreed date and Feb 6 is only Pat's pending proposal."
+  },
+  {
+   "file": "s1-q2.json",
+   "turn": 0,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Correctly names Lee as the main contact, with Dana having left."
+  },
+  {
+   "file": "s1-q3.json",
+   "turn": 0,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "$110/hr from 2027-01-01 is correct."
+  },
+  {
+   "file": "s1-u4.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Lists only the accountant's $450 due Dec 15 as unpaid, and correctly shows insurance and the domain as paid."
+  },
+  {
+   "file": "s1-u5.json",
+   "turn": 0,
+   "question": "u5-pat",
+   "pass": false,
+   "reason": "The draft to Pat confirms Feb 6 as the launch date, but the last agreed date is Jan 23 and Feb 6 is still a pending request."
+  },
+  {
+   "file": "s1-u6.json",
+   "turn": 0,
+   "question": "u6-q1",
+   "pass": false,
+   "reason": "Lists Feb 6 as the Client A launch and never gives the agreed Jan 23 date."
+  },
+  {
+   "file": "s1-u7.json",
+   "turn": 0,
+   "question": "u7-starts",
+   "pass": false,
+   "reason": "The start dates for Client D and Client H are correct, but it states Client A launches Feb 6 as fact, contradicting the agreed Jan 23 date."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": false,
+   "reason": "Gives Feb 6 as the launch date and treats the pending proposal as current instead of the agreed Jan 23."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 1,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Correctly names Lee as the main contact, with Dana having left."
+  },
+  {
+   "file": "s3-a.json",
+   "turn": 2,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "$110/hr from 2027-01-01 is correct."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 0,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Correctly lists only the accountant's $450 due Dec 15 as unpaid, with insurance and the domain shown as paid."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 1,
+   "question": "u5-pat",
+   "pass": false,
+   "reason": "The draft says 'Feb 6 works for launch' as though agreed, but Jan 23 is the agreed date and Feb 6 is pending."
+  },
+  {
+   "file": "s3-b.json",
+   "turn": 2,
+   "question": "u6-q1",
+   "pass": false,
+   "reason": "Lists Feb 6 as the Client A launch without noting that it is only a pending proposal, and omits the agreed Jan 23."
+  },
+  {
+   "file": "s6.json",
+   "turn": 0,
+   "question": "q1-launch",
+   "pass": false,
+   "reason": "Gives Feb 6 as the current launch date instead of the agreed Jan 23."
+  },
+  {
+   "file": "s6.json",
+   "turn": 1,
+   "question": "u4-bills",
+   "pass": true,
+   "reason": "Correctly gives the accountant's $450 due 2026-12-15 as the only unpaid bill, with insurance and the domain shown as paid."
+  },
+  {
+   "file": "s6.json",
+   "turn": 2,
+   "question": "q2-contact",
+   "pass": true,
+   "reason": "Correctly names Lee as the main contact, with Dana having left."
+  },
+  {
+   "file": "s6.json",
+   "turn": 3,
+   "question": "u5-pat",
+   "pass": false,
+   "reason": "The draft to Pat states Feb 6 as the confirmed launch date, but the agreed date is Jan 23 and Feb 6 is still pending."
+  },
+  {
+   "file": "s6.json",
+   "turn": 4,
+   "question": "q3-rate",
+   "pass": true,
+   "reason": "$110/hr from 2027-01-01 and the $4,200 price are correct."
+  },
+  {
+   "file": "s6.json",
+   "turn": 5,
+   "question": "u6-q1",
+   "pass": false,
+   "reason": "Lists Feb 6 as the Client A launch and never gives the agreed Jan 23 date."
+  }
+ ]
+}

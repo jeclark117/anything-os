@@ -1,9 +1,9 @@
 ---
 type: Research
 title: Eval findings
-description: What the eval has shown so far. The traps showed no accuracy difference. On open-ended tasks with long notes, 3 of 5 loose answers repeated a stale fact and no OS answer did, and a blind human judge couldn't tell which answers were wrong. The OS keeps files current at about twice the edit cost.
+description: What the eval has shown so far. At 15 and 60 notes, every version stayed accurate. At 200 long notes, loose notes passed 173 of 190 answers and the OS 188 of 190, because loose notes repeated buried updates and a stale saved plan. The OS costs about twice as much per edit, and earns it back only in sessions with several questions.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-11-06T13:43:11-08:00 }
+generated: { by: claude-code/opus-5, at: 2026-11-09T11:47:10-08:00 }
 sources:
   - id: anthropic-memory
     resource: https://www.anthropic.com/research/components-of-agent-memory
@@ -21,20 +21,24 @@ sources:
 
 # Eval findings
 
-**On open-ended tasks, the OS answers were accurate and the loose answers weren't.** With long notes, 3 of 5 loose answers repeated a stale fact as current. None of the OS answers did. A person reading those answers blind couldn't tell which ones were wrong, and picked the wrong ones. That makes accuracy the measure of usefulness, and it's the first measure where the OS pulled ahead.
+**At 200 long notes, loose notes started getting answers wrong, and the OS didn't.** Across two histories of 20 edits each, loose notes passed 173 of 190 answers and the OS passed 188 of 190. Most loose failures were one kind of mistake: an older fact repeated as current, because the newer one was buried in a long note or missing from a plan the agent had saved earlier. Nothing in those answers marked them as wrong.
 
-**On the targeted traps, there was no difference.** On Sonnet 5.5, loose notes, loose notes plus rules, and the full OS all passed every trap, at both 15 and 60 notes. The OS used more tokens to get there.
+**At 15 and 60 notes, there was no accuracy difference.** On Sonnet 5.5, every version passed the targeted traps, and after 10 edits every version still answered correctly. The OS kept its files more current there too, but a strong model reconstructed the current state from messy notes without help.
 
-These are pilot results, mostly one run per task per version, so they show the shape and can't settle small differences.
+**The OS pays for this at write time.** At 200 notes an edit cost a median of $0.37 in the OS against $0.20 for loose notes. Reading was cheaper only when a session asked several questions. At 6 questions a session the OS made its edit cost back after about 5 questions per edit. With 1 question a session it never did.
+
+These are small runs, mostly one to three per condition, on one made-up business, one model, and one grader. They show the shape and can't settle small differences.
 
 ## Runs so far
 
-All on Sonnet 5.5, 2026-10-20, Claude Code 2.1.281.
+All on Sonnet 5.5. s15 and s60 ran 2026-10-20 on Claude Code 2.1.281. s200long ran 2026-10-21 to 2026-11-06.
 
 | Set | Notes | Runs | Result |
 |---|---|---|---|
 | s15 | 15 loose, 14 in the OS | 18 trap runs | All versions pass t1, t2, t4, t6. t3 and t5 split, but both splits traced to test flaws, not to the notes. See below. |
 | s60 | 60 loose, 40 in the OS | 21 trap runs | All three versions pass all 7 traps. |
+| s60long | The same, about 1,300 words a note | Traps, 10 edits, open-ended tasks | The first differences. See "Long notes" onward. |
+| s200long | 200 loose, plus OS versions | 7 histories of 20 edits, 320 question sessions | Loose notes fall behind on accuracy. See "200 notes, over 20 edits". |
 
 ## What looked like differences, and wasn't
 
@@ -154,6 +158,8 @@ The OS's one real weakness, from the long-note pilot, was trusting the first not
 
 ## Open-ended tasks, and the blind picks
 
+**This result didn't reproduce at 60 notes.** The accuracy round below came back 12 of 12 for loose notes. It did reproduce at 200 notes, for the same reason. See "200 notes, over 20 edits".
+
 Five open-ended tasks on the long-note set: a status update for Pat, what to work on this week, a reply to Client B, where admin stands, and whether to raise rates. Each was answered once from the loose version and once from the OS. Sonnet 5.5, 2026-10-20, $4.33.
 
 **Accuracy is the result.** Checked by hand against the notes, after the picks:
@@ -186,9 +192,7 @@ His own read afterward: he had no way to verify anything, so he picked on feel, 
 - **The isolation leaked a name.** One loose answer signed off "Joseph," which appears nowhere in the notes. It likely came from the Claude account. It was one of the reasons given for picking that answer.
 - **The blinding itself held.** Joseph guessed which answer was the OS three times and was right once.
 
-## Accuracy round, in progress
-
-**Not folded into the rest of this file yet. Read this before acting on the "Open-ended tasks" section above.**
+## Accuracy round
 
 12 open-ended tasks, run on 2026-10-20 against the folders the 10 edits left behind, so each version had to keep its own notes current. Answers were capped at 100 words. The key is in [accuracy.json](accuracy.json). It was checked against a second key written independently, and the two agreed on every fact the edits changed. Sonnet and Opus graded each answer separately. Joseph reviewed the one split and a random sample of 7.
 
@@ -210,7 +214,7 @@ His own read afterward: he had no way to verify anything, so he picked on feel, 
 
 **So the remaining explanation is the first one: the edits were easy to find.** Each went in as a short, dated line, and Sonnet reconciled them against the stale lines without help. The one result where loose notes went confidently wrong came from a stale fact buried in a long note, and the OS had its note updated for it in advance.
 
-**Next session:** rewrite this file once. The headline and "What this means for the template" lean on the "confidently wrong" result, and it hasn't reproduced. The honest summary is that on Sonnet 5.5, at 60 notes, every version stayed accurate after 10 edits. The OS kept its files more current, at about twice the edit cost. The open question is whether a buried update, or a weaker model, changes that. Testing it means writing edits into the middle of long notes, the way real ones land, rather than as short lines.
+**So, at 60 notes, every version stayed accurate after 10 edits on Sonnet 5.5.** The OS kept its files more current, at about twice the edit cost. The open question was whether a buried update changed that. The 200-note round tested it.
 
 **Retest of the write-time rule, 2026-10-21.** The eval's OS version had never included `conventions.md`, so the new rule needed its own run. Version D is the long-note OS plus the template's current `conventions.md`, listed in its root `index.md`. One 10-edit history, Sonnet 5.5, compared with the earlier OS run (version C) on the same edits:
 
@@ -224,6 +228,106 @@ His own read afterward: he had no way to verify anything, so he picked on feel, 
 **The rule did what it predicted.** Recording the insurance payment led the agent to the to-do list, and it removed the item. Every version before this one, loose or OS, had left it there.
 
 **It costs about 18% more per edit than the OS without it,** and about 2.6 times the loose notes' $1.17. Reading afterward costs the same.
+
+## 200 notes, over 20 edits
+
+The 60 long notes plus 140 more, about 1,300 words a note, so search has more to wade through. Each history applied 20 edits in order, and asked the same questions at checkpoints 0, 5, 10, 15 and 20 in fresh read-only sessions. Five of the last ten edits arrived as a pasted email or set of notes, 300 to 600 words, stating one changed fact in words the notes don't use for it. After checkpoint 10, each history saved a Q1 2027 plan. Setup, predictions and changes are in [plan.md](plan.md) and [s200-update.md](s200-update.md). Sonnet 5.5, 2026-10-21 to 2026-11-06.
+
+| Version | What it is | Histories |
+|---|---|---|
+| Loose | 200 loose notes, no instruction file | 3 |
+| OS, light | The OS plus `conventions.md`, as onboarding leaves it | 3 |
+| OS, heavy | The same, plus about 8,500 tokens of instructions loaded every session | 1 |
+
+**History 1 tested something else.** Three of its edits stated requests, not decisions, and the key treated them as settled. It's kept as a pilot of how each version handles a request, below. Histories 2 and 3 state the decisions outright, and they're the fair comparison.
+
+### Accuracy
+
+Histories 2 and 3, 19 answers per checkpoint each, graded by Sonnet against the facts at that checkpoint:
+
+| Version | cp0 | cp5 | cp10 | cp15 | cp20 | Total |
+|---|---|---|---|---|---|---|
+| Loose | 35 of 38 | 31 of 38 | 34 of 38 | 37 of 38 | 36 of 38 | **173 of 190** |
+| OS, light | 36 of 38 | 38 of 38 | 38 of 38 | 38 of 38 | 38 of 38 | **188 of 190** |
+
+The heavy OS passed all 76 of its answers, in history 1, on that history's key.
+
+**The 17 loose failures, by cause:**
+- **8, a buried launch update.** In history 3, loose missed Client A's move to 2027-01-23 at checkpoints 5 and 10, and gave December 5 or January 9. One answer said "I found no later changes in your notes." The move was in `client a oct 15.md`, inside about 1,300 words.
+- **4, a planted repeat.** Client J's notes say it wants to start after Client A launches. Loose listed that as a booked 2027 start. Client J is one of the six notes that repeat a fact in loose and link in the OS, so this favors the OS by design.
+- **2, the stale saved plan.** See below.
+- **2, the conflicting main contacts at checkpoint 0.** The OS failed this twice too. Nothing had run a lint pass yet.
+- **1, a paid bill listed as owed.**
+
+**The OS's 2 failures** are both that main-contact conflict.
+
+**The prediction for checkpoints 0 to 10 was wrong.** It said every version would pass, as at 60 notes, and that if they didn't, "the 200 notes are doing something on their own." Loose history 3 went 13 of 19 at checkpoint 5 on edits the 60-note round also made, so at this size, a buried update can be missed before any raw source arrives. History 2 passed the same checkpoints apart from Client J, so this is one history in two.
+
+**The raw sources didn't split the versions.** At checkpoints 15 and 20, loose passed 73 of 76 answers. Its three failures there were the saved plan twice and the paid bill. The facts that arrived in pasted email were picked up.
+
+### The saved plan
+
+**Loose saved a new file every time, and the OS updated the one it had.** In all three loose histories, the plan went into a new file next to the existing `q1 2027 plan.md`. In all four OS histories, it went into the existing `business/q1-2027-plan.md`.
+
+**The loose plan went stale, and later answers repeated it.** Edit 14 moved Client A's launch to 2027-02-06. In histories 2 and 3, loose recorded that elsewhere and left its saved plan on January 23. In history 2, a checkpoint 15 answer opened with "Your 'plan jan-mar 2027' note covers this" and gave January 23. In history 3, a checkpoint 20 answer did the same. The OS's log for edit 14 lists its plan among the files it updated.
+
+That's 2 of 16 later plan answers from loose histories 2 and 3, and the strongest support so far for the write-time rule. It's also a reason not to save answers into a folder without one.
+
+### Files after the last edit
+
+Superseded values stated as current, in the notes a person would open, counted by the `currency` step:
+
+| Version | History 1 | History 2 | History 3 |
+|---|---|---|---|
+| Loose | 15 | 20 | 19 |
+| OS, light | 2 | 3 | 6 |
+| OS, heavy | 3 | - | - |
+
+The loose to-do list, after edit 20 in history 2, still said to renew the insurance, send the $4,200 quote, and launch Client A on 12/5.
+
+### Cost
+
+Median cost per edit:
+
+| Version | One-line edit | Raw source | Mean per edit, at 15 and 5 |
+|---|---|---|---|
+| Loose | $0.148 | $0.336 | $0.195 |
+| OS, light | $0.269 | $0.667 | $0.368 |
+| OS, heavy | $0.344 | $0.646 | $0.419 |
+
+Cost per question, by how many questions a session held. Each figure is the mean of the five per-checkpoint medians in the report, so treat it as an estimate:
+
+| Version | 1 per session | 3 per session | 6 per session |
+|---|---|---|---|
+| Loose | $0.175 | $0.150 | $0.126 |
+| OS, light | $0.187 | $0.146 | $0.092 |
+| OS, heavy | $0.290 | $0.199 | $0.117 |
+
+**When the light OS pays for itself:** it costs about $0.17 more per edit. At 6 questions a session it saves about $0.034 a question, so it breaks even at about 5 questions per edit. At 3 a session it saves about $0.005, which takes about 36. At 1 a session it costs more per question, so it never breaks even.
+
+**The heavy OS only breaks even at 6 questions a session, after about 25 per edit,** and it wasn't more accurate. Its first turn starts with about 21,300 tokens of context against 12,900 for the light OS.
+
+**The u7 prediction was wrong too.** It said the question spanning every client would cost loose notes more as the round went on. It cost $0.238 at checkpoint 0 and $0.130 at checkpoint 20. The OS stayed between $0.14 and $0.22.
+
+### History 1: a request filed as a decision
+
+Edits 14, 15 and 18 said "let's aim to go live on February 6... Does that work on your end?", "I'd check it against everything else and confirm," and that Client E "wants to" restart. Graded against `key_v1`, which treats them as settled:
+
+| Version | cp15 | cp20 | Stale claims after edit 20 |
+|---|---|---|---|
+| Loose | 12 of 19 | 9 of 19 | 15 |
+| OS, light | 19 of 19 | 18 of 19 | 2 |
+| OS, heavy | 19 of 19 | 19 of 19 | 3 |
+
+**Treat the loose numbers as a ceiling on the gap.** `key_v1` was written after the results were seen, and the grader applied it strictly. One failed loose answer gave the proposed date and said it wasn't confirmed yet. What it shows anyway: loose notes took a pasted request as a decision, and the OS held it as open and added a to-do to answer Pat.
+
+### Grading
+
+**One Sonnet call grades a whole checkpoint, and it isn't perfectly stable.** History 1 was graded twice, on 2026-10-21 and 2026-11-06, against the same key. Loose checkpoint 15 went from 9 to 12 of 19, and the OS's checkpoint 20 from 19 to 18. History 2 was also graded twice and came out identical. The 2026-11-06 grades are the ones above. The early ones are kept in `results/grades-early-200long/`.
+
+**Joseph spot-checked 10 grades on 2026-11-09, blind.** Four came from the failures and six from the passes in histories 2 and 3, picked at random and shuffled, with version and grade hidden. He agreed with the grader on 8. All 4 failures held. The other 2 were OS answers to the Q1 plan question that the grader passed and he called wrong. Both listed items from the notes that aren't among the tracked facts, like a tax payment and a design award, and the instructions say those don't count. Joseph said afterward he'd been skimming and probably misread them. No error was found in either answer. The sample is in `results/spot-check-s200.md`, with its key alongside.
+
+**The review format has a flaw.** It shows only the tracked facts, not the notes. So a right answer that draws on the rest of the notes can look wrong to the reviewer, the same problem the blind picks had. A later review should say so up front, or show the notes the answer cites.
 
 ## Outside evidence: Anthropic's agent memory study
 
@@ -255,17 +359,16 @@ Read on 2026-11-06.[^anthropic-memory] It tests memory against no memory, and a 
 
 ## What this means for the template
 
-- **Lead with being confidently wrong, not with targeted accuracy.** On the traps, the structure didn't make answers more accurate. On open-ended tasks, loose notes produced confident wrong answers that a reader couldn't spot. That's the case for the OS, once the blind accuracy round confirms it.
-- **The README's "why bother" section needs rewriting.** It says an agent treats a repeated guess as fact. In this test, it didn't, even in loose notes, as long as the note said the client would think about it. The new argument is the one above: a stale note produces an answer that's wrong and looks right, and the person reading it can't tell.
-- **What's left untested is where any real benefit would be:**
-  - **Upkeep over time.** Tested in a first pass. See "After 10 edits" above.
-  - **Long notes.** Tested in a pilot. See "Long notes" above.
-  - **Weaker models.** Sonnet 5.5 may be strong enough not to need the help. A smaller model might.
-  - **Usefulness, measured as accuracy.** One unplanned check so far. See "Open-ended tasks, and the blind picks" above. A blind, rubric-graded round is next.
+- **The case for the OS is that its answers don't go quietly stale, once notes are long and many.** At 15 and 60 notes, Sonnet reconstructed the current state from messy notes. At 200 long notes, it missed buried updates and trusted a stale plan it had saved. That's the case for the README's "why bother" section. Joseph's spot check found no grading errors.
+- **Single lookups aren't the case.** Every version passed them at every size, and the Anthropic study found the same.
+- **Saving answers back needs the write-time rule.** Loose notes saved each plan into a new file and let it go stale. Adding a rule to save answers to the template would only be safe with §7 in place.
+- **Keep the always-loaded instructions small.** The heavy OS cost more per question and was no more accurate.
+- **Be honest about cost.** The OS costs about twice as much per edit. It earns that back for someone who asks several things in one conversation, and not for someone who asks one thing and leaves.
+- **Still untested:** a weaker model, the OS without its layout rules, and a cheaper health check. Those are round four, in [plan.md](plan.md).
 
 ## Spend
 
-About $6 at list price across the trap pilots and their grading, plus about $9 for the edit simulation, the padding, and their grading, plus $4.33 for the open-ended tasks, counted against Joseph's plan usage rather than billed.
+About $6 at list price across the trap pilots and their grading, plus about $9 for the edit simulation, the padding, and their grading, plus $4.33 for the open-ended tasks, plus $15.66 and $3.22 for the 60-note accuracy round and its rerun. The 200-note round cost $154.91 for its runs, plus $4.53 for the full grade, $2.89 for the currency check, and $2.23 for the early grades. All of it counted against Joseph's plan usage rather than billed.
 
 [^anthropic-memory]: Anthropic, Components of agent memory
 [^anthropic-dreaming]: Anthropic cookbook, Dreaming with a dynamic workflow
