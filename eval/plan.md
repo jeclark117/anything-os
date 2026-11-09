@@ -3,7 +3,7 @@ type: Reference
 title: Eval plan
 description: How the anything-os eval works, what each trap tests, how results get read, and what it can't show.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-11-06T13:43:11-08:00 }
+generated: { by: claude-code/opus-5, at: 2026-11-09T11:48:56-08:00 }
 ---
 
 # Eval plan
@@ -144,14 +144,14 @@ Written 2026-11-06, before any run. Each test comes from Anthropic's agent memor
 
 **Why.** "Check my OS" in `conventions.md` §8 reads every file, and cost about $2.40 at 40 notes on Sonnet. Anthropic's dreaming pass targets instead. Each input gets an agent that greps for the related memory files and reads only those in full, and its analyzers run on Haiku. Its recorded run cost $0.36 for 11 transcripts.
 
-**Setup.** No new edits. Copy each folder as it stands after edit 20 in history 3. The OS records what changed, because every edited note gets a new `generated.at`. Loose notes use file modification times, which keeps the comparison fair.
+**Setup.** No new edits. Copy each folder as it stands after edit 20 in history 3. Every arm finds what changed by file modification time, against the time `edit-10.json` was written. In history 3, that's 36 OS files and 25 loose files. The plan first had the OS use `generated.at`, but in s200 history 2 the OS never updated it: 159 notes still carried the fixture date after 20 edits. Changed 2026-11-09, Joseph's call. The window includes the saved-plan session, so the saved plan counts as changed. Copy with modification times preserved, or the copy resets them.
 
 | Arm | Folder | What the check reads | Model |
 |---|---|---|---|
 | Full | OS | Every file, the current §8 | Sonnet |
 | Changed, Sonnet | OS | Notes changed since checkpoint 10, then every file that states one of their facts, found by search and read in full | Sonnet |
 | Changed, Haiku | OS | The same | Haiku |
-| Changed, loose | Loose | The same, using modification times | Sonnet |
+| Changed, loose | Loose | The same | Sonnet |
 
 **Measures.** Stale claims fixed or flagged, out of those the `currency` step counts before the check. Wrong changes, meaning a current fact changed or a request turned into a decision. Cost, and files opened. Then the `currency` step again afterward.
 
