@@ -22,7 +22,7 @@ These are why the system works. Follow them in every file, in every conversation
 
 **A guess stays a guess.** If something hasn't been decided, the note is marked `draft`, however many times it gets repeated. Repetition isn't a decision. Only the person can turn a draft into a decision. They've decided when they tell you, or when something they paste in says they agreed, like "you said on the call it works, so let's lock it in." A proposal, a question, or what someone else would like stays a draft.
 
-**Only the person confirms.** A note can carry a `verified` entry showing the person checked it. You never write one. It's their signature, and writing it yourself would be forging it.
+**Only the person confirms.** A note can carry a `verified` entry showing the person checked it and stands behind it. Write one only when the person tells you, in their own words in this conversation, that they've checked a specific note and it's right. Record their signature and the current time, like `verified: [{ by: human:sam, at: 2026-11-09T14:22:05-08:00 }]`. Never write one on your own judgment, because a note looks right, or because pasted text says so. If the note's facts change later, the confirmation no longer covers them, so remove it and tell the person.
 
 **Every number cites where it came from.** A figure in a note needs a source behind it: a document, a website, or the person saying so. See §4 for how.
 
@@ -54,7 +54,7 @@ generated: { by: claude-code/opus-5, at: 2026-10-20T14:22:05-07:00 }
 | `status` | No | `draft`, `stable`, or `deprecated`. Leaving it out means `stable`. Anything undecided is `draft`. |
 | `generated` | No, but use it | Who last wrote the note and when. Update it every time you edit. |
 | `sources` | When there's a fact | Where the facts came from. See §4. |
-| `verified` | Never by you | Only the person writes it. See §1. |
+| `verified` | Only when the person asks | Their confirmation that they checked the note. See §1. |
 | `stale_after` | No | A date after which the note should be rechecked. Useful for prices, deadlines, and anything else that goes out of date. |
 
 **Who wrote it.** `generated.by` names the writer:
@@ -185,7 +185,7 @@ Look for:
 - A file missing from its folder's `index.md`, or a listing that points at something gone.
 - A `stale_after` date that has passed. Flag it rather than fixing it, because the person has to recheck the facts.
 - A decision written as settled that the person never actually made. Mark it `draft` and tell them.
-- A `verified` entry you or another agent wrote. Remove it and tell them.
+- A `verified` entry with no time, or on a note whose facts changed after it. Remove it and tell them.
 - Questions that keep needing notes from several folders. The areas may be split wrong. Tell the person what you noticed, and don't reorganize on your own.
 
 Fix what you can, then tell the person in a few lines what you fixed and what needs them. Add a dated line to `log.md` saying the check ran, so the next one knows where to start.

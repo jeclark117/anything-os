@@ -449,7 +449,7 @@ Read on 2026-11-06.[^anthropic-memory] It tests memory against no memory, and a 
 
 ## What this means for the template
 
-- **The case for the OS is that its answers don't go quietly stale, once notes are long and many.** At 15 and 60 notes, Sonnet reconstructed the current state from messy notes. At 200 long notes, it missed buried updates and trusted a stale plan it had saved. That's the case for the README's "why bother" section. Joseph's spot check found no grading errors.
+- **The case for the OS is that its answers don't go quietly stale, once notes are long and many.** At 15 and 60 notes, Sonnet reconstructed the current state from messy notes. At 200 long notes, it missed buried updates and trusted a stale plan it had saved. That's the case for the README's "Why it helps" section. Joseph's spot check found no grading errors.
 - **Single lookups aren't the case.** Every version passed them at every size, and the Anthropic study found the same.
 - **Saving answers back needs the write-time rule.** Loose notes saved each plan into a new file and let it go stale. Adding a rule to save answers to the template would only be safe with §7 in place.
 - **Keep the always-loaded instructions small.** The heavy OS cost more per question and was no more accurate.

@@ -1,37 +1,42 @@
 # anything-os
 
-A folder of plain notes that your AI agent keeps up for you. You answer 8 questions, and it builds an OS shaped around your actual week.
+anything-os is a personal OS: a memory your AI agent keeps up for you. It's a folder of plain notes on your computer, organized around your work or your life.
 
-## Why bother
+You answer 8 questions about your week, and the agent builds a small starting version. After that, you just talk to it.
 
-Once you have a lot of notes, a loose folder starts giving you wrong answers, and nothing tells you.
+It writes down what matters as you go. When something changes, it fixes the old note instead of adding a second one that disagrees. Beyond your AI tool, there's nothing to install.
 
-On 200 notes of about 1,300 words each, an agent reading loose notes got 173 of 190 answers right. Reading this template, it got 188.
+## What you end up with
 
-Almost every miss was an old fact repeated as current. The update was buried in a long note, or missing from a plan the agent had saved earlier.
+- A folder for each area of your life or work, in your words.
+- An instruction file telling your agent who you are, what's private, and how you like to work.
+- One real note about something you're working on now.
+- Three phrases to grow it: "make a note about...", "add an area for...", and "check my OS."
 
-Nothing in those answers looked wrong. In an earlier round, I compared answers blind and picked the wrong one every time it was wrong.
+It starts small on purpose and grows as you ask for things. The [examples](examples/) folder shows three finished versions: a household, a one-person business, and a garden.
 
-At 60 notes or fewer, you probably don't need this. Sonnet got every answer right from loose notes at that size, even after 10 rounds of changes.
-
-The difference is when the old line gets fixed. This template has the agent correct it as soon as the new fact arrives. A loose folder keeps both, and the agent has to work out which is current every time it reads.
-
-After 20 changes, the loose folders still stated 15 to 20 outdated facts as current. This one stated 2 to 6.
-
-It gets there with a few rules:
+Your agent follows a few rules in every note:
 
 - Don't invent facts or numbers. A gap says it's a gap and what would fill it.
 - A guess stays marked as a guess until you decide it.
-- Only you can mark something as confirmed.
+- Only you can mark a note as confirmed. Tell your agent you've checked it, and it records that you did.
 - Every number says where it came from.
 
-A cleanup pass afterward helps, and the template has one. Run on the loose folders after those 20 changes, it brought them to about the same level. It can't fix the answers you already got before it ran, and that's where loose notes went wrong.
+## Why it helps
 
-It also lets a cheaper model do the job. Haiku 4.5, Claude's smallest model, got 84 of 95 answers right on this template. Sonnet on loose notes got 83, and cost about five times as much per question.
+Your agent starts every conversation knowing nothing. Whatever you told it last week is gone unless it's written down somewhere it can find.
 
-The upkeep costs a little. Recording a change costs about $0.17 more than in a loose folder, on Sonnet at list price. That pays off if you ask several things in one conversation, and not if you ask one thing and leave.
+Notes fix that, and for a while a messy folder works fine. The trouble comes as it grows. Things change, the old line stays where it was, and the agent repeats it as if it's still true.
 
-That's four rounds of testing on one made-up business, mostly one to three runs each. It shows the shape, not a precise measurement. It's all in [eval](eval/) if you want to check the work.
+It doesn't warn you, either. A wrong answer sounds just as sure of itself as a right one.
+
+In a blind test, I read two answers to each question without knowing which folder each came from. Three of the pairs had one answer built on an outdated date. I picked the wrong one all three times, because it looked more thorough.
+
+I tested this on 200 notes of about 1,300 words each. An agent reading a loose folder got 173 of 190 answers right. Reading this template, it got 188.
+
+The difference is when the old line gets fixed. Here, the agent corrects it as soon as the new fact arrives, so there's nothing stale left to repeat.
+
+If you keep fewer than about 60 notes, you probably don't need this. At that size, Claude Sonnet got every answer right from loose notes, even after 10 rounds of changes.
 
 ## Getting started
 
@@ -41,16 +46,21 @@ That's four rounds of testing on one made-up business, mostly one to three runs 
 
 The questions are meant to take about 15 minutes. At the end, the agent shows you a plan and builds nothing until you approve it.
 
+Already know what you want? Say "Read START.md and take the fast track." You answer everything in one message, or point it at the instruction file from an OS you already have.
+
 You never need to touch the file formats. The agent handles that.
 
-## What you end up with
+## How it was tested
 
-- A folder for each area of your life or work, in your words.
-- An instruction file telling your agent who you are, what's private, and how you like to work.
-- One real note about something you're working on now.
-- Three phrases to grow it: "make a note about...", "add an area for...", and "check my OS."
+Four rounds, on one made-up business, mostly one to three runs each. That shows the shape, not a precise measurement. It's all in [eval](eval/) if you want to check the work.
 
-The [examples](examples/) folder shows three finished versions: a household, a one-person business, and a garden.
+**Files stay true.** After 20 changes, the loose folders still stated 15 to 20 outdated facts as current. This one stated 2 to 6.
+
+**A cleanup pass later isn't the same.** Run on the loose folders after 20 changes, the template's own cleanup brought them to about the same level. It can't fix the answers you already got before it ran.
+
+**A smaller model can answer from it.** Haiku 4.5, Claude's smallest model, got 84 of 95 answers right reading this template, about the same as Sonnet on loose notes. Reading loose notes, Haiku got 54. Keep the upkeep on a bigger model, though: asked to check the notes, Haiku missed what was stale.
+
+**The upkeep costs a little.** Recording a change costs about $0.17 more than in a loose folder, on Sonnet 5.5 at list price. That pays off if you ask several things in one conversation, and not if you ask one thing and leave.
 
 ## What it works with
 
@@ -60,9 +70,13 @@ Built for Claude. OpenAI's tools should work, because setup writes an `AGENTS.md
 
 ## Where it comes from
 
-The format is the [Open Knowledge Format](https://github.com/GoogleCloudPlatform/open-knowledge-format) (OKF) from Google Cloud, which [formalizes](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing) Andrej Karpathy's [LLM wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f) pattern. The onboarding and the rules are mine, from running two of these for my own work and home.
+The idea is Andrej Karpathy's [LLM wiki](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f). An agent keeps a folder of notes current, rather than digging through raw files every time. The file format is Google Cloud's [Open Knowledge Format](https://github.com/GoogleCloudPlatform/open-knowledge-format) (OKF), which [formalizes](https://cloud.google.com/blog/products/data-analytics/how-the-open-knowledge-format-can-improve-data-sharing) that pattern.
 
-I'm Joseph Clark. I build AI systems for businesses at [Enreverix](https://enreverix.com).
+The rest is mine. I run three of these, for work and for home, and this template is what held up. That's the onboarding, the rules your agent follows, and the testing behind them.
+
+The testing ran four rounds, plus a live setup with someone who'd never used one. The template changed because of what they found. Two of the rules came from Anthropic's [research on agent memory](https://www.anthropic.com/research/components-of-agent-memory).
+
+I'm Joseph Clark. I build AI systems.
 
 If you set one up, open an issue and tell me what the onboarding got wrong.
 

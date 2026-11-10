@@ -3,7 +3,7 @@ type: Onboarding
 title: Start here
 description: The guided setup. An agent reads this file, interviews the person, and builds their OS.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-11-09T20:32:21-08:00 }
+generated: { by: claude-code/opus-5, at: 2026-11-09T21:49:02-08:00 }
 ---
 
 # Start here
@@ -35,6 +35,29 @@ Read [conventions.md](conventions.md) before you write any file. It holds the ru
 - **Any question can be skipped.** A skipped answer becomes a note that says it's not decided yet. Never fill it in with a guess.
 - **Use their words.** If they call it "my cases," the folder is `cases`, not `matters` or `projects`.
 - **Keep your turns short.** Two or three sentences, then the question.
+
+## The fast track
+
+Some people already know what they want. Use this instead of the interview when one of three things happens. They ask for the quick version, their first message already answers most of the questions, or they point you to an instruction file from another OS.
+
+Ask for everything in one message, as a short list they can answer in any order:
+
+- Their name, and what they do.
+- What this OS is for: what they lose track of, redo, or keep looking up.
+- The areas, as folder names.
+- Anything private, and anything that must never leave this folder.
+- How they want you to work, as "when this happens, do that."
+- Whether you'll write things other people read, in their name.
+- One thing they're working on now.
+- What to call it.
+
+**If they point you to an instruction file from another OS,** take four things from it: their name, what they do, their private rules, and their working rules. Ask only for the rest. Don't copy anything else from the other OS.
+
+Ask one follow-up at most, listing only what's still missing. A skipped item still becomes a note that says it isn't decided yet, never a guess.
+
+The notes under each interview question below still apply to the answers. Areas stay broad, and a working rule that's a blanket trait gets one question about when they want it.
+
+Then go straight to the plan. It works the same either way, and nothing gets built until they say yes.
 
 ## The interview
 
@@ -94,7 +117,7 @@ Follow [conventions.md](conventions.md) for every file.
 1. **The identity file.** Name it for the tool they're using right now, so it loads on its own next time. Use `CLAUDE.md` for Claude, including Claude Code and Cowork. Use `AGENTS.md` for OpenAI's tools and anything else that reads it. If you don't know which file your tool reads, ask them which AI tool they're using. Sections, in this order:
    - **Who this is for**, with their name, what they do, the OS's name, and the purpose from question 2.
    - **How I work with you**, the "when this, do that" rules from question 5. Situations only, no blanket traits.
-   - **Hard rules.** Their rules from question 4 first, then the rules from [conventions.md](conventions.md) that matter most day to day: no invented facts or numbers, a guess stays marked as a guess, dates are written out in full.
+   - **Hard rules.** Their rules from question 4 first, then the rules from [conventions.md](conventions.md) that matter most day to day: no invented facts or numbers, a guess stays marked as a guess, dates are written out in full. End the section with this line, word for word: "Before you write or edit a note, read [conventions.md](conventions.md). It holds the rest of the rules."
    - **The areas**, one line each, linking to each folder.
    - **Growing this OS**, copied from the section below.
 2. **One folder per area**, each with an `index.md` that lists what's in it. An empty area's listing says so: "Nothing here yet. Add a note by asking."
