@@ -380,7 +380,7 @@ One history each, all 20 edits and every checkpoint, Sonnet 5.5, 2026-11-09. Bot
 | | D2 | F |
 |---|---|---|
 | Accuracy, 95 answers | 94 | 81 |
-| Accuracy outside Client A's launch | 94 of 95 | 95 of 95 |
+| Failures outside Client A's launch | 1 | 0 |
 | Stale claims after edit 20 | 3 | 12 |
 | Median cost, one-line edit | $0.269 | $0.276 |
 | Median cost, raw source | $0.708 | $0.824 |
@@ -434,7 +434,7 @@ Read on 2026-11-06.[^anthropic-memory] It tests memory against no memory, and a 
 - **Haiku isn't a cheap default for the check.** It missed everything.
 - **The OS lets a cheaper model answer.** Haiku on the OS matched Sonnet on loose notes at about a fifth of the price, and Haiku on loose notes didn't come close. That's a cleaner pitch than anything the Sonnet rounds produced, and it's one history.
 - **The layout rules cost nothing and bought nothing measurable.** Without them, F kept the folder's structure, matched D2 on everything but one judgment call, and cost the same. Whether to keep them is a question of what a new folder looks like after months, which this eval can't answer.
-- **The confirmation rule needs a sharper line.** Three times now, the OS held a decision reported in a pasted email as unconfirmed. Once it was right, in history 1, and the other times the email stated the agreement outright. `conventions.md` should say what counts as the person agreeing.
+- **The confirmation rule needs a sharper line.** Four times now, the OS held a decision reported in a pasted email as unconfirmed: in history 1, in both OS checks in test 1, and in F. Only history 1 was right, because that email was a request. The others stated the agreement outright. `conventions.md` should say what counts as the person agreeing.
 
 ## Spend
 
