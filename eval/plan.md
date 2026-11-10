@@ -3,7 +3,7 @@ type: Reference
 title: Eval plan
 description: How the anything-os eval works, what each trap tests, how results get read, and what it can't show.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-11-09T11:48:56-08:00 }
+generated: { by: claude-code/opus-5, at: 2026-11-09T17:41:21-08:00 }
 ---
 
 # Eval plan
@@ -136,7 +136,9 @@ The rules-only version is dropped. It answered a question this round doesn't ask
 
 Written 2026-11-06, before any run. Each test comes from Anthropic's agent memory study, its dreaming cookbook, or its knowledge wiki quickstart. See the "Outside evidence" section of [findings.md](findings.md). All three start after round three's window 3, and all three reuse the s200 folders and runner.
 
-**Don't rerun `build_s200.py build` before window 3 is done.** It copies the current `conventions.md` into `d-os-conventions`, and §7 changed on 2026-11-06. The built fixtures hold the old copy, so the round stays consistent as long as nobody rebuilds.
+**Ran 2026-11-09, all three, in the order below. Results are in [findings.md](findings.md).** Test 2's two versions, `d2-os-conventions` and `f-os-judgment`, are copies of D with only their rules files changed, not rebuilds.
+
+**Don't rerun `build_s200.py build`.** It copies the current `conventions.md` into `d-os-conventions`, which would no longer match the folder rounds three and four ran on. The built fixtures hold the copy they used.
 
 ### Test 1: a health check that starts from what changed
 

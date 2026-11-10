@@ -3,7 +3,7 @@ type: Reference
 title: s200 update, three changes before the full round
 description: Changes to the 200-note round so it tests Karpathy's actual claim. Raw sources the agent has to ingest, a saved synthesis that later answers lean on, and one question that spans many clients.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-11-06T15:15:03-08:00 }
+generated: { by: claude-code/opus-5, at: 2026-11-09T17:41:21-08:00 }
 ---
 
 # s200 update, three changes before the full round
@@ -163,3 +163,7 @@ The request versions are archived in `s200-sources/v1/` and in `text_v1`. All fi
 **The OS updated its plan.** Its log for edit 14 lists `business/q1-2027-plan.md` among six files updated for the new launch date. The write-time rule worked on the saved synthesis in this history.
 
 **One history, so this shows the shape only.** The stale-plan result is one answer out of 19 at one checkpoint. Window 3 shows whether it repeats.
+
+## Closed, 2026-11-09
+
+**The 200-note round is finished.** All seven histories are graded, Joseph spot-checked a sample, and the results are in [findings.md](findings.md). Round four reused its folders and runner. See plan.md.
