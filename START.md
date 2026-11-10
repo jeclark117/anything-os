@@ -3,7 +3,7 @@ type: Onboarding
 title: Start here
 description: The guided setup. An agent reads this file, interviews the person, and builds their OS.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-10-20T21:53:28-07:00 }
+generated: { by: claude-code/opus-5, at: 2026-11-09T20:32:21-08:00 }
 ---
 
 # Start here
@@ -23,6 +23,8 @@ Small is the goal. One folder per area they actually have, one real note to star
 Read [conventions.md](conventions.md) before you write any file. It holds the rules every file follows. The person never needs to see those rules.
 
 **First, check where you are.** This file, `conventions.md`, and `scripts/` should sit in the folder you're working in. If the template arrived as a zip or is somewhere else, unzip or copy it into the working folder before you start. If they haven't opened any folder, help them pick or make one first. Some people have never worked in a folder with an AI tool.
+
+**Then check whether the folder already holds their own files.** The template's files are `README.md`, `START.md`, `conventions.md`, `writing-samples.md`, `index.md`, `LICENSE`, `examples/`, `scripts/`, and `eval/`. Hidden files whose names start with a dot, like `.git`, don't count. Anything else is theirs. If there's anything else, stop and tell them in two sentences: this setup builds a new OS from scratch, and it won't sort or reorganize files they already have. Then ask which they'd like: build the OS here, next to their files and without touching them, or move the template into an empty folder first. Never move, rename, edit, or delete a file that was here before setup.
 
 **Check the date.** If your clock shows UTC or no time zone, ask them today's date before you write any. A clock running a day ahead turns "due Friday" into the wrong day.
 
@@ -108,7 +110,7 @@ Then clean up the working folder. Before you delete anything, tell them in one o
 - Delete `eval/`. It tests the template itself and has no job in their OS.
 - Delete the template's `index.md`, and `examples/` if they didn't keep it.
 
-The working folder should end up holding only their OS folder.
+Delete only the files listed above. The working folder should end up holding their OS folder and anything of theirs that was there before setup, untouched.
 
 ## Growing this OS
 
@@ -118,7 +120,7 @@ Put this section in their identity file, word for word:
 >
 > - **"Make a note about ..."** I'll write it in the right area and list it.
 > - **"Add an area for ..."** I'll make a new folder. A topic usually earns its own folder once it has three notes.
-> - **"Check my OS."** I'll read through everything and fix anything that breaks the rules: notes that contradict each other, missing listings, broken links, guesses that got written down as facts.
+> - **"Check my OS."** I'll go through what's changed since the last check and fix anything that breaks the rules: notes that contradict each other, missing listings, broken links, guesses that got written down as facts.
 >
 > Anything else works too. These notes are plain files, so you can open, edit, or move them yourself whenever you want. If you switch to a different AI tool, ask it to read this file first. It may need a copy under a different name.
 
