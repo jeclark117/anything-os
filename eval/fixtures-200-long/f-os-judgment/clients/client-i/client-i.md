@@ -1,0 +1,95 @@
+---
+type: Note
+title: "Client I"
+description: "Client I: bike shop lead who wants a logo. Budget not discussed."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Client I
+
+general working notes
+
+mostly reminders to myself about how i like to come at a new identity job, plus some loose ideas that don't belong anywhere yet.
+
+approach
+
+get curious about the business before getting curious about the mark. the logo shouldn't be the opening move, it's closer to the closing move. a good chunk of the early work is figuring out what the place feels like to walk into, who walks in, and what those people say when they describe it to a friend. customers' words are usually better than the owner's words.
+
+things worth finding out when the conversation properly gets going:
+- what they're proud of that nobody else seems to notice
+- what they're tired of hearing about themselves
+- who they picture as the ideal regular, and who they'd quietly rather not attract
+- where the current look came from and whether anybody is emotionally attached to it
+- what the mark has to do out in the real world: sit on a sign, stitch onto a cap, shrink down on a receipt, wrap around a bottle, hold up on a muddy van
+- whether the name has a story that's worth leaning on or worth gently stepping away from
+
+people who ask for a new logo often really want a new feeling about their business. sometimes the logo is the whole answer, sometimes it's just the easiest thing to name when the actual itch is something else. worth probing for that without being annoying about it.
+
+process habits
+
+- sketch on paper before touching the screen. the screen makes everything look finished too early.
+- collect a pile of references, but sort them by what they do rather than how they look. "feels confident without shouting" is more useful than "has a circle in it".
+- explore wide and badly on purpose. the weird, embarrassing ideas are often where the good idea is hiding.
+- when narrowing down, ask of each idea: does it survive if it's tiny, if it's flat black, if it's upside down, if it's carved into something? a mark that only works large and colourful is a poster, not a logo.
+- scan the field for lookalikes. a quick check saves a lot of embarrassment.
+- say the name out loud next to the mark. a visual identity lives alongside a spoken identity.
+- build the lettering with care. spacing between letters is where amateurs and professionals part ways, and it's invisible when it's right.
+- keep a rough log of the reasoning behind choices in the work, so the presentation isn't improvised.
+
+colour and type
+
+- colour carries more of the feeling than the shape does. think about it in the real world: shop lighting, a glowing screen, fabric, a cheap printed bag. bright colours that look great on a monitor can turn muddy on rough stock.
+- think in relationships rather than swatches: a main colour, something to push against it, something neutral to give it room.
+- pick type with personality in the details, like the terminals, the joins, the way a letter leans. stock lettering can be bent slightly so it feels owned.
+- check legibility at a glance and from far away. a lot of identity work gets read on the move, from across a street or through a car window.
+
+presenting work
+
+- show fewer directions with more conviction. a wall of options hands the job of choosing back to the owner without any guidance.
+- show the mark in context early: on a sign, on a bag, as a tiny icon on a small screen. people can't judge an abstract shape on white nearly as well as they can judge it living somewhere.
+- explain the thinking in plain language and keep it short. if the rationale needs a paragraph of design jargon, the idea probably isn't clear enough yet.
+- invite reactions to feelings, not details. "does this feel like you?" gets better answers than "do you like the curve?"
+- be ready for the "can you just make it bigger" kind of feedback and translate it into what's really being asked, which is usually about confidence or visibility.
+
+working with the other person
+
+- keep updates short and regular so nobody wonders what's happening. silence breeds anxiety.
+- put questions in plain language and make them easy to answer from a handset between other jobs.
+- when feedback conflicts between people in the business, name the conflict gently and ask who the mark is really for.
+- write down what was said in conversations right away while it's fresh, then reread before presenting.
+- assume the person across the table is busy and not versed in design. do the translating for them.
+
+things to keep in mind
+
+- small businesses live on word of mouth and local reputation, so the identity should feel like it belongs to real people, not a franchise. warmth beats polish.
+- the best marks for shops can be reproduced by hand: chalked on a board, painted on a window, cut as a vinyl decal. if somebody with a brush can copy it, it'll survive.
+- anything built around a trend ages quickly. trends are fine as seasoning, not as the main ingredient.
+- every category has its clichés, the symbol everybody in the field reaches for. worth knowing them so they can be deliberately avoided or deliberately twisted.
+- a logo is a small part of a system: colour, lettering, spacing, supporting shapes, rules for how they behave. even a modest job benefits from a short guide so the owner doesn't need permission every time they print something.
+- leave the owner with files they can use without me: flat versions, reversed versions, small-use versions, plus a plain explanation of which goes where.
+- usage rights and who owns what should be clear and written down, not left to assumption. keep that boring conversation clean.
+- scope creep starts with friendly requests. note them kindly, track them, and make sure extra work is acknowledged as extra.
+
+open-ended ideas
+
+- what if the mark behaved like a family instead of a lone image? a main version, a stripped back version, a tiny stamp, a pattern. each used where it fits best.
+- motion: something simple that could animate on a website or a social post without turning into a production.
+- explore hand-drawn imperfection against geometric precision and see which the people in the business naturally gravitate toward.
+- build a small library of textures, stickers, and badges the shop could hand out. things people want to stick on a bottle or a helmet are free advertising and a decent test of whether the mark has charm.
+- try the design in the worst possible conditions: rain-streaked, scuffed, faded by glare, printed on thin stock. if it still reads, it's strong.
+- look at how the business already talks: signage, receipts, chalkboards. maybe the identity is more about voice than symbol, and the logo is just where that voice signs its name.
+- imagine a kid drawing the mark from memory. that's a decent test of simplicity.
+- design the sticker before the logo, and let the logo grow out of whatever survives on the sticker.
+- ask what the mark would look like if it had to be understood without any words at all, then decide whether the words are even needed next to it.
+
+reminders for myself
+
+- don't fall in love with the earliest idea. it's usually the most obvious idea wearing a nice outfit.
+- keep the work generous. a solo studio's advantage is care, responsiveness, and a real relationship, so lean on that instead of pretending to be bigger.
+- stay curious about the owner's world. the more i understand how people actually use what they sell, the less likely the mark is to feel generic.
+- rest the work before sending it. fresh eyes catch uneven spacing and awkward curves.
+- keep notes on what worked in the process so the next job starts a little smarter.
+
+- Bike shop, wants a new logo
+- Came through the website contact form
+- Budget not discussed yet

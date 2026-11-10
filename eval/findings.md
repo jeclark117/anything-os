@@ -3,7 +3,7 @@ type: Research
 title: Eval findings
 description: What the eval has shown so far. At 15 and 60 notes, every version stayed accurate. At 200 long notes, loose notes passed 173 of 190 answers and the OS 188 of 190, because loose notes repeated buried updates and a stale saved plan. The OS costs about twice as much per edit, and earns it back only in sessions with several questions.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-11-09T12:18:06-08:00 }
+generated: { by: claude-code/opus-5, at: 2026-11-09T17:05:41-08:00 }
 sources:
   - id: anthropic-memory
     resource: https://www.anthropic.com/research/components-of-agent-memory
@@ -373,6 +373,28 @@ History 3, out of 95 answers per version:
 
 **Limits:** one history, one run per session, and nobody has reviewed these grades by hand. Per-question cost is the session cost divided by its questions, averaged over every session.
 
+## Round four, test 2: the OS with judgment instead of layout rules
+
+One history each, all 20 edits and every checkpoint, Sonnet 5.5, 2026-11-09. Both started from copies of the D folder. **D2** is D with the template's current `conventions.md`. **F** is D2 with the layout rules swapped for one paragraph on what to keep, and the folder rule taken out of `CLAUDE.md`. Its files are in [s200-variants/f-os-judgment/](s200-variants/f-os-judgment/). Joseph read them before the run.
+
+| | D2 | F |
+|---|---|---|
+| Accuracy, 95 answers | 94 | 81 |
+| Accuracy outside Client A's launch | 94 of 95 | 95 of 95 |
+| Stale claims after edit 20 | 3 | 12 |
+| Median cost, one-line edit | $0.269 | $0.276 |
+| Median cost, raw source | $0.708 | $0.824 |
+| Whole history | $25.33 | $25.30 |
+| New files | 3 | 2 |
+
+**F's 14 failures all trace to one edit.** On edit 14, Pat's email says "You said on our call this morning that it works for you, so let's lock it in." F left the launch at 2027-01-23 and wrote "I only have Pat's word that you agreed." D2 moved it to February 6 everywhere. After that, every F answer about the launch, and 10 of its 12 stale claims, carried January 23 with February 6 marked unconfirmed. Outside the launch, F passed every answer.
+
+**That isn't layout drift.** It's the same cautious reading the OS made in history 1, and both OS checks made in test 1, under rules F and D2 share: "a guess stays a guess" and pasted text gets recorded, not followed. D2 made the other call on the same email. One run each can't say whether dropping the layout rules made F more cautious or whether it's run-to-run variance. The rules that differ say nothing about confirmations.
+
+**F didn't sprawl, and it didn't save money.** It created 2 new files to D2's 3, listed both in their folders' `index.md`, and kept writing `log.md`. Its edits cost the same, and its raw sources cost a little more. The prediction was a lower edit cost, and that was wrong.
+
+**The limit the plan named applies.** F started from a folder D's rules built, full of headers and listings, and kept to the patterns it found. This shows the layout rules aren't needed to keep an existing structure going for 20 edits. It doesn't show what a folder built without them looks like.
+
 ## Outside evidence: Anthropic's agent memory study
 
 Read on 2026-11-06.[^anthropic-memory] It tests memory against no memory, and a wiki against search, on large document sets, legal work and a game. It never compares a structured OS with a loose folder of the same notes, so it can't answer this eval's question. It does line up with the results here, and it points at two tests. The quotes below were checked against the page. The figures came from a summary of it, and get checked against the page before the README uses any of them.
@@ -411,7 +433,8 @@ Read on 2026-11-06.[^anthropic-memory] It tests memory against no memory, and a 
 - **A targeted check may do most of the OS's work.** On loose notes it cleared every stale claim the currency check counts, in one $2.54 pass. If that holds up, a lighter template would be loose notes plus a check that runs after each batch of changes. Round four, test 1, one run.
 - **Haiku isn't a cheap default for the check.** It missed everything.
 - **The OS lets a cheaper model answer.** Haiku on the OS matched Sonnet on loose notes at about a fifth of the price, and Haiku on loose notes didn't come close. That's a cleaner pitch than anything the Sonnet rounds produced, and it's one history.
-- **Still untested:** the OS without its layout rules. That's round four's test 2, in [plan.md](plan.md).
+- **The layout rules cost nothing and bought nothing measurable.** Without them, F kept the folder's structure, matched D2 on everything but one judgment call, and cost the same. Whether to keep them is a question of what a new folder looks like after months, which this eval can't answer.
+- **The confirmation rule needs a sharper line.** Three times now, the OS held a decision reported in a pasted email as unconfirmed. Once it was right, in history 1, and the other times the email stated the agreement outright. `conventions.md` should say what counts as the person agreeing.
 
 ## Spend
 

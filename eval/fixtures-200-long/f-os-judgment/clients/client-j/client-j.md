@@ -1,0 +1,101 @@
+---
+type: Note
+title: "Client J"
+description: "Client J: bakery that wants a website. Small budget, unsure about online orders."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Client J
+
+- Bakery, wants a website
+- Says the budget is small
+- Not sure they want online ordering
+
+general working notes
+
+**approach**
+- start with the business, not the screen. what does the place feel like when you walk in? what do regulars say about it? the site should sound like that.
+- listen for what they're proud of. it's usually not what they lead with.
+- keep early conversations loose. people say more when it doesn't feel like an intake form.
+- write down their exact words when they describe things. those phrases often turn into headlines, labels, or button text.
+- figure out who the site is really for: regulars who need practical info, newcomers deciding whether to visit, people planning an event, people who just want to look at beautiful bread. these needs compete for space, so rank them honestly.
+- a small site that does its job well beats a sprawling site that half works. resist the urge to add pages because other sites have them.
+
+**things to ask, whenever the moment is right**
+- what do customers ask about most, over and over? that's the first thing the site should answer.
+- what do they wish people understood about what they make?
+- where do people currently find them? word of mouth, a sign out front, a feed, a neighbor's recommendation?
+- who maintains things day to day? if the answer is "whoever has a spare minute," the site has to be simple to update.
+- what would make them cringe if it showed up on their site? taste is often easier to find through dislikes.
+- what do they already have: photos, a logo, a menu board, handwritten signs, packaging? existing material is a gold mine for visual direction.
+
+**process thoughts**
+- gather content before designing. layouts built around placeholder text always get awkward once the real words arrive.
+- sketch on paper before opening any software. it keeps the conversation about structure instead of color.
+- show rough work early and say clearly that it's rough. polished mockups invite nitpicking about fonts when the real question is whether the page order makes sense.
+- keep a running list of questions for the client so they get batched together instead of arriving as a stream of small interruptions.
+- decide what's out of scope while it's still easy to say so. write it somewhere visible so it doesn't quietly creep back in.
+- test on an actual phone, in actual bad light, with greasy-thumb energy. a lot of bakery visitors will be standing on a sidewalk.
+
+**content notes**
+- food sites live and die on photography. real photos of the real product, even slightly imperfect, beat glossy stock every time.
+- natural light, plain surfaces, close crops. show texture: crumb, flake, dusting of flour, scoring on a crust.
+- show the people and the space too. a bakery is partly a room and a feeling.
+- the voice should be warm and specific. "baked this morning" is fine as a feeling, but "handcrafted with passion" says nothing. avoid the generic bakery vocabulary unless it's truly theirs.
+- a short story about how the place started can be lovely, as long as it's short and true.
+- menus change. think hard about how the menu is presented so it doesn't turn into a stale page that makes the whole site look abandoned.
+- opening info, location, and contact details should be reachable without scrolling or hunting. this is the most-used content on most small local sites.
+
+**structure ideas**
+- a home page that works as a complete little pitch: what it is, a good photo, where it is, when it's open.
+- a page for what they make, organized the way a customer thinks about it rather than the way the kitchen does.
+- a page for the story and the people.
+- a simple way to get in touch, including for special requests, since custom orders often start with a conversation rather than a cart.
+- keep navigation tiny. if every item can't justify itself, fold it into another page.
+
+**the ordering question**
+the online ordering question is still open, and it probably deserves to stay open a while. a few ways to think about it without forcing an answer:
+- there's a spectrum between "no ordering at all" and "full storefront." in the middle are things like a request form, a pre-order form for specific occasions, or a clear way to call or message.
+- ordering isn't only a technical feature. it's an operational one. someone has to see the orders, confirm them, bake to them, and handle mistakes. if the bakery's rhythm is built around walk-ins and what's fresh, a rigid ordering system might fight that.
+- what problem would ordering solve? fewer phone interruptions? less waste? more reach? if there's no clear problem, it may be a feature looking for a reason.
+- design the site so ordering could be added later without rebuilding everything. leave room in the structure and the visual language.
+- ask what happens now when someone wants a large order or a special cake. mapping the current real-world process often reveals the right level of online help.
+
+**money-conscious thinking**
+(without leaning on any particular figure, just a mindset)
+- spend effort where visitors will feel it: clear photos, clear words, fast loading, easy contact.
+- skip custom features that a plain, well-made template-style layout can handle.
+- fewer moving parts means fewer things to break and fewer things to pay for later.
+- reusable pieces help. build a handful of flexible page sections rather than bespoke layouts for every page.
+- be upfront about trade-offs in plain language. people handle constraints better when they can see the logic.
+- a good site can grow in stages, and that's a feature, not a compromise.
+
+**design directions to explore**
+- let the product lead the palette. flour, crust, butter, berry, chocolate. warm neutrals with one confident accent.
+- type with some personality but excellent readability. a friendly serif for headings, a quiet sans for body, maybe.
+- generous space, big images, short text blocks.
+- subtle texture or hand-drawn touches if they suit the place, but only if they match what's actually in the shop.
+- avoid anything that feels like a template for a different business. if the same layout could belong to a hardware store, push further.
+- consider how signage, packaging, and the site could echo each other, so the whole thing feels like a single world.
+
+**practical things to keep in mind**
+- accessibility isn't extra. contrast, text size, alt text for the photos, tappable targets that suit real fingers.
+- images need to be sized and compressed properly or the site will crawl on mobile, which defeats the point of a gorgeous photo.
+- local search matters more than clever branding for this kind of business. make sure name, address, and hours info are consistent everywhere they appear.
+- set up a map link and make sure it opens the right thing on a phone.
+- plan for the handover: a short, friendly guide in plain language, not a manual. how to change the menu, swap a photo, update the opening info.
+- think about who owns the domain and accounts. get that sorted clearly so the bakery isn't locked out of their own site.
+
+**open-ended ideas**
+- a "what's in the case today" section that's easy to update from a phone, in the spirit of a chalkboard.
+- a small gallery that feels like a stream of the bakery's life rather than a portfolio.
+- seasonal banners that the owner can switch on and off without touching the layout.
+- a printable menu or flyer version that shares the site's look.
+- a gentle email signup, only if they'd genuinely send something worth reading.
+- short captions that sound like the person behind the counter talking.
+- maybe a page for wholesale or cafe partners, if that's even part of their world. worth asking, not assuming.
+
+**reminders to self**
+- the website is a tool for the bakery, not a trophy for the portfolio.
+- clarity first, charm second, cleverness a distant third.
+- when stuck, go back to the smell of the place and ask what a stranger needs in order to want to walk in.

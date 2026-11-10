@@ -1,0 +1,98 @@
+---
+type: Note
+title: "Year end checklist"
+description: "What to get done before the year closes."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Year end checklist
+
+general working notes
+
+**approach**
+
+- start with what the work is for, not how it should look. most rounds that go sideways come from polishing toward the wrong target.
+- get people talking about what worries them, not just what they want. worries expose the real constraints faster than wishes do.
+- keep early sketches rough on purpose. if a sketch looks finished, people react to the finish instead of the idea.
+- try to write a plain sentence about what the work should make a viewer feel or do. if that sentence comes out mushy, the work will too.
+- always ask what already exists. old logos, old decks, old photos, old habits. almost every project inherits more than anybody admits at the start.
+- look for the awkward truth in a brief, the thing everybody is circling but not saying. the best work usually answers that.
+
+**how the process usually feels**
+
+loose rhythm, not a strict sequence: gather, wander, narrow, make, refine, hand over. i loop back more than i'd like to admit.
+
+- gather: collect references, but also collect anti-references, stuff i definitely don't want to resemble. the contrast helps more than any inspiration board.
+- wander: make lots of bad versions fast. this is the stage i'm most tempted to skip and the stage that pays off most when i don't.
+- narrow: choose a direction by squinting. shrink it, blur it, strip the colour out, flip it upside down. whatever survives is probably the real idea.
+- make: build the real thing in a tidy file with sensible layer and component names, because future me is basically a stranger with no memory of this project.
+- refine: spacing, alignment, rhythm, the invisible stuff. nobody compliments it and everybody feels it when it's missing.
+- hand over: write a short usage guide so the work doesn't get stretched, recoloured, or squashed by accident the moment it leaves my hands.
+
+**things to keep in mind**
+
+- scope creep is polite at the start. it shows up as "while you're in there" and sounds completely reasonable.
+- working solo means i'm the designer, the producer, the bookkeeper, and the receptionist. protect the actual design work, because everything else expands to fill whatever space is left.
+- say out loud what's included in a project before it begins, and say what isn't. awkward for a moment, kind for the rest of the project.
+- ask for feedback in terms of goals, not preferences. "does this feel trustworthy" gets further than "do you like the blue".
+- version names should mean something. "final" and "final-really" are traps; a short description of what changed is worth the effort.
+- look at the work in different conditions: printed, tiny, on a cheap screen, from across the room, in greyscale. a design that only works on my own monitor doesn't really work.
+- legibility is not optional. contrast, type size, and spacing matter most for people who are tired, rushed, or squinting in bad light.
+- step away from a problem before deciding it's broken. a walk fixes more layout issues than staring harder.
+- keep a small stash of well-worded messages for the hard conversations: saying no, pushing back on a bad idea, nudging an overdue reply. good phrasing is reusable.
+- stay curious about the client's business. the more i understand how they make their living, the fewer cosmetic decisions i make in a vacuum.
+- admin piles up quietly. it never feels urgent until it suddenly is, so it deserves a regular place in the working rhythm instead of living in my head.
+- rest is part of the work. tired eyes make muddy decisions.
+- taste is a muscle but so is restraint. when in doubt, remove something.
+
+**when stuck**
+
+- change the medium: pencil, scissors, a printout and a marker.
+- change the question: from "how should this look" to "what is this trying to say".
+- change the constraint: make the canvas smaller, the palette narrower, the words fewer.
+- explain the problem aloud to an imaginary stranger. the flaw usually shows up in the explanation.
+- view the work upside down or in a mirror to judge balance without reading meaning.
+- check whether the problem is really a problem with the message wearing a design costume.
+- make something unrelated and tiny, just to remember the work is supposed to be enjoyable.
+
+**on working with clients**
+
+- people hire a designer to reduce risk as much as to make things pretty. show the reasoning, not just the result.
+- present fewer options with a clear recommendation, rather than a buffet.
+- repeat back what i heard before showing anything.
+- keep the tone friendly and the notes brief. long emails invite long replies.
+- silence is rarely agreement. it usually means confusion or busyness.
+- make approvals explicit and easy to find later.
+- be generous about explaining why something works, since that's the part they can reuse after i'm gone.
+
+**open-ended ideas**
+
+- build a personal library of reusable starting points: grids, type pairings, spacing scales, colour relationships. not templates exactly, more like well-worn tools laid out on the bench.
+- keep a short lessons file after each project: what surprised me, what i'd skip, what i'd do sooner. read it before starting anything new.
+- maybe explore making small studio-made resources, like texture sets or pattern packs, as a side thread. unclear if it fits, but worth sketching what it would look like.
+- ask clients, well after launch, to describe the work in their own words. what stuck tells me more than any approval email.
+- try a project journal that's mostly screenshots and scribbles, no polish, just a trail of how the thinking changed.
+- play with strict constraints on purpose: a tightly limited palette, a restricted set of typefaces, no imagery at all.
+- design backwards now and then: begin with the sticker, the sign, the tiny app icon, the packaging flap, then build the system outward from the hardest application.
+- read outside the field: signage, packaging, old manuals, hand-painted shopfronts, municipal notices. plain functional design is a good teacher.
+- ask the braver question and the quieter question on every project. what would this look like if it were bolder? what if it were calmer?
+- think about how to make slow projects possible. some deserve a long wandering stage, and it would help to spot which ones early.
+- combine the studio's work with a small public notebook of process, partly to think out loud, partly to attract clients who value thinking.
+- experiment with fewer deliverables and deeper conversations. what if the studio offered clarity more than files?
+- explore collaborating with writers, photographers, and developers on projects that outgrow solo work, without turning into an agency.
+- revisit old work now and then and note what has aged badly and what hasn't.
+
+**loose thoughts**
+
+good design is mostly a series of small honest choices. the flashy move is rarely the memorable one. what people remember is the sense that somebody cared about the details and the reasons behind them.
+
+it's worth remembering that clients rarely see the process, only the result and the way the work felt to be around. a calm, clear, kind working style is part of the product even though it never appears in a file.
+
+also worth remembering: the work doesn't need to be impressive to be useful. a quiet system that people can actually apply, without calling me for help, is a better outcome than a clever one that falls apart in the wild.
+
+and when the studio feels small, that's a feature. there's room to be direct, to change course quickly, to say no to the wrong fit, and to give each project real care. the trick is protecting that care from the pull of busywork.
+
+- Insurance renewal. See [insurance.md](insurance.md).
+- Domain renewal. See [domain.md](domain.md).
+- Send the accountant documents by mid December. See [accountant.md](accountant.md).
+- Back up the work drive.

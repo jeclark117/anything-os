@@ -1,0 +1,92 @@
+---
+type: Note
+title: "Conference ideas"
+description: "Maybe go to a design conference in 2027."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Conference ideas
+
+general working notes
+
+the studio runs best when there's room to breathe. it's a small shop, so every habit either saves energy or leaks it, and it helps to notice which is which.
+
+**approach**
+
+- start with the problem behind the brief, not the brief itself. people tend to describe a symptom (make it pop, make it feel cleaner) while the real issue sits underneath.
+- sketch badly and quickly before opening anything digital. rough marks are cheap and they stop me falling in love with a polished direction too early.
+- keep a running pile of references, but sort it by feeling instead of category. "calm but a bit stubborn" is more useful than "serif specimens".
+- when stuck, change the medium. paper, scissors, a bad photocopy, a walk with a notebook. most blocks come from being trapped in the same format, not from a shortage of ideas.
+- say what the work is for in plain language before showing it. if the explanation sounds forced, the design probably is too.
+- leave room for the weird idea. it rarely wins outright, but it often drags the sensible idea somewhere better.
+
+**process notes**
+
+good projects seem to move through a loose rhythm: soak up context, wander, narrow, refine, polish. the trap is that polish feels productive, so it creeps forward and starts happening before the narrowing is really finished. worth asking whenever things feel stuck: am I making this prettier or making it truer?
+
+habits that help:
+
+- write the rationale in plain sentences before making final files. if it can't be explained simply, the work isn't ready.
+- name files and layers as though a stranger will open them. that stranger is usually me, much later, tired and slightly annoyed.
+- keep a log of why choices were made, not just what was chosen. the why evaporates fast.
+- step away from the screen before judging anything. fresh eyes catch spacing and hierarchy problems that tired eyes forgive.
+- show fewer options with stronger reasoning instead of a wall of variations. a wall of variations mostly says "I couldn't decide."
+- print things out. almost everything looks different on paper, and usually more honest.
+
+**type, color, layout**
+
+- Maybe go to a design conference in 2027
+- Look for one within driving distance
+
+- spacing before typeface. a mediocre font with careful spacing beats a gorgeous font handled lazily.
+- squint at the work, or blur it. if the hierarchy survives, it's real. if it collapses, it was relying on detail to do the job of structure.
+- start color in grayscale. if the thing doesn't work without hue, hue won't rescue it.
+- test at tiny sizes and huge sizes. a mark that only works in the middle isn't a mark yet.
+- whitespace is material, not leftover. treat it like something that was chosen.
+- grids are suggestions that earn their keep by being broken on purpose now and then.
+- check contrast and legibility early, not as a final chore. accessibility baked in from the start tends to make the work better for everybody, not just the people it was meant for.
+
+**working with clients**
+
+- listen for the words they keep repeating. those words usually are the brand, long before any visual exists.
+- ask what they would be embarrassed to see. it surfaces taste faster than asking what they like.
+- separate feedback about function from feedback about preference. both matter, but they deserve different conversations.
+- when feedback is vague ("it needs more energy"), ask for an example of energy they admire, then translate it instead of copying it.
+- be honest about what a design can and can't do. overpromising is the quickest way to lose trust.
+- protect the quiet stretches of the work. a project with no thinking space becomes production, and production is the part anybody can do.
+- scope creep rarely arrives as a big request. it comes as friendly small asks, so it helps to notice the pattern early and talk about it kindly but plainly.
+
+**things to keep in mind**
+
+- invisible work counts: admin, email, invoicing, research, tidying files. it eats energy even when it doesn't show up in the portfolio, so it deserves room in how a stretch of work is imagined.
+- backups are boring until the moment they're everything.
+- saying no is part of the craft. the projects declined shape the studio as much as the ones accepted.
+- being a one-person operation means there's nobody to bounce things off by default. that has to be built on purpose.
+- comparing my rough drafts to other people's finished work is a rigged game. remember the polish is the last layer, and mine has one too.
+- curiosity is the real asset. protect it from being ground down by routine.
+- be kind to past me. the file structure that looks baffling was probably a reasonable answer to a problem I've forgotten.
+- ethics live in small choices: whose image is used, what claim a layout implies, which stereotype a pretty illustration quietly leans on.
+
+**open-ended ideas**
+
+- build a small library of reusable questions for kickoff conversations, refined each time they flop or land.
+- keep a swipe file of bad design on purpose. dissecting why something fails teaches more than admiring something that works.
+- trade critiques with other solo designers. the point isn't approval, it's hearing a different set of instincts out loud.
+- write up process in public, rough and honest, including the dead ends. maybe the dead ends most of all.
+- start a personal project with no client, no brief, and no audience, just to remember what the work feels like when nobody is waiting on it.
+- revisit old work and critique it like a stranger's. note what held up and what aged badly, and try to work out why.
+- play with analog printing, stamping, risograph-style layering, cheap paper. constraints from physical processes tend to produce surprises that software smooths away.
+- make a small studio zine or newsletter as a way of thinking out loud, not as marketing.
+- collect found lettering while walking around: hand-painted signs, faded shopfronts, cracked labels. build an archive of type that nobody designed on purpose.
+- study neighboring fields like architecture, signage, packaging, film titles, editorial layout, and see what their rules of thumb would do to a familiar problem.
+- try teaching something. explaining a concept to a beginner exposes every spot where my own understanding is soft.
+- explore a mentoring loop, either direction. being a beginner again and guiding a beginner both sharpen the eye.
+- ask of any project: what would this look like if it were much simpler? then ask what would be lost, and whether the loss matters.
+- think about what kind of work the studio wants to be known for, and whether the current mix points that way or just reflects whatever arrived.
+- experiment with a deliberately slow project, where the pace itself is part of the design, to counter the habit of rushing everything.
+
+**loose thoughts**
+
+a lot of good design is attention, applied patiently, to something most people would rush past. the job is partly craft and partly stubbornness about caring. it also helps to remember that feeling unsure at the start of a project isn't a warning sign. it's usually just the sensation of the problem being larger than the current understanding of it.
+
+keep the work human. keep the process honest. leave some mess in the margins, because that's where the next idea tends to be hiding.

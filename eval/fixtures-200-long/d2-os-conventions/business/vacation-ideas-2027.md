@@ -1,0 +1,89 @@
+---
+type: Note
+title: "Vacation ideas 2027"
+description: "Thinking about a summer break in 2027."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Vacation ideas 2027
+
+general working notes
+
+**approach**
+
+Listen more than I draw. The pull is always to open the canvas and make something nice-looking right away, but the better work comes from understanding what the person on the other side is worried about or hoping for. Ask what the thing needs to do, not what it needs to look like. The look follows.
+
+- keep a running list of questions that make people pause. The pause is usually where the real brief is hiding.
+- write the problem in plain words before touching any visuals. If the plain-words version is mushy, the visuals will be too.
+- collect references widely, then throw most of them out. The point is to learn what I'm drawn to, not to copy it.
+- when a direction feels too easy, ask who else would arrive at the same answer. If the answer is "anybody", keep going.
+
+**process, loosely**
+
+Rough first, always. Rough sketches, rough layouts, rough copy. Nobody falls in love with a rough thing, so nobody gets precious about it, and changing course stays cheap. Polish comes after the bones are right, never before.
+
+A rhythm that seems to work:
+
+- explore wide with loose marks, many directions, no judging
+- narrow by gut, then test the gut against the brief
+- build the chosen direction out until it starts to creak, and note where it creaks
+- fix the creaks, then step back and look at the whole thing with tired eyes
+
+Tired eyes matter. Work looks different when I'm not deep in it, so building in gaps between making and reviewing is worth protecting. Distance is a tool, not a luxury.
+
+Keep files tidy as I go. Future me, opening a project after a long gap, should be able to find the final version, the working version, and the abandoned experiments without a treasure hunt. Name things like I'm writing for a stranger.
+
+**working with clients**
+
+Most friction comes from surprise. Surprise in scope, surprise in direction, surprise in what a revision actually involves. A lot of the craft here is just narrating what's happening before it becomes a problem.
+
+- A week off in summer
+- Tell clients a month ahead
+
+- explain choices in terms of the client's goals, not my taste. "This works because your customers need X" lands better than "I like this".
+- show work in context whenever possible. A logo floating on white tells a person very little. The same logo on a real page, a real sign, a real screen tells them everything.
+- limit the options on the table. Too many choices turns a review into a debate about preference. A small set, each with a clear rationale, invites an actual decision.
+- ask for feedback about problems, not solutions. "Something feels off about the top" is useful. "Make the heading bigger" is a guess dressed up as an instruction.
+- notice when feedback is really about something else: nerves, internal politics, a colleague who hasn't seen the work yet. Gently find out what's underneath.
+
+Be generous with explanation and stingy with jargon. People who hire a designer usually aren't trying to learn the vocabulary, they're trying to feel safe about what they're buying.
+
+**being a studio of one**
+
+The upside is speed and a consistent point of view. The downside is that nobody catches my blind spots. So build substitutes:
+
+- a habit of reading my own work aloud, or describing it to an imaginary stranger, to see where the explanation falls apart
+- a small circle of trusted peers who will give honest reactions on request, and a willingness to return the favor
+- a folder of work that I'm proud of, to remind me what good feels like on the days nothing is clicking
+- a folder of work that went badly, with notes on why
+
+Admin is real work and deserves real attention. Invoices, contracts, file backups, follow-ups, the dull stuff that keeps everything else possible. It's easy to resent, easy to neglect, and expensive to fix later. Giving it a regular, boring home in the routine helps more than heroic catch-up sessions.
+
+Also: stay curious about things unrelated to the work. Architecture, old signage, packaging in unfamiliar shops, the way a handwritten label ages. The best ideas often arrive sideways from somewhere that had nothing to do with the project.
+
+**things to keep in mind**
+
+- good constraints are gifts. A tight brief often produces more interesting work than a blank check.
+- saying no to the wrong fit is part of protecting the quality of everything else.
+- energy is a resource that runs out unevenly. Creative stamina and administrative stamina are not the same tank.
+- people remember how a project felt as much as how it looked. Calm, clear, and reliable beats flashy and chaotic.
+- trends fade quickly. Ask whether a choice will still make sense when the mood around it has changed.
+- accessibility isn't a finishing step. Contrast, legibility, and clarity belong in the sketches.
+- not every problem needs a visual answer. Sometimes the fix is a clearer sentence or a simpler structure.
+
+**open-ended ideas**
+
+- a small personal project with no client, no brief, and no audience, just to keep the hands honest. Could be a typeface experiment, a poster series, a set of imaginary packaging.
+- a library of reusable questions for kickoff conversations, refined each time something surprises me.
+- a plain-language guide for new clients explaining how a project tends to unfold, so the shape of it isn't a mystery.
+- a habit of writing a short reflection when a project wraps: what worked, what dragged, what I'd change. Keep them in one searchable place.
+- experimenting with working away from the desk more. Sketching outdoors, editing on paper, reviewing on a wall. Different surfaces change what I notice.
+- a quiet collection of overheard phrases and odd words, as a seed bank for naming and copy.
+- thinking about what a calmer version of the studio looks like in the long run. Fewer, deeper projects? A better mix of work? More room for experiments? Worth turning over slowly without forcing an answer.
+- trying a slower style of review: leaving work on a wall, passing it often, and only marking what keeps bothering me.
+
+**loose thoughts to end on**
+
+The work gets better when I trust the process and stop trying to prove cleverness. Clear thinking shows. Muddled thinking shows louder. Most of the job is staying honest about which one I'm looking at.
+
+Keep a notebook within reach. Ideas don't announce themselves, and the good ones are slippery.

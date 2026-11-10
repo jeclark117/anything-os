@@ -1,0 +1,95 @@
+---
+type: Note
+title: "Feedback rounds"
+description: "Two rounds of feedback are included."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Feedback rounds
+
+general working notes
+
+the way i work is slow at the start and quick at the end. the early stretch is mostly listening, reading whatever the client has already made, and trying to work out what the thing is for before touching a canvas. a brief usually describes a deliverable. what i'm after is the problem underneath it.
+
+**approach**
+
+- start with questions that feel almost too basic. who is this for, what do they do when they get stuck, what would make them roll their eyes
+- ask for the client's existing mess: old decks, screenshots, half-finished mockups, the logo somebody made in a hurry. the mess says more than the brief does
+- write a plain paragraph describing the project in my own words and see whether the client recognises it. if they wince, better to learn that early
+- gather references, but gather the strange ones too. packaging, signage, old textbooks, hand-painted shop fronts, the labels on tins. work that only looks like other design work tends to be forgettable
+- sketch on paper before anything else. paper keeps me from polishing too soon, and it is harder to fall in love with a bad idea when it is drawn badly
+
+**process, roughly**
+
+the shape is usually: soak, scatter, narrow, refine, hand over. none of those stages are tidy, and they overlap. but naming them helps me notice when i'm stuck in the wrong one, like refining something i never properly scattered.
+
+soaking is reading and looking. scattering is making a lot of rough directions that are deliberately different from each other, so the client can react to real contrast instead of tiny variations. narrowing is where i cut hard and say out loud why. refining is the long careful part where spacing, weight, colour relationships and edge cases get attention. handing over is its own craft: files named sensibly, a short guide that explains the reasoning, and enough notes that a stranger could keep the system alive without me.
+
+a few habits that seem to help:
+
+- keep a running list of questions i can't answer yet. often the list matters more than the work
+- when a direction feels too easy, make it uglier on purpose and see if anything interesting survives
+- look at work in grayscale early. if the hierarchy collapses without colour, colour was doing a job it shouldn't
+- look at work small and look at it huge. most problems hide at one of the extremes
+- step away from the screen and return with fresh eyes. a walk fixes more layout problems than another pass of nudging
+- save versions generously. disk space is cheap and regret is not
+
+**things to keep in mind**
+
+people rarely know what they want, but they are very good at knowing what they don't want. that is useful. showing something wrong, early, is often the fastest route to something right.
+
+clients are not buying pixels. they are buying confidence, clarity, and a feeling that somebody paid attention. a design that is slightly less clever but much clearer usually serves them better.
+
+constraints are friends. a tight palette, a limited set of typefaces, a strict grid: these make decisions easier and the result more coherent. when a project has no constraints, invent some.
+
+consistency is not the same as sameness. a system should have room to breathe, with a few places where it is allowed to surprise.
+
+accessibility is part of the craft, not an add-on. contrast, legibility, sensible reading order, and not hiding meaning inside colour alone. if something only works for people with perfect eyesight in perfect light, it doesn't really work.
+
+words matter as much as shapes. placeholder text hides problems. real copy, even rough real copy, exposes them. when the words are weak, the design can't rescue them, and it is worth saying so politely.
+
+the quiet parts of a layout, the margins and gaps and pauses, are doing more than the loud parts. leaving space is a decision, not a leftover.
+
+**working with other people's taste**
+
+everybody has opinions about design, and most of them come from somewhere real. a dislike of a certain colour might trace back to a bad experience with a former employer. it helps to ask where a reaction comes from instead of just fixing the surface.
+
+translating vague comments is a skill. "make it pop" might mean more contrast, or more energy, or just more confidence. "it feels cold" might be about typography, or imagery, or the amount of empty space. i try to restate comments as concrete observations and check them before changing anything.
+
+it is easy to get defensive about work that took a lot of effort. a useful trick is to pretend the work belongs to somebody else and ask what advice i would give them. it softens the sting and usually reveals the obvious fix.
+
+also worth remembering: a polite client who says very little is not always a happy client. silence can mean agreement, or confusion, or politeness. a direct, friendly nudge often unlocks the truth.
+
+**small studio reflections**
+
+being a solo operation means every role is mine: designer, producer, bookkeeper, cleaner of the metaphorical floor. the risk is that admin crowds out thinking. protecting long unbroken stretches for actual making seems to matter more than any productivity system.
+
+there is a freedom in being small. no handoffs, no meetings about meetings, no politics about whose idea it was. but there is also no one to catch mistakes. building in a habit of rereading everything, out loud if possible, before it leaves the building catches a surprising number of typos and awkward phrases.
+
+isolation can dull judgement. it helps to have a few trusted people, outside the studio, who will look at work and tell the truth. trading critique with other independents is a pleasant way to stay sharp.
+
+**open-ended ideas**
+
+- a small library of reusable questions for kickoff conversations, sorted by the kind of project
+- a habit of keeping an "ugly drawer" of failed experiments, to revisit when stuck. some of the best directions begin as rejected ones
+- write a short essay after each project about what surprised me. no polish, just honesty
+- experiment with showing work in rough form much earlier, maybe even at the stage of scribbles, to see whether the conversation improves
+- explore making a set of physical swatches or printed proofs to send, since screens flatten so much. paper has weight, grain, a smell
+- try building a personal archive of found lettering, photographed on walks, organised by feeling rather than by style
+- think about what a handover guide would look like if it were fun to read. most are dull, and dullness means nobody opens them
+- consider whether there is a way to describe the studio's way of working that doesn't sound like everyone else's. "human, thoughtful, strategic" says nothing
+- play with the idea of a project journal shared with the client as work unfolds, as a window into the thinking rather than a status report
+- pay attention to what the studio says no to, since that quietly defines it as much as what it says yes to
+
+**loose thoughts, unsorted**
+
+good design often feels inevitable in hindsight, which makes it hard to explain the effort behind it. that invisibility is a hazard of the job. it helps to document the dead ends, because they show the work that made the clean result possible.
+
+taste develops through exposure and through making many mistakes in public. staying curious about things outside design, like cooking, gardening, architecture, music, keeps the well from running dry.
+
+it is okay for a project to be merely good. not every job will be a portfolio piece, and treating each as a masterpiece leads to burnout. consistent quality across ordinary work is its own kind of achievement.
+
+finally, the best moments tend to arrive when the work stops feeling like a performance and starts feeling like a conversation: the client understands the reasoning, the design answers a real need, and the whole thing quietly clicks into place.
+
+- Two rounds included
+- More rounds billed hourly

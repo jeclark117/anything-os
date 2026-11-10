@@ -1,0 +1,93 @@
+---
+type: Note
+title: "Client M: contact"
+description: "Client M: who handles what at the office."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Client M: contact
+
+general working notes
+
+**approach**
+
+Most of the work in a small studio is listening before drawing. When a project starts I like to sit with the brief and let my own questions pile up before answering any of them. The questions that matter are rarely about color or type. They're about what the work is supposed to change for the people who see it, and what those people are doing when they see it. Design that ignores that tends to look nice and accomplish nothing.
+
+A useful habit is writing down what I think the problem is in plain words, then checking whether the people I'm working with would phrase it the same way. A mismatch there is worth more than any amount of polish later.
+
+I'd rather start wide and ugly. Rough sketches, word lists, scraps of reference. I want to find the edges of the space before choosing a corner of it. Collecting reference is fine, but there's a trap where the reference pile becomes the design. Better to look at it, close it, and draw from memory so only what stuck makes it through.
+
+**things to keep in mind**
+
+- Small businesses often have layered structures around decisions. The person who cares most about the look isn't always the person handling the practical side, and neither is necessarily the person with final say. Worth mapping that early and gently, without making it feel like an audit.
+- People in technical or clinical fields tend to have strong instincts about trust and cleanliness. Lean into that. Their audience wants to feel calm and looked after, and the visual language should help.
+- Feedback comes in different shapes. Some people give vague reactions ("it feels off") and some give very specific instructions that miss the underlying issue. Both are useful if I ask what they're actually reacting to.
+- Show work in context whenever possible. A layout floating on a blank canvas invites picky comments about details. The same layout sitting inside a mockup of a real sign, a real screen, or a real printed card gets reactions about whether it works.
+- Keep review rounds legible. When I send something over, say what I'm asking for and what I'm not. Otherwise every element gets reopened every time.
+- Write down the reasoning behind choices as I go, in a sentence or so. Future me will not remember why the spacing is the way it is.
+
+**process thoughts**
+
+Type before color. Color before decoration. If the thing doesn't hold together in a plain, flat, ink-only form, extra layers won't rescue it.
+
+- Office manager handles invoices
+- Dentist signs off on design
+
+Test at the extremes: tiny, enormous, squinting, in poor light, on a cheap screen, printed badly. A mark that only works in ideal conditions isn't finished.
+
+Leave breathing room around the parts that aren't design: gathering assets, chasing missing text, waiting on replies. That's the part that always sprawls, and it quietly eats the energy meant for the real work.
+
+Keep files tidy from the start. Sensible naming, a clear folder structure, layers labeled so a stranger could follow them. Boring, but it prevents enormous pain when a project has to be reopened after a long gap.
+
+Look at the work backwards sometimes. Flip it, blur it, view it upside down, print it and pin it across the room. Problems with balance and hierarchy show up fast when the content stops being readable.
+
+**communication**
+
+- Plain language over design jargon. If I say "kerning" and eyes glaze, I've lost the room. Say "the spacing between letters."
+- Follow conversations with a short written recap so there's a shared record. Not for defensiveness, just clarity.
+- Be honest about tradeoffs. Better work, faster work, and lighter-touch work pull against each other, and pretending otherwise causes resentment.
+- Ask for the thing I need rather than hoping it arrives on its own.
+- When something is going sideways, say so early. Awkward conversations get worse with age.
+- Explain why, not just what. A person who understands the reasoning behind a choice defends it later, even when I'm not in the room.
+- Be careful with enthusiasm. Pitching a direction too hard makes it feel like the answer is already chosen, and people stop engaging honestly.
+
+**open-ended ideas**
+
+- A reusable kickoff guide that's more like a conversation than a form. Prompts like "what would make you proud to hand this to a stranger?" and "what have you seen in your field that you can't stand?"
+- A personal library of small patterns: ways of handling forms, appointment prompts, signage, confirmation messages. Not templates exactly, more a vocabulary.
+- Designing the quiet moments: the waiting area, the receipt, the reminder message, the thank-you. These touchpoints are where small organizations can feel human, and they get ignored constantly.
+- A style guide short enough to actually be read. What to do, what to avoid, and why, with real examples rather than rules.
+- Revisiting old projects after a long stretch to see what aged well and what didn't. It's an honest critique source that costs nothing.
+- Presenting directions as contrasting stances rather than minor variations. Too many options and people freeze; too few and they feel railroaded. Contrast might help them understand their own taste.
+- Treating accessibility as a starting constraint rather than a final check. Contrast, legibility, reading level, motion. It usually improves the work for all audiences, not just the ones it was meant for.
+- Guiding people toward imagery that feels genuine rather than staged. Natural light, real surroundings, people mid-action, a little imperfection.
+- Writing the words alongside the visuals instead of waiting for them to arrive. Layouts built around placeholder text tend to break when the real text shows up.
+
+**solo-practice reminders**
+
+- Working by myself means nobody catches drift. Build in ways to get a fresh view: step away, change rooms, look at it on a different device, or ask a trusted peer for a quick gut reaction.
+- Protect time for unbilled exploration. Experiments that look pointless now sometimes become the signature approach later.
+- Scope creep is best handled politely but clearly. Name the extra request as its own thing rather than absorbing it quietly.
+- Tired eyes make muddy choices. Rest is part of the process, not a reward for finishing it.
+- Keep a running list of annoyances in the workflow, then periodically look for patterns worth fixing. Most friction repeats.
+- Resist the urge to over-tool. A new piece of software rarely fixes a process problem.
+
+**questions to chew on**
+
+- How much explanation does a design need before it starts to feel over-argued?
+- What's the right moment to stop refining? Is there a signal, or only instinct?
+- How do I keep the work recognizably mine without imposing it on people whose taste differs?
+- When a stakeholder's preference conflicts with what the audience needs, what's the kindest way to bring evidence into the room?
+- What would a very low-maintenance handoff look like, so people can keep using the work without needing me for every small change?
+- How do I stay curious about a project that has become routine?
+- What does good restraint look like, and how do I show it to a person who equates more with better?
+
+**loose odds and ends**
+
+Constraints help. A narrow palette, a limited set of typefaces, a strict grid. They make decisions easier and the result more coherent. When a project feels stuck, adding a restriction often works better than adding an idea.
+
+Good work usually feels obvious in hindsight, which makes it hard to value. Part of the job is making the thinking visible without cluttering the result.
+
+Trust accumulates through small reliabilities: replying clearly, delivering tidy files, being straightforward about problems. The design quality gets people in the door, but the way the work feels to be around brings them back.
+
+Finally, keep some of the work playful. A project that's taken too seriously by everyone involved usually ends up stiff, and stiffness is hard to hide.

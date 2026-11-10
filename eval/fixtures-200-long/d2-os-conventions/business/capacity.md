@@ -1,0 +1,78 @@
+---
+type: Note
+title: Capacity
+description: "How much work can be taken on at once."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Capacity
+
+One big project at a time. Booked on Client A until it launches, which is 2027-01-09. See [../clients/client-a/client-a.md](../clients/client-a/client-a.md).
+
+working notes (general)
+
+**approach**
+
+the studio works best when it feels calm from the outside, even if the inside is noisy. people hire a small studio because they want direct access to whoever is making the thing, so the work should feel considered rather than rushed. that means leaving room around it: room to think, room to throw out a direction that isn't going anywhere, room to look at something with fresh eyes before it leaves the building.
+
+good work usually comes from understanding the problem properly before touching a layout. a brief tells you what somebody thinks they need. the real conversation tells you what's actually in the way. spend more energy on that real conversation than feels comfortable.
+
+keep the scope grounded. most trouble starts when a vague request gets treated like a clear one. if a phrase like "make it pop" or "just a quick refresh" shows up, treat it as an invitation to ask better questions, not as a spec.
+
+also worth remembering: being small is an advantage. the studio can turn quickly, answer directly, and care about details that bigger outfits smooth over. no need to imitate their processes or their vocabulary.
+
+**process**
+
+rough shape, bending as needed:
+
+- start by hearing the story. audience, constraints, the things that must not change, the things everybody is quietly tired of. write down the exact words people use to describe what they want. those words often turn into the best naming and copy material later.
+- collect references, but be suspicious of them. a reference board shows taste, not strategy. pull out what specifically is appealing about each image (spacing, restraint, color temperature, a particular kind of confidence) instead of copying the surface.
+- sketch badly and quickly on paper before opening anything on a screen. screens make everything look more finished than it is, and it's far too easy to polish a weak idea.
+- show rough work early, framed clearly as rough. the point is to find out where the client's instincts and the designer's instincts diverge while changing course is still cheap.
+- make reasoning visible. when presenting, explain why a choice was made in plain language tied to the goals of the project. "i like it" is never a rationale, and neither is "it looks modern."
+- build systems, not isolated pieces. a good type scale, a restrained palette, and some reliable spacing rules do more for consistency than any amount of last-minute patching.
+- write handoff notes as you go, not at the end. why files are organized the way they are, which assets are final, which were experiments. future-me and the client's future team will both be glad of it.
+- review with a cold eye. step away, come back, and look for the thing that bothers you most. fix that, then look again.
+- test the work in the places it will actually live: small screens, bad lighting, cheap paper, a crowded shelf, a tiny avatar circle. design that only works in the presentation deck isn't finished.
+
+**things to keep in mind**
+
+*feedback.* collect it in a form that can be acted on. vague reactions like "something feels off" are useful signals but need translating. ask what they expected to see, what they were afraid of seeing, what they would say to a skeptical colleague. when notes contradict each other, point out the conflict rather than quietly picking a side.
+
+*too many voices.* feedback from a crowd can flatten work into mush. a clear point of contact who can consolidate comments makes the whole thing healthier. if that person doesn't exist, it's worth gently asking for them.
+
+*focus is the real resource.* a small studio runs on focus and energy more than on hours. context-switching is expensive, and the cost shows up as mediocre work rather than as an obvious problem. protect deep stretches of concentration, and be deliberate about when to check messages instead of letting them set the rhythm.
+
+*admin is part of the job.* invoicing, contracts, file hygiene, backups, naming conventions. nothing about it is glamorous, but it's what keeps everything else standing. a messy folder structure is a tax paid in frustration later.
+
+*scope creep is gradual.* small asks add up. keep a running list of requests that fall outside the original brief and raise them kindly, framed as options rather than refusals. most people are happy to make a choice when they can see the tradeoff clearly.
+
+*accessibility is baseline.* contrast, legibility at small sizes, sensitivity to motion, meaningful descriptions for images. treat these as part of quality, not as extras to bolt on if there's budget left over.
+
+*tired designers make safe, muddy choices.* notice when staring harder has stopped helping. a walk or a different task often solves more than another round of nudging pixels.
+
+*attachment is a trap.* falling in love with a favorite direction makes it harder to hear when it isn't serving the project. the best idea sometimes arrives as an offhand comment from the client, and it's easy to miss if you're defending something.
+
+*be careful with praise and criticism alike.* both are information about a reaction, not a verdict on the work or on the person who made it. take what's useful, leave the rest.
+
+*say what you don't know.* admitting a gap early is far better than bluffing and fixing it quietly afterward. clients tend to trust a designer more, not less, when they're candid about limits.
+
+**open-ended ideas**
+
+- a small library of reusable questions for kickoff conversations. things like: what would make this a failure? what would a stranger assume about you from this? what should people feel but not be able to explain? what are you tired of seeing in your category?
+- a "parking lot" file for ideas that don't fit the current project but shouldn't be lost. revisit it whenever the studio has room to breathe.
+- short retrospectives after finishing work: what went smoothly, what dragged, what surprised. keep them informal and candid, written for nobody but the studio.
+- a personal project to stay sharp: a typeface sketch, a poster series, an imaginary brand for something silly. play keeps the eye fresh and often seeds ideas that surface in paid work later.
+- a plain-language explanation of how the studio works, for newcomers: how rounds of feedback go, what clients can expect from the process, what makes a collaboration go well. a simple page would do.
+- showing process on the portfolio side, not just polished results. people like the messy middle: sketches, discarded routes, the reasoning behind choices.
+- a light kit of template documents (briefs, feedback forms, handoff checklists) that never feels bureaucratic. if a template starts feeling like paperwork, simplify it.
+- a loose circle of trusted collaborators, such as writers, photographers, and developers, who could be pulled in for specific needs. relationships built before they're needed are worth far more than a rushed search.
+- track which kinds of projects leave the studio energized versus drained, and let that quietly shape the conversations worth having.
+- write copy alongside design from the very start rather than dropping it in afterward. layout and language shape each other, and treating them separately usually shows.
+- keep a swipe file of well-made everyday things: packaging, signage, forms, receipts, instructions on a bottle. good design shows up in unglamorous places, and it's a useful reminder that clarity is a craft too.
+- experiment with presenting work as a story rather than a gallery. a sequence with a beginning, tension, and resolution can make a decision feel inevitable instead of arbitrary.
+- explore how much of the process can be made quieter and slower on purpose, with fewer tools open, fewer tabs, more paper, more silence.
+
+**loose reminders**
+
+the work is a conversation, not a performance. clarity beats cleverness more often than not. leave margins, in layouts and in the studio's own schedule of attention. and whatever else happens, keep making things that the studio would be glad to put its name on.

@@ -1,0 +1,109 @@
+---
+type: Reference
+title: Brand
+description: "The studio's own brand."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Brand
+
+general working notes, loose
+
+**approach**
+
+the brand work tends to go better when it starts from how the studio wants to feel to deal with, not how it wants to look. looks are easy to grab from a mood board and hard to defend later. a feeling gives every visual choice a reason, and a choice with a reason survives a bad mood or a harsh review.
+
+think of the identity as a set of habits instead of a folder of files. a logo is a signature, but the brand is also how a proposal opens, how an email reads, how a layout breathes, how work gets handed over. if the habits are consistent, the visuals can stay simple and still feel intentional.
+
+keep asking what the studio is quietly good at. the honest answer is usually less glamorous than the portfolio suggests: patience, taste, saying no to clutter, explaining things clearly. lean on those instead of borrowing a personality that belongs to a bigger agency.
+
+also worth remembering that a small studio has an advantage: it can be specific. big brands sand themselves down to offend nobody. a solo practice can afford a point of view.
+
+**process**
+
+- start with words. write down adjectives the studio would be happy to be called, then adjectives it would hate. the hated list is often more useful.
+- collect reference widely, then throw out anything that is only "pretty." keep what has an opinion.
+- sketch on paper before touching a screen. rough marks show rhythm and proportion faster than clean vectors do.
+- test marks tiny and huge. a mark that only works at poster scale is a poster, not an identity.
+- try layouts in grayscale before color gets a say. if the structure holds without it, color can support instead of rescue.
+- put work in real contexts early: a website header, an invoice, a round avatar, the bottom of an email. real contexts expose weak spots that a tidy presentation board hides.
+- step away from drafts and come back with fresh eyes. things that felt clever often look fussy later, and things that felt dull sometimes turn out calm.
+- keep a running scrap file of rejected directions. they often contain the seed of something better.
+- write down why a choice was made at the moment it's made. future confusion is expensive and memory is unreliable.
+
+**type and layout**
+
+- type does most of the heavy lifting in a small studio's brand. a restrained combination, a display voice for headlines and a quieter voice for reading, is usually enough.
+- generous margins read as confidence. cramming reads as nervousness.
+- consistent alignment is cheap polish. pick an edge and respect it.
+- test type with ugly, real content, not just the perfect headline in the template. long names, awkward line breaks, and orphaned words are where systems crack.
+- check how type behaves on dark backgrounds and light ones. contrast should feel deliberate in both directions.
+- hierarchy is mostly about restraint. if everything is emphasized, nothing is.
+- leave room for silence on the page. blank space is part of the design, not leftover.
+
+**color thoughts**
+
+- a restrained palette gets its power from discipline. the temptation is to bring in something new whenever a layout feels flat, but flatness is usually a spacing or hierarchy problem, not a color problem.
+- consider how the palette reads on screen versus on paper. paper absorbs and shifts things, screens glow. worth proofing on real stock before trusting any preview.
+- accessibility matters: contrast, readability for different kinds of color vision, how things hold up in bright light on a cheap display.
+- texture and material can add richness without touching the palette at all. think grain, paper tooth, a matte versus a soft sheen, the way ink sits.
+- pay attention to proportion, not just choice. how much of the page each color owns changes the mood more than the colors themselves.
+- photography and illustration should feel like they belong in the same room as the palette, even when they aren't strictly matched to it. a little editing goes a long way toward cohesion.
+
+**voice**
+
+- write like talking to a smart friend who happens to be busy. clear, warm, not cute.
+- avoid jargon that makes the studio sound like it's hiding something.
+- keep a short scrap list of phrases that feel right and phrases that feel off. it sharpens the ear.
+- headlines should say something, not just announce a category.
+- humor is fine when it's dry and earned. forced charm is worse than none.
+- read everything out loud. if it's awkward to say, it's awkward to read.
+- be careful with superlatives. understatement is more persuasive for a studio that wants to be trusted.
+
+**things to keep in mind**
+
+- a brand for a solo studio is also personal. it has to be comfortable to live with when there's no team to share the load. pick things that won't be tiring to maintain.
+- templates are a kindness to a future self who is tired and rushed. build them with care, name layers sensibly, leave notes inside files.
+- avoid trend chasing. trends date quickly, and clients can tell when something was borrowed.
+- the work shown is the best proof. the brand is the frame, not the painting.
+- keep the system flexible enough that a rushed project still looks like the studio made it.
+- consistency across touchpoints beats perfection in any particular touchpoint.
+- keep source files organized so a refresh later is easy, not an archaeology dig.
+- be wary of over-explaining the brand to clients. let them feel it through how the studio works.
+- watch for drift. small exceptions pile up until the system quietly stops being a system.
+- protect the ability to say no. a clear brand makes it easier to turn down work that pulls in the wrong direction.
+
+**open-ended ideas**
+
+- a tiny set of recurring motifs, like a texture, a line treatment, or a habitual way of cropping photos, that shows up quietly and builds recognition without shouting.
+- a physical leave-behind that feels like the studio: a card, an envelope, a sticker, a bit of unusual paper. think about weight and feel more than decoration.
+- a behind-the-scenes habit of sharing process sketches, rejected directions, and the reasoning. people trust honesty about the mess.
+- case-study pages written like stories, with a problem, some tension, and a resolution, instead of a gallery with captions.
+- a gentle motion language for the website: how things fade or slide, slow and deliberate rather than snappy.
+- a plain-spoken page on how the studio thinks, written without buzzwords.
+- a handover document with a warm tone and clear guidance on using delivered assets, treated as part of the brand experience.
+- an "anti-brand" exercise: describe the opposite studio in detail, then check the real one isn't accidentally drifting toward it.
+- ask past collaborators what words they use when describing the studio to others, then compare with what the studio says about itself.
+- think about how the brand ages: what should stay fixed and what is allowed to drift as the practice changes.
+- a small library of reusable layouts for common deliverables, so quality doesn't depend on energy level.
+- an internal style note that is actually fun to read, so it gets used.
+
+**questions to sit with**
+
+- what would a stranger guess about the studio from the website alone?
+- what does the studio refuse to do visually, and is that written down anywhere?
+- where does the brand feel stiff, and where does it feel natural?
+- what's the smallest change that would make the whole system feel more alive?
+- if the logo vanished, would the work still be recognizable?
+- is the brand describing the studio as it is, or as it hopes to be, and is that gap useful or just uncomfortable?
+- what would make a client feel taken care of before any work has started?
+- which parts of the identity are doing real work, and which are just habit?
+
+**loose reminders**
+
+- good enough and consistent beats perfect and unfinished.
+- the best brand moments often live in boring places: a footer, a receipt, an error message.
+- when stuck, simplify. remove until it hurts, then put back only what is missed.
+- trust the quiet option more often than feels natural.
+
+Studio colors: navy and cream.

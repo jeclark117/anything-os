@@ -1,0 +1,85 @@
+---
+type: Note
+title: "Testimonials"
+description: "Testimonials received."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Testimonials
+
+general working notes
+
+approach
+
+- hear the problem before reaching for a solution. the real brief usually sits underneath the stated brief and leaks out sideways, mostly through what people say they can't stand
+- pin down vocabulary early. "clean," "warm," "bold," and "modern" mean wildly different things depending on who says them, so ask what they actually picture
+- sketch badly on purpose before opening anything digital. rough marks are cheap, and cheap marks make it painless to bin a weak direction
+- write the problem in plain language before drawing. if the problem statement is mushy, the work will be mushy too
+- stay a little skeptical of the idea that arrives easiest. it might be right, but it's often just the most familiar
+- make space for the dull groundwork: research, reference gathering, reading about the industry a client lives in. it rarely feels productive and it almost always pays off
+
+process thoughts
+
+work in layers: structure, then type, then color, then detail. resist polishing a surface before the bones hold up. a gorgeous header on a confused layout is still a confused layout.
+
+type does most of the heavy lifting. when something feels off and i can't say why, the culprit is usually spacing, rhythm, or a mismatch in heaviness between headings and body copy. sort those out before touching color.
+
+color is easier to judge when it's stripped away. look at everything in grayscale and see whether the hierarchy survives. if it doesn't, color is going to be a bandage rather than a fix.
+
+keep a running pile of "wrong on purpose" experiments. push a layout too far in the opposite direction to find where the edge is. the useful version usually lives somewhere between the safe attempt and the absurd attempt.
+
+show work in context whenever possible. a logo on a white page is a fantasy. a logo on a cluttered shop counter, a tiny browser tab, or a crumpled bag is the truth. mockups are less about flattery and more about stress testing.
+
+when feedback arrives, separate the symptom from the prescription. "make the logo bigger" often means "i can't find it" or "it doesn't feel confident," and there may be better remedies than scale.
+
+things to keep in mind
+
+- a small studio's biggest asset is clarity. people hire a person partly because they want to deal with that person directly, so communication should feel unhurried and unambiguous
+- scope creep is rarely malicious. it's usually enthusiasm. naming it kindly and early is easier than resenting it later
+- files age badly without discipline. name things for a stranger, because future-me counts as a stranger
+- version clutter eats whole afternoons. "final," "final-revised," and "final-actually" is a joke because everybody has lived it
+- rest matters for taste. eyes go numb to their own work, and stepping away resets judgment better than pushing through
+- accessibility belongs in the thinking from the beginning, not as a patch at the end. contrast, legibility, motion, reading order. it improves the work for everybody, not only for the people who need it most
+- don't confuse minimal with easy. removing things well takes more nerve than adding them
+- trends are seasoning, not the meal. borrow lightly, and ask whether a choice would still make sense if nobody were watching what's fashionable
+- keep notes on why a choice works, not just what it was. explanations evaporate fast, and they're the most valuable thing to hand over later
+- a project that feels smooth is not automatically a good project. sometimes friction means the questions are getting honest, and sometimes it just means the questions are poorly framed. learn to tell them apart
+
+showing the work
+
+- specifics beat adjectives. a case study that names the actual problem and the actual change reads as more credible than a pile of polished screenshots
+- stories travel better than galleries. a before and an after, a problem and its relief
+- placement matters. proof sitting next to a call to action does different work than proof buried on a page nobody visits
+- unfinished process can be more persuasive than a spotless result, because it shows how decisions get made
+- be careful with confidentiality. some of the best work can't be shown in full, and a thoughtful partial view is better than nothing
+
+open-ended ideas
+
+- a process journal kept in public, loose and unpolished, including sketches that went nowhere. it might build more trust than a glossy portfolio piece does
+- a small library of reusable questions for kickoff conversations, sorted by what they uncover: taste, fear, audience, constraints
+- a habit of reviewing finished projects after the dust settles, asking what felt smooth and what dragged, without turning it into a ritual that drains energy
+- constraints as a creative engine: a tightly limited palette, a restricted set of typefaces, grid-only layouts, no imagery at all. see what the limits force into existence
+- more physical material: printed proofs, paper stocks, folded things. screens flatten judgment, while paper tells the truth about contrast and scale
+- a swipe file organized by feeling rather than by industry. "calm but confident," "playful without being childish," "serious without being cold"
+- writing the copy and the design together, in the same sitting, rather than treating words as filler to be poured in afterward
+- a visual glossary for each project, so the vocabulary agreed at the start stays attached to examples
+- thinking about what a studio of this shape does best: close care, quick iteration, direct conversation. lean into that instead of imitating bigger agencies
+- a gentle closing routine for projects: tidy files, a clear handover guide, a door left open
+- testing every mark by blurring it, squinting at it, shrinking it, and reducing it to a silhouette. if it survives all of that, it has real structure
+
+odds and ends
+
+- when stuck, change the medium. pencil, then scissors, then a different screen, then talking it through out loud to an empty room
+- walk away from stubborn problems and let the back of the mind work. answers tend to show up while washing dishes or staring out a window
+- collect good mistakes. an accidental misalignment or a smudged edge sometimes becomes the best part of a piece
+- notice what other disciplines do about the same problem. wayfinding, packaging, editorial layout, and theater lighting all wrestle with attention and hierarchy in their own ways
+- keep a list of words clients use repeatedly, since the repeated ones are often the real brief
+- remember that taste is trained by looking, so look widely, including at things that are ugly, and work out exactly why
+- leave room in the schedule of the mind for play. some of the strongest directions begin as a joke or a doodle in the margin
+- it's fine for a process to stay messy as long as the output is clear. tidy thinking is the goal, not tidy notes
+- write down small irritations in the workflow as they happen. patterns show up quickly when they're all in the same place
+- be generous with explanation but stingy with jargon, since a client who understands the reasoning defends the work better than a client who was merely impressed
+
+- Client c sent one
+- Client m sent one
+- Ask client q

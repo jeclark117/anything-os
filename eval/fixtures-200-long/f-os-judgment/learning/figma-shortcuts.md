@@ -1,0 +1,97 @@
+---
+type: Note
+title: "Figma shortcuts"
+description: "Figma shortcuts worth learning."
+generated: { by: process:eval-fixture, at: 2026-10-15T17:00:00-07:00 }
+---
+
+# Figma shortcuts
+
+general working notes
+
+**approach**
+
+the work goes better when the studio runs like a small kitchen: everything has a place, the surface stays clear, and the messy prep happens out of sight of the final plate. most of the pain in solo design comes from friction nobody sees, like hunting for the right file, redrawing something that already exists, or trying to remember why a spacing choice was made. a lot of what follows is about removing small drags like that.
+
+the file is basically a conversation with a future version of me. whatever gets left behind should make sense to a tired brain that has forgotten the context. names should say what a thing is for, not how it looks. layers should be grouped the way i'd explain them out loud to a friend. if i have to hover over something to remember what it is, it's named badly.
+
+there's also a difference between being fast and being hurried. fast comes from good habits and a tidy workspace. hurried comes from skipping the thinking and paying for it in rework. i'd rather spend extra time early on understanding the problem than polish a solution to the wrong question.
+
+**process**
+
+- start loose. rough shapes, ugly boxes, grey blocks standing in for images. the point is to find the structure before anything has a chance to look precious.
+- get real content in as early as possible, even if it's placeholder text that's obviously wrong. layouts built around filler tend to lie.
+- work at the biggest scale first, then zoom in. hierarchy problems are easier to see from far away.
+- squint at it. step back from the screen. if the important thing doesn't read when it's blurry, it won't read when it's sharp.
+- leave notes inside the file for questions that are still floating, so they don't live only in my head.
+- keep a parking spot on the canvas for discarded ideas. deleting feels final, parking feels free, and old rejects sometimes turn out to be the seed of something better.
+- when stuck, change the medium. sketch on paper, talk it through out loud, or write the problem down in plain sentences with no design words at all.
+- look at the work in different conditions: small, large, dark, bright, squeezed, stretched. a design that only works in ideal conditions is a mockup, not a design.
+- take breaks that involve leaving the room. stepping away resets perception better than pushing through ever does.
+
+**things to keep in mind**
+
+- the person looking at the work usually has far less patience and far less context than the person who made it. design for the distracted reader.
+- consistency is a form of kindness. when spacing, type, and color behave predictably, people stop noticing the interface and start noticing the content.
+- constraints are friends. a narrow palette, a limited set of type styles, and a strict grid make decisions on my behalf and free up energy for the interesting problems.
+- not every problem is a visual problem. sometimes the real issue is that the words are doing the wrong job, or the flow asks too much of the person using it.
+- the happy path is the smallest part of the real experience. think about empty states, loading states, error states, and what happens when text runs absurdly long.
+- accessibility isn't a layer on top. contrast, hit areas, focus order, and readable sizes belong in the work from the start, and they usually make it better for everybody.
+- tiny misalignments pile up and make a layout feel off even when nobody can say why. the eye notices before the mind does.
+- handoff is part of the design. if a developer has to guess, the design isn't finished.
+- feedback is data about the viewer, not a verdict on the work. ask what they were trying to do and where they got lost, rather than whether they liked it.
+- taste needs feeding. look at things outside of design: signage, packaging, old manuals, maps, shop windows, the labels on tins. good decisions are hiding everywhere.
+
+**working with clients**
+
+- the brief is rarely the real problem. asking what success would look like in their own words tends to surface the actual goal.
+- show fewer options with clearer reasoning rather than a wall of choices. a wall of choices pushes the hard work back onto the client.
+- explain the why behind a choice in plain language. people accept a direction more easily when they can retell it to their own colleagues.
+- name the tradeoffs openly. "this is cleaner but quieter" is more useful than "this is better."
+- scope creep usually arrives as a friendly small ask. notice it early and respond kindly but clearly.
+- keep the voice warm and unfussy. being a small studio is an advantage because replies can be quick and human instead of filtered through layers.
+- people respond to work in the context they're in, not the context i'm in. show it in a setting that resembles real use whenever possible.
+
+**studio habits worth protecting**
+
+- Auto layout everything
+- Learn the component swap shortcut
+
+- a tidy file structure: a cover area, a working area, an archive, and a space for explorations that may go nowhere.
+- a running list of small annoyances. patterns show up once they're written down, and patterns point to what's worth fixing properly.
+- a clear boundary between exploring and finishing. mixing the two makes both worse, because exploring wants mess and finishing wants care.
+- a starter file with the type scale, color styles, and common building blocks, so a new project doesn't begin from a blank canvas.
+- a reference folder of things that feel right, each with a line about why. the line matters more than the image.
+- naming things as if a stranger will open the file, because eventually that stranger is me.
+- keeping the desk, the screen, and the folders reasonably clear. visual clutter around the work leaks into the work.
+
+**open-ended ideas**
+
+- what if every project ended with a short written reflection on what was surprising, kept in a running document? over time it could become a map of blind spots.
+- a personal library of tiny interaction studies, made just to understand how things move and feel, with no client attached.
+- try designing in grayscale until the structure is solid, then introduce color as a deliberate layer instead of a crutch.
+- build a vocabulary of favorite layout patterns, with notes about when each works and where it breaks.
+- explore designing the empty and error states before anything else, since they're neglected and surprisingly revealing about a product's character.
+- make a deliberately wrong version of something to find out what "right" is by contrast. ugly on purpose can be very clarifying.
+- revisit old work with fresh eyes to see which choices aged well and which only looked good because of what was fashionable at the time.
+- sketch the same screen as a poster, as a printed leaflet, and as a spoken description. translating across forms exposes what's essential.
+- collect microcopy that sounds like a person instead of a system, and study why it works.
+- imply sound, motion, and texture even in static work, through rhythm, weight, and spacing.
+- pay attention to how other crafts handle constraint: typesetters, mapmakers, set builders, tailors, bookbinders. their solutions often transfer.
+- try describing a design to somebody over a call without showing it. whatever survives the description is the real core.
+
+**questions to sit with**
+
+- where does the work feel fussy in a way that doesn't help anybody?
+- what is being added purely out of habit?
+- is the interface explaining itself, or is the explanation hiding in a tooltip?
+- what would this look like if it had to work with less?
+- what would make it feel calmer?
+- who is this quietly leaving out?
+- if the visuals were stripped away entirely, would the idea still stand?
+
+**loose reminders**
+
+good work is mostly attention. it's noticing the thing that's slightly off, the label that's slightly vague, the gap that's slightly too tight. tools help, but they only amplify whatever care is already there. when the process starts to feel heavy, it's usually a sign that something upstream is unclear, and the fix is to go back and clarify rather than push harder downstream.
+
+it also helps to remember that nobody else sees the process. they see the result and the way it makes them feel. so the process can be as odd and personal as it needs to be, as long as what comes out the other end is clear, considered, and kind to the person on the receiving side.

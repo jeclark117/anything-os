@@ -26,7 +26,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 CFG = json.load(open(os.path.join(HERE, "s200.json")))
 FIXTURES = os.path.join(HERE, "fixtures-200-long")
 RAW = os.path.join(E.RESULTS, "raw-200long")
-ARMS = {"a": "a-loose", "d": "d-os-conventions", "e": "e-os-heavy"}
+ARMS = {"a": "a-loose", "d": "d-os-conventions", "e": "e-os-heavy",
+        # Round four, test 2. d2 is d with the template's current conventions.md, which added section 7 step 7.
+        # f is d2 with the layout rules swapped for judgment. Both are copies of d, not rebuilds. See plan.md.
+        "d2": "d2-os-conventions", "f": "f-os-judgment"}
 QUESTIONS = {q["id"]: q for q in CFG["questions"]}
 CHECKPOINTS = sorted(int(k) for k in CFG["checkpoints"])
 SUFFIX = " Keep your answer to 100 words or fewer."
@@ -257,6 +260,14 @@ def cmd_run(a):
 
 # ---------------------------------------------------------------- grading
 
+# History 1 ran on the request wording only in the round three versions. Later versions run the decision wording.
+V1_ARMS = ("a", "d", "e")
+
+
+def key_h(arm, h):
+    return h if arm in V1_ARMS else None
+
+
 def v1(h):
     """History 1 ran on the request versions of edits 14, 15 and 18, so it has its own key."""
     return str(h) in CFG["key_v1"]["histories"]
@@ -324,7 +335,7 @@ def grade_cp(d):
             items.append((t["question"], t["answer"]))
             keys.append((os.path.basename(p), n))
     cp = recs[0]["checkpoint"]
-    grades, cost = call_grader(grade_prompt(cp, items, recs[0]["history"]))
+    grades, cost = call_grader(grade_prompt(cp, items, key_h(recs[0]["arm"], recs[0]["history"])))
     if not grades or len(grades) != len(items):
         return d, "grader reply didn't parse"
     out = {"grader": E.MODELS[GRADER], "cost_usd": cost, "at": E.now(),
@@ -374,7 +385,7 @@ def currency_one(d):
         names += [f for f in json.load(open(syn_path))["files_written"] if f.endswith(".md") and f not in names]
     files = [(n, open(os.path.join(folder, n)).read()) for n in names if os.path.exists(os.path.join(folder, n))]
     missing = [n for n in names if not os.path.exists(os.path.join(folder, n))]
-    res, cost = call_grader(currency_prompt(cp, files, os.path.basename(d)[1:]))
+    res, cost = call_grader(currency_prompt(cp, files, key_h(arm, os.path.basename(d)[1:])))
     if res is None:
         return d, "grader reply didn't parse"
     json.dump({"checkpoint": cp, "files": res, "missing": missing, "cost_usd": cost, "at": E.now()},
