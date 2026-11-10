@@ -4,22 +4,34 @@ A folder of plain notes that your AI agent keeps up for you. You answer 8 questi
 
 ## Why bother
 
-Your agent starts every conversation knowing nothing. Whatever you told it last week is gone unless it's written down somewhere it can find.
+Once you have a lot of notes, a loose folder starts giving you wrong answers, and nothing tells you.
 
-A folder of notes fixes that, and a good model reads a messy one surprisingly well. In testing, Sonnet answered every question right from loose notes, even after 10 rounds of changes.
+On 200 notes of about 1,300 words each, an agent reading loose notes got 173 of 190 answers right. Reading this template, it got 188.
 
-What a loose folder doesn't do is stay true. After those 10 changes, both loose to-do lists still said to renew insurance that was already paid. The model worked around it every time. You won't, when you open the file yourself.
+Almost every miss was an old fact repeated as current. The update was buried in a long note, or missing from a plan the agent had saved earlier.
 
-The fix is an agent that corrects the old line instead of adding a new one. This template gets there with a few rules and just enough structure:
+Nothing in those answers looked wrong. In an earlier round, I compared answers blind and picked the wrong one every time it was wrong.
+
+At 60 notes or fewer, you probably don't need this. Sonnet got every answer right from loose notes at that size, even after 10 rounds of changes.
+
+The difference is when the old line gets fixed. This template has the agent correct it as soon as the new fact arrives. A loose folder keeps both, and the agent has to work out which is current every time it reads.
+
+After 20 changes, the loose folders still stated 15 to 20 outdated facts as current. This one stated 2 to 6.
+
+It gets there with a few rules:
 
 - Don't invent facts or numbers. A gap says it's a gap and what would fill it.
 - A guess stays marked as a guess until you decide it.
 - Only you can mark something as confirmed.
 - Every number says where it came from.
 
-The upkeep isn't free. In the same test, each change cost about twice as much to record. What you get for it is files you can trust when you open them.
+A cleanup pass afterward helps, and the template has one. Run on the loose folders after those 20 changes, it brought them to about the same level. It can't fix the answers you already got before it ran, and that's where loose notes went wrong.
 
-That's one test, on made-up notes. It's all in [eval](eval/) if you want to check the work.
+It also lets a cheaper model do the job. Haiku 4.5, Claude's smallest model, got 84 of 95 answers right on this template. Sonnet on loose notes got 83, and cost about five times as much per question.
+
+The upkeep costs a little. Recording a change costs about $0.17 more than in a loose folder, on Sonnet at list price. That pays off if you ask several things in one conversation, and not if you ask one thing and leave.
+
+That's four rounds of testing on one made-up business, mostly one to three runs each. It shows the shape, not a precise measurement. It's all in [eval](eval/) if you want to check the work.
 
 ## Getting started
 
