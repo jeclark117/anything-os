@@ -50,6 +50,8 @@ Already know what you want? Say "Read START.md and take the fast track." You ans
 
 You never need to touch the file formats. The agent handles that.
 
+Updates come as releases. To hear about them, choose **Watch**, then **Custom**, then **Releases** at the top of this page. Each one includes a file your agent can apply without touching your notes.
+
 ## How it was tested
 
 Four rounds, on one made-up business, mostly one to three runs each. That shows the shape, not a precise measurement. It's all in [eval](eval/) if you want to check the work.
