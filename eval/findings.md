@@ -3,7 +3,7 @@ type: Research
 title: Eval findings
 description: What the eval has shown so far. At 15 and 60 notes, every version stayed accurate. At 200 long notes, loose notes passed 173 of 190 answers and the OS 188 of 190, because loose notes repeated buried updates and a stale saved plan. The OS costs about twice as much per edit, and earns it back only in sessions with several questions.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-11-09T17:05:41-08:00 }
+generated: { by: claude-code/opus-5, at: 2026-11-09T18:04:28-08:00 }
 sources:
   - id: anthropic-memory
     resource: https://www.anthropic.com/research/components-of-agent-memory
@@ -352,6 +352,30 @@ This was the prediction nobody could call, and the plan said what it would mean:
 
 **Limits:** one run per arm, one history, and the currency check covers 22 notes and the saved plan, not the whole folder. A check this good on loose notes still runs after the fact. Between checks, loose answers went stale in round three, so how often the check runs matters as much as whether it works.
 
+### The loose check, rerun
+
+**The 0 was the best case. The check brings loose notes to about where the OS already is, not past it.** Three more runs of the loose arm, same prompt, 2026-11-09. The prediction, written in [plan.md](plan.md) while the runs went and before any came back, said at least one would leave more than 2.
+
+| Run | Stale before | Stale after | Files changed | Wrong changes | Cost |
+|---|---|---|---|---|---|
+| History 3, first run | 19 | 0 | 12 | 0 | $2.54 |
+| History 3, second run | 19 | 0 | 11 | 0 | $2.55 |
+| History 2, first run | 20 | 4 | 11 | 0 | $2.00 |
+| History 2, second run | 20 | 4 | 11 | 0 | $2.44 |
+
+**History 3 repeats. History 2 doesn't reach 0.** Checked by hand against the history 2 key, the 8 claims left over aren't all real:
+- **Real, both runs:** the Q4 goals still say "decide on rates," after $120 an hour was set.
+- **Real, one run each:** `leads.md` still lists Client H as a nonprofit lead after it was booked. `client d.md` still says Client D starts 2027-03-01. `client e.md` opens with "$600 a month," with the $650 restart two lines below it.
+- **Not stale:** `ideas.md` names Client A at "$4,200 (agreed 2026-10-22)," which is current, in both runs. The to-do to send the $4,200 quote is the same call the 60-note key made fine.
+
+That's about 2 or 3 real claims left per history 2 run. The light OS stated 3 in history 2 after edit 20 with no check at all.
+
+**No run made a wrong change.** Four runs, 45 file changes between them, and the grader found nothing made worse. Every run kept the old value as history.
+
+**What it means:** one $2 to $2.55 pass, run after 20 edits, gets loose files to about the OS's level. It doesn't touch the answers given before it runs, and in round three those were where loose notes failed. So the check and the write-time rule do the same job on different schedules. The OS keeps files true as it goes. The check catches up after the fact.
+
+**Limits:** two histories, four runs, one grader. The prediction held only narrowly, and only on the raw counts.
+
 ## Round four, test 3: Haiku answering
 
 Haiku 4.5 answered every checkpoint's questions, in the same sessions as round three, against history 3's loose and OS folders as each checkpoint saw them. Same grader and key as Sonnet. 2026-11-09, $6.38 for the answers and $1.36 for grading. Script in [s200_haiku.py](s200_haiku.py).
@@ -430,7 +454,7 @@ Read on 2026-11-06.[^anthropic-memory] It tests memory against no memory, and a 
 - **Saving answers back needs the write-time rule.** Loose notes saved each plan into a new file and let it go stale. Adding a rule to save answers to the template would only be safe with §7 in place.
 - **Keep the always-loaded instructions small.** The heavy OS cost more per question and was no more accurate.
 - **Be honest about cost.** The OS costs about twice as much per edit. It earns that back for someone who asks several things in one conversation, and not for someone who asks one thing and leaves.
-- **A targeted check may do most of the OS's work.** On loose notes it cleared every stale claim the currency check counts, in one $2.54 pass. If that holds up, a lighter template would be loose notes plus a check that runs after each batch of changes. Round four, test 1, one run.
+- **A targeted check catches loose files up to the OS, after the fact.** Across four runs on two histories, it took loose notes from 19 or 20 stale claims to between 0 and about 3, with no wrong changes, at $2 to $2.55 a pass. That's about where the light OS sits without one. It doesn't fix answers given before it runs, so it's a catch-up, not a replacement for the write-time rule. It's worth shipping in §8 for everyone.
 - **Haiku isn't a cheap default for the check.** It missed everything.
 - **The OS lets a cheaper model answer.** Haiku on the OS matched Sonnet on loose notes at about a fifth of the price, and Haiku on loose notes didn't come close. That's a cleaner pitch than anything the Sonnet rounds produced, and it's one history.
 - **The layout rules cost nothing and bought nothing measurable.** Without them, F kept the folder's structure, matched D2 on everything but one judgment call, and cost the same. Whether to keep them is a question of what a new folder looks like after months, which this eval can't answer.

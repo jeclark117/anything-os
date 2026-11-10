@@ -16,7 +16,12 @@ or removed, or something undecided written as decided.
 
   python3 eval/s200_check.py run          run every arm not yet run
   python3 eval/s200_check.py run --arms full,changed-haiku
+  python3 eval/s200_check.py run --arms changed-loose --history 2 --rep 1
   python3 eval/s200_check.py report       write results/report-s200-check.md
+
+--history and --rep rerun an arm on another history, or again on the same one.
+History 3, rep 1 is the original round and keeps its folders. Any other pair
+lands in <arm>-h<history>-r<rep>.
 
 See plan.md, "Round four", test 1.
 """
@@ -28,6 +33,7 @@ import s200_run as R
 E.MODELS["haiku"] = "claude-haiku-4-5-20251001"
 
 HIST = 3
+REP = 1
 SRC = os.path.join(R.RAW, "sonnet")
 OUT = os.path.join(E.RESULTS, "raw-200long-check")
 CP = 20
@@ -111,14 +117,18 @@ def wrong_changes_prompt(diff):
     )
 
 
+def out_name(name):
+    return name if (HIST, REP) == (3, 1) else f"{name}-h{HIST}-r{REP}"
+
+
 def run_arm(name):
     src_arm, model, kind = ARMS[name]
-    out = os.path.join(OUT, name)
+    out = os.path.join(OUT, out_name(name))
     if os.path.exists(os.path.join(out, "result.json")):
         return name, "skipped"
     os.makedirs(out, exist_ok=True)
     notes = changed_notes(src_arm)
-    work = os.path.join(tempfile.gettempdir(), "aos-s200-check", name)
+    work = os.path.join(tempfile.gettempdir(), "aos-s200-check", out_name(name))
     shutil.rmtree(work, ignore_errors=True)
     shutil.copytree(os.path.join(SRC, src_arm, f"h{HIST}", "folder"), work)  # copy2 keeps modification times
     before = read_tree(work)
@@ -135,7 +145,7 @@ def run_arm(name):
     cur, cur_cost = currency(src_arm, work)
     before_cur = json.load(open(os.path.join(SRC, src_arm, f"h{HIST}", "currency.json")))["files"]
     res = {
-        "arm": name, "source": f"{src_arm}/h{HIST}", "model": E.MODELS[model], "kind": kind, "prompt": prompt,
+        "arm": name, "rep": REP, "source": f"{src_arm}/h{HIST}", "model": E.MODELS[model], "kind": kind, "prompt": prompt,
         "changed_notes": notes, "files_touched": touched, "files_created": [n for n in touched if n not in before],
         "files_read": rec.get("files_read"), "cost_usd": rec.get("cost_usd"), "total_input": rec.get("total_input"),
         "peak_context": rec.get("peak_context"), "duration_ms": rec.get("duration_ms"), "is_error": rec.get("is_error"),
@@ -153,6 +163,8 @@ def run_arm(name):
 
 
 def cmd_run(a):
+    global HIST, REP
+    HIST, REP = a.history, a.rep
     names = a.arms.split(",") if a.arms else list(ARMS)
     with cf.ThreadPoolExecutor(max_workers=len(names)) as ex:
         for name, status in ex.map(run_arm, names):
@@ -160,21 +172,18 @@ def cmd_run(a):
 
 
 def cmd_report(a):
-    rows = []
-    for name in ARMS:
-        p = os.path.join(OUT, name, "result.json")
-        if os.path.exists(p):
-            rows.append(json.load(open(p)))
-    lines = ["# Results, round four test 1", "", f"Generated {E.now()}. History {HIST}, after edit {CP}. Counts are raw.", "",
-             "| Arm | Model | Notes it started from | Files read | Files changed | Stale before | Stale after | Wrong changes | Cost |",
-             "|---|---|---|---|---|---|---|---|---|"]
+    rows = [json.load(open(os.path.join(OUT, d, "result.json"))) for d in sorted(os.listdir(OUT))
+            if os.path.exists(os.path.join(OUT, d, "result.json"))]
+    lines = ["# Results, round four test 1", "", f"Generated {E.now()}. After edit {CP}. Counts are raw.", "",
+             "| Arm | History, rep | Model | Notes it started from | Files read | Files changed | Stale before | Stale after | Wrong changes | Cost |",
+             "|---|---|---|---|---|---|---|---|---|---|"]
     for r in rows:
         nw = "?" if r["wrong_changes"] is None else len(r["wrong_changes"])
         start = "every file" if r["kind"] == "full" else len(r["changed_notes"])
-        lines.append(f"| {r['arm']} | {r['model']} | {start} | {r['files_read']} | {len(r['files_touched'])} | "
+        lines.append(f"| {r['arm']} | {r['source']}, r{r.get('rep', 1)} | {r['model']} | {start} | {r['files_read']} | {len(r['files_touched'])} | "
                      f"{r['stale_before']} | {r['stale_after']} | {nw} | ${r['cost_usd'] or 0:.2f} |")
     for r in rows:
-        lines += ["", f"## {r['arm']}", "", "**Stale claims left:**", ""]
+        lines += ["", f"## {r['arm']}, {r['source']}, r{r.get('rep', 1)}", "", "**Stale claims left:**", ""]
         for f in r["currency_after"] or []:
             for s in f.get("stale", []):
                 lines.append(f"- {f['file']}: {s}")
@@ -191,6 +200,8 @@ if __name__ == "__main__":
     sub = ap.add_subparsers(dest="cmd", required=True)
     r = sub.add_parser("run")
     r.add_argument("--arms")
+    r.add_argument("--history", type=int, default=3)
+    r.add_argument("--rep", type=int, default=1)
     r.set_defaults(fn=cmd_run)
     sub.add_parser("report").set_defaults(fn=cmd_report)
     a = ap.parse_args()

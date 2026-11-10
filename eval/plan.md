@@ -3,7 +3,7 @@ type: Reference
 title: Eval plan
 description: How the anything-os eval works, what each trap tests, how results get read, and what it can't show.
 status: draft
-generated: { by: claude-code/opus-5, at: 2026-11-09T17:41:21-08:00 }
+generated: { by: claude-code/opus-5, at: 2026-11-09T18:04:28-08:00 }
 ---
 
 # Eval plan
@@ -161,6 +161,10 @@ Written 2026-11-06, before any run. Each test comes from Anthropic's agent memor
 - **Changed, Sonnet** finds nearly everything Full finds, for a fraction of the cost. Most stale claims sit one search away from a note that changed.
 - **Changed, Haiku** finds less, and makes more wrong changes, but costs the least. Whether it's good enough is the result that matters most for the template's default.
 - **Changed, loose** is the one nobody can call. If it comes close to the OS, the checking keeps files true and the structure doesn't, and the template could be much lighter.
+
+**Rerun of the loose arm, 2026-11-09.** One run on one history took loose notes from 19 stale claims to 0, the result most able to change the README. Three more runs of `changed-loose`, same prompt: once more on history 3, to see run-to-run variance, and twice on history 2, which starts from 20 stale claims and 22 changed notes. Joseph's call, about $2.50 a run. Written while the runs were going, before any result came back. Prediction: every run clears most of what the currency check counts, and at least one leaves more than 2, the most the OS checks left. If all three reach 2 or fewer with no wrong changes, the check is doing the work the structure was credited with, and the README and §8 should say so.
+
+**Ran 2026-11-09.** History 3 reached 0 again. History 2 reached 4 both times, about 2 or 3 of them real. The prediction held, narrowly. See [findings.md](findings.md).
 
 ### Test 2: the OS with judgment instead of layout rules
 
